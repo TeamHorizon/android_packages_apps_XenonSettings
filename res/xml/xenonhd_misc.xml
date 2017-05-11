@@ -18,9 +18,9 @@
 	    android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+    <ListPreference
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
-        android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="false" />
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values" />
 </PreferenceScreen>
