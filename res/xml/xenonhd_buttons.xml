@@ -18,4 +18,8 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons"
+        android:defaultValue="true" />
 </PreferenceScreen>

@@ -61,4 +61,6 @@
     <string name="xenonota_title">XenonOTA</string>
     <string name="xenonota_summary">Check for XenonHD updates</string>
 
+    <!-- Volume rocker -->
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
 </resources>
