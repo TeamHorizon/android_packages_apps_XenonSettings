@@ -63,4 +63,8 @@
     <!-- Face Unlock -->
     <string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
+
+    <!-- Tuners -->
+    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 </resources>
