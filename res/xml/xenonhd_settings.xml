@@ -39,12 +39,12 @@
             android:fragment="com.xenonhd.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
-        <!-- Navigation Bar
+        <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.xenonhd.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/> -->
+            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
         <Preference
