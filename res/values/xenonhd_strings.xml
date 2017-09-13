@@ -72,4 +72,8 @@
     <string name="headset_connect_player_bt">BT headset plugged in</string>
     <string name="headset_connect_player_both_no_carkit">Any headset (no carkit) plugged in</string>
     <string name="headset_connect_player_both">Any headset plugged in</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
 </resources>
