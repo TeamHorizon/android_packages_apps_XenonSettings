@@ -122,4 +122,8 @@
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Selector notification</string>
+    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+
 </resources>

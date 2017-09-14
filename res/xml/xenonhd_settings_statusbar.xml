@@ -31,4 +31,10 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+            android:key="status_bar_ime_switcher"
+            android:title="@string/ime_switcher_notify"
+            android:summary="@string/ime_switcher_notify_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
