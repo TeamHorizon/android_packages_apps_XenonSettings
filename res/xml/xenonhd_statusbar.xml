@@ -17,11 +17,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_title">
 
-     <Preference
+    <Preference
             android:title="@string/statusbar_items_title" >
             <intent android:action="android.intent.action.MAIN"
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
+
+    <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
 
 </PreferenceScreen>
