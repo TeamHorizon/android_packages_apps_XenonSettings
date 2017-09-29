@@ -25,12 +25,12 @@
             android:fragment="com.xenonhd.settings.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/> -->
 
-        <!-- Quick Settings panel
+        <!-- Quick Settings -->
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:fragment="com.xenonhd.settings.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/> -->
+            android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons -->
         <Preference
