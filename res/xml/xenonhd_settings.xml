@@ -74,12 +74,12 @@
             android:fragment="com.xenonhd.settings.fragments.RecentsSettings"
             android:icon="@drawable/ic_settings_recents"/> -->
 
-        <!-- Notifications
+        <!-- Notifications -->
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.xenonhd.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/> -->
+            android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- Misc
         <Preference
