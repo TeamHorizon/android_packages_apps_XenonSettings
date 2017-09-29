@@ -44,7 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.xenonhd_settings_button);
+        addPreferencesFromResource(R.xml.xenonhd_settings_buttons);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
     }
