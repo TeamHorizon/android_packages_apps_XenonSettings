@@ -32,12 +32,12 @@
             android:fragment="com.xenonhd.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/> -->
 
-        <!-- Buttons
+        <!-- Buttons -->
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:fragment="com.xenonhd.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/> -->
+            android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar
         <Preference

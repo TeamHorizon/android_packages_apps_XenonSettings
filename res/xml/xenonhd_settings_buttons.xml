@@ -18,9 +18,10 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
-        android:key="volume_key"
-        android:fragment="com.xenonhd.settings.fragments.VolumeRockerSettings"
-        android:title="@string/volume_title" />
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
 
 </PreferenceScreen>
