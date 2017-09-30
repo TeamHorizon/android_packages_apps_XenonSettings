@@ -60,5 +60,11 @@
         android:summary="@string/qqs_scroll_summary"
         android:defaultValue="false"/>
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="music_tile_title"
+        android:title="@string/qs_music_tile_track_optional_title"
+        android:summary="@string/qs_music_tile_track_optional_summary"
+        android:defaultValue="false"/>
+
     </PreferenceCategory>
 </PreferenceScreen>

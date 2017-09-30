@@ -107,6 +107,8 @@
     <string name="qs_brightness_slider_summary">Show brightness slider in the QS panel</string>
     <string name="qs_columns_landscape_title">Columns - landscape</string>
     <string name="qs_columns_portrait_title">Columns - portrait</string>
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
     <string name="qs_rows_columns_title">Rows and columns</string>
     <string name="qs_rows_columns_summary">Adjust number of QS rows and columns</string>
     <string name="qs_rows_landscape_title">Rows - landscape</string>
