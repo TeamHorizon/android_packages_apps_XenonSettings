@@ -91,4 +91,10 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
 
+    <!-- Volume do not disturb -->
+    <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
+    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
+    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+
 </resources>
