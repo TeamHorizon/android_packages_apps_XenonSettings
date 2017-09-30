@@ -81,11 +81,11 @@
             android:fragment="com.xenonhd.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
-        <!-- Misc
+        <!-- Misc -->
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.xenonhd.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_misc"/> -->
+            android:icon="@drawable/ic_settings_misc"/>
 
 </PreferenceScreen>
