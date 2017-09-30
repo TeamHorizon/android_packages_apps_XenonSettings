@@ -54,5 +54,11 @@
         android:title="@string/qs_rows_columns_title"
         android:summary="@string/qs_rows_columns_summary"/>
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_quickbar_scroll_enabled"
+        android:title="@string/qqs_scroll_title"
+        android:summary="@string/qqs_scroll_summary"
+        android:defaultValue="false"/>
+
     </PreferenceCategory>
 </PreferenceScreen>

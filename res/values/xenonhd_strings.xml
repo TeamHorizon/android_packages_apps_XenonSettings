@@ -101,6 +101,8 @@
     <string name="quicksettings_title">Quick Settings</string>
     <string name="brightness_icon_title">Brightness icon</string>
     <string name="brightness_icon_summary">Show brightness icon on the left side of brighness slider to switch auto brightness</string>
+    <string name="qqs_scroll_title">Scroll small QS tiles</string>
+    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show brightness slider in the QS panel</string>
     <string name="qs_columns_landscape_title">Columns - landscape</string>
