@@ -18,6 +18,10 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_title" >
+
     <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/qs_brightness_slider_title"
@@ -47,6 +51,8 @@
     <Preference
         android:key="qs_rows_columns"
         android:fragment="com.xenonhd.settings.QsRowsColumns"
-        android:title="@string/qs_rows_columns_title"/>
+        android:title="@string/qs_rows_columns_title"
+        android:summary="@string/qs_rows_columns_summary"/>
 
+    </PreferenceCategory>
 </PreferenceScreen>

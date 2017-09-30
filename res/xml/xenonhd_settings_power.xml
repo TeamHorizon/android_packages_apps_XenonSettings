@@ -18,6 +18,10 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="power_category"
+        android:title="@string/powermenu_title" >
+
          <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"
@@ -62,4 +66,6 @@
             android:key="powermenu_users"
             android:title="@string/powermenu_users"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

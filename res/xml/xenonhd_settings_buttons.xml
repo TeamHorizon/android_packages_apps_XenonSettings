@@ -18,6 +18,10 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="volume_category"
+        android:title="@string/volume_title" >
+
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_wake_screen"
         android:summary="@string/volume_rocker_wake_summary"
@@ -54,4 +58,5 @@
         android:summary="@string/volbtn_down_zen_summary"
         android:defaultValue="true"/>
 
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -18,6 +18,10 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_title" >
+
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_navbar"
         android:title="@string/double_tap_sleep_navbar"
@@ -36,4 +40,5 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="false" />
 
+    </PreferenceCategory>
 </PreferenceScreen>

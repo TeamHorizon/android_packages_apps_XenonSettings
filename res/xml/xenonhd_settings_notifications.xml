@@ -13,9 +13,14 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<PreferenceScreen 
+        xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/notifications_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:key="notifications_title"
+        android:title="@string/notifications_title" >
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="screenshot_sound"
@@ -23,4 +28,11 @@
         android:summary="@string/screenshot_sound_summary"
         android:defaultValue="true" />
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_ime_switcher"
+        android:title="@string/ime_switcher_notify"
+        android:summary="@string/ime_switcher_notify_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
