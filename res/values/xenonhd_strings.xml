@@ -90,6 +90,7 @@
     <!-- Power -->
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_category">Power menu contents</string>
+    <string name="power_look">Power menu appearance</string>
     <string name="powermenu_airplane">Airplane</string>
     <string name="powermenu_lockdown">Lock now</string>
     <string name="powermenu_power">Power</string>
@@ -99,6 +100,9 @@
     <string name="powermenu_settings">Settings</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
+    <string name="power">Power Menu Tweaks</string>
+    <string name="power_menu_transparency">Power menu opacity</string>
+    <string name="power_menu_dialog_dim">Power menu dialog dim background amount</string>
 
     <!-- QS -->
     <string name="quicksettings_title">Quick Settings</string>

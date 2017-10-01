@@ -68,4 +68,28 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="power_look_category"
+        android:title="@string/power_look" >
+
+        <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
+            android:key="transparent_power_menu"
+            android:title="@string/power_menu_transparency"
+            android:max="100"
+            android:min="0"
+            android:unitsLeft=""
+            android:unitsRight="%"
+            android:defaultValue="100" />
+
+        <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
+            android:key="transparent_power_dialog_dim"
+            android:title="@string/power_menu_dialog_dim"
+            android:max="100"
+            android:min="0"
+            android:unitsLeft=""
+            android:unitsRight="%"
+            android:defaultValue="50" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
