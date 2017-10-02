@@ -22,12 +22,6 @@
         android:key="statusbar_category"
         android:title="@string/statusbar_title" >
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="bluetooth_show_battery"
-        android:title="@string/bluetooth_battery_title"
-        android:summary="@string/bluetooth_battery_summary"
-        android:defaultValue="false"/>
-
     <Preference
             android:title="@string/statusbar_items_title"
             android:summary="@string/statusbar_items_summary" >
@@ -37,16 +31,21 @@
     </Preference>
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-            android:key="status_bar_ime_switcher"
-            android:title="@string/ime_switcher_notify"
-            android:summary="@string/ime_switcher_notify_summary"
-            android:defaultValue="false" />
+        android:key="battery_save_mode_color"
+        android:title="@string/battery_saver_color_title"
+        android:summary="@string/battery_saver_color_summary"
+        android:defaultValue="false" />
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-            android:key="battery_save_mode_color"
-            android:title="@string/battery_saver_color_title"
-            android:summary="@string/battery_saver_color_summary"
-            android:defaultValue="false" />
+        android:key="bluetooth_show_battery"
+        android:title="@string/bluetooth_battery_title"
+        android:summary="@string/bluetooth_battery_summary"
+        android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="traffic_category"
+        android:title="@string/network_traffic_state_title" >
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"

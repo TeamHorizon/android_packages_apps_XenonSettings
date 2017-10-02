@@ -20,7 +20,7 @@
 
     <PreferenceCategory
         android:key="power_category"
-        android:title="@string/powermenu_title" >
+        android:title="@string/powermenu_category" >
 
          <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"

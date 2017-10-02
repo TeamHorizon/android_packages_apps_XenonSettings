@@ -53,6 +53,7 @@
 
     <!-- Gestures -->
     <string name="gestures_title">Gestures</string>
+    <string name="dt2s_category">Double tap to sleep</string>
     <string name="double_tap_sleep_lockscreen">DT2S on lockscreen</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap on lockscreen to sleep device</string>
     <string name="double_tap_sleep_navbar">DT2S on navbar</string>
@@ -69,6 +70,7 @@
 
     <!-- Misc -->
     <string name="misc_title">Miscellaneous</string>
+    <string name="dashboard_category">Dashboard</string>
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="summary_dashboard_conditions_disabled">Disabled</string>
     <string name="summary_dashboard_conditions_enabled">Enabled</string>
@@ -87,6 +89,7 @@
 	
     <!-- Power -->
     <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_category">Power menu contents</string>
     <string name="powermenu_airplane">Airplane</string>
     <string name="powermenu_lockdown">Lock now</string>
     <string name="powermenu_power">Power</string>
@@ -99,6 +102,9 @@
 
     <!-- QS -->
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="qs_category">QS Tiles</string>
+    <string name="pulldown_category">Pull down</string>
+    <string name="brightness_category">Brightness</string>
     <string name="brightness_icon_title">Brightness icon</string>
     <string name="brightness_icon_summary">Show brightness icon on the left side of brighness slider to switch auto brightness</string>
     <string name="qqs_scroll_title">Scroll small QS tiles</string>
@@ -119,13 +125,12 @@
     <string name="smart_pulldown_none_summary">Expand QS panel when there are no notifications</string>
     <string name="smart_pulldown_off">Off</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
- 
     <string name="smart_pulldown_summary">Expand QS panel when there are %1$s notifications</string>
     <string name="status_bar_quick_qs_pulldown">Quick pull-down</string>
     <string name="status_bar_quick_qs_pulldown_summary">Pull down on the right side of statusbar to expand QS panel</string>
 
     <!-- Recents -->
-    <string name="recents_title">Recents apps</string>
+    <string name="recents_title">Recent apps</string>
     <string name="recents_clear_all_location_title">Clear all button location</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>

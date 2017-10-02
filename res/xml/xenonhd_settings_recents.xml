@@ -20,7 +20,7 @@
 
     <PreferenceCategory
         android:key="recents_category"
-        android:title="@string/recents_title" >
+        android:title="@string/show_clear_all_recents_button_title" >
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
