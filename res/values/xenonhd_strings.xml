@@ -111,6 +111,9 @@
     <string name="brightness_category">Brightness</string>
     <string name="brightness_icon_title">Brightness icon</string>
     <string name="brightness_icon_summary">Show brightness icon on the left side of brighness slider to switch auto brightness</string>
+    <string name="brightness_icon_position_title">Brightness icon position</string>
+    <string name="brightness_icon_position_on_summary">On the right</string>
+    <string name="brightness_icon_position_off_summary">On the left</string>
     <string name="qqs_scroll_title">Scroll small QS tiles</string>
     <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
     <string name="qs_brightness_slider_title">Brightness slider</string>
