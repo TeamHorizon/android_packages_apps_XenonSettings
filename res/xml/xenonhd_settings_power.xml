@@ -15,8 +15,8 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/powermenu_title"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/powermenu_title">
 
     <PreferenceCategory
         android:key="power_category"
@@ -73,22 +73,20 @@
         android:key="power_look_category"
         android:title="@string/power_look" >
 
-        <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
+        <com.xenonhd.settings.preferences.CustomSeekBarPreference
             android:key="transparent_power_menu"
             android:title="@string/power_menu_transparency"
             android:max="100"
-            android:min="0"
-            android:unitsLeft=""
-            android:unitsRight="%"
+            settings:min="0"
+            settings:units="%"
             android:defaultValue="100" />
 
-        <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
+        <com.xenonhd.settings.preferences.CustomSeekBarPreference
             android:key="transparent_power_dialog_dim"
             android:title="@string/power_menu_dialog_dim"
             android:max="100"
-            android:min="0"
-            android:unitsLeft=""
-            android:unitsRight="%"
+            settings:min="0"
+            settings:units="%"
             android:defaultValue="50" />
 
     </PreferenceCategory>

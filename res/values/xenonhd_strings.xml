@@ -100,9 +100,9 @@
     <string name="powermenu_settings">Settings</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
-    <string name="power">Power Menu Tweaks</string>
+    <string name="power">Power Menu tweaks</string>
     <string name="power_menu_transparency">Power menu opacity</string>
-    <string name="power_menu_dialog_dim">Power menu dialog dim background amount</string>
+    <string name="power_menu_dialog_dim">Dialog background dim amount</string>
 
     <!-- QS -->
     <string name="quicksettings_title">Quick Settings</string>
