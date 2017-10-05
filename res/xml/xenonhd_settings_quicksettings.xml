@@ -35,6 +35,12 @@
         android:defaultValue="false"/>
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:summary="@string/qs_tile_title_visibility_summary"
+        android:defaultValue="true" />
+
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="music_tile_title"
         android:title="@string/qs_music_tile_track_optional_title"
         android:summary="@string/qs_music_tile_track_optional_summary"

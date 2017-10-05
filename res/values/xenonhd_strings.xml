@@ -134,6 +134,8 @@
     <string name="status_bar_quick_qs_pulldown_summary">Pull down on the right side of statusbar to expand QS panel</string>
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or VPN</string>
+    <string name="qs_tile_title_visibility_title">Show tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Display titles underneath tiles</string>
 
     <!-- Recents -->
     <string name="recents_title">Recent apps</string>
