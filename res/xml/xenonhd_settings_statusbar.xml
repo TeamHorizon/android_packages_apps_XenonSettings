@@ -34,7 +34,7 @@
         android:key="battery_save_mode_color"
         android:title="@string/battery_saver_color_title"
         android:summary="@string/battery_saver_color_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="bluetooth_show_battery"
