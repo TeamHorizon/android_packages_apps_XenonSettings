@@ -81,6 +81,8 @@
     <string name="summary_dashboard_suggestions_disabled">Disabled</string>
     <string name="summary_dashboard_conditions_disabled">Disabled</string>
     <string name="summary_dashboard_conditions_enabled">Enabled</string>
+    <string name="toast_icon_title">Toast app icon</string>
+    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 
     <!-- Navbar -->
     <string name="navbar_title">Navigation bar</string>

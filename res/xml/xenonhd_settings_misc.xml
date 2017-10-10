@@ -37,4 +37,11 @@
         android:defaultValue="true" />
 
     </PreferenceCategory>
+
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
