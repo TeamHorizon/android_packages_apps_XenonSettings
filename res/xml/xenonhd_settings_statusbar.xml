@@ -30,6 +30,13 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <com.xenonhd.settings.preferences.SystemSettingMasterSwitchPreference
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary"
+        android:key="statusbar_battery_bar"
+        android:defaultValue="false"
+        android:fragment="com.xenonhd.settings.fragments.BatteryBar" />
+
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="battery_save_mode_color"
         android:title="@string/battery_saver_color_title"

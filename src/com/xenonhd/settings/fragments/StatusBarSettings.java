@@ -26,6 +26,7 @@ import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.xenonhd.settings.preferences.CustomSeekBarPreference;
+import com.xenonhd.settings.preferences.MasterSwitchPreference;
 import com.xenonhd.settings.preferences.SystemSettingSwitchPreference;
 import com.android.settings.Utils;
 import android.util.Log;
@@ -40,6 +41,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private CustomSeekBarPreference mThreshold;
+    MasterSwitchPreference mBatteryBar;
     private SystemSettingSwitchPreference mNetMonitor;
 
     @Override
@@ -63,6 +65,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
         mThreshold.setEnabled(isNetMonitorEnabled);
+
+        mBatteryBar = (MasterSwitchPreference)
+                findPreference(Settings.System.STATUSBAR_BATTERY_BAR);
     }
 
     @Override
@@ -90,4 +95,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.XENONHD;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        mBatteryBar.reloadValue();
+    }
 }
