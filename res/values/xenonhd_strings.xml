@@ -67,6 +67,8 @@
     <string name="lockscreen_tuner_summary">Set shortcuts at the bottom of lock screen</string>
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on lock screen</string>
+    <string name="lockscreen_qs_disabled_title">No QS when secured</string>
+    <string name="lockscreen_qs_disabled_summary">Disable quick settings tiles on secured lockscreen</string>
 
     <!-- Misc -->
     <string name="misc_title">Miscellaneous</string>
