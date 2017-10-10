@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.xenonhs.settings.preferences;
+package com.xenonhd.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;

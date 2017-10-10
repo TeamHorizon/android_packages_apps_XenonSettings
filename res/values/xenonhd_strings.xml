@@ -155,6 +155,12 @@
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
 
+    <!-- Seekbar -->
+    <string name="seekbar_no_default_value">No default value set</string>
+    <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Default value is already set</string>
+    <string name="seekbar_default_string">Default</string>
+
     <!-- Statusbar -->
     <string name="statusbar_title">Status bar</string>
     <string name="battery_saver_color_title">Battery Saver color</string>
