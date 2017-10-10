@@ -161,7 +161,7 @@
     <string name="battery_saver_color_summary">Enable orange status/navigation bar color when Battery Saver is on</string>
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Show battery status of currently connected bluetooth device if available</string>
-    <string name="network_traffic_autohide_threshold_title">Network traffic autohide threshold (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Network traffic autohide threshold</string>
     <string name="network_traffic_state_title">Network traffic</string>
     <string name="network_traffic_state_summary">Show data usage activity in statusbar</string>
     <string name="statusbar_items_title">Status bar icons</string>
