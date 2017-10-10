@@ -60,6 +60,8 @@
     <string name="double_tap_sleep_navbar_summary">Double tap on navbar to sleep device</string>
     <string name="double_tap_to_sleep_title">DT2S on status bar</string>
     <string name="double_tap_to_sleep_summary">Double tap on status bar to sleep device</string>
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_title">Lock screen</string>
