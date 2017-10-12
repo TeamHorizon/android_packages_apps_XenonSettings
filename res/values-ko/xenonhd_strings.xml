@@ -27,5 +27,8 @@
   <!-- Power -->
   <!-- QS -->
   <!-- Recents -->
+  <!-- Seekbar -->
   <!-- Statusbar -->
+  <string name="battery_bar_title">배터리 바</string>
+  <string name="battery_bar_style_regular">보통</string>
 </resources>

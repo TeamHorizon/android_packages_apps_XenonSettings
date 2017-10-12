@@ -32,6 +32,8 @@
   <string name="lockscreen_title">Ecran de verrouillage</string>
   <!-- Misc -->
   <string name="misc_title">Réglages divers</string>
+  <string name="summary_dashboard_suggestions_enabled">Activé</string>
+  <string name="summary_dashboard_suggestions_disabled">Désactivé</string>
   <string name="summary_dashboard_conditions_disabled">Désactivé</string>
   <string name="summary_dashboard_conditions_enabled">Activé</string>
   <!-- Navbar -->
@@ -49,7 +51,15 @@
   <string name="recents_clear_all_location_top_center">En haut au centre</string>
   <string name="recents_clear_all_location_top_left">En haut à gauche</string>
   <string name="recents_clear_all_location_top_right">En haut à droite</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Défaut</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Trafic du réseau</string>
   <string name="statusbar_items_title">Icônes de la barre d\'état</string>
+  <string name="battery_bar_title">Barre de batterie</string>
+  <string name="battery_bar_position_title">Localisation</string>
+  <string name="battery_bar_animate_title">Animation lors de la charge</string>
+  <string name="battery_bar_style_regular">Régulière</string>
+  <string name="battery_bar_style_center_mirrored">Centrée et reflétée</string>
+  <string name="battery_bar_style_reversed">Inversée</string>
 </resources>

@@ -29,6 +29,8 @@
   <!-- Lockscreen -->
   <string name="lockscreen_title">Ecrã de bloqueio</string>
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Activado</string>
+  <string name="summary_dashboard_suggestions_disabled">Desactivado</string>
   <string name="summary_dashboard_conditions_disabled">Desactivado</string>
   <string name="summary_dashboard_conditions_enabled">Activado</string>
   <!-- Navbar -->
@@ -38,7 +40,14 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Controlo do brilho</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Predefinida</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Tráfego da rede</string>
   <string name="statusbar_items_title">Ícones da barra de status</string>
+  <string name="battery_bar_title">Barra da bateria</string>
+  <string name="battery_bar_animate_title">Animação de carregamento</string>
+  <string name="battery_bar_style_regular">Normal</string>
+  <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
+  <string name="battery_bar_style_reversed">Invertida</string>
 </resources>

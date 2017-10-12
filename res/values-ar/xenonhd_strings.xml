@@ -30,6 +30,8 @@
   <string name="lockscreen_title">شاشة القفل</string>
   <!-- Misc -->
   <string name="misc_title">خيارات متنوعة</string>
+  <string name="summary_dashboard_suggestions_enabled">مفعل</string>
+  <string name="summary_dashboard_suggestions_disabled">غير مفعل</string>
   <string name="summary_dashboard_conditions_disabled">غير مفعل</string>
   <string name="summary_dashboard_conditions_enabled">مفعل</string>
   <!-- Navbar -->
@@ -44,7 +46,15 @@
   <string name="recents_clear_all_location_bottom_left">اسفل اليسار</string>
   <string name="recents_clear_all_location_bottom_right">اسفل اليمين</string>
   <string name="recents_clear_all_location_top_center">أعلى الوسط</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">الوضع الأصلي</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">حركة شبكة الاتصال</string>
   <string name="statusbar_items_title">أيقونات شريط الحالة</string>
+  <string name="battery_bar_title">البطارية</string>
+  <string name="battery_bar_position_title">المكان</string>
+  <string name="battery_bar_animate_title">الرسوم المتحركة عند الشحن</string>
+  <string name="battery_bar_style_regular">العادية</string>
+  <string name="battery_bar_style_center_mirrored">مركزي عاكس</string>
+  <string name="battery_bar_style_reversed">معكوس</string>
 </resources>

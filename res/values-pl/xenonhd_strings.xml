@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Ustawienia XenonHD</string>
+  <string name="xenonhd_settings_summary">Dodatkowe opcje</string>
   <!-- Buttons -->
+  <string name="button_title">Przyciski</string>
+  <string name="volume_title">Przyciski głośności</string>
+  <string name="swap_volume_buttons">Zamień przyciski głośności</string>
+  <string name="swap_volume_buttons_summary">Zamień przyciski głośności według obrotu urządzenia</string>
+  <string name="volbtn_down_zen_title">Zmniejszanie głośności w DND</string>
+  <string name="volbtn_down_zen_summary">Włącz tryb Nie przeszkadzać przyciskiem zmniejszania głośności</string>
+  <string name="volbtn_up_zen_title">Zwiększanie głośności w DND</string>
+  <string name="volbtn_up_zen_summary">Wyłącz tryb Nie przeszkadzać przyciskiem zwiększania głośności</string>
+  <string name="volume_keys_control_media_stream_title">Kontrola głośności mediów</string>
+  <string name="volume_keys_control_media_stream_summary">Panel głośności domyślnie wyświetla głośność multimediów</string>
+  <string name="volume_rocker_music_controls_title">Przełączanie utworów</string>
+  <string name="volume_rocker_music_controls_summary">Przyciski głośności zmieniają przęłączają utwory na zablokowanym urządzeniu</string>
+  <string name="volume_rocker_wake_title">Wybudzanie przyciskami głośności</string>
+  <string name="volume_rocker_wake_summary">Wybudź urządzenie przyciskami głośności</string>
   <!-- Color Picker -->
   <string name="color_default">Domyślny</string>
   <string name="dialog_color_picker">Wybór koloru</string>
@@ -24,23 +40,103 @@
   <string name="press_color_to_apply">Naciśnij na kolor, aby go użyć</string>
   <string name="set">Ustaw</string>
   <!-- General strings -->
+  <string name="cancel">Anuluj</string>
+  <string name="ok">OK</string>
   <string name="reset">Resetuj</string>
   <string name="save">Zapisz</string>
   <!-- Gestures -->
+  <string name="gestures_title">Gesty</string>
+  <string name="dt2s_category">Usypianie podwójnym dotknięciem</string>
+  <string name="double_tap_sleep_lockscreen">DT2S na ekranie blokady</string>
+  <string name="double_tap_sleep_lockscreen_summary">Podwójne dotknięcie na ekranie blokady usypia urządzenie</string>
+  <string name="double_tap_sleep_navbar">DT2S na pasku nawigacji</string>
+  <string name="double_tap_sleep_navbar_summary">Podwójne dotknięcie paska nawigacji usypia urządzenie</string>
+  <string name="double_tap_to_sleep_title">DT2S na pasku stanu</string>
+  <string name="double_tap_to_sleep_summary">Podwójne dotknięcie paska stanu usypia urządzenie</string>
+  <string name="pocket_judge_title">Wykrywanie kieszeni</string>
+  <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Blokada ekranu</string>
+  <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
+  <string name="lockscreen_tuner_summary">Ustawianie skrótów na dole ekranu blokady</string>
+  <string name="media_art_title">Okładka albumu</string>
+  <string name="media_art_summary">Wyświetlaj okładkę odtwarzanego albumu na ekranie blokady</string>
+  <string name="lockscreen_qs_disabled_title">Szybkie ustawienia na ekranie blokady</string>
+  <string name="lockscreen_qs_disabled_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
   <!-- Misc -->
   <string name="misc_title">Różne</string>
+  <string name="dashboard_category">Panel ustawień</string>
+  <string name="dashboard_conditions_title">Warunki w panelu ustawień</string>
+  <string name="dashboard_suggestions_title">Sugestie w panelu ustawień</string>
+  <string name="summary_dashboard_suggestions_enabled">Włączony</string>
+  <string name="summary_dashboard_suggestions_disabled">Wyłączony</string>
   <string name="summary_dashboard_conditions_disabled">Wyłączony</string>
   <string name="summary_dashboard_conditions_enabled">Włączony</string>
+  <string name="toast_icon_title">Ikona powiadomień toast</string>
+  <string name="toast_icon_summary">Wyświetl ikonę aplikacji w powiadomieniu toast</string>
   <!-- Navbar -->
+  <string name="navbar_title">Pasek nawigacji</string>
+  <string name="navbar_tuner_title">Przyciski paska nawigacji</string>
+  <string name="navbar_tuner_summary">Skonfiguruj pasek nawigacji</string>
   <!-- Notifications -->
+  <string name="notifications_title">Powiadomienia</string>
+  <string name="ime_switcher_notify">Powiadomienie wyboru klawiatury</string>
+  <string name="ime_switcher_notify_summary">Wyświetlaj powiadomienie wyboru klawiatury</string>
   <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+  <string name="screenshot_sound_summary">Dźwięk wykonania zrzutu ekranu</string>
   <!-- Power -->
+  <string name="powermenu_title">Menu zasilania</string>
+  <string name="powermenu_category">Elementy menu zasilania</string>
+  <string name="power_look">Wygląd menu zasilania</string>
+  <string name="powermenu_airplane">Tryb samolotowy</string>
+  <string name="powermenu_lockdown">Zablokuj teraz</string>
+  <string name="powermenu_power">Zasilanie</string>
+  <string name="powermenu_restart">Restart</string>
+  <string name="powermenu_restart_recovery">Zaawansowany restart</string>
   <string name="powermenu_screenshot">Zrzut ekranu</string>
+  <string name="powermenu_settings">Ustawienia</string>
+  <string name="powermenu_soundpanel">Panel dźwięku</string>
+  <string name="powermenu_users">Użytkownicy</string>
+  <string name="power">Opcje menu zasilania</string>
+  <string name="power_menu_transparency">Przezroczystość menu zasilania</string>
+  <string name="power_menu_dialog_dim">Przyciemnianie tła</string>
   <!-- QS -->
+  <string name="quicksettings_title">Szybkie ustawienia</string>
+  <string name="qs_category">Kafelki szybkich skrótów</string>
+  <string name="pulldown_category">Rozwijanie</string>
+  <string name="brightness_category">Jasność</string>
+  <string name="brightness_icon_title">Ikona jasności</string>
+  <string name="brightness_icon_summary">Pokaż ikonę kontroli jasności na lewo od paska, aby dostosować auto jasność</string>
+  <string name="brightness_icon_position_title">Pozycja ikony jasności</string>
+  <string name="brightness_icon_position_on_summary">Po prawej</string>
+  <string name="brightness_icon_position_off_summary">Po lewej</string>
+  <string name="qqs_scroll_title">Przewiń małe kafelki QS</string>
+  <string name="qqs_scroll_summary">Zezwól na przewijanie małych kafelków szybkich ustawień</string>
   <string name="qs_brightness_slider_title">Pasek jasności</string>
+  <string name="qs_brightness_slider_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
+  <string name="qs_columns_landscape_title">Kolumny - poziomo</string>
+  <string name="qs_columns_portrait_title">Kolumny - pionowo</string>
+  <string name="qs_music_tile_track_optional_title">Tytuł muzyki w kafelku</string>
+  <string name="qs_music_tile_track_optional_summary">Nazwa odtwarzanego utworu jako tytuł kafelka</string>
+  <string name="qs_rows_columns_title">Kolumny i rzędy</string>
+  <string name="qs_rows_columns_summary">Dostosuj ilość kolumn i wierszy QS</string>
+  <string name="qs_rows_landscape_title">Rzędy - poziomo</string>
+  <string name="qs_rows_portrait_title">Wiersze - pionowo</string>
+  <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
+  <string name="smart_pulldown_dismissable">brak usuwalnych</string>
+  <string name="smart_pulldown_none">brak powiadomień</string>
+  <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
+  <string name="smart_pulldown_off">Wyłączone</string>
+  <string name="smart_pulldown_ongoing">brak bieżących</string>
+  <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
+  <string name="status_bar_quick_qs_pulldown">Szybkie rozwijanie</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Pociągnięcie w dół po prawej stronie paska stanu rozwinie panel szybkich ustawień</string>
+  <string name="qs_footer_warnings_title">Ostrzeżenia w stopce QS</string>
+  <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu QS, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
+  <string name="qs_tile_title_visibility_title">Tytuły szybkich ustawień</string>
+  <string name="qs_tile_title_visibility_summary">Wyświetl tytuły pod kafelkami szybkich ustawień</string>
   <!-- Recents -->
+  <string name="recents_title">Ostatnie aplikacje</string>
   <string name="recents_clear_all_location_title">Pozycja przycisku</string>
   <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
   <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
@@ -48,7 +144,42 @@
   <string name="recents_clear_all_location_top_center">Wyśrodkowany na górze</string>
   <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
   <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
+  <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystko\"</string>
+  <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
+  <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Brak wartości domyślnej</string>
+  <string name="seekbar_default_value_set">Ustawiono wartość domyślną <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">Wartość domyślna jest już ustawiona</string>
+  <string name="seekbar_default_string">Domyślny</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">Pasek stanu</string>
+  <string name="battery_saver_color_title">Kolor paska w trybie oszczędzania baterii</string>
+  <string name="battery_saver_color_summary">Włącz pomarańczowy pasek stanu/nawigacji po włączeniu oszczędzania baterii</string>
+  <string name="bluetooth_battery_title">Stan baterii Bluetooth</string>
+  <string name="bluetooth_battery_summary">Pokaż stan baterii aktualnie podłączonego urządzenia Bluetooth, jeśli jest to możliwe</string>
+  <string name="network_traffic_autohide_threshold_title">Próg auto-ukrywania ruchu sieci</string>
   <string name="network_traffic_state_title">Ruch sieciowy</string>
+  <string name="network_traffic_state_summary">Pokaż aktywność sieci w pasku stanu</string>
   <string name="statusbar_items_title">Ikony paska stanu</string>
+  <string name="statusbar_items_summary">Dostosuj wygląd paska stanu</string>
+  <string name="battery_bar_title">Pasek baterii</string>
+  <string name="battery_bar_summary">Konfiguracja paska baterii</string>
+  <string name="battery_bar_position_title">Lokalizacja</string>
+  <string name="battery_bar_position_hidden">Ukryty</string>
+  <string name="battery_bar_position_statusbar">Pasek stanu</string>
+  <string name="battery_bar_color_title">Kolor</string>
+  <string name="battery_bar_charging_color_title">Kolor ładowania</string>
+  <string name="battery_bar_battery_low_color_title">Kolor słabej baterii</string>
+  <string name="battery_bar_style_title">Wyrównanie</string>
+  <string name="battery_bar_thickness_title">Grubość</string>
+  <string name="battery_bar_animate_title">Animacja ładowania</string>
+  <string name="battery_bar_style_regular">Domyślny</string>
+  <string name="battery_bar_style_center_mirrored">Wyśrodkowany</string>
+  <string name="battery_bar_style_reversed">Odwrócony</string>
+  <string name="battery_bar_use_charging_color_title">Własny kolor podczas ładowania</string>
+  <string name="battery_bar_blend_color_title">Mieszanie kolorów</string>
+  <string name="battery_bar_blend_color_summary">Mieszaj kolory pełnej/pustej baterii</string>
+  <string name="battery_bar_blend_color_reverse_title">Odwróć kierunek kolorów</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; pusta: czerwony &#8594; zielony &#8594; niebieski &#8594; czerwony</string>
 </resources>

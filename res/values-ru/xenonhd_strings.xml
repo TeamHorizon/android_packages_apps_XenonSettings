@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Экран блокировки</string>
   <!-- Misc -->
   <string name="misc_title">Разное</string>
+  <string name="summary_dashboard_suggestions_enabled">Включено</string>
+  <string name="summary_dashboard_suggestions_disabled">Отключено</string>
   <string name="summary_dashboard_conditions_disabled">Отключено</string>
   <string name="summary_dashboard_conditions_enabled">Включено</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Вверху по центру</string>
   <string name="recents_clear_all_location_top_left">Вверху слева</string>
   <string name="recents_clear_all_location_top_right">Вверху справа</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">По умолчанию</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Сетевой трафик</string>
   <string name="statusbar_items_title">Значки строки состояния</string>
+  <string name="battery_bar_title">Панель заряда батареи</string>
+  <string name="battery_bar_position_title">Местоположение</string>
+  <string name="battery_bar_animate_title">Анимация зарядки</string>
+  <string name="battery_bar_style_regular">Обычный</string>
+  <string name="battery_bar_style_center_mirrored">По центру (зеркально)</string>
+  <string name="battery_bar_style_reversed">Наоборот</string>
 </resources>

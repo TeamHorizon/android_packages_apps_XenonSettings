@@ -30,6 +30,8 @@
   <!-- Lockscreen -->
   <string name="lockscreen_title">锁屏</string>
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">已启用</string>
+  <string name="summary_dashboard_suggestions_disabled">已禁用</string>
   <string name="summary_dashboard_conditions_disabled">已禁用</string>
   <string name="summary_dashboard_conditions_enabled">已启用</string>
   <!-- Navbar -->
@@ -46,6 +48,13 @@
   <string name="recents_clear_all_location_top_center">顶部居中</string>
   <string name="recents_clear_all_location_top_left">屏幕左上方</string>
   <string name="recents_clear_all_location_top_right">屏幕右上方</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">默认</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">网速</string>
+  <string name="battery_bar_title">电量条</string>
+  <string name="battery_bar_animate_title">充电动画</string>
+  <string name="battery_bar_style_regular">标准</string>
+  <string name="battery_bar_style_center_mirrored">中心镜像</string>
+  <string name="battery_bar_style_reversed">反转</string>
 </resources>

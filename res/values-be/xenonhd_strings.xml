@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Экран блакавання</string>
   <!-- Misc -->
   <string name="misc_title">Рознае</string>
+  <string name="summary_dashboard_suggestions_enabled">Уключана</string>
+  <string name="summary_dashboard_suggestions_disabled">Адключана</string>
   <string name="summary_dashboard_conditions_disabled">Адключана</string>
   <string name="summary_dashboard_conditions_enabled">Уключана</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Зверху па цэнтры</string>
   <string name="recents_clear_all_location_top_left">Зверху злева</string>
   <string name="recents_clear_all_location_top_right">Зверху справа</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Па змаўчанні</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Сеткавы трафік</string>
   <string name="statusbar_items_title">Значкі ў радку стану</string>
+  <string name="battery_bar_title">Індыкатар зарада батарэі</string>
+  <string name="battery_bar_position_title">Месцазнаходжанне</string>
+  <string name="battery_bar_animate_title">Анімацыя зарадкі</string>
+  <string name="battery_bar_style_regular">Звычайны</string>
+  <string name="battery_bar_style_center_mirrored">Па цэнтры (люстрана)</string>
+  <string name="battery_bar_style_reversed">Наадварот</string>
 </resources>

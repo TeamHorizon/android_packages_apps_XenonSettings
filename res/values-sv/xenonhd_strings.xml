@@ -27,6 +27,8 @@
   <!-- Gestures -->
   <!-- Lockscreen -->
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Aktiverad</string>
+  <string name="summary_dashboard_suggestions_disabled">Inaktiverad</string>
   <string name="summary_dashboard_conditions_disabled">Inaktiverad</string>
   <string name="summary_dashboard_conditions_enabled">Aktiverad</string>
   <!-- Navbar -->
@@ -37,7 +39,14 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Ljusstyrkereglage</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Förvalt</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Nätverkstrafik</string>
   <string name="statusbar_items_title">Statusfältsikoner</string>
+  <string name="battery_bar_title">Batterifält</string>
+  <string name="battery_bar_animate_title">Laddningsanimation</string>
+  <string name="battery_bar_style_regular">Vanlig</string>
+  <string name="battery_bar_style_center_mirrored">Centerspeglad</string>
+  <string name="battery_bar_style_reversed">Omvänd</string>
 </resources>

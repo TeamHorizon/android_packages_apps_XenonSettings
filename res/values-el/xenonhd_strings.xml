@@ -26,6 +26,8 @@
   <!-- Lockscreen -->
   <string name="lockscreen_title">Οθόνη κλειδώματος</string>
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Ενεργοποιημένο</string>
+  <string name="summary_dashboard_suggestions_disabled">Απενεργοποιημένο</string>
   <string name="summary_dashboard_conditions_disabled">Απενεργοποιημένο</string>
   <string name="summary_dashboard_conditions_enabled">Ενεργοποιημένο</string>
   <!-- Navbar -->
@@ -35,6 +37,10 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Μπάρα ρύθμισης φωτεινότητας</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Προεπιλεγμένο</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Κίνηση δικτύου</string>
+  <string name="battery_bar_title">Γραμμή μπαταρίας</string>
+  <string name="battery_bar_style_reversed">Ανεστραμμένο</string>
 </resources>

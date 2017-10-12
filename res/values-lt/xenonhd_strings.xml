@@ -29,6 +29,8 @@
   <!-- Lockscreen -->
   <string name="lockscreen_title">Užrakinti ekraną</string>
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Įjungta</string>
+  <string name="summary_dashboard_suggestions_disabled">Išjungta</string>
   <string name="summary_dashboard_conditions_disabled">Išjungta</string>
   <string name="summary_dashboard_conditions_enabled">Įjungta</string>
   <!-- Navbar -->
@@ -43,6 +45,8 @@
   <string name="recents_clear_all_location_top_center">Viršuje per vidurį</string>
   <string name="recents_clear_all_location_top_left">Viršuje kairėje</string>
   <string name="recents_clear_all_location_top_right">Viršuje dešinėje</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Numatyta</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Tinklo srautas</string>
   <string name="statusbar_items_title">Būsenos juostos piktogramos</string>

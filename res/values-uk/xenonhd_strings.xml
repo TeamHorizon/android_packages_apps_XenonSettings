@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Блокування екрану</string>
   <!-- Misc -->
   <string name="misc_title">Різне</string>
+  <string name="summary_dashboard_suggestions_enabled">Увімкнено</string>
+  <string name="summary_dashboard_suggestions_disabled">Вимкнено</string>
   <string name="summary_dashboard_conditions_disabled">Вимкнено</string>
   <string name="summary_dashboard_conditions_enabled">Увімкнено</string>
   <!-- Navbar -->
@@ -41,7 +43,14 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Повзунок яскравості</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">За замовчуванням</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Трафік мережі</string>
   <string name="statusbar_items_title">Значки статус бару</string>
+  <string name="battery_bar_title">Індикатор заряду батареї</string>
+  <string name="battery_bar_animate_title">Анімація зарядки</string>
+  <string name="battery_bar_style_regular">Звичайний</string>
+  <string name="battery_bar_style_center_mirrored">Дзеркально від центра</string>
+  <string name="battery_bar_style_reversed">Віддзеркалений</string>
 </resources>

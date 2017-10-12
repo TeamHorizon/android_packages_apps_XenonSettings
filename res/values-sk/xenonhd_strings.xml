@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Obrazovka uzamknutia</string>
   <!-- Misc -->
   <string name="misc_title">Rôzne</string>
+  <string name="summary_dashboard_suggestions_enabled">Zapnuté</string>
+  <string name="summary_dashboard_suggestions_disabled">Vypnuté</string>
   <string name="summary_dashboard_conditions_disabled">Vypnuté</string>
   <string name="summary_dashboard_conditions_enabled">Zapnuté</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Hore v strede</string>
   <string name="recents_clear_all_location_top_left">Vľavo hore</string>
   <string name="recents_clear_all_location_top_right">Vpravo hore</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Predvolené</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Sieťová prevádzka</string>
   <string name="statusbar_items_title">Ikony stavového riadku</string>
+  <string name="battery_bar_title">Pruh batérie</string>
+  <string name="battery_bar_position_title">Poloha</string>
+  <string name="battery_bar_animate_title">Animácia nabíjania</string>
+  <string name="battery_bar_style_regular">Klasické</string>
+  <string name="battery_bar_style_center_mirrored">Zrkadlovo na stred</string>
+  <string name="battery_bar_style_reversed">Obrátene</string>
 </resources>

@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Kilit ekranı</string>
   <!-- Misc -->
   <string name="misc_title">Çeşitler</string>
+  <string name="summary_dashboard_suggestions_enabled">Etkin</string>
+  <string name="summary_dashboard_suggestions_disabled">Devre Dışı</string>
   <string name="summary_dashboard_conditions_disabled">Devre Dışı</string>
   <string name="summary_dashboard_conditions_enabled">Etkin</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Üst orta</string>
   <string name="recents_clear_all_location_top_left">Sol üst</string>
   <string name="recents_clear_all_location_top_right">Sağ üst</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Varsayılan</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Ağ Trafiği</string>
   <string name="statusbar_items_title">Durum çubuğu simgeleri</string>
+  <string name="battery_bar_title">Pil Çubuğu</string>
+  <string name="battery_bar_position_title">Konum</string>
+  <string name="battery_bar_animate_title">ŞarJ Animasyonu</string>
+  <string name="battery_bar_style_regular">Kurallı</string>
+  <string name="battery_bar_style_center_mirrored">Merkez Ayna Yansıması</string>
+  <string name="battery_bar_style_reversed">Zıt</string>
 </resources>

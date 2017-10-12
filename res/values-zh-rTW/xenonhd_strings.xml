@@ -16,7 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_summary">附加選項</string>
   <!-- Buttons -->
+  <string name="button_title">按鈕</string>
+  <string name="volume_title">音量鍵</string>
   <!-- Color Picker -->
   <string name="color_default">預設</string>
   <string name="dialog_color_picker">顏色選擇器</string>
@@ -31,6 +34,8 @@
   <string name="lockscreen_title">鎖定畫面</string>
   <!-- Misc -->
   <string name="misc_title">其他事項</string>
+  <string name="summary_dashboard_suggestions_enabled">已啟用</string>
+  <string name="summary_dashboard_suggestions_disabled">已停用</string>
   <string name="summary_dashboard_conditions_disabled">已停用</string>
   <string name="summary_dashboard_conditions_enabled">已啟用</string>
   <!-- Navbar -->
@@ -48,7 +53,15 @@
   <string name="recents_clear_all_location_top_center">頂部置中</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_right">右上</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">預設</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">網路流量</string>
   <string name="statusbar_items_title">狀態列圖示</string>
+  <string name="battery_bar_title">電量列</string>
+  <string name="battery_bar_position_title">定位</string>
+  <string name="battery_bar_animate_title">充電動畫</string>
+  <string name="battery_bar_style_regular">一般</string>
+  <string name="battery_bar_style_center_mirrored">對稱中央</string>
+  <string name="battery_bar_style_reversed">反向</string>
 </resources>

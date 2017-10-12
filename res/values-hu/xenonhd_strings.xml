@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Zárképernyő</string>
   <!-- Misc -->
   <string name="misc_title">Vegyes</string>
+  <string name="summary_dashboard_suggestions_enabled">Engedélyezve</string>
+  <string name="summary_dashboard_suggestions_disabled">Kikapcsolva</string>
   <string name="summary_dashboard_conditions_disabled">Kikapcsolva</string>
   <string name="summary_dashboard_conditions_enabled">Engedélyezve</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Fent középen</string>
   <string name="recents_clear_all_location_top_left">Bal fent</string>
   <string name="recents_clear_all_location_top_right">Jobb fent</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Alapértelmezett</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Hálózati forgalom</string>
   <string name="statusbar_items_title">Állapotsor ikonjai</string>
+  <string name="battery_bar_title">Akkumulátorsáv</string>
+  <string name="battery_bar_position_title">Hely</string>
+  <string name="battery_bar_animate_title">Töltési animáció</string>
+  <string name="battery_bar_style_regular">Átlagos</string>
+  <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
+  <string name="battery_bar_style_reversed">Fordított</string>
 </resources>

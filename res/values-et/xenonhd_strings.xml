@@ -30,6 +30,8 @@
   <!-- Lockscreen -->
   <!-- Misc -->
   <string name="misc_title">Varia</string>
+  <string name="summary_dashboard_suggestions_enabled">Lubatud</string>
+  <string name="summary_dashboard_suggestions_disabled">Keelatud</string>
   <string name="summary_dashboard_conditions_disabled">Keelatud</string>
   <string name="summary_dashboard_conditions_enabled">Lubatud</string>
   <!-- Navbar -->
@@ -47,7 +49,14 @@
   <string name="recents_clear_all_location_top_center">Ülal keskel</string>
   <string name="recents_clear_all_location_top_left">Vasakul ülanurgas</string>
   <string name="recents_clear_all_location_top_right">Paremal ülanurgas</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Vaikimisi</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Võrguliiklus</string>
   <string name="statusbar_items_title">Olekuriba ikoonid</string>
+  <string name="battery_bar_title">Akuriba</string>
+  <string name="battery_bar_animate_title">Laadimise animatsioon</string>
+  <string name="battery_bar_style_regular">Tavaline</string>
+  <string name="battery_bar_style_center_mirrored">Keskpeegeldatud</string>
+  <string name="battery_bar_style_reversed">Ümber pööratud</string>
 </resources>

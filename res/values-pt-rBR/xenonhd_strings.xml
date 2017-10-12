@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Tela de bloqueio</string>
   <!-- Misc -->
   <string name="misc_title">Outros</string>
+  <string name="summary_dashboard_suggestions_enabled">Ativado</string>
+  <string name="summary_dashboard_suggestions_disabled">Desativado</string>
   <string name="summary_dashboard_conditions_disabled">Desativado</string>
   <string name="summary_dashboard_conditions_enabled">Ativado</string>
   <!-- Navbar -->
@@ -48,7 +50,14 @@
   <string name="recents_clear_all_location_top_center">Centro superior</string>
   <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
   <string name="recents_clear_all_location_top_right">Superior Direito</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Padrão</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Tráfego de rede</string>
   <string name="statusbar_items_title">Ícones da barra de status</string>
+  <string name="battery_bar_title">Barra da bateria</string>
+  <string name="battery_bar_animate_title">Animação de carregamento</string>
+  <string name="battery_bar_style_regular">Regular</string>
+  <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
+  <string name="battery_bar_style_reversed">Invertido</string>
 </resources>

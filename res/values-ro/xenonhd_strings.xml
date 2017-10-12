@@ -31,6 +31,9 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Glisorul Luminozitati</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Prestabilit</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Trafic de rețea</string>
+  <string name="battery_bar_title">Bară baterie</string>
 </resources>

@@ -31,6 +31,8 @@
   <string name="lockscreen_title">Bildschirm sperren</string>
   <!-- Misc -->
   <string name="misc_title">Verschiedenes</string>
+  <string name="summary_dashboard_suggestions_enabled">Aktiviert</string>
+  <string name="summary_dashboard_suggestions_disabled">Deaktiviert</string>
   <string name="summary_dashboard_conditions_disabled">Deaktiviert</string>
   <string name="summary_dashboard_conditions_enabled">Aktiviert</string>
   <!-- Navbar -->
@@ -48,7 +50,15 @@
   <string name="recents_clear_all_location_top_center">Oben in der Mitte</string>
   <string name="recents_clear_all_location_top_left">Oben links</string>
   <string name="recents_clear_all_location_top_right">Oben rechts</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Standard</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Netzwerkanzeige</string>
   <string name="statusbar_items_title">Statusleisten Symbole</string>
+  <string name="battery_bar_title">Akkuleiste</string>
+  <string name="battery_bar_position_title">Standort</string>
+  <string name="battery_bar_animate_title">Ladeanimation</string>
+  <string name="battery_bar_style_regular">Normal</string>
+  <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
+  <string name="battery_bar_style_reversed">Umgekehrt</string>
 </resources>

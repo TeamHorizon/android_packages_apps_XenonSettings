@@ -27,6 +27,8 @@
   <!-- Gestures -->
   <!-- Lockscreen -->
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Ingeschakeld</string>
+  <string name="summary_dashboard_suggestions_disabled">Uitgeschakeld</string>
   <string name="summary_dashboard_conditions_disabled">Uitgeschakeld</string>
   <string name="summary_dashboard_conditions_enabled">Ingeschakeld</string>
   <!-- Navbar -->
@@ -37,7 +39,14 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Helderheid schuifregelaar</string>
   <!-- Recents -->
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Standaard</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">Netwerkverkeer</string>
   <string name="statusbar_items_title">Statusbalk iconen</string>
+  <string name="battery_bar_title">Batterij Balk</string>
+  <string name="battery_bar_animate_title">Oplaad animatie</string>
+  <string name="battery_bar_style_regular">Normaal</string>
+  <string name="battery_bar_style_center_mirrored">Gecentreerd</string>
+  <string name="battery_bar_style_reversed">Omgekeerd</string>
 </resources>

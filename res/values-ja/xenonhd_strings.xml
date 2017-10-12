@@ -29,6 +29,8 @@
   <!-- Gestures -->
   <!-- Lockscreen -->
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">有効</string>
+  <string name="summary_dashboard_suggestions_disabled">無効</string>
   <string name="summary_dashboard_conditions_disabled">無効</string>
   <string name="summary_dashboard_conditions_enabled">有効</string>
   <!-- Navbar -->
@@ -45,7 +47,14 @@
   <string name="recents_clear_all_location_top_center">中央上</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_right">右上</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">既定 （デフォルト）</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">ネットワークトラフィック</string>
   <string name="statusbar_items_title">ステータスバーのアイコン</string>
+  <string name="battery_bar_title">バッテリーバー</string>
+  <string name="battery_bar_animate_title">充電時のアニメーション</string>
+  <string name="battery_bar_style_regular">標準</string>
+  <string name="battery_bar_style_center_mirrored">中央寄せ</string>
+  <string name="battery_bar_style_reversed">反転</string>
 </resources>

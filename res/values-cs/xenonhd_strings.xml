@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Nastavení XenonHD</string>
+  <string name="xenonhd_settings_summary">Další možnosti</string>
   <!-- Buttons -->
+  <string name="button_title">Tlačítka</string>
+  <string name="volume_title">Tlačítka hlasitosti</string>
+  <string name="swap_volume_buttons">Prohodit tlačítka hlasitosti</string>
+  <string name="swap_volume_buttons_summary">Prohodit tlačítka hlasitosti dle natočení zařízení</string>
+  <string name="volbtn_down_zen_title">Hlasitost dolů pro DND</string>
+  <string name="volbtn_down_zen_summary">Zapnout režim DND tlačítkem hlasitosti dolů</string>
+  <string name="volbtn_up_zen_title">Hlasitost nahoru v DND</string>
+  <string name="volbtn_up_zen_summary">Vypnout režim DND tlačítkem hlasitosti nahoru</string>
+  <string name="volume_keys_control_media_stream_title">Ovládat hlasitost médií</string>
+  <string name="volume_keys_control_media_stream_summary">Panel hlasitosti ve výchozím nastavení zobrazí posuvník hlasitosti médií</string>
+  <string name="volume_rocker_music_controls_title">Ovládání přehrávání</string>
+  <string name="volume_rocker_music_controls_summary">Tlačítka hlasitosti přepínají skladby na uzamčeném zařízení</string>
+  <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+  <string name="volume_rocker_wake_summary">Probuzení zařízení tlačítky hlasitosti</string>
   <!-- Color Picker -->
   <string name="color_default">Výchozí</string>
   <string name="dialog_color_picker">Výběr barvy</string>
@@ -24,23 +40,88 @@
   <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
   <string name="set">Nastavit</string>
   <!-- General strings -->
+  <string name="cancel">Zrušit</string>
+  <string name="ok">OK</string>
   <string name="reset">Resetovat</string>
   <string name="save">Uložit</string>
   <!-- Gestures -->
+  <string name="gestures_title">Gesta</string>
+  <string name="dt2s_category">Uspat dvojím poklepáním</string>
+  <string name="double_tap_sleep_lockscreen">Dvojí poklepání na uzamčenou obrazovku</string>
+  <string name="double_tap_sleep_lockscreen_summary">Dvojí poklepání na zamykací obrazovce uspe zařízení</string>
+  <string name="double_tap_sleep_navbar">Dvojí poklepání na navigační panel</string>
+  <string name="double_tap_sleep_navbar_summary">Dvojí poklepání na navigační panel uspe zařízení</string>
+  <string name="double_tap_to_sleep_title">Dvojí poklepání na stavovou lištu</string>
+  <string name="double_tap_to_sleep_summary">Dvojí poklepání na stavovou lištu uspe zařízení</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Zamykací obrazovka</string>
+  <string name="lockscreen_tuner_title">Zkratky na zamykací obrazovce</string>
+  <string name="lockscreen_tuner_summary">Nastavit zkratky v dolní části zamykací obrazovky</string>
+  <string name="media_art_title">Obal alba</string>
+  <string name="media_art_summary">Povolit obaly alba na zamykací obrazovce</string>
   <!-- Misc -->
   <string name="misc_title">Různé</string>
+  <string name="dashboard_category">Hlavní panel</string>
+  <string name="dashboard_conditions_title">Podmínky hlavního panelu</string>
+  <string name="summary_dashboard_suggestions_enabled">Zapnuto</string>
+  <string name="summary_dashboard_suggestions_disabled">Vypnuto</string>
   <string name="summary_dashboard_conditions_disabled">Vypnuto</string>
   <string name="summary_dashboard_conditions_enabled">Zapnuto</string>
   <!-- Navbar -->
+  <string name="navbar_title">Navigační panel</string>
+  <string name="navbar_tuner_title">Tlačítka navigačního panelu</string>
+  <string name="navbar_tuner_summary">Konfigurovat nastavení navigačního panelu</string>
   <!-- Notifications -->
+  <string name="notifications_title">Oznámení</string>
+  <string name="ime_switcher_notify">Oznámení metody zadávání</string>
+  <string name="ime_switcher_notify_summary">Zobrazit oznámení voliče IME</string>
   <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
+  <string name="screenshot_sound_summary">Přehraje zvukový efekt při snímku obrazovky</string>
   <!-- Power -->
+  <string name="powermenu_title">Nabídka tlačítka Vypnout</string>
+  <string name="powermenu_category">Obsah nabídky tlačítka Vypnout</string>
+  <string name="power_look">Vzhled nabídky tlačítka Vypnout</string>
+  <string name="powermenu_airplane">Letadlo</string>
+  <string name="powermenu_lockdown">Zamknout</string>
+  <string name="powermenu_power">Napájení</string>
+  <string name="powermenu_restart">Restart</string>
+  <string name="powermenu_restart_recovery">Rozšířený restart</string>
   <string name="powermenu_screenshot">Snímek obrazovky</string>
+  <string name="powermenu_settings">Nastavení</string>
+  <string name="powermenu_soundpanel">Panel hlasitosti</string>
+  <string name="powermenu_users">Uživatelé</string>
+  <string name="power">Vychytávky nabídky tlačítka Vypnout</string>
+  <string name="power_menu_transparency">Neprůhlednost nabídky tlačítka Vypnout</string>
   <!-- QS -->
+  <string name="quicksettings_title">Rychlá nastavení</string>
+  <string name="qs_category">QS dlaždice</string>
+  <string name="pulldown_category">Rozbalení lišty</string>
+  <string name="brightness_category">Jas</string>
+  <string name="brightness_icon_title">Ikona jasu</string>
+  <string name="brightness_icon_summary">Zobrazit ikonu jasu na levé straně posuvníku k přepnutí automatického jasu</string>
+  <string name="qqs_scroll_title">Rolování malých dlaždic QS</string>
+  <string name="qqs_scroll_summary">Umožňuje rolování malých dlaždic QS</string>
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
+  <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu QS</string>
+  <string name="qs_columns_landscape_title">Sloupce - na šířku</string>
+  <string name="qs_columns_portrait_title">Sloupce - na výšku</string>
+  <string name="qs_music_tile_track_optional_title">Dlaždice hudby</string>
+  <string name="qs_music_tile_track_optional_summary">Zobrazit hudbu jako QS dlaždici</string>
+  <string name="qs_rows_columns_title">Řady a sloupce</string>
+  <string name="qs_rows_columns_summary">Upravit počet QS řad a sloupců</string>
+  <string name="qs_rows_landscape_title">Řady - na šířku</string>
+  <string name="qs_rows_portrait_title">Řady - na výšku</string>
+  <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
+  <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
+  <string name="smart_pulldown_none">žádné oznámení</string>
+  <string name="smart_pulldown_none_summary">Rozbalí QS pokud nejsou přítomny žádné oznámení</string>
+  <string name="smart_pulldown_off">Vypnuto</string>
+  <string name="smart_pulldown_ongoing">žádné probíhající</string>
+  <string name="smart_pulldown_summary">Rozbalí QS pokud jsou přítomny %1$s oznámení</string>
+  <string name="status_bar_quick_qs_pulldown">Rychlé vysunutí nabídky</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Potáhnutím dolů na pravé straně stavové lišty rozbalit panel QS</string>
   <!-- Recents -->
+  <string name="recents_title">Nedávné aplikace</string>
   <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
   <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
   <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
@@ -48,7 +129,25 @@
   <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
   <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
   <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+  <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+  <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
+  <!-- Seekbar -->
+  <string name="seekbar_default_string">Výchozí</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">Stavová lišta</string>
+  <string name="battery_saver_color_title">Barva spořiče baterie</string>
+  <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty/navigačního panelu při aktivaci spořiče baterie</string>
+  <string name="bluetooth_battery_title">Stav baterie Bluetooth</string>
+  <string name="bluetooth_battery_summary">Zobrazit stav baterie aktuálně připojeného bluetooth zařízení, je-li dostupné</string>
   <string name="network_traffic_state_title">Síťový provoz</string>
+  <string name="network_traffic_state_summary">Zobrazit aktivitu využití dat ve stavové liště</string>
   <string name="statusbar_items_title">Ikony stavového řádku</string>
+  <string name="statusbar_items_summary">Nastavit vzhled stavové lišty</string>
+  <string name="battery_bar_title">Pruh baterie</string>
+  <string name="battery_bar_position_title">Poloha</string>
+  <string name="battery_bar_position_statusbar">Stavová lišta</string>
+  <string name="battery_bar_animate_title">Animace nabíjení</string>
+  <string name="battery_bar_style_regular">Klasické</string>
+  <string name="battery_bar_style_center_mirrored">Zrcadlově na střed</string>
+  <string name="battery_bar_style_reversed">Obrácené</string>
 </resources>

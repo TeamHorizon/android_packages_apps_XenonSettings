@@ -32,6 +32,7 @@
   <string name="powermenu_screenshot">Snimka zaslona</string>
   <!-- QS -->
   <!-- Recents -->
+  <!-- Seekbar -->
   <!-- Statusbar -->
   <string name="statusbar_items_title">Ikone u statusnoj traci</string>
 </resources>

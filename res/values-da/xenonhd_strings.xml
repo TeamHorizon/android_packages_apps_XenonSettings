@@ -23,6 +23,8 @@
   <!-- Gestures -->
   <!-- Lockscreen -->
   <!-- Misc -->
+  <string name="summary_dashboard_suggestions_enabled">Aktiveret</string>
+  <string name="summary_dashboard_suggestions_disabled">Deaktiveret</string>
   <string name="summary_dashboard_conditions_disabled">Deaktiveret</string>
   <string name="summary_dashboard_conditions_enabled">Aktiveret</string>
   <!-- Navbar -->
@@ -31,6 +33,12 @@
   <!-- QS -->
   <string name="qs_brightness_slider_title">Lysstyrkeniveau</string>
   <!-- Recents -->
+  <!-- Seekbar -->
   <!-- Statusbar -->
   <string name="statusbar_items_title">Statuslinje ikoner</string>
+  <string name="battery_bar_title">Batteri-indikator</string>
+  <string name="battery_bar_animate_title">Opladning animation</string>
+  <string name="battery_bar_style_regular">Regulær</string>
+  <string name="battery_bar_style_center_mirrored">Center-spejlet</string>
+  <string name="battery_bar_style_reversed">Omvendt</string>
 </resources>
