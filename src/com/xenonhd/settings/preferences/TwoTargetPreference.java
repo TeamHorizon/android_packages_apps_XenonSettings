@@ -49,7 +49,7 @@ public class TwoTargetPreference extends Preference {
     }
 
     private void init() {
-        setLayoutResource(R.layout.preference_two_target);
+        setLayoutResource(R.layout.xenonhd_two_target);
         final int secondTargetResId = getSecondTargetResId();
         if (secondTargetResId != 0) {
             setWidgetLayoutResource(secondTargetResId);
