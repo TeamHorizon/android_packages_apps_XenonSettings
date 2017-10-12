@@ -57,13 +57,13 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
 
     public SeekBarPreferenceCham(Context context, AttributeSet attrs) {
         super(context, attrs);
-        setLayoutResource(R.layout.seek_bar_preference);
+        setLayoutResource(R.layout.xenonhd_seekbar_preference);
         setValuesFromXml(attrs, context);
     }
 
     public SeekBarPreferenceCham(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-        setLayoutResource(R.layout.seek_bar_preference);
+        setLayoutResource(R.layout.xenonhd_seekbar_preference);
         setValuesFromXml(attrs, context);
     }
 
@@ -184,7 +184,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
 
         LayoutInflater mInflater = (LayoutInflater) getContext()
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        mPopupValue = (TextView) mInflater.inflate(R.layout.seek_bar_value_popup, null, false);
+        mPopupValue = (TextView) mInflater.inflate(R.layout.xenonhd_seekbar_value_popup, null, false);
         mPopupValue.getViewTreeObserver().addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
                 @Override
                 public void onGlobalLayout() {

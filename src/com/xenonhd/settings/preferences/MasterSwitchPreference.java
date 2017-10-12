@@ -54,7 +54,7 @@ public class MasterSwitchPreference extends TwoTargetPreference {
 
     @Override
     protected int getSecondTargetResId() {
-        return R.layout.preference_widget_master_switch;
+        return R.layout.xenonhd_widget_master_switch;
     }
 
     @Override
