@@ -17,32 +17,40 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.xenonhd.settings.preferences.CustomSeekBarPreference
+    <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_rows_portrait"
         android:title="@string/qs_rows_portrait_title"
         android:max="5"
-        settings:min="1"
-        settings:units="" />
+        android:min="1"
+        settings:unitsLeft=""
+        settings:unitsRight=""
+        android:defaultValue="2" />
 
-    <com.xenonhd.settings.preferences.CustomSeekBarPreference
+    <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_rows_landscape"
         android:title="@string/qs_rows_landscape_title"
         android:max="3"
-        settings:min="1"
-        settings:units="" />
+        android:min="1"
+        settings:unitsLeft=""
+        settings:unitsRight=""
+        android:defaultValue="1" />
 
-    <com.xenonhd.settings.preferences.CustomSeekBarPreference
+    <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_columns_portrait"
         android:title="@string/qs_columns_portrait_title"
         android:max="7"
-        settings:min="1"
-        settings:units="" />
+        android:min="1"
+        settings:unitsLeft=""
+        settings:unitsRight=""
+        android:defaultValue="3" />
 
-    <com.xenonhd.settings.preferences.CustomSeekBarPreference
+    <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
         android:key="qs_columns_landscape"
         android:title="@string/qs_columns_landscape_title"
         android:max="9"
-        settings:min="1"
-        settings:units="" />
+        android:min="1"
+        settings:unitsLeft=""
+        settings:unitsRight=""
+        android:defaultValue="5" />
 
 </PreferenceScreen>
