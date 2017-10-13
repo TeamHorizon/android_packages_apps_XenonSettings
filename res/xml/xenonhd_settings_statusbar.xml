@@ -60,13 +60,15 @@
         android:summary="@string/network_traffic_state_summary"
         android:defaultValue="false" />
 
-    <com.xenonhd.settings.preferences.CustomSeekBarPreference
-        android:key="network_traffic_autohide_threshold"
-        android:title="@string/network_traffic_autohide_threshold_title"
-        android:max="10"
-        settings:min="0"
-        settings:units="KB/s" 
-        android:dependency="network_traffic_state" />
+    <com.xenonhd.settings.preferences.SystemSettingSeekBarPreference
+       android:key="network_traffic_autohide_threshold"
+       android:title="@string/network_traffic_autohide_threshold_title"
+       android:max="10"
+       android:min="0"
+       settings:unitsLeft=""
+       settings:unitsRight="KB/s"
+       android:defaultValue="0"
+       android:dependency="network_traffic_state" />
 
     </PreferenceCategory>
 </PreferenceScreen>
