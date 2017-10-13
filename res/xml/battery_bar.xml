@@ -29,12 +29,12 @@
     <com.xenonhd.settings.preferences.SystemSettingColorPickerPreference
         android:key="statusbar_battery_bar_color"
         android:title="@string/battery_bar_color_title"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="0xff029789" />
 
     <com.xenonhd.settings.preferences.SystemSettingColorPickerPreference
         android:key="statusbar_battery_bar_battery_low_color"
         android:title="@string/battery_bar_battery_low_color_title"
-        android:defaultValue="0xffffffff" />
+        android:defaultValue="0xffff0000" />
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_enable_charging_color"
@@ -44,8 +44,13 @@
     <com.xenonhd.settings.preferences.SystemSettingColorPickerPreference
         android:key="statusbar_battery_bar_charging_color"
         android:title="@string/battery_bar_charging_color_title"
-        android:defaultValue="0xffffff00"
+        android:defaultValue="0xff00ff00"
         android:dependency="statusbar_battery_bar_enable_charging_color" />
+
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="statusbar_battery_bar_animate"
+        android:title="@string/battery_bar_animate_title"
+        android:defaultValue="false" />
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="statusbar_battery_bar_blend_color"
@@ -75,10 +80,5 @@
         android:defaultValue="2"
         settings:unitsLeft=""
         settings:unitsRight="dp" />
-
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="statusbar_battery_bar_animate"
-        android:title="@string/battery_bar_animate_title"
-        android:defaultValue="false" />
 
 </PreferenceScreen>
