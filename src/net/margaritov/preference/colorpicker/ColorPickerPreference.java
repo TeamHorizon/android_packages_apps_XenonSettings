@@ -23,21 +23,20 @@ import android.content.res.TypedArray;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
 import android.graphics.Color;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.OvalShape;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v7.preference.*;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceViewHolder;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
-import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.android.settings.R;
+import com.xenonhd.settings.R;
 
 /**
  * A preference type that allows a user to choose a time
@@ -47,19 +46,20 @@ import com.android.settings.R;
 public class ColorPickerPreference extends Preference implements
         Preference.OnPreferenceClickListener, ColorPickerDialog.OnColorChangedListener {
 
-    PreferenceViewHolder mView;
-    ColorPickerDialog mDialog;
-    LinearLayout widgetFrameView;
+    private ColorPickerDialog mDialog;
+    private LinearLayout widgetFrameView;
     private int mValue = Color.BLACK;
     private float mDensity = 0;
-    private boolean mAlphaSliderEnabled = false;
-    private boolean mEnabled = true;
+    private boolean mAlphaSliderEnabled = true;
 
-    // if we return -6, button is not enabled
-    static final String SETTINGS_NS = "http://schemas.android.com/apk/res/com.android.settings";
-    static final int DEF_VALUE_DEFAULT = -6;
-    boolean mUsesDefaultButton = false;
-    int mDefValue = -1;
+    // if android:defaultValue is not set, button is not enabled
+    private static final String SETTINGS = "http://schemas.android.com/apk/res/com.android.settings";
+    private static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
+    private static final int DEF_VALUE_DEFAULT = -6;
+    private static final int DEF_VALUE_DEFAULT_CHECK = -7; // != DEF_VALUE_DEFAULT
+    private boolean mUsesDefaultButton = false;
+    private int mDefValue = -1;
+    private boolean mAutoSummary = false;
 
     private EditText mEditText;
 
@@ -85,7 +85,8 @@ public class ColorPickerPreference extends Preference implements
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        onColorChanged(restoreValue ? getPersistedInt(mValue) : (Integer) defaultValue);
+        onColorChanged(restoreValue ? getPersistedInt((Integer) defaultValue)
+                : (Integer) defaultValue);
     }
 
     private void init(Context context, AttributeSet attrs) {
@@ -93,28 +94,25 @@ public class ColorPickerPreference extends Preference implements
         setOnPreferenceClickListener(this);
         if (attrs != null) {
             mAlphaSliderEnabled = attrs.getAttributeBooleanValue(null, "alphaSlider", false);
-            int defVal = attrs.getAttributeIntValue(SETTINGS_NS, "defaultColorValue", DEF_VALUE_DEFAULT);
+            int defVal = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", DEF_VALUE_DEFAULT);
             if (defVal != DEF_VALUE_DEFAULT) {
-                mUsesDefaultButton =  true;
+                mUsesDefaultButton = true;
+            } else {
+                int defValCheck = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue",
+                        DEF_VALUE_DEFAULT_CHECK);
+                mUsesDefaultButton = defValCheck == defVal;
+            }
+            if (mUsesDefaultButton) {
                 mDefValue = defVal;
             }
         }
     }
 
     @Override
-    public void onBindViewHolder(PreferenceViewHolder view) {
-        mView = view;
-        super.onBindViewHolder(view);
+    public void onBindViewHolder(PreferenceViewHolder holder) {
+        super.onBindViewHolder(holder);
 
-        view.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                showDialog(null);
-            }
-        });
-
-        widgetFrameView = ((LinearLayout) view
-                .findViewById(android.R.id.widget_frame));
+        widgetFrameView = (LinearLayout) holder.findViewById(android.R.id.widget_frame);
 
         if (mUsesDefaultButton) {
             setDefaultButton();
@@ -130,11 +128,6 @@ public class ColorPickerPreference extends Preference implements
      * @author Randall Rushing aka Bigrushdog
      */
     private void setDefaultButton() {
-        if (mView == null)
-            return;
-
-        LinearLayout widgetFrameView = ((LinearLayout) mView
-                .findViewById(android.R.id.widget_frame));
         if (widgetFrameView == null)
             return;
 
@@ -161,10 +154,11 @@ public class ColorPickerPreference extends Preference implements
         defView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (!isEnabled()) {
+                    return;
+                }
                 try {
-                    getOnPreferenceChangeListener().onPreferenceChange(ColorPickerPreference.this,
-                            Integer.valueOf(mDefValue));
-                    onColorChanged(mDefValue);
+                    onColorChanged(Integer.valueOf(mDefValue));
                 } catch (NullPointerException e) {
                 }
             }
@@ -179,12 +173,13 @@ public class ColorPickerPreference extends Preference implements
     }
 
     private void setPreviewColor() {
-        if (mView == null)
-            return;
+
+        // Dynamic summary
+        if (mAutoSummary || TextUtils.isEmpty(getSummary())) {
+            setSummary(convertToARGB(mValue), true);
+        }
 
         ImageView iView = new ImageView(getContext());
-        LinearLayout widgetFrameView = ((LinearLayout) mView
-                .findViewById(android.R.id.widget_frame));
         if (widgetFrameView == null)
             return;
 
@@ -205,27 +200,47 @@ public class ColorPickerPreference extends Preference implements
         }
         widgetFrameView.addView(iView);
         widgetFrameView.setMinimumWidth(0);
-        final int size = (int) getContext().getResources().getDimension(R.dimen.picker_circle_preview_size);
-        final int imageColor = ((mValue & 0xF0F0F0) == 0xF0F0F0) ?
-                (mValue - 0x101010) : mValue;
-        iView.setImageDrawable(createOvalShape(size, 0xFF000000 + imageColor));
+        iView.setBackgroundDrawable(new AlphaPatternDrawable((int) (5 * mDensity)));
+        iView.setImageBitmap(getPreviewBitmap());
         iView.setTag("preview");
+        /*
         iView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (mEnabled) {
-                    showDialog(null);
-                }
+                showDialog(null);
             }
         });
+        */
     }
 
     @Override
-    public void setEnabled(boolean enabled) {
-        super.setEnabled(enabled);
-        if (mEnabled != enabled) {
-            mEnabled = enabled;
+    public void setSummary(CharSequence summary) {
+        setSummary(summary, false);
+    }
+
+    private void setSummary(CharSequence summary, boolean autoSummary) {
+        mAutoSummary = autoSummary;
+        super.setSummary(summary);
+    }
+
+    private Bitmap getPreviewBitmap() {
+        int d = (int) (mDensity * 31); // 30dip
+        int color = mValue;
+        Bitmap bm = Bitmap.createBitmap(d, d, Config.ARGB_8888);
+        int w = bm.getWidth();
+        int h = bm.getHeight();
+        int c = color;
+        for (int i = 0; i < w; i++) {
+            for (int j = i; j < h; j++) {
+                c = (i <= 1 || j <= 1 || i >= w - 2 || j >= h - 2) ? Color.GRAY : color;
+                bm.setPixel(i, j, c);
+                if (i != j) {
+                    bm.setPixel(j, i, c);
+                }
+            }
         }
+
+        return bm;
     }
 
     @Override
@@ -246,7 +261,7 @@ public class ColorPickerPreference extends Preference implements
     }
 
     public boolean onPreferenceClick(Preference preference) {
-        //showDialog(null);
+        showDialog(null);
         return false;
     }
 
@@ -260,8 +275,6 @@ public class ColorPickerPreference extends Preference implements
             mDialog.onRestoreInstanceState(state);
         }
         mDialog.show();
-        mDialog.getWindow().setSoftInputMode(
-                android.view.WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
     }
 
 
@@ -282,10 +295,6 @@ public class ColorPickerPreference extends Preference implements
      */
     public void setNewPreviewColor(int color) {
         onColorChanged(color);
-    }
-
-    public void setDefaultColor(int color) {
-        mDefValue = color;
     }
 
     /**
@@ -404,13 +413,5 @@ public class ColorPickerPreference extends Preference implements
                 return new SavedState[size];
             }
         };
-    }
-
-    private static ShapeDrawable createOvalShape(int size, int color) {
-        ShapeDrawable shape = new ShapeDrawable(new OvalShape());
-        shape.setIntrinsicHeight(size);
-        shape.setIntrinsicWidth(size);
-        shape.getPaint().setColor(color);
-        return shape;
     }
 }

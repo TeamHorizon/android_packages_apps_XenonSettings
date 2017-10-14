@@ -29,7 +29,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.android.settings.R;
+import com.xenonhd.settings.R;
 
 public class ColorPickerDialog
         extends
@@ -81,8 +81,6 @@ public class ColorPickerDialog
         View layout = inflater.inflate(R.layout.xenonhd_dialog_color_picker, null);
 
         setContentView(layout);
-
-        setTitle(R.string.dialog_color_picker);
 
         mColorPicker = (ColorPickerView) layout.findViewById(R.id.color_picker_view);
         mOldColor = (ColorPickerPanelView) layout.findViewById(R.id.old_color_panel);
