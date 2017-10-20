@@ -20,6 +20,18 @@
 
     <PreferenceCategory
         android:key="gestures_category"
+        android:title="@string/gestures_title" >
+
+    <Preference
+        android:key="gesture_preferences"
+        android:title="@string/gesture_preferences_title"
+        android:summary="@string/gesture_preferences_summary"
+        android:fragment="com.android.settings.system.GesturesFragment" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="dt2s_category"
         android:title="@string/dt2s_category" >
 
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
@@ -41,11 +53,4 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
-
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="pocket_judge"
-        android:title="@string/pocket_judge_title"
-        android:summary="@string/pocket_judge_summary"
-        android:defaultValue="false" />
-
 </PreferenceScreen>
