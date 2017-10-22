@@ -21,15 +21,19 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.xenonhd.settings.preferences.Utils;
+
 import java.util.List;
 import java.util.ArrayList;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String PREF_BRIGHTNESS_ICON_POSITION = "brightness_icon_position";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
 
     private ListPreference mSmartPulldown;
+    private SwitchPreference mBrightnessIconPosition;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -47,6 +51,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
 
+        mBrightnessIconPosition = (SwitchPreference) findPreference(PREF_BRIGHTNESS_ICON_POSITION);
+        mBrightnessIconPosition.setOnPreferenceChangeListener(this);
         }
 
     @Override
@@ -58,8 +64,17 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             updateSmartPulldownSummary(smartPulldown);
             return true;
         }
+        if (preference == mBrightnessIconPosition) {
+            Utils.showSystemUiRestartDialog(getContext());
+            return true;
+        }
 
         return false;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        return super.onPreferenceTreeClick(preference);
     }
 
     private void updateSmartPulldownSummary(int value) {

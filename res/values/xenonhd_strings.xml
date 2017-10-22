@@ -50,6 +50,8 @@
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="save">Save</string>
+    <string name="systemui_restart_title">SystemUI restart required</string>
+    <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
 
     <!-- Gestures -->
     <string name="gestures_title">Gestures</string>
