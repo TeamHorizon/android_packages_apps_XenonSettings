@@ -38,7 +38,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Captura de ecrã</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Controlo do brilho</string>
+  <string name="brightness_slider_switch">Controlo do brilho</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">Predefinida</string>

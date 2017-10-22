@@ -41,7 +41,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Képernyőkép</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Fényerő csúszka</string>
+  <string name="brightness_slider_switch">Fényerő csúszka</string>
   <!-- Recents -->
   <string name="recents_clear_all_location_title">Összes törlése gomb helye</string>
   <string name="recents_clear_all_location_bottom_center">Alul középen</string>

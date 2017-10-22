@@ -16,10 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHD 設定</string>
   <string name="xenonhd_settings_summary">附加選項</string>
   <!-- Buttons -->
   <string name="button_title">按鈕</string>
   <string name="volume_title">音量鍵</string>
+  <string name="swap_volume_buttons">交換音量按鈕</string>
+  <string name="swap_volume_buttons_summary">根據裝置旋轉交換音量按鈕</string>
+  <string name="volbtn_down_zen_title">降低 DND 音量</string>
+  <string name="volbtn_down_zen_summary">開啟勿干擾模式與音量降低</string>
+  <string name="volbtn_up_zen_title">增加 DND 音量</string>
+  <string name="volbtn_up_zen_summary">關閉勿干擾模式與音量增加</string>
+  <string name="volume_keys_control_media_stream_title">控制媒體音量</string>
+  <string name="volume_keys_control_media_stream_summary">音量面板預設顯示媒體音量滑動條</string>
+  <string name="volume_rocker_music_controls_title">播放控制</string>
+  <string name="volume_rocker_music_controls_summary">音量按鈕將在鎖定的裝置上更改音樂曲目</string>
+  <string name="volume_rocker_wake_title">音量鍵喚醒</string>
+  <string name="volume_rocker_wake_summary">喚醒裝置與音量按鈕</string>
   <!-- Color Picker -->
   <string name="color_default">預設</string>
   <string name="dialog_color_picker">顏色選擇器</string>
@@ -27,25 +40,101 @@
   <string name="press_color_to_apply">輕觸下方顏色以套用</string>
   <string name="set">設定</string>
   <!-- General strings -->
+  <string name="cancel">取消</string>
+  <string name="ok">確定</string>
   <string name="reset">重設</string>
   <string name="save">儲存</string>
   <!-- Gestures -->
+  <string name="gestures_title">手勢</string>
+  <string name="dt2s_category">輕觸兩下即可休眠</string>
+  <string name="double_tap_sleep_lockscreen">輕觸兩下鎖定畫面</string>
+  <string name="double_tap_sleep_lockscreen_summary">輕觸兩下鎖定畫面即可裝置休眠</string>
+  <string name="double_tap_sleep_navbar">在導覽列輕觸兩下休眠</string>
+  <string name="double_tap_sleep_navbar_summary">輕觸兩下導覽列即可裝置休眠</string>
+  <string name="double_tap_to_sleep_title">狀態列輕觸兩下休眠</string>
+  <string name="double_tap_to_sleep_summary">輕觸兩下狀態列即可裝置休眠</string>
+  <string name="pocket_judge_title">口袋檢測</string>
+  <string name="pocket_judge_summary">當裝置在口袋中時阻止螢幕和按鈕輸入</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">鎖定畫面</string>
+  <string name="lockscreen_tuner_title">鎖定畫面捷徑</string>
+  <string name="lockscreen_tuner_summary">在鎖定畫面底部設定捷徑</string>
+  <string name="media_art_title">媒體封面</string>
+  <string name="media_art_summary">在鎖定畫面上顯示媒體封面</string>
+  <string name="lockscreen_qs_disabled_title">鎖定時無快速設定</string>
+  <string name="lockscreen_qs_disabled_summary">在安全鎖定畫面上停用快速設定圖塊</string>
   <!-- Misc -->
   <string name="misc_title">其他事項</string>
+  <string name="dashboard_category">面板</string>
+  <string name="dashboard_conditions_title">面板條件</string>
+  <string name="dashboard_suggestions_title">面板建議</string>
   <string name="summary_dashboard_suggestions_enabled">已啟用</string>
   <string name="summary_dashboard_suggestions_disabled">已停用</string>
   <string name="summary_dashboard_conditions_disabled">已停用</string>
   <string name="summary_dashboard_conditions_enabled">已啟用</string>
+  <string name="toast_icon_title">提示應用程式圖示</string>
+  <string name="toast_icon_summary">顯示與提示訊息相關的應用程式圖示</string>
   <!-- Navbar -->
+  <string name="navbar_title">導覽列</string>
+  <string name="navbar_tuner_title">導覽列按鈕</string>
+  <string name="navbar_tuner_summary">配置導覽列設定</string>
   <!-- Notifications -->
+  <string name="notifications_title">通知</string>
+  <string name="ime_switcher_notify">輸入法選擇通知</string>
+  <string name="ime_switcher_notify_summary">顯示輸入法編輯器選擇通知</string>
   <string name="screenshot_sound_title">螢幕擷取音效</string>
+  <string name="screenshot_sound_summary">擷取螢幕畫面時播放音效</string>
   <!-- Power -->
+  <string name="powermenu_title">電源選單</string>
+  <string name="powermenu_category">電源選單選項</string>
+  <string name="power_look">電源選單外觀</string>
+  <string name="powermenu_airplane">飛航模式</string>
+  <string name="powermenu_lockdown">立即鎖定</string>
+  <string name="powermenu_power">關機</string>
+  <string name="powermenu_restart">重新啟動</string>
+  <string name="powermenu_restart_recovery">進階重新啟動</string>
   <string name="powermenu_screenshot">螢幕截圖</string>
+  <string name="powermenu_settings">設定</string>
+  <string name="powermenu_soundpanel">音效面板</string>
+  <string name="powermenu_users">使用者</string>
+  <string name="power">電源選單調整</string>
+  <string name="power_menu_transparency">電源選單不透明度</string>
+  <string name="power_menu_dialog_dim">對話方塊背景明暗程度</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">亮度滑桿</string>
+  <string name="quicksettings_title">快速設定</string>
+  <string name="qs_category">快速設定圖塊</string>
+  <string name="pulldown_category">下拉</string>
+  <string name="brightness_category">亮度</string>
+  <string name="qqs_scroll_title">滾動快速設定小圖塊</string>
+  <string name="qqs_scroll_summary">允許滾動快速設定小圖塊</string>
+  <string name="qs_columns_landscape_title">列 - 橫</string>
+  <string name="qs_columns_portrait_title">列 - 縱</string>
+  <string name="qs_music_tile_track_optional_title">音樂圖塊曲目標題</string>
+  <string name="qs_music_tile_track_optional_summary">將音樂曲目標題顯示為快速設定圖塊標題</string>
+  <string name="qs_rows_columns_title">行和列</string>
+  <string name="qs_rows_columns_summary">調整快速設定的行和列的數目</string>
+  <string name="qs_rows_landscape_title">行 - 橫</string>
+  <string name="qs_rows_portrait_title">行 - 縱</string>
+  <string name="smart_pulldown_title">智慧下拉</string>
+  <string name="smart_pulldown_dismissable">沒有可解除</string>
+  <string name="smart_pulldown_none">沒有通知</string>
+  <string name="smart_pulldown_none_summary">展開快速設定面板時沒有通知</string>
+  <string name="smart_pulldown_off">關</string>
+  <string name="smart_pulldown_ongoing">沒有正在進行</string>
+  <string name="smart_pulldown_summary">展開快速設定面板時 %1$s 通知</string>
+  <string name="status_bar_quick_qs_pulldown">快速下拉</string>
+  <string name="status_bar_quick_qs_pulldown_summary">向下拉狀態列的右側以展開快速設定面板</string>
+  <string name="qs_footer_warnings_title">快速設定頁尾警告</string>
+  <string name="qs_footer_warnings_summary">當網路被 VPN 或者應用程式監測時，在快速設定底部顯示一個警告。</string>
+  <string name="qs_tile_title_visibility_title">顯示圖塊標題</string>
+  <string name="qs_tile_title_visibility_summary">顯示圖塊下的標題</string>
+  <string name="brightness_slider_switch">亮度滑桿</string>
+  <string name="brightness_icon_title">亮度圖示</string>
+  <string name="brightness_icon_position_title">亮度圖示的位置</string>
+  <string name="brightness_icon_position_on_summary">在右側</string>
+  <string name="brightness_icon_position_off_summary">在左側</string>
   <!-- Recents -->
+  <string name="recents_title">最近使用的應用程式</string>
   <string name="recents_clear_all_location_title">全部清除按鈕位置</string>
   <string name="recents_clear_all_location_bottom_center">底部置中</string>
   <string name="recents_clear_all_location_bottom_left">左下</string>
@@ -53,15 +142,42 @@
   <string name="recents_clear_all_location_top_center">頂部置中</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_right">右上</string>
+  <string name="show_clear_all_recents_button_title">清除所有按鈕</string>
+  <string name="show_clear_all_recents_button_summary">顯示清除全部按鈕</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">未設定預設值</string>
+  <string name="seekbar_default_value_set">設定預設值為 <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">已設定預設值</string>
   <string name="seekbar_default_string">預設</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">狀態列</string>
+  <string name="battery_saver_color_title">省電模式顏色</string>
+  <string name="battery_saver_color_summary">在省電模式啟動時，啟用橙色的狀態和導覽列</string>
+  <string name="bluetooth_battery_title">藍牙電池狀態</string>
+  <string name="bluetooth_battery_summary">顯示目前連接的藍牙裝置的電池狀態 (如果可用)。</string>
+  <string name="network_traffic_autohide_threshold_title">網路流量自動隱藏下限</string>
   <string name="network_traffic_state_title">網路流量</string>
+  <string name="network_traffic_state_summary">在狀態列中顯示網路活動</string>
   <string name="statusbar_items_title">狀態列圖示</string>
+  <string name="statusbar_items_summary">設定狀態列的外觀</string>
   <string name="battery_bar_title">電量列</string>
+  <string name="battery_bar_summary">電量列配置</string>
   <string name="battery_bar_position_title">定位</string>
+  <string name="battery_bar_position_hidden">隱藏</string>
+  <string name="battery_bar_position_statusbar">狀態列</string>
+  <string name="battery_bar_color_title">顏色</string>
+  <string name="battery_bar_charging_color_title">充電時的顏色</string>
+  <string name="battery_bar_battery_low_color_title">電量不足時的顏色</string>
+  <string name="battery_bar_style_title">對齊方式</string>
+  <string name="battery_bar_thickness_title">粗度</string>
   <string name="battery_bar_animate_title">充電動畫</string>
   <string name="battery_bar_style_regular">一般</string>
   <string name="battery_bar_style_center_mirrored">對稱中央</string>
   <string name="battery_bar_style_reversed">反向</string>
+  <string name="battery_bar_use_charging_color_title">自訂充電時的顏色</string>
+  <string name="battery_bar_blend_color_title">混合顏色</string>
+  <string name="battery_bar_blend_color_summary">根據電量百分比混合滿/空顏色</string>
+  <string name="battery_bar_blend_color_reverse_title">反轉顏色方向</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">滿 &#8594; 空：紅 &#8592; 綠 &#8592; 藍 &#8592; 紅</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">滿 &#8594; 空：紅 &#8594; 綠 &#8594; 藍 &#8594; 紅</string>
 </resources>

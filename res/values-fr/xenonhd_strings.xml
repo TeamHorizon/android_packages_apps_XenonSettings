@@ -42,7 +42,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Capture d\'écran</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Curseur de luminosité</string>
+  <string name="brightness_slider_switch">Curseur de luminosité</string>
   <!-- Recents -->
   <string name="recents_clear_all_location_title">Position du bouton \"tout effacer\"</string>
   <string name="recents_clear_all_location_bottom_center">En bas au centre</string>

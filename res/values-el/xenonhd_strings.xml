@@ -35,7 +35,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Στιγμιότυπο οθόνης</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Μπάρα ρύθμισης φωτεινότητας</string>
+  <string name="brightness_slider_switch">Μπάρα ρύθμισης φωτεινότητας</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">Προεπιλεγμένο</string>

@@ -16,7 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Настройки XenonHD</string>
+  <string name="xenonhd_settings_summary">Дополнительные опции</string>
   <!-- Buttons -->
+  <string name="button_title">Кнопки</string>
+  <string name="volume_title">Кнопки громкости</string>
+  <string name="swap_volume_buttons">Поменять кнопки громкости местами</string>
+  <string name="swap_volume_buttons_summary">Поменять кнопки громкости местами соотв. с ориентацией ус-ва</string>
   <!-- Color Picker -->
   <string name="color_default">По умолчанию</string>
   <string name="dialog_color_picker">Выбор цвета</string>
@@ -24,9 +30,12 @@
   <string name="press_color_to_apply">Нажмите на цвет снизу, чтобы применить</string>
   <string name="set">Применить</string>
   <!-- General strings -->
+  <string name="cancel">Отмена</string>
+  <string name="ok">ОК</string>
   <string name="reset">Сброс</string>
   <string name="save">Сохранить</string>
   <!-- Gestures -->
+  <string name="gestures_title">Жесты</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Экран блокировки</string>
   <!-- Misc -->
@@ -39,9 +48,15 @@
   <!-- Notifications -->
   <string name="screenshot_sound_title">Звук скриншота</string>
   <!-- Power -->
+  <string name="powermenu_airplane">Режим полета</string>
+  <string name="powermenu_power">Питание</string>
+  <string name="powermenu_restart">Перезапуск</string>
+  <string name="powermenu_restart_recovery">Варианты перезагрузки</string>
   <string name="powermenu_screenshot">Скриншот</string>
+  <string name="powermenu_settings">Настройки</string>
+  <string name="powermenu_users">Пользователи</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Слайдер яркости</string>
+  <string name="brightness_slider_switch">Слайдер яркости</string>
   <!-- Recents -->
   <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
   <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>

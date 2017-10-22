@@ -37,7 +37,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Schermafdruk</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Helderheid schuifregelaar</string>
+  <string name="brightness_slider_switch">Helderheid schuifregelaar</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">Standaard</string>

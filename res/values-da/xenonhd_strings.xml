@@ -31,7 +31,7 @@
   <!-- Notifications -->
   <!-- Power -->
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Lysstyrkeniveau</string>
+  <string name="brightness_slider_switch">Lysstyrkeniveau</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <!-- Statusbar -->

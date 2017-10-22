@@ -21,11 +21,14 @@
   <string name="color_default">Förvalt</string>
   <string name="dialog_color_picker">Färgväljare</string>
   <string name="hex">Hex:</string>
+  <string name="press_color_to_apply">Tryck på en färg nedan för att tillämpa</string>
+  <string name="set">Ställ in</string>
   <!-- General strings -->
   <string name="reset">Återställ</string>
   <string name="save">Spara</string>
   <!-- Gestures -->
   <!-- Lockscreen -->
+  <string name="lockscreen_title">Låsskärm</string>
   <!-- Misc -->
   <string name="summary_dashboard_suggestions_enabled">Aktiverad</string>
   <string name="summary_dashboard_suggestions_disabled">Inaktiverad</string>
@@ -37,7 +40,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Skärmdump</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Ljusstyrkereglage</string>
+  <string name="brightness_slider_switch">Ljusstyrkereglage</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">Förvalt</string>

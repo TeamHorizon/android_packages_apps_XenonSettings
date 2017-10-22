@@ -29,7 +29,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Captură ecran</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Glisorul Luminozitati</string>
+  <string name="brightness_slider_switch">Glisorul Luminozitati</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">Prestabilit</string>

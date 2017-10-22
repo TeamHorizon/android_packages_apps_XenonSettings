@@ -40,7 +40,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">لقطة للشاشة</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">مزلاق السطوع</string>
+  <string name="brightness_slider_switch">مزلاق السطوع</string>
   <!-- Recents -->
   <string name="recents_clear_all_location_bottom_center">اسفل الوسط</string>
   <string name="recents_clear_all_location_bottom_left">اسفل اليسار</string>

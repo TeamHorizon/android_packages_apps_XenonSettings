@@ -53,20 +53,27 @@
   <string name="double_tap_sleep_navbar_summary">Dvojí poklepání na navigační panel uspe zařízení</string>
   <string name="double_tap_to_sleep_title">Dvojí poklepání na stavovou lištu</string>
   <string name="double_tap_to_sleep_summary">Dvojí poklepání na stavovou lištu uspe zařízení</string>
+  <string name="pocket_judge_title">Detekce uložení v kapse</string>
+  <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Zamykací obrazovka</string>
   <string name="lockscreen_tuner_title">Zkratky na zamykací obrazovce</string>
   <string name="lockscreen_tuner_summary">Nastavit zkratky v dolní části zamykací obrazovky</string>
   <string name="media_art_title">Obal alba</string>
   <string name="media_art_summary">Povolit obaly alba na zamykací obrazovce</string>
+  <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
+  <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
   <!-- Misc -->
   <string name="misc_title">Různé</string>
   <string name="dashboard_category">Hlavní panel</string>
   <string name="dashboard_conditions_title">Podmínky hlavního panelu</string>
+  <string name="dashboard_suggestions_title">Návrhy hlavního panelu</string>
   <string name="summary_dashboard_suggestions_enabled">Zapnuto</string>
   <string name="summary_dashboard_suggestions_disabled">Vypnuto</string>
   <string name="summary_dashboard_conditions_disabled">Vypnuto</string>
   <string name="summary_dashboard_conditions_enabled">Zapnuto</string>
+  <string name="toast_icon_title">Ikona aplikace Toast</string>
+  <string name="toast_icon_summary">Zobrazit ikonu aplikací v oznámení Toast</string>
   <!-- Navbar -->
   <string name="navbar_title">Navigační panel</string>
   <string name="navbar_tuner_title">Tlačítka navigačního panelu</string>
@@ -92,17 +99,14 @@
   <string name="powermenu_users">Uživatelé</string>
   <string name="power">Vychytávky nabídky tlačítka Vypnout</string>
   <string name="power_menu_transparency">Neprůhlednost nabídky tlačítka Vypnout</string>
+  <string name="power_menu_dialog_dim">Úroveň průhlednosti pozadí</string>
   <!-- QS -->
   <string name="quicksettings_title">Rychlá nastavení</string>
   <string name="qs_category">QS dlaždice</string>
   <string name="pulldown_category">Rozbalení lišty</string>
   <string name="brightness_category">Jas</string>
-  <string name="brightness_icon_title">Ikona jasu</string>
-  <string name="brightness_icon_summary">Zobrazit ikonu jasu na levé straně posuvníku k přepnutí automatického jasu</string>
   <string name="qqs_scroll_title">Rolování malých dlaždic QS</string>
   <string name="qqs_scroll_summary">Umožňuje rolování malých dlaždic QS</string>
-  <string name="qs_brightness_slider_title">Posuvník jasu</string>
-  <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu QS</string>
   <string name="qs_columns_landscape_title">Sloupce - na šířku</string>
   <string name="qs_columns_portrait_title">Sloupce - na výšku</string>
   <string name="qs_music_tile_track_optional_title">Dlaždice hudby</string>
@@ -120,6 +124,15 @@
   <string name="smart_pulldown_summary">Rozbalí QS pokud jsou přítomny %1$s oznámení</string>
   <string name="status_bar_quick_qs_pulldown">Rychlé vysunutí nabídky</string>
   <string name="status_bar_quick_qs_pulldown_summary">Potáhnutím dolů na pravé straně stavové lišty rozbalit panel QS</string>
+  <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu rychlého nastavení</string>
+  <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
+  <string name="qs_tile_title_visibility_title">Zobrazit názvy dlaždic</string>
+  <string name="qs_tile_title_visibility_summary">Zobrazit názvy pod dlaždicemi</string>
+  <string name="brightness_slider_switch">Posuvník jasu</string>
+  <string name="brightness_icon_title">Ikona jasu</string>
+  <string name="brightness_icon_position_title">Pozice ikony jasu</string>
+  <string name="brightness_icon_position_on_summary">Napravo</string>
+  <string name="brightness_icon_position_off_summary">Nalevo</string>
   <!-- Recents -->
   <string name="recents_title">Nedávné aplikace</string>
   <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
@@ -132,6 +145,9 @@
   <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
   <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Nejsou nastaveny žádné výchozí hodnoty</string>
+  <string name="seekbar_default_value_set">Hodnota nastavena na výchozí <xliff:g id="number">%d </xliff:g></string>
+  <string name="seekbar_default_value_already_set">Výchozí hodnota je již nastavena</string>
   <string name="seekbar_default_string">Výchozí</string>
   <!-- Statusbar -->
   <string name="statusbar_title">Stavová lišta</string>
@@ -139,15 +155,29 @@
   <string name="battery_saver_color_summary">Povolit oranžovou barvu stavové lišty/navigačního panelu při aktivaci spořiče baterie</string>
   <string name="bluetooth_battery_title">Stav baterie Bluetooth</string>
   <string name="bluetooth_battery_summary">Zobrazit stav baterie aktuálně připojeného bluetooth zařízení, je-li dostupné</string>
+  <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí sítě</string>
   <string name="network_traffic_state_title">Síťový provoz</string>
   <string name="network_traffic_state_summary">Zobrazit aktivitu využití dat ve stavové liště</string>
   <string name="statusbar_items_title">Ikony stavového řádku</string>
   <string name="statusbar_items_summary">Nastavit vzhled stavové lišty</string>
   <string name="battery_bar_title">Pruh baterie</string>
+  <string name="battery_bar_summary">Nastavení pruhu baterie</string>
   <string name="battery_bar_position_title">Poloha</string>
+  <string name="battery_bar_position_hidden">Skrytý</string>
   <string name="battery_bar_position_statusbar">Stavová lišta</string>
+  <string name="battery_bar_color_title">Barva</string>
+  <string name="battery_bar_charging_color_title">Barva při nabíjení</string>
+  <string name="battery_bar_battery_low_color_title">Barva nízkého stavu baterie</string>
+  <string name="battery_bar_style_title">Zarovnání</string>
+  <string name="battery_bar_thickness_title">Tloušťka</string>
   <string name="battery_bar_animate_title">Animace nabíjení</string>
   <string name="battery_bar_style_regular">Klasické</string>
   <string name="battery_bar_style_center_mirrored">Zrcadlově na střed</string>
   <string name="battery_bar_style_reversed">Obrácené</string>
+  <string name="battery_bar_use_charging_color_title">Vlastní barva při nabíjení</string>
+  <string name="battery_bar_blend_color_title">Smíšené barvy</string>
+  <string name="battery_bar_blend_color_summary">Smíchání barvy odpovídající procentu baterie - plné/prázdné</string>
+  <string name="battery_bar_blend_color_reverse_title">Pořadí barev</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Nabito &#8594; Vybito: červená &#8592; zelená &#8592; modrá &#8592; červená</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
 </resources>

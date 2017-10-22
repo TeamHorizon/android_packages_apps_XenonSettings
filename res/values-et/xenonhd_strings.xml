@@ -40,7 +40,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Kuvatõmmis</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Ereduse liugur</string>
+  <string name="brightness_slider_switch">Ereduse liugur</string>
   <!-- Recents -->
   <string name="recents_clear_all_location_title">Tühjenda kõik nupu asukoht</string>
   <string name="recents_clear_all_location_bottom_center">All keskel</string>

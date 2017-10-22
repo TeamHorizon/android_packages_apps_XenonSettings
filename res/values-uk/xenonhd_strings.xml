@@ -41,7 +41,7 @@
   <!-- Power -->
   <string name="powermenu_screenshot">Знімок екрану</string>
   <!-- QS -->
-  <string name="qs_brightness_slider_title">Повзунок яскравості</string>
+  <string name="brightness_slider_switch">Повзунок яскравості</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <string name="seekbar_default_string">За замовчуванням</string>

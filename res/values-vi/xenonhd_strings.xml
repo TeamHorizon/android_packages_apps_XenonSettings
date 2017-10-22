@@ -16,17 +16,117 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Cài đặt XenonHD</string>
+  <string name="xenonhd_settings_summary">Tùy chọn bổ sung</string>
   <!-- Buttons -->
+  <string name="button_title">Các nút bấm</string>
+  <string name="volume_title">Nút âm lượng</string>
+  <string name="swap_volume_buttons">Trao đổi các nút âm lượng</string>
+  <string name="swap_volume_buttons_summary">Tráo đổi nút âm lượng theo thiết bị luân chuyển</string>
+  <string name="volbtn_down_zen_title">Giảm âm lượng cho DND</string>
+  <string name="volbtn_down_zen_summary">Bật chế độ Không làm phiền với giảm âm lượng</string>
+  <string name="volbtn_up_zen_title">Tăng âm lượng ở DND</string>
+  <string name="volbtn_up_zen_summary">Bật chế độ Không làm phiền với tăng âm lượng</string>
+  <string name="volume_keys_control_media_stream_title">Điều khiển âm lượng đa phương tiện</string>
+  <string name="volume_keys_control_media_stream_summary">Bảng điều khiển sẽ hiển thị âm lượng đa phương tiện trượt theo mặc định</string>
+  <string name="volume_rocker_music_controls_title">Điều khiển nhạc</string>
+  <string name="volume_rocker_music_controls_summary">Nút âm lượng sẽ thay đổi các bài nhạc trên thiết bị đã bị khóa</string>
+  <string name="volume_rocker_wake_title">Mở khoá bằng phím âm lượng</string>
+  <string name="volume_rocker_wake_summary">Đánh thức thiết bị với các nút âm lượng</string>
   <!-- Color Picker -->
+  <string name="color_default">Mặc định</string>
+  <string name="dialog_color_picker">Bảng chọn màu</string>
+  <string name="hex">Hex:</string>
+  <string name="press_color_to_apply">Bấm vào màu sắc để áp dụng</string>
+  <string name="set">Thiết lập</string>
   <!-- General strings -->
+  <string name="cancel">Hủy bỏ</string>
+  <string name="ok">Đồng ý</string>
+  <string name="reset">Thiết lập lại</string>
+  <string name="save">Lưu</string>
   <!-- Gestures -->
+  <string name="gestures_title">Cử chỉ</string>
+  <string name="dt2s_category">Chạm hai lần để tắt màn hình</string>
+  <string name="double_tap_sleep_lockscreen">Nhấn hai lần trên màn hình khoá</string>
+  <string name="double_tap_sleep_lockscreen_summary">Nhấn hai lần trên màn hình khoá để tắt ngủ thiết bị</string>
+  <string name="double_tap_sleep_navbar">Nhấn hai lần trên thanh điều hướng</string>
+  <string name="double_tap_sleep_navbar_summary">Bấm 2 lần vào Navbar để tắt màn hình</string>
+  <string name="double_tap_to_sleep_title">Bấm 2 lần trên thanh trạng thái</string>
+  <string name="double_tap_to_sleep_summary">Nhấn hai lần trên màn hình khoá để tắt ngủ thiết bị</string>
+  <string name="pocket_judge_title">Phát hiện trong túi</string>
+  <string name="pocket_judge_summary">Chặn màn hình và nút đầu vào khi thiết bị ở trong túi</string>
   <!-- Lockscreen -->
+  <string name="lockscreen_title">Màn hình khóa</string>
+  <string name="lockscreen_tuner_title">Các lối tắt màn hình khoá</string>
+  <string name="lockscreen_tuner_summary">Thiết lập phím tắt ở phía dưới màn hình khóa</string>
+  <string name="media_art_title">Đa phương tiện bao gồm nghệ thuật</string>
+  <string name="media_art_summary">Bật đa phương tiện trên màn hình khóa</string>
+  <string name="lockscreen_qs_disabled_title">Không có QS khi bảo đảm</string>
+  <string name="lockscreen_qs_disabled_summary">Tắt cài đặt nhanh khi ở màn hình khóa có bảo mật.</string>
   <!-- Misc -->
+  <string name="misc_title">Chuyên sâu</string>
+  <string name="dashboard_category">Bảng điều khiển</string>
+  <string name="dashboard_conditions_title">Bảng điều khiển hành động</string>
+  <string name="dashboard_suggestions_title">Bảng điều khiển đề xuất</string>
+  <string name="summary_dashboard_suggestions_enabled">Kích hoạt</string>
+  <string name="summary_dashboard_suggestions_disabled">Vô hiệu hóa</string>
+  <string name="summary_dashboard_conditions_disabled">Tắt</string>
+  <string name="summary_dashboard_conditions_enabled">Bật</string>
+  <string name="toast_icon_title">Biểu tượng ứng dụng Toast</string>
+  <string name="toast_icon_summary">Hiển thị biểu tượng của ứng dụng tương ứng với các toast</string>
   <!-- Navbar -->
+  <string name="navbar_title">Thanh điều hướng</string>
+  <string name="navbar_tuner_title">Nút thanh điều hướng</string>
+  <string name="navbar_tuner_summary">Cấu hình thiết lập thanh điều hướng</string>
   <!-- Notifications -->
+  <string name="notifications_title">Thông báo</string>
+  <string name="ime_switcher_notify">Thông báo chọn Bộ gõ</string>
+  <string name="ime_switcher_notify_summary">Hiển thị các thông báo chọn Input Method Editor</string>
+  <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+  <string name="screenshot_sound_summary">Phát hiệu ứng âm thanh khi màn hình được chụp</string>
   <!-- Power -->
+  <string name="powermenu_title">Menu nút nguồn</string>
+  <string name="powermenu_category">Tuỳ chọn nút menu nguồn</string>
+  <string name="power_look">Power menu xuất hiện</string>
+  <string name="powermenu_airplane">Chế độ máy bay</string>
+  <string name="powermenu_lockdown">Khóa ngay</string>
+  <string name="powermenu_power">Nguồn</string>
+  <string name="powermenu_restart">Khởi động lại</string>
+  <string name="powermenu_restart_recovery">Khởi động lại nâng cao</string>
+  <string name="powermenu_screenshot">Chụp ảnh màn hình</string>
+  <string name="powermenu_settings">Cài đặt</string>
+  <string name="powermenu_soundpanel">Bảng điều khiển âm thanh</string>
+  <string name="powermenu_users">Người dùng</string>
+  <string name="power">Tuỳ chọn menu nguồn</string>
+  <string name="power_menu_transparency">Độ trong suốt menu nguồn</string>
+  <string name="power_menu_dialog_dim">Hộp thoại nền mờ</string>
   <!-- QS -->
+  <string name="quicksettings_title">Cài đặt nhanh</string>
+  <string name="qs_category">Ô cài đặt nhanh</string>
+  <string name="pulldown_category">Kéo xuống</string>
+  <string name="brightness_category">Độ sáng</string>
+  <string name="qqs_scroll_title">Cuộn qua các ô nhỏ cài đặt nhanh</string>
+  <string name="qqs_scroll_summary">Cho phép cuộn qua các ô nhỏ cài đặt nhanh</string>
+  <string name="brightness_icon_title">Biểu tượng độ sáng </string>
+  <string name="brightness_icon_position_title">Vị trí biểu tượng độ sáng</string>
+  <string name="brightness_icon_position_on_summary">Phía bên phải</string>
+  <string name="brightness_icon_position_off_summary">Phía bên trái</string>
   <!-- Recents -->
   <!-- Seekbar -->
   <!-- Statusbar -->
+  <string name="battery_bar_color_title">Màu sắc</string>
+  <string name="battery_bar_charging_color_title">Màu khi sạc</string>
+  <string name="battery_bar_battery_low_color_title">Màu pin yếu</string>
+  <string name="battery_bar_style_title">Căn chỉnh</string>
+  <string name="battery_bar_thickness_title">Độ dày</string>
+  <string name="battery_bar_animate_title">Hoạt hình khi sạc</string>
+  <string name="battery_bar_style_regular">Thường xuyên</string>
+  <string name="battery_bar_style_center_mirrored">Giữa trung tâm</string>
+  <string name="battery_bar_style_reversed">Đảo ngược</string>
+  <string name="battery_bar_use_charging_color_title">Tùy chỉnh màu khi sạc</string>
+  <string name="battery_bar_blend_color_title">Pha trộn màu sắc</string>
+  <string name="battery_bar_blend_color_summary">Pha trộn màu sắc đầy đủ/sản phẩm nào tương ứng với tỷ lệ phần trăm pin</string>
+  <string name="battery_bar_blend_color_reverse_title">Đảo ngược hướng màu sắc</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Đầy đủ &#8594; rỗng: đỏ &#8592; màu xanh lá cây &#8592; xanh &#8592; màu đỏ</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Đầy đủ &#8594; rỗng: đỏ &#8594; màu xanh lá cây &#8594; xanh &#8594; màu đỏ</string>
 </resources>
