@@ -76,26 +76,26 @@
         android:key="brightness_category"
         android:title="@string/brightness_category">
 
-    <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
-        android:key="qs_show_brightness"
-        android:title="@string/qs_brightness_slider_title"
-        android:summary="@string/qs_brightness_slider_summary"
-        android:defaultValue="true" />
+        <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/brightness_slider_switch"
+            android:summary="@string/brightness_slider_summary"
+            android:defaultValue="true" />
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="brightness_icon"
-        android:title="@string/brightness_icon_title"
-        android:summary="@string/brightness_icon_summary"
-        android:dependency="qs_show_brightness"
-        android:defaultValue="false" />
+        <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+            android:key="brightness_icon"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            android:dependency="qs_show_brightness"
+            android:defaultValue="false" />
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="brightness_icon_position"
-        android:title="@string/brightness_icon_position_title"
-        android:summaryOn="@string/brightness_icon_position_on_summary"
-        android:summaryOff="@string/brightness_icon_position_off_summary"
-        android:dependency="brightness_icon"
-        android:defaultValue="false" />
+        <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+            android:key="brightness_icon_position"
+            android:title="@string/brightness_icon_position_title"
+            android:summaryOn="@string/brightness_icon_position_on_summary"
+            android:summaryOff="@string/brightness_icon_position_off_summary"
+            android:dependency="brightness_icon"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 </PreferenceScreen>
