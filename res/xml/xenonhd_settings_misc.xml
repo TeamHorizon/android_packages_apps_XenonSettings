@@ -44,4 +44,10 @@
         android:summary="@string/toast_icon_summary"
         android:defaultValue="true" />
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_title"
+        android:summary="@string/sensor_block_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
