@@ -88,7 +88,7 @@
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
     <string name="sensor_block_title">Sensor block per-package</string>
-    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery.</string>
+    <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
 
     <!-- Navbar -->
     <string name="navbar_title">Navigation bar</string>

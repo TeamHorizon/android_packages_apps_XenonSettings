@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">Włączony</string>
   <string name="toast_icon_title">Ikona powiadomień toast</string>
   <string name="toast_icon_summary">Wyświetl ikonę aplikacji w powiadomieniu toast</string>
+  <string name="sensor_block_title">Blokada czujników dla aplikacji</string>
+  <string name="sensor_block_summary">Blokuj dostęp do niektórych czujników dla części aplikacji, aby oszczędzać baterię</string>
   <!-- Navbar -->
   <string name="navbar_title">Pasek nawigacji</string>
   <string name="navbar_tuner_title">Przyciski paska nawigacji</string>
@@ -124,7 +126,7 @@
   <string name="smart_pulldown_none">brak powiadomień</string>
   <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
   <string name="smart_pulldown_off">Wyłączone</string>
-  <string name="smart_pulldown_ongoing">brak bieżących</string>
+  <string name="smart_pulldown_ongoing">brak trwałych</string>
   <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
   <string name="status_bar_quick_qs_pulldown">Szybkie rozwijanie</string>
   <string name="status_bar_quick_qs_pulldown_summary">Pociągnięcie w dół po prawej stronie paska stanu rozwinie panel szybkich ustawień</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">Odwróć kierunek kolorów</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Pełna &#8594; pusta: czerwony &#8592; zielony &#8592; niebieski &#8592; czerwony</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; pusta: czerwony &#8594; zielony &#8594; niebieski &#8594; czerwony</string>
+  <string name="volte_icon_title">Ikona VoLTE</string>
+  <string name="volte_icon_summary">Wyświetl Ikonę VoLTE gdy jest obsługiwane</string>
 </resources>

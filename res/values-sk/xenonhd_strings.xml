@@ -44,9 +44,13 @@
   <string name="ok">OK</string>
   <string name="reset">Resetovať</string>
   <string name="save">Uložiť</string>
+  <string name="systemui_restart_title">Vyžaduje sa reštart SystemUI</string>
+  <string name="systemui_restart_message">Aby sa všetky zmeny prejavili je potrebné reštartovať SystemUI. Reštartovať teraz?</string>
   <!-- Gestures -->
   <string name="gestures_title">Gestá</string>
   <string name="dt2s_category">Uspať dvojklikom</string>
+  <string name="gesture_preferences_title">Pôvodné gestá</string>
+  <string name="gesture_preferences_summary">Nakonfigurujte gestá dostupné pre vaše zariadenie</string>
   <string name="double_tap_sleep_lockscreen">Dvojklik na obrazovku uzamknutia</string>
   <string name="double_tap_sleep_lockscreen_summary">Dvojklik na obrazovke uzamknutia uspí zariadenie</string>
   <string name="double_tap_sleep_navbar">Dvojklik na navigačný panel</string>
@@ -129,7 +133,9 @@
   <string name="qs_tile_title_visibility_title">Zobraziť názvy ikon rýchlych nastavení</string>
   <string name="qs_tile_title_visibility_summary">Zobraziť názvy pod dlaždicami</string>
   <string name="brightness_slider_switch">Posuvník jasu</string>
+  <string name="brightness_slider_summary">Zobraziť posuvník jasu na paneli rýchlych nastavení</string>
   <string name="brightness_icon_title">Ikona jasu</string>
+  <string name="brightness_icon_summary">Zobraziť ikonu pre zapnutie automatického jasu vedľa posuvníka jasu</string>
   <string name="brightness_icon_position_title">Poloha ikony jasu</string>
   <string name="brightness_icon_position_on_summary">Napravo</string>
   <string name="brightness_icon_position_off_summary">Naľavo</string>

@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Spanish</string>
+  <string name="xenonhd_settings_summary">Spanish</string>
   <!-- Buttons -->
+  <string name="button_title">Spanish</string>
+  <string name="volume_title">Spanish</string>
+  <string name="swap_volume_buttons">Spanish</string>
+  <string name="swap_volume_buttons_summary">Spanish</string>
+  <string name="volbtn_down_zen_title">Spanish</string>
+  <string name="volbtn_down_zen_summary">Spanish</string>
+  <string name="volbtn_up_zen_title">Spanish</string>
+  <string name="volbtn_up_zen_summary">Spanish</string>
+  <string name="volume_keys_control_media_stream_title">Spanish</string>
+  <string name="volume_keys_control_media_stream_summary">Spanish</string>
+  <string name="volume_rocker_music_controls_title">Spanish</string>
+  <string name="volume_rocker_music_controls_summary">Spanish</string>
+  <string name="volume_rocker_wake_title">Spanish</string>
+  <string name="volume_rocker_wake_summary">Encender con botones de volumen</string>
   <!-- Color Picker -->
   <string name="color_default">Por defecto</string>
   <string name="dialog_color_picker">Selección de color</string>
@@ -24,11 +40,31 @@
   <string name="press_color_to_apply">Pulse color de debajo para aplicar</string>
   <string name="set">Establecer</string>
   <!-- General strings -->
+  <string name="cancel">Cancelar</string>
+  <string name="ok">Aceptar</string>
   <string name="reset">Resetear</string>
   <string name="save">Guardar</string>
+  <string name="systemui_restart_title">Se requiere reinicio de SystemUI</string>
+  <string name="systemui_restart_message">Para que todos los cambios surtan efecto, se necesita reiniciar SystemUI ¿reiniciar ahora?</string>
   <!-- Gestures -->
+  <string name="gestures_title">Gestos</string>
+  <string name="dt2s_category">Doble toque para dormir</string>
+  <string name="gesture_preferences_title">Gestos nativos</string>
+  <string name="gesture_preferences_summary">Configurar los gestos disponibles para su dispositivo</string>
+  <string name="double_tap_sleep_lockscreen">Doble toque para dormir en pantalla de bloqueo</string>
+  <string name="double_tap_sleep_lockscreen_summary">Doble toque en pantalla de bloqueo para dormir</string>
+  <string name="double_tap_sleep_navbar">Doble toque para dormir en barra de navegación</string>
+  <string name="double_tap_sleep_navbar_summary">Doble toque en barra de navegación para dormir dispositivo</string>
+  <string name="double_tap_to_sleep_title">Doble toque para dormir en barra de estado</string>
+  <string name="double_tap_to_sleep_summary">Doble toque en barra de estado para dormir dispositivo</string>
+  <string name="pocket_judge_title">Detección de bolsillo</string>
+  <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en el bolsillo</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Pantalla de bloqueo</string>
+  <string name="lockscreen_tuner_title">Atajos en la pantalla de bloqueo</string>
+  <string name="lockscreen_tuner_summary">Establecer accesos directos en la parte inferior de la pantalla de bloqueo</string>
+  <string name="media_art_title">Carátula de música</string>
+  <string name="media_art_summary">Activar carátula de música en la pantalla de bloqueo</string>
   <!-- Misc -->
   <string name="misc_title">Varios</string>
   <string name="summary_dashboard_suggestions_enabled">Habilitado</string>

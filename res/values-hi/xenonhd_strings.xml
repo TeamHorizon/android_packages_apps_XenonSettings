@@ -21,12 +21,15 @@
   <!-- General strings -->
   <!-- Gestures -->
   <!-- Lockscreen -->
+  <string name="lockscreen_title">लॉक स्क्रीन</string>
   <!-- Misc -->
   <!-- Navbar -->
   <!-- Notifications -->
   <!-- Power -->
+  <string name="powermenu_screenshot">स्क्रीनशॉट</string>
   <!-- QS -->
   <!-- Recents -->
   <!-- Seekbar -->
   <!-- Statusbar -->
+  <string name="statusbar_items_title">स्टेटस बार चिह्न</string>
 </resources>

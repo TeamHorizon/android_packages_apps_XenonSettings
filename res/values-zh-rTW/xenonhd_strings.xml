@@ -44,9 +44,13 @@
   <string name="ok">確定</string>
   <string name="reset">重設</string>
   <string name="save">儲存</string>
+  <string name="systemui_restart_title">請求重新啟動使用者介面</string>
+  <string name="systemui_restart_message">要使所有更改生效，需要重新啟動使用者介面。 現在重新啟動使用者介面？</string>
   <!-- Gestures -->
   <string name="gestures_title">手勢</string>
   <string name="dt2s_category">輕觸兩下即可休眠</string>
+  <string name="gesture_preferences_title">本機手勢</string>
+  <string name="gesture_preferences_summary">配置可用於您的裝置的手勢</string>
   <string name="double_tap_sleep_lockscreen">輕觸兩下鎖定畫面</string>
   <string name="double_tap_sleep_lockscreen_summary">輕觸兩下鎖定畫面即可裝置休眠</string>
   <string name="double_tap_sleep_navbar">在導覽列輕觸兩下休眠</string>
@@ -129,7 +133,9 @@
   <string name="qs_tile_title_visibility_title">顯示圖塊標題</string>
   <string name="qs_tile_title_visibility_summary">顯示圖塊下的標題</string>
   <string name="brightness_slider_switch">亮度滑桿</string>
+  <string name="brightness_slider_summary">在快速設定面板中顯示亮度滑動條</string>
   <string name="brightness_icon_title">亮度圖示</string>
+  <string name="brightness_icon_summary">在亮度滑動條左邊顯示一個亮度圖示以用來調整是否開啟自動亮度</string>
   <string name="brightness_icon_position_title">亮度圖示的位置</string>
   <string name="brightness_icon_position_on_summary">在右側</string>
   <string name="brightness_icon_position_off_summary">在左側</string>

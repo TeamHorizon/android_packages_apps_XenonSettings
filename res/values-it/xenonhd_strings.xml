@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHD impostazioni</string>
+  <string name="xenonhd_settings_summary">Opzioni aggiuntive</string>
   <!-- Buttons -->
+  <string name="button_title">Pulsanti</string>
+  <string name="volume_title">Pulsanti del volume</string>
+  <string name="swap_volume_buttons">Inverti i tasti del volume</string>
+  <string name="swap_volume_buttons_summary">Inverti i tasti del volume in base alla rotazione del telefono</string>
+  <string name="volbtn_down_zen_title">Volume giù per DND</string>
+  <string name="volbtn_down_zen_summary">Attiva la modalità non disturbare con il tasto volume giù</string>
+  <string name="volbtn_up_zen_title">Volume sù per DND</string>
+  <string name="volbtn_up_zen_summary">Disattiva la modalità non disturbare con il tasto volume sù</string>
+  <string name="volume_keys_control_media_stream_title">Controllo del volume multimediale</string>
+  <string name="volume_keys_control_media_stream_summary">Il pannello del volume mostrerà il cursore del volume multimediale per impostazione predefinita</string>
+  <string name="volume_rocker_music_controls_title">Controllo della riproduzione</string>
+  <string name="volume_rocker_music_controls_summary">I pulsanti del volume cambieranno i brani musicali con dispositivo bloccato</string>
+  <string name="volume_rocker_wake_title">Risveglio con tasti volume</string>
+  <string name="volume_rocker_wake_summary">Risveglia il dispositivo con i tasti del volume</string>
   <!-- Color Picker -->
   <string name="color_default">Predefinito</string>
   <string name="dialog_color_picker">Scelta del colore</string>
@@ -24,25 +40,107 @@
   <string name="press_color_to_apply">Seleziona il colore per applicarlo</string>
   <string name="set">Applica</string>
   <!-- General strings -->
+  <string name="cancel">Annulla</string>
+  <string name="ok">OK</string>
   <string name="reset">Ripristina</string>
   <string name="save">Salva</string>
+  <string name="systemui_restart_title">Riavvio dell\'Interfaccia Utente richiesto</string>
+  <string name="systemui_restart_message">Per rendere effettive tutte le modifiche, è necessario un riavvio dell\'Interfaccia Utente. Riavviare la l\'Interfaccia Utente ora?</string>
   <!-- Gestures -->
+  <string name="gestures_title">Gesti</string>
+  <string name="dt2s_category">Doppio tocco per spegnere</string>
+  <string name="gesture_preferences_title">Gesti nativi</string>
+  <string name="gesture_preferences_summary">Configura i gesti disponibili per il dispositivo</string>
+  <string name="double_tap_sleep_lockscreen">Doppio tocco sulla schermata di blocco</string>
+  <string name="double_tap_sleep_lockscreen_summary">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
+  <string name="double_tap_sleep_navbar">Doppio tocco sulla barra di navigazione</string>
+  <string name="double_tap_sleep_navbar_summary">Doppio tocco sulla barra di navigazione per spegnere lo schermo</string>
+  <string name="double_tap_to_sleep_title">Doppio tocco sulla barra di stato</string>
+  <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
+  <string name="pocket_judge_title">Rilevamento in tasca</string>
+  <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Schermata di blocco</string>
+  <string name="lockscreen_tuner_title">Scorciatoie schermata di sblocco</string>
+  <string name="lockscreen_tuner_summary">Imposta i collegamenti nella parte inferiore della schermata di blocco</string>
+  <string name="media_art_title">Copertina multimediale</string>
+  <string name="media_art_summary">Abilita la visualizzazione della copertina dei file multimediali nella schermata di blocco</string>
+  <string name="lockscreen_qs_disabled_title">Nessuna impostazione rapida con schermata protetta</string>
+  <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla schermata di blocco protetta</string>
   <!-- Misc -->
   <string name="misc_title">Varie</string>
+  <string name="dashboard_category">Pannello impostazioni</string>
+  <string name="dashboard_conditions_title">Condizioni pannello impostazioni</string>
+  <string name="dashboard_suggestions_title">Suggerimenti pannello impostazioni</string>
   <string name="summary_dashboard_suggestions_enabled">Attivo</string>
   <string name="summary_dashboard_suggestions_disabled">Disabilitato</string>
   <string name="summary_dashboard_conditions_disabled">Disabilitato</string>
   <string name="summary_dashboard_conditions_enabled">Attivo</string>
+  <string name="toast_icon_title">Icona app toast</string>
+  <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente al toast</string>
   <!-- Navbar -->
+  <string name="navbar_title">Barra di navigazione</string>
+  <string name="navbar_tuner_title">Pulsanti della barra di navigazione</string>
+  <string name="navbar_tuner_summary">Configura le impostazioni della barra di navigazione</string>
   <!-- Notifications -->
+  <string name="notifications_title">Notifiche</string>
+  <string name="ime_switcher_notify">Notifica metodo inserimento</string>
+  <string name="ime_switcher_notify_summary">Mostra una notifica del selettore per il metodo di inserimento</string>
   <string name="screenshot_sound_title">Suono screenshot</string>
+  <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
   <!-- Power -->
+  <string name="powermenu_title">Menù di alimentazione</string>
+  <string name="powermenu_category">Opzioni menù alimentazione</string>
+  <string name="power_look">Aspetto del menù di alimentazione</string>
+  <string name="powermenu_airplane">Aeroplano</string>
+  <string name="powermenu_lockdown">Blocca ora</string>
+  <string name="powermenu_power">Alimentazione</string>
+  <string name="powermenu_restart">Riavvio</string>
+  <string name="powermenu_restart_recovery">Riavvio avanzato</string>
   <string name="powermenu_screenshot">Screenshot</string>
+  <string name="powermenu_settings">Impostazioni</string>
+  <string name="powermenu_soundpanel">Pannello suoni</string>
+  <string name="powermenu_users">Utenti</string>
+  <string name="power">Elementi menù alimentazione</string>
+  <string name="power_menu_transparency">Opacità menù alimentazione</string>
+  <string name="power_menu_dialog_dim">Trasparenza del pannello menù alimentazione</string>
   <!-- QS -->
+  <string name="quicksettings_title">Impostazioni rapide</string>
+  <string name="qs_category">Tile Impostazioni rapide</string>
+  <string name="pulldown_category">Tira verso il basso</string>
+  <string name="brightness_category">Luminosità</string>
+  <string name="qqs_scroll_title">Scorrimento tile piccoli</string>
+  <string name="qqs_scroll_summary">Permette lo scorrimento dei tile piccoli delle impostazioni rapide</string>
+  <string name="qs_columns_landscape_title">Colonne (orizzontale)</string>
+  <string name="qs_columns_portrait_title">Colonne (verticale)</string>
+  <string name="qs_music_tile_track_optional_title">Titolo brano musicale nel tile</string>
+  <string name="qs_music_tile_track_optional_summary">Visualizza il titolo del brano musicale come titolo del tile delle impostazioni rapide</string>
+  <string name="qs_rows_columns_title">Righe e colonne</string>
+  <string name="qs_rows_columns_summary">Scegli il numero di righe e colonne delle impostazioni rapide</string>
+  <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
+  <string name="qs_rows_portrait_title">Righe (verticale)</string>
+  <string name="smart_pulldown_title">Scorrimento verso il basso rapido</string>
+  <string name="smart_pulldown_dismissable">non rimovibili</string>
+  <string name="smart_pulldown_none">nessuna notifica</string>
+  <string name="smart_pulldown_none_summary">Apri le impostazioni rapide quando non ci sono notifiche presenti</string>
+  <string name="smart_pulldown_off">Spento</string>
+  <string name="smart_pulldown_ongoing">non in corso</string>
+  <string name="smart_pulldown_summary">Apri le impostazioni rapide quando ci sono %1$s notifiche presenti</string>
+  <string name="status_bar_quick_qs_pulldown">Discesa rapida</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Tirare verso il basso sul lato destro della barra di stato per espandere il pannello delle impostazioni rapide</string>
+  <string name="qs_footer_warnings_title">Avvisi di piè di pagina delle impostazioni rapide</string>
+  <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
+  <string name="qs_tile_title_visibility_title">Mostra i titoli dei tile</string>
+  <string name="qs_tile_title_visibility_summary">Visualizza titoli sotto i tile</string>
   <string name="brightness_slider_switch">Cursore luminosità</string>
+  <string name="brightness_slider_summary">Mostra il cursore della luminosità nelle impostazioni rapide</string>
+  <string name="brightness_icon_title">Icona luminosità</string>
+  <string name="brightness_icon_summary">Visualizzata l\'icona accanto al cursore di luminosità per regolare la luminosità automatica</string>
+  <string name="brightness_icon_position_title">Posizione icona luminosità</string>
+  <string name="brightness_icon_position_on_summary">Sulla destra</string>
+  <string name="brightness_icon_position_off_summary">Sulla sinistra</string>
   <!-- Recents -->
+  <string name="recents_title">Applicazioni recenti</string>
   <string name="recents_clear_all_location_title">Posizione del pulsante cancella tutto</string>
   <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
   <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
@@ -50,15 +148,42 @@
   <string name="recents_clear_all_location_top_center">In alto al centro</string>
   <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
   <string name="recents_clear_all_location_top_right">In alto a destra</string>
+  <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
+  <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Nessun valore di default impostato</string>
+  <string name="seekbar_default_value_set">Valore predefinito impostato <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">Valore predefinito già impostato</string>
   <string name="seekbar_default_string">Predefinito</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">Barra di stato</string>
+  <string name="battery_saver_color_title">Colore risparmio batteria</string>
+  <string name="battery_saver_color_summary">Barra di stato e barra di navigazione arancioni quando è attivo il risparmio batteria</string>
+  <string name="bluetooth_battery_title">Stato batteria Bluetooth</string>
+  <string name="bluetooth_battery_summary">Visualizza lo stato della batteria del dispositivo bluetooth connesso se disponibile</string>
+  <string name="network_traffic_autohide_threshold_title">Nascondi automaticamente il traffico rete superata la soglia</string>
   <string name="network_traffic_state_title">Traffico di rete</string>
+  <string name="network_traffic_state_summary">Mostra attività di rete nella barra di stato</string>
   <string name="statusbar_items_title">Icone barra di stato</string>
+  <string name="statusbar_items_summary">Imposta l\'aspetto della barra di stato</string>
   <string name="battery_bar_title">Barra batteria</string>
+  <string name="battery_bar_summary">Configurazione barra della batteria</string>
   <string name="battery_bar_position_title">Posizione</string>
+  <string name="battery_bar_position_hidden">Nascosta</string>
+  <string name="battery_bar_position_statusbar">Barra di stato</string>
+  <string name="battery_bar_color_title">Colore</string>
+  <string name="battery_bar_charging_color_title">Colore durante la carica</string>
+  <string name="battery_bar_battery_low_color_title">Colore con batteria scarica</string>
+  <string name="battery_bar_style_title">Allineamento</string>
+  <string name="battery_bar_thickness_title">Spessore</string>
   <string name="battery_bar_animate_title">Animazione di ricarica</string>
   <string name="battery_bar_style_regular">Normale</string>
   <string name="battery_bar_style_center_mirrored">Centrato speculare</string>
   <string name="battery_bar_style_reversed">Invertito</string>
+  <string name="battery_bar_use_charging_color_title">Colore di ricarica personalizzato</string>
+  <string name="battery_bar_blend_color_title">Miscela i colori</string>
+  <string name="battery_bar_blend_color_summary">Mescola i colori pieni/vuoti corrispondenti alla percentuale della batteria</string>
+  <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Pieno &#8594; vuoto: rosso &#8592; verde &#8592; blu &#8592; rosso</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Pieno &#8594; vuoto: rosso &#8594; verde &#8594; blu &#8594; rosso</string>
 </resources>
