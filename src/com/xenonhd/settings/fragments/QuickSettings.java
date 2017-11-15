@@ -31,9 +31,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private static final String PREF_BRIGHTNESS_ICON_POSITION = "brightness_icon_position";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String PREF_QS_STYLE_DARK = "qs_style_dark";
 
     private ListPreference mSmartPulldown;
     private SwitchPreference mBrightnessIconPosition;
+    private SwitchPreference mQsStyleDark;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -53,7 +55,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mBrightnessIconPosition = (SwitchPreference) findPreference(PREF_BRIGHTNESS_ICON_POSITION);
         mBrightnessIconPosition.setOnPreferenceChangeListener(this);
-        }
+
+        mQsStyleDark = (SwitchPreference) findPreference(PREF_QS_STYLE_DARK);
+        mQsStyleDark.setOnPreferenceChangeListener(this);
+    }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -67,8 +72,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         if (preference == mBrightnessIconPosition) {
             Utils.showSystemUiRestartDialog(getContext());
             return true;
+        } else if (preference == mQsStyleDark) {
+            Utils.showSystemUiRestartDialog(getContext());
+            return true;
         }
-
         return false;
     }
 
