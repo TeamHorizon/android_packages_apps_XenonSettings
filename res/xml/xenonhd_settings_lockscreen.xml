@@ -48,5 +48,11 @@
         android:summary="@string/pocket_judge_summary"
         android:defaultValue="false" />
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:persistent="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
