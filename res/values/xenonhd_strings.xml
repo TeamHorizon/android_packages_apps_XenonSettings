@@ -154,6 +154,8 @@
     <string name="brightness_icon_position_title">Brightness icon position</string>
     <string name="brightness_icon_position_on_summary">On the right</string>
     <string name="brightness_icon_position_off_summary">On the left</string>
+    <string name="qs_style_dark_title">Dark QS style</string>
+    <string name="qs_style_dark_summary">Reboot is required after changing</string>
 
     <!-- Recents -->
     <string name="recents_title">Recent apps</string>
