@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">Zapnuto</string>
   <string name="toast_icon_title">Ikona aplikace Toast</string>
   <string name="toast_icon_summary">Zobrazit ikonu aplikací v oznámení Toast</string>
+  <string name="sensor_block_title">Blokování senzorů dle aplikací</string>
+  <string name="sensor_block_summary">Zamezení přístupu k některým senzorům pro některé aplikace za účelem úspory energie</string>
   <!-- Navbar -->
   <string name="navbar_title">Navigační panel</string>
   <string name="navbar_tuner_title">Tlačítka navigačního panelu</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">Pořadí barev</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Nabito &#8594; Vybito: červená &#8592; zelená &#8592; modrá &#8592; červená</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
+  <string name="volte_icon_title">Ikona VoLTE</string>
+  <string name="volte_icon_summary">Zobrazit ikonu VoLTE, když je k dispozici</string>
 </resources>

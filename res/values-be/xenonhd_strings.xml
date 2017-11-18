@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Параметры XenonHD</string>
+  <string name="xenonhd_settings_summary">Дадатковыя опцыі</string>
   <!-- Buttons -->
+  <string name="button_title">Кнопкі</string>
+  <string name="volume_title">Кнопкі гучнасці</string>
+  <string name="swap_volume_buttons">Змяніць кнопкі гучнасці месцамі</string>
+  <string name="swap_volume_buttons_summary">Змяніць кнопкі гучнасці месцамі ў адпаведнасці з арыентацыяй прылады</string>
+  <string name="volbtn_down_zen_title">Кнопка Гучнасць - для рэжыму \"Не турбаваць\"</string>
+  <string name="volbtn_down_zen_summary">Уключыць рэжым \"Не турбаваць\" кнопкай Гучнасці -</string>
+  <string name="volbtn_up_zen_title">Кнопка Гучнасці + для рэжыму \"Не турбаваць\"</string>
+  <string name="volbtn_up_zen_summary">Адключыць рэжым \"Не турбаваць\" кнопкай Гучнасці +</string>
+  <string name="volume_keys_control_media_stream_title">Кіраванне гучнасці мультымедыя</string>
+  <string name="volume_keys_control_media_stream_summary">Панэль гучнасці адлюстроўвае слайдэр гучнасці Мультымедыя па змаўчанні</string>
+  <string name="volume_rocker_music_controls_title">Кіраванне прайграваннем</string>
+  <string name="volume_rocker_music_controls_summary">Кнопкі гучнасці будуць пераключаць музычныя трэкі пры выключаным экране</string>
+  <string name="volume_rocker_wake_title">Абуджэнне кнопкамі гучнасці</string>
+  <string name="volume_rocker_wake_summary">Уключаць прыладу з дапамогай кнопак гучнасці</string>
   <!-- Color Picker -->
   <string name="color_default">Па змаўчанні</string>
   <string name="dialog_color_picker">Палітра колераў</string>
@@ -24,25 +40,109 @@
   <string name="press_color_to_apply">Націсніце на колер знізу, каб прымяніць</string>
   <string name="set">Усталяваць</string>
   <!-- General strings -->
+  <string name="cancel">Скасаваць</string>
+  <string name="ok">ОК</string>
   <string name="reset">Скінуць</string>
   <string name="save">Захаваць</string>
+  <string name="systemui_restart_title">Неабходная перазагрузка карыстацкага інтэрфейсу</string>
+  <string name="systemui_restart_message">Каб усе змены набылі сілу, патрабуецца перазагрузка карыстацкага інтэрфейсу. Перазагрузіць інтэрфейс?</string>
   <!-- Gestures -->
+  <string name="gestures_title">Жэсты</string>
+  <string name="dt2s_category">Выключаць экран пры падвойным націску</string>
+  <string name="gesture_preferences_title">Натыўныя жэсты</string>
+  <string name="gesture_preferences_summary">Наладзіць жэсты даступныя для вашай прылады</string>
+  <string name="double_tap_sleep_lockscreen">Падвойнае націск для сну на экране блакавання</string>
+  <string name="double_tap_sleep_lockscreen_summary">Падвойны націск на экране блакавання, каб перайсці ў рэжым сну</string>
+  <string name="double_tap_sleep_navbar">Падвойны націск для сну на панэлі навігацыі</string>
+  <string name="double_tap_sleep_navbar_summary">Падвойны націск на панэлі навігацыі, каб перайсці ў рэжым сну</string>
+  <string name="double_tap_to_sleep_title">Падвойны націск для сну на радку стану</string>
+  <string name="double_tap_to_sleep_summary">Падвойны націск на радку стану, каб перайсці ў рэжым сну</string>
+  <string name="pocket_judge_title">Рэжым \"У кішэні\"</string>
+  <string name="pocket_judge_summary">Блакаваць экран і кнопкі, калі прылада знаходзіцца ў кішэні</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Экран блакавання</string>
+  <string name="lockscreen_tuner_title">Значкі экрана блакавання</string>
+  <string name="lockscreen_tuner_summary">Наладзіць цэтлікі ў ніжняй частцы экрана блакавання</string>
+  <string name="media_art_title">Вокладка альбома</string>
+  <string name="media_art_summary">Паказваць вокладку альбома на экране блакавання</string>
+  <string name="lockscreen_qs_disabled_title">Адкл. хуткія налады на экр. блак.</string>
+  <string name="lockscreen_qs_disabled_summary">Адключыць меню хуткіх налад на экране блакавання</string>
   <!-- Misc -->
   <string name="misc_title">Рознае</string>
+  <string name="dashboard_category">Апавяшчэння ў галоўным меню</string>
+  <string name="dashboard_conditions_title">Дзеянні ў галоўным меню</string>
+  <string name="dashboard_suggestions_title">Прапановы ў галоўным меню</string>
   <string name="summary_dashboard_suggestions_enabled">Уключана</string>
   <string name="summary_dashboard_suggestions_disabled">Адключана</string>
   <string name="summary_dashboard_conditions_disabled">Адключана</string>
   <string name="summary_dashboard_conditions_enabled">Уключана</string>
+  <string name="toast_icon_title">Значок усплывальнага апавяшчэння</string>
+  <string name="toast_icon_summary">Адлюстроўваць значок праграмы ў усплывальных апавяшчэннях</string>
+  <string name="sensor_block_title">Блакіроўка датчыкаў</string>
+  <string name="sensor_block_summary">Заблакаваць доступ да датчыкаў для некаторых праграм для эканоміі зарада батарэі</string>
   <!-- Navbar -->
+  <string name="navbar_title">Панэль навігацыі</string>
+  <string name="navbar_tuner_title">Кнопкі панелі навігацыі</string>
+  <string name="navbar_tuner_summary">Налады панэлі навігацыі</string>
   <!-- Notifications -->
+  <string name="notifications_title">Апавяшчэнні</string>
+  <string name="ime_switcher_notify">Апавяшчэнне выбару метаду ўводу</string>
+  <string name="ime_switcher_notify_summary">Паказваць апавяшчэнне з выбарам метаду ўводу</string>
   <string name="screenshot_sound_title">Гук скрыншота</string>
+  <string name="screenshot_sound_summary">Прайграваць гук пры скрыншоце</string>
   <!-- Power -->
+  <string name="powermenu_title">Меню кнопкі сілкавання</string>
+  <string name="powermenu_category">Змест меню выключэння</string>
+  <string name="power_look">Знешні выгляд меню выключэння</string>
+  <string name="powermenu_airplane">Рэжым палёту</string>
+  <string name="powermenu_lockdown">Блакаваць зараз</string>
+  <string name="powermenu_power">Сілкаванне</string>
+  <string name="powermenu_restart">Перазапусціць</string>
+  <string name="powermenu_restart_recovery">Варыянты перазагрузкі</string>
   <string name="powermenu_screenshot">Скрыншот</string>
+  <string name="powermenu_settings">Налады</string>
+  <string name="powermenu_soundpanel">Гукавая панэль</string>
+  <string name="powermenu_users">Карыстальнікі</string>
+  <string name="power">Налады меню выключэння</string>
+  <string name="power_menu_transparency">Празрыстасць меню выключэння</string>
+  <string name="power_menu_dialog_dim">Зацямненне фону пры адлюстраванні меню выключэння</string>
   <!-- QS -->
+  <string name="quicksettings_title">Хуткія налады</string>
+  <string name="qs_category">Пліткі хуткіх налад</string>
+  <string name="pulldown_category">Пацягнуць уніз</string>
+  <string name="brightness_category">Яркасць</string>
+  <string name="qqs_scroll_title">Прагортка маленькіх плітак</string>
+  <string name="qqs_scroll_summary">Дазволіць прагортку маленькіх плітак хуткіх налад</string>
+  <string name="qs_columns_landscape_title">Калонкі (ландшафт)</string>
+  <string name="qs_columns_portrait_title">Калонкі (партрэт)</string>
+  <string name="qs_music_tile_track_optional_title">Плітка Музыка</string>
+  <string name="qs_music_tile_track_optional_summary">Паказаць назву музычнай дарожкі як пліткі хуткіх налад</string>
+  <string name="qs_rows_columns_title">Радкі і слупкі</string>
+  <string name="qs_rows_columns_summary">Выберыце колькасць радкоў і слупкоў</string>
+  <string name="qs_rows_landscape_title">Радкі (ландшафт)</string>
+  <string name="qs_rows_portrait_title">Радкі (партрэт)</string>
+  <string name="smart_pulldown_title">\"Разумная\" панэль апавяшчэнняў</string>
+  <string name="smart_pulldown_dismissable">няма выдаленняў</string>
+  <string name="smart_pulldown_none">няма апавяшчэнняў</string>
+  <string name="smart_pulldown_none_summary">Адкрыць хуткія налады калі няма апавяшчэнняў</string>
+  <string name="smart_pulldown_off">Адкл.</string>
+  <string name="smart_pulldown_ongoing">няма пастаянных</string>
+  <string name="smart_pulldown_summary">Адкрыць хуткія налады калі ёсць %1$s апавяшчэнне</string>
+  <string name="status_bar_quick_qs_pulldown">Хуткі выклік панэлі налад</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Пацягніце ўніз на правым баку статус бара, каб адкрыць хуткія налады</string>
+  <string name="qs_footer_warnings_title">Папярэджанне ў ніжняй частцы хуткіх налад</string>
+  <string name="qs_footer_warnings_summary">Паказваць папярэджанне ў ніжняй частцы панэлі хуткіх налад, калі сетка кантралюецца іншымі прыкладаннямі або VPN</string>
+  <string name="qs_tile_title_visibility_title">Паказваць назвы плітак</string>
+  <string name="qs_tile_title_visibility_summary">Паказваць назвы пад пліткамі</string>
   <string name="brightness_slider_switch">Рэгулятар яркасці</string>
+  <string name="brightness_slider_summary">Паказваць слайдэр яркасці ў панэлі хуткіх налад</string>
+  <string name="brightness_icon_title">Значок яркасці</string>
+  <string name="brightness_icon_summary">Паказаць значок укл./адкл. аўта-яркасці справа ад слайдэра</string>
+  <string name="brightness_icon_position_title">Становішча значка яркасці</string>
+  <string name="brightness_icon_position_on_summary">Справа</string>
+  <string name="brightness_icon_position_off_summary">Злева</string>
   <!-- Recents -->
+  <string name="recents_title">Меню нядаўніх праграм</string>
   <string name="recents_clear_all_location_title">Размяшчэнне кнопкі \"Ачысціць усё\"</string>
   <string name="recents_clear_all_location_bottom_center">Унізе па цэнтры</string>
   <string name="recents_clear_all_location_bottom_left">Знізу злева</string>
@@ -50,15 +150,44 @@
   <string name="recents_clear_all_location_top_center">Зверху па цэнтры</string>
   <string name="recents_clear_all_location_top_left">Зверху злева</string>
   <string name="recents_clear_all_location_top_right">Зверху справа</string>
+  <string name="show_clear_all_recents_button_title">Кнопка «Ачысціць усё»</string>
+  <string name="show_clear_all_recents_button_summary">Паказваць кнопку \"Ачысціць усё\"</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Параметры па змаўчанні не ўсталяваныя</string>
+  <string name="seekbar_default_value_set">Значэнне, усталяванае па змаўчанні - <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">Значэнне па змаўчанні ўжо ўсталявана</string>
   <string name="seekbar_default_string">Па змаўчанні</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">Радок стану</string>
+  <string name="battery_saver_color_title">Каляровая паласа ў рэжыме эканоміі батарэі</string>
+  <string name="battery_saver_color_summary">Афарбаваць радок стану і панэль навігацыі ў аранжавы колер, калі актываваны рэжым энергазберажэння</string>
+  <string name="bluetooth_battery_title">Зарад Bluetooth-прылады</string>
+  <string name="bluetooth_battery_summary">Паказваць зарад батарэі падлучанай bluetooth-прылады, калі даступна</string>
+  <string name="network_traffic_autohide_threshold_title">Парог утойвання сеткавага трафіку</string>
   <string name="network_traffic_state_title">Сеткавы трафік</string>
+  <string name="network_traffic_state_summary">Паказваць сеткавую актыўнасць у радку стану</string>
   <string name="statusbar_items_title">Значкі ў радку стану</string>
+  <string name="statusbar_items_summary">Задаць знешні выгляд радка стану</string>
   <string name="battery_bar_title">Індыкатар зарада батарэі</string>
+  <string name="battery_bar_summary">Настройка панэлі зарада батарэі</string>
   <string name="battery_bar_position_title">Месцазнаходжанне</string>
+  <string name="battery_bar_position_hidden">Схавана</string>
+  <string name="battery_bar_position_statusbar">Радок стану</string>
+  <string name="battery_bar_color_title">Колер</string>
+  <string name="battery_bar_charging_color_title">Колер зарадкі</string>
+  <string name="battery_bar_battery_low_color_title">Колер пры нізкім зарадзе</string>
+  <string name="battery_bar_style_title">Становішча</string>
+  <string name="battery_bar_thickness_title">Шырыня</string>
   <string name="battery_bar_animate_title">Анімацыя зарадкі</string>
   <string name="battery_bar_style_regular">Звычайны</string>
   <string name="battery_bar_style_center_mirrored">Па цэнтры (люстрана)</string>
   <string name="battery_bar_style_reversed">Наадварот</string>
+  <string name="battery_bar_use_charging_color_title">Наладзіць колер пры зарадцы</string>
+  <string name="battery_bar_blend_color_title">Змешваць колеры</string>
+  <string name="battery_bar_blend_color_summary">Змешаныя поўныя/пустыя колеры ў адпаведнасці з адсоткаў акумулятара</string>
+  <string name="battery_bar_blend_color_reverse_title">Адваротны напрамак колеру</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Поўны &#8594; пусты: чырвоны &#8592; зялёны &#8592; сіні &#8592; чырвоны</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Поўны &#8594; пусты: чырвоны &amp;&#8594; зялёны &#8594; сіні &#8594; чырвоны</string>
+  <string name="volte_icon_title">Значок VoLTE</string>
+  <string name="volte_icon_summary">Паказваць значок VoLTE пры даступнасці</string>
 </resources>

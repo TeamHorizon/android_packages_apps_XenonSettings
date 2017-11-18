@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">Attivo</string>
   <string name="toast_icon_title">Icona app toast</string>
   <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente al toast</string>
+  <string name="sensor_block_title">Blocco sensori per app</string>
+  <string name="sensor_block_summary">Impedisce alle applicazioni di accedere a determinati sensori e risparmiare batteria</string>
   <!-- Navbar -->
   <string name="navbar_title">Barra di navigazione</string>
   <string name="navbar_tuner_title">Pulsanti della barra di navigazione</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">Inverti la direzione del colore</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Pieno &#8594; vuoto: rosso &#8592; verde &#8592; blu &#8592; rosso</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Pieno &#8594; vuoto: rosso &#8594; verde &#8594; blu &#8594; rosso</string>
+  <string name="volte_icon_title">Icona voLTE</string>
+  <string name="volte_icon_summary">Mostra l\'icona VoLTE quando disponibile</string>
 </resources>

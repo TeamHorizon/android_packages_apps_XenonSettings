@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">Zapnuté</string>
   <string name="toast_icon_title">Ikona vo vyskakujúcom upozornení</string>
   <string name="toast_icon_summary">Zobraziť ikonu aplikácie vo vyskakujúcom upozornení</string>
+  <string name="sensor_block_title">Blokovanie senzorov podľa aplikácií</string>
+  <string name="sensor_block_summary">Zablokovanie prístupu k niektorým senzorom pre niektoré aplikácie, za účelom úspory energie</string>
   <!-- Navbar -->
   <string name="navbar_title">Navigačný panel</string>
   <string name="navbar_tuner_title">Tlačidlá na navigačnom paneli</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">Poradie farieb</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Nabitá → vybitá: červená ← zelená ← modrá ← červená</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Nabitá → vybit: červená → zelená → modrá → červená</string>
+  <string name="volte_icon_title">Ikona VoLTE</string>
+  <string name="volte_icon_summary">Zobraziť ikonu VoLTE ak je k dispozícii</string>
 </resources>

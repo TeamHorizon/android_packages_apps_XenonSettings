@@ -67,6 +67,11 @@
   <string name="media_art_summary">Wyświetlaj okładkę odtwarzanego albumu na ekranie blokady</string>
   <string name="lockscreen_qs_disabled_title">Szybkie ustawienia na ekranie blokady</string>
   <string name="lockscreen_qs_disabled_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
+  <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
+  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nNote: na własne ryzyko!</string>
+  <string name="lockscreen_rotation_title">Obracanie</string>
+  <string name="lockscreen_rotation_summary_on">Obrót ekranu blokady włączony</string>
+  <string name="lockscreen_rotation_summary_off">Obrót ekranu blokady wyłączony</string>
   <!-- Misc -->
   <string name="misc_title">Różne</string>
   <string name="dashboard_category">Panel ustawień</string>
@@ -141,6 +146,7 @@
   <string name="brightness_icon_position_title">Pozycja ikony jasności</string>
   <string name="brightness_icon_position_on_summary">Po prawej</string>
   <string name="brightness_icon_position_off_summary">Po lewej</string>
+  <string name="qs_style_dark_title">Ciemny styl QS</string>
   <!-- Recents -->
   <string name="recents_title">Ostatnie aplikacje</string>
   <string name="recents_clear_all_location_title">Pozycja przycisku</string>

@@ -132,7 +132,7 @@
   <string name="qs_footer_warnings_summary">Προβολή μιας ειδοποίησης στο ξέρω μέρος του μενού των γρήγορων ρυθμίσεων όταν ενδέχεται το δίκτυο σας να παρακολουθείτε από εξωτερικές εφαρμογές ή VPN</string>
   <string name="qs_tile_title_visibility_title">Προβολή τίτλων πλακιδίων</string>
   <string name="qs_tile_title_visibility_summary">Προβολή τίτλων κάτω από τα πλακίδια</string>
-  <string name="brightness_slider_switch">Μπάρα ρύθμισης φωτεινότητας</string>
+  <string name="brightness_slider_switch">Ρυθμιστής φωτεινότητας</string>
   <string name="brightness_slider_summary">Προβολή ολισθητή επίπεδου φωτεινότητας στο μενού γρήγορων ρυθμίσεων</string>
   <string name="brightness_icon_title">Εικονιδίο φωτεινότητας</string>
   <string name="brightness_icon_summary">Προβολή εικονιδίου φωτεινότητας δίπλα στον ολισθητή φωτεινότητας για ενεργοποίηση λειτουργίας αυτόματης φωτεινότητας</string>

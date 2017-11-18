@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">Включено</string>
   <string name="toast_icon_title">Иконка всплывающего уведомления</string>
   <string name="toast_icon_summary">Отобразить значок приложения на всплывающем уведомлении</string>
+  <string name="sensor_block_title">Блокировка датчиков попакетно</string>
+  <string name="sensor_block_summary">Заблокировать доступ к датчикам для некоторых приложений для экономии заряда батареи</string>
   <!-- Navbar -->
   <string name="navbar_title">Панель навигации</string>
   <string name="navbar_tuner_title">Кнопки панели навигации</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">Обратное направление цвета</string>
   <string name="battery_bar_blend_color_reverse_summary_off">Полный &#8594; низкий: красный &#8592; зелёный &#8592; синий &#8592; красный</string>
   <string name="battery_bar_blend_color_reverse_summary_on">Полный &#8594; низкий: красный &amp;&#8594; зелёный &#8594; синий &#8594; красный</string>
+  <string name="volte_icon_title">Иконка VoLTE</string>
+  <string name="volte_icon_summary">Показывать иконку VoLTE при доступности</string>
 </resources>

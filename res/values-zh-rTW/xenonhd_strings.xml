@@ -78,6 +78,8 @@
   <string name="summary_dashboard_conditions_enabled">已啟用</string>
   <string name="toast_icon_title">提示應用程式圖示</string>
   <string name="toast_icon_summary">顯示與提示訊息相關的應用程式圖示</string>
+  <string name="sensor_block_title">阻止個別套件存取感應器</string>
+  <string name="sensor_block_summary">阻止應用程式存取某些感應器來省電</string>
   <!-- Navbar -->
   <string name="navbar_title">導覽列</string>
   <string name="navbar_tuner_title">導覽列按鈕</string>
@@ -186,4 +188,6 @@
   <string name="battery_bar_blend_color_reverse_title">反轉顏色方向</string>
   <string name="battery_bar_blend_color_reverse_summary_off">滿 &#8594; 空：紅 &#8592; 綠 &#8592; 藍 &#8592; 紅</string>
   <string name="battery_bar_blend_color_reverse_summary_on">滿 &#8594; 空：紅 &#8594; 綠 &#8594; 藍 &#8594; 紅</string>
+  <string name="volte_icon_title">VoLTE 圖示</string>
+  <string name="volte_icon_summary">可用時顯示 VoLTE 圖示</string>
 </resources>

@@ -16,7 +16,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">Параметри XenonHD</string>
+  <string name="xenonhd_settings_summary">Додаткові опції</string>
   <!-- Buttons -->
+  <string name="button_title">Кнопки</string>
+  <string name="volume_title">Кнопки гучності</string>
+  <string name="swap_volume_buttons">Змінити кнопки гучності</string>
+  <string name="swap_volume_buttons_summary">Змінити кнопки гучності в залежності від орієнтації пристрою</string>
+  <string name="volbtn_down_zen_title">Кнопка Гучності - для режиму \"Не турбувати\"</string>
+  <string name="volbtn_down_zen_summary">Увімкнення режиму \"Не турбувати\" кнопкою Гучності -</string>
+  <string name="volbtn_up_zen_title">Кнопка Гучності + для режиму \"Не турбувати\"</string>
+  <string name="volbtn_up_zen_summary">Вимкнення режиму \"Не турбувати\" кнопкою Гучності +</string>
+  <string name="volume_keys_control_media_stream_title">Керування гучністю медіа</string>
+  <string name="volume_keys_control_media_stream_summary">Панель гучності покаже повзунок гучності медіа за замовчанням</string>
+  <string name="volume_rocker_music_controls_title">Керування відтворенням медіа</string>
   <!-- Color Picker -->
   <string name="color_default">За замовчуванням</string>
   <string name="dialog_color_picker">Палітра кольорів</string>
