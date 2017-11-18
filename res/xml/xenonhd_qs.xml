@@ -28,10 +28,17 @@
         android:title="@string/qs_rows_columns_title"
         android:summary="@string/qs_rows_columns_summary" />
 
+    <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
+        android:key="qs_show_brightness"
+        android:title="@string/show_brightness_title"
+        android:summary="@string/show_brightness_summary"
+        android:defaultValue="true" />
+
     <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_show_brightness_icon"
         android:title="@string/brightness_icon_title"
         android:summary="@string/brightness_icon_summary"
+        android:dependency="qs_show_brightness"
         android:defaultValue="false"/>
 
     </PreferenceCategory>
