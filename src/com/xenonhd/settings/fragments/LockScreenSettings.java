@@ -47,9 +47,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mFpKeystore;
 
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.xenonhd_settings_lockscreen);
+        PreferenceCategory mLsCategory = (PreferenceCategory) findPreference("lockscreen_category");
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
@@ -57,11 +58,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
-        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()){
-            prefScreen.removePreference(mFpKeystore);
+        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
+            mLsCategory.removePreference(mFpKeystore);
         } else {
             mFpKeystore.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
+                   Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
             mFpKeystore.setOnPreferenceChangeListener(this);
         }
     }
