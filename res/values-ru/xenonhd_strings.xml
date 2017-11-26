@@ -67,6 +67,11 @@
   <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
   <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
   <string name="lockscreen_qs_disabled_summary">Отключить быстрые настройки на экране блокировки</string>
+  <string name="fp_unlock_keystore_title">Разблокировать по отпечатку пальца</string>
+  <string name="fp_unlock_keystore_summary">Разблокировка устройства после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
+  <string name="lockscreen_rotation_title">Поворот экрана</string>
+  <string name="lockscreen_rotation_summary_on">Поворот экрана блокировки включён</string>
+  <string name="lockscreen_rotation_summary_off">Поворот экрана блокировки выключен</string>
   <!-- Misc -->
   <string name="misc_title">Разное</string>
   <string name="dashboard_category">Уведомления в главном меню</string>
@@ -141,6 +146,7 @@
   <string name="brightness_icon_position_title">Положение значка яркости</string>
   <string name="brightness_icon_position_on_summary">Справа</string>
   <string name="brightness_icon_position_off_summary">Слева</string>
+  <string name="qs_style_dark_title">Темная тема быстрых настроек</string>
   <!-- Recents -->
   <string name="recents_title">Недавние приложения</string>
   <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>

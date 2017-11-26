@@ -67,6 +67,11 @@
   <string name="media_art_summary">Povolit obaly alba na zamykací obrazovce</string>
   <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
   <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
+  <string name="fp_unlock_keystore_title">Odemknout pomocí otisku prstu</string>
+  <string name="fp_unlock_keystore_summary">Odemknutí zařízení pomocí otisku prstu po restartu bez zadání PINu/hesla/Vzoru\nUpozornění: na vlastní nebezpečí!</string>
+  <string name="lockscreen_rotation_title">Otáčení</string>
+  <string name="lockscreen_rotation_summary_on">Otáčení zamykací obrazovky je povoleno</string>
+  <string name="lockscreen_rotation_summary_off">Otáčení zamykací obrazovky je zakázáno</string>
   <!-- Misc -->
   <string name="misc_title">Různé</string>
   <string name="dashboard_category">Hlavní panel</string>
@@ -141,6 +146,7 @@
   <string name="brightness_icon_position_title">Pozice ikony jasu</string>
   <string name="brightness_icon_position_on_summary">Napravo</string>
   <string name="brightness_icon_position_off_summary">Nalevo</string>
+  <string name="qs_style_dark_title">Tmavý styl QS</string>
   <!-- Recents -->
   <string name="recents_title">Nedávné aplikace</string>
   <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>

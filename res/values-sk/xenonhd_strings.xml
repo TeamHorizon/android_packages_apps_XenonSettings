@@ -67,6 +67,11 @@
   <string name="media_art_summary">Povoliť zobrazenie obalu albumu na obrazovke uzamknutia</string>
   <string name="lockscreen_qs_disabled_title">Nezobrazovat dlaždice rýchlych nastavení pri uzamknutí</string>
   <string name="lockscreen_qs_disabled_summary">Vypnúť dlaždice rýchlych nastavení na obrazovke uzamknutia</string>
+  <string name="fp_unlock_keystore_title">Odomknutie pomocou odtlačku prsta</string>
+  <string name="fp_unlock_keystore_summary">Odomknúť zariadenie pomocou snímača odtlačkov prstov po reštarte bez PIN/hesla/Vzoru\nUpozornenie: na vlastné riziko!</string>
+  <string name="lockscreen_rotation_title">Otáčanie</string>
+  <string name="lockscreen_rotation_summary_on">Otáčanie obrazovky uzamknutia je povolené</string>
+  <string name="lockscreen_rotation_summary_off">Otáčanie obrazovky uzamknutia je zakázané</string>
   <!-- Misc -->
   <string name="misc_title">Rôzne</string>
   <string name="dashboard_category">Hlavný panel</string>
@@ -141,6 +146,7 @@
   <string name="brightness_icon_position_title">Poloha ikony jasu</string>
   <string name="brightness_icon_position_on_summary">Napravo</string>
   <string name="brightness_icon_position_off_summary">Naľavo</string>
+  <string name="qs_style_dark_title">Tmavý štýl QS</string>
   <!-- Recents -->
   <string name="recents_title">Nedávne aplikácie</string>
   <string name="recents_clear_all_location_title">Umiestnenie tlačítka \"Vyčistiť všetko\"</string>

@@ -67,6 +67,11 @@
   <string name="media_art_summary">Abilita la visualizzazione della copertina dei file multimediali nella schermata di blocco</string>
   <string name="lockscreen_qs_disabled_title">Nessuna impostazione rapida con schermata protetta</string>
   <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla schermata di blocco protetta</string>
+  <string name="fp_unlock_keystore_title">Sblocco FP</string>
+  <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza PIN/Password/Sequenza\nNota: a proprio rischio!</string>
+  <string name="lockscreen_rotation_title">Rotazione</string>
+  <string name="lockscreen_rotation_summary_on">Rotazione schermata di blocco è abilitata</string>
+  <string name="lockscreen_rotation_summary_off">Rotazione schermata di blocco è disabilitata</string>
   <!-- Misc -->
   <string name="misc_title">Varie</string>
   <string name="dashboard_category">Pannello impostazioni</string>
@@ -141,6 +146,7 @@
   <string name="brightness_icon_position_title">Posizione icona luminosità</string>
   <string name="brightness_icon_position_on_summary">Sulla destra</string>
   <string name="brightness_icon_position_off_summary">Sulla sinistra</string>
+  <string name="qs_style_dark_title">Stile impostazioni rapide scuro</string>
   <!-- Recents -->
   <string name="recents_title">Applicazioni recenti</string>
   <string name="recents_clear_all_location_title">Posizione del pulsante cancella tutto</string>
