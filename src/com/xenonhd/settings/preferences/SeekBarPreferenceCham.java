@@ -131,8 +131,9 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
         mSeekBar = (SeekBar) holder.findViewById(R.id.seekbar);
+        // Remove possible previously attached change listener to prevent setting wrong values
+        mSeekBar.setOnSeekBarChangeListener(null);
         mSeekBar.setMax(mMaxValue - mMinValue);
-        mSeekBar.setOnSeekBarChangeListener(this);
         //mTitle = (TextView) holder.findViewById(android.R.id.title);
         mUnitsLeftText = (TextView) holder.findViewById(R.id.seekBarPrefUnitsLeft);
         mUnitsRightText = (TextView) holder.findViewById(R.id.seekBarPrefUnitsRight);
@@ -204,6 +205,7 @@ public class SeekBarPreferenceCham extends Preference implements SeekBar.OnSeekB
         });
 
         updateView();
+        mSeekBar.setOnSeekBarChangeListener(this);
     }
 
     /**
