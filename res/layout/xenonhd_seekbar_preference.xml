@@ -41,9 +41,7 @@
             android:layout_height="wrap_content"
             android:singleLine="true"
             android:textAppearance="?android:attr/textAppearanceListItem"
-            android:ellipsize="marquee"
-            android:paddingStart="56dp"
-            android:paddingEnd="8dp" />
+            android:ellipsize="marquee" />
 
         <TextView android:id="@android:id/summary"
             android:layout_width="wrap_content"

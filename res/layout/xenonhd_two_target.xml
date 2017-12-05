@@ -63,8 +63,6 @@
                 android:layout_height="wrap_content"
                 android:singleLine="true"
                 android:textAppearance="?android:attr/textAppearanceListItem"
-                android:paddingStart="56dp"
-                android:paddingEnd="8dp"
                 android:ellipsize="marquee" />
 
             <TextView
@@ -75,9 +73,7 @@
                 android:layout_alignStart="@android:id/title"
                 android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                 android:textColor="?android:attr/textColorSecondary"
-                android:maxLines="10"
-                android:paddingStart="56dp"
-                android:paddingEnd="8dp" />
+                android:maxLines="10" />
 
         </RelativeLayout>
 
