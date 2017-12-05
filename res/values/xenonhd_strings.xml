@@ -58,12 +58,8 @@
     <string name="dt2s_category">Double tap to sleep</string>
     <string name="gesture_preferences_title">Native gestures</string>
     <string name="gesture_preferences_summary">Configure the gestures available for your device</string>
-    <string name="double_tap_sleep_lockscreen">DT2S on lockscreen</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap on lockscreen to sleep device</string>
     <string name="double_tap_sleep_navbar">DT2S on navbar</string>
     <string name="double_tap_sleep_navbar_summary">Double tap on navbar to sleep device</string>
-    <string name="double_tap_to_sleep_title">DT2S on status bar</string>
-    <string name="double_tap_to_sleep_summary">Double tap on status bar to sleep device</string>
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
 
