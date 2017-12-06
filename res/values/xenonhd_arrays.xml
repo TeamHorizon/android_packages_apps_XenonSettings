@@ -15,6 +15,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+   <!-- Carrier Label -->
+   <string-array name="carrier_label_entries">
+       <item>@string/show_carrier_disabled</item>
+       <item>@string/show_carrier_keyguard</item>
+       <item>@string/show_carrier_statusbar</item>
+       <item>@string/show_carrier_enabled</item>
+   </string-array>
+
+   <string-array name="carrier_label_values" translatable="false">
+       <item>0</item>
+       <item>1</item>
+       <item>2</item>
+       <item>3</item>
+   </string-array>
+
    <!-- clear all recents button location -->
     <string-array name="recents_clear_all_location_entries" translatable="false">
         <item>@string/recents_clear_all_location_top_right</item>
