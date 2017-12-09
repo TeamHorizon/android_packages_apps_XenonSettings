@@ -51,12 +51,8 @@
   <string name="dt2s_category">Выключаць экран пры падвойным націску</string>
   <string name="gesture_preferences_title">Натыўныя жэсты</string>
   <string name="gesture_preferences_summary">Наладзіць жэсты даступныя для вашай прылады</string>
-  <string name="double_tap_sleep_lockscreen">Падвойнае націск для сну на экране блакавання</string>
-  <string name="double_tap_sleep_lockscreen_summary">Падвойны націск на экране блакавання, каб перайсці ў рэжым сну</string>
   <string name="double_tap_sleep_navbar">Падвойны націск для сну на панэлі навігацыі</string>
   <string name="double_tap_sleep_navbar_summary">Падвойны націск на панэлі навігацыі, каб перайсці ў рэжым сну</string>
-  <string name="double_tap_to_sleep_title">Падвойны націск для сну на радку стану</string>
-  <string name="double_tap_to_sleep_summary">Падвойны націск на радку стану, каб перайсці ў рэжым сну</string>
   <string name="pocket_judge_title">Рэжым \"У кішэні\"</string>
   <string name="pocket_judge_summary">Блакаваць экран і кнопкі, калі прылада знаходзіцца ў кішэні</string>
   <!-- Lockscreen -->
@@ -190,4 +186,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Поўны &#8594; пусты: чырвоны &amp;&#8594; зялёны &#8594; сіні &#8594; чырвоны</string>
   <string name="volte_icon_title">Значок VoLTE</string>
   <string name="volte_icon_summary">Паказваць значок VoLTE пры даступнасці</string>
+  <string name="carrier_category">Лагатып аператара</string>
+  <string name="custom_carrier_label_title">Карыстацкі лагатып</string>
+  <string name="custom_carrier_label_notset">Карыстацкі лагатып не ўсталяваны</string>
+  <string name="show_carrier_keyguard">Толькі на экране блакавання</string>
+  <string name="show_carrier_statusbar">Толькі радок стану</string>
 </resources>

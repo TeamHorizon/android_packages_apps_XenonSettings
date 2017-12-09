@@ -60,4 +60,8 @@
   <string name="battery_bar_style_regular">Regular</string>
   <string name="battery_bar_style_center_mirrored">Centro-espelhado</string>
   <string name="battery_bar_style_reversed">Invertido</string>
+  <string name="carrier_category">Nome da operadora</string>
+  <string name="custom_carrier_label_title">Nome personalizado da operadora</string>
+  <string name="show_carrier_keyguard">Apenas na tela de bloqueio</string>
+  <string name="show_carrier_statusbar">Apenas na barra de status</string>
 </resources>

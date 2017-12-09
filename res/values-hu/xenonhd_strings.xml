@@ -61,4 +61,9 @@
   <string name="battery_bar_style_regular">Átlagos</string>
   <string name="battery_bar_style_center_mirrored">Középre tükrözött</string>
   <string name="battery_bar_style_reversed">Fordított</string>
+  <string name="carrier_category">Szolgáltatói címke</string>
+  <string name="custom_carrier_label_title">Egyéni szolgáltatónév</string>
+  <string name="custom_carrier_label_notset">Egyéni szolgáltatóinév nincs beállítva</string>
+  <string name="show_carrier_keyguard">Csak zárképernyő</string>
+  <string name="show_carrier_statusbar">Csak állapotsor</string>
 </resources>

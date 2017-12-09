@@ -51,14 +51,12 @@
   <string name="dt2s_category">Usypianie podwójnym dotknięciem</string>
   <string name="gesture_preferences_title">Gesty urządzenia</string>
   <string name="gesture_preferences_summary">Skonfiguruj gesty dostępne dla Twojego urządzenia</string>
-  <string name="double_tap_sleep_lockscreen">DT2S na ekranie blokady</string>
-  <string name="double_tap_sleep_lockscreen_summary">Podwójne dotknięcie na ekranie blokady usypia urządzenie</string>
   <string name="double_tap_sleep_navbar">DT2S na pasku nawigacji</string>
   <string name="double_tap_sleep_navbar_summary">Podwójne dotknięcie paska nawigacji usypia urządzenie</string>
-  <string name="double_tap_to_sleep_title">DT2S na pasku stanu</string>
-  <string name="double_tap_to_sleep_summary">Podwójne dotknięcie paska stanu usypia urządzenie</string>
   <string name="pocket_judge_title">Wykrywanie kieszeni</string>
   <string name="pocket_judge_summary">Zablokuj funkcje ekranu i przycisków, gdy urządzenie jest w kieszeni</string>
+  <string name="three_finger_gesture">Gest trzema palcami</string>
+  <string name="three_finger_gesture_summary">Przeciągnij trzema palcami w dół, aby wykonać zrzut ekranu</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Blokada ekranu</string>
   <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
@@ -196,4 +194,14 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Pełna &#8594; pusta: czerwony &#8594; zielony &#8594; niebieski &#8594; czerwony</string>
   <string name="volte_icon_title">Ikona VoLTE</string>
   <string name="volte_icon_summary">Wyświetl Ikonę VoLTE gdy jest obsługiwane</string>
+  <string name="carrier_category">Etykieta operatora</string>
+  <string name="carrier_options">Wybierz miejsce wyświetlania</string>
+  <string name="custom_carrier_label_title">Własna etykieta operatora</string>
+  <string name="custom_carrier_label_explain">Wprowadź własny tekst. Pozostaw puste, aby użyć domyślnego</string>
+  <string name="custom_carrier_label_notset">Własny tekst nie został ustawiony</string>
+  <string name="show_carrier_title">Wyświetl na</string>
+  <string name="show_carrier_disabled">Nigdzie</string>
+  <string name="show_carrier_keyguard">Tylko na ekranie blokady</string>
+  <string name="show_carrier_statusbar">Tylko na pasku stanu</string>
+  <string name="show_carrier_enabled">Na ekranie blokady i pasku stanu</string>
 </resources>

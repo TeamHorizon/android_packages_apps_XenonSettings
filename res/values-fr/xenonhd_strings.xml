@@ -62,4 +62,9 @@
   <string name="battery_bar_style_regular">Régulière</string>
   <string name="battery_bar_style_center_mirrored">Centrée et reflétée</string>
   <string name="battery_bar_style_reversed">Inversée</string>
+  <string name="carrier_category">Label de l\'opérateur</string>
+  <string name="custom_carrier_label_title">Libellé de l\'opérateur personalisé</string>
+  <string name="custom_carrier_label_notset">Le label personalisé n\'est pas définis</string>
+  <string name="show_carrier_keyguard">Ecran de verrouillage uniquement</string>
+  <string name="show_carrier_statusbar">Barre de statut uniquement</string>
 </resources>

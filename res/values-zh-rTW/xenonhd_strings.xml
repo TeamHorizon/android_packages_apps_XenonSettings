@@ -51,12 +51,8 @@
   <string name="dt2s_category">輕觸兩下即可休眠</string>
   <string name="gesture_preferences_title">本機手勢</string>
   <string name="gesture_preferences_summary">配置可用於您的裝置的手勢</string>
-  <string name="double_tap_sleep_lockscreen">輕觸兩下鎖定畫面</string>
-  <string name="double_tap_sleep_lockscreen_summary">輕觸兩下鎖定畫面即可裝置休眠</string>
   <string name="double_tap_sleep_navbar">在導覽列輕觸兩下休眠</string>
   <string name="double_tap_sleep_navbar_summary">輕觸兩下導覽列即可裝置休眠</string>
-  <string name="double_tap_to_sleep_title">狀態列輕觸兩下休眠</string>
-  <string name="double_tap_to_sleep_summary">輕觸兩下狀態列即可裝置休眠</string>
   <string name="pocket_judge_title">口袋檢測</string>
   <string name="pocket_judge_summary">當裝置在口袋中時阻止螢幕和按鈕輸入</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">滿 &#8594; 空：紅 &#8594; 綠 &#8594; 藍 &#8594; 紅</string>
   <string name="volte_icon_title">VoLTE 圖示</string>
   <string name="volte_icon_summary">可用時顯示 VoLTE 圖示</string>
+  <string name="carrier_category">電信公司標籤</string>
+  <string name="custom_carrier_label_title">自訂電信公司標籤</string>
+  <string name="custom_carrier_label_notset">自訂標籤目前尚未設定</string>
+  <string name="show_carrier_keyguard">僅限於解鎖螢幕</string>
+  <string name="show_carrier_statusbar">僅顯示狀態列</string>
 </resources>

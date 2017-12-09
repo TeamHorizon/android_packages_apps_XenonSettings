@@ -51,12 +51,8 @@
   <string name="dt2s_category">Doppio tocco per spegnere</string>
   <string name="gesture_preferences_title">Gesti nativi</string>
   <string name="gesture_preferences_summary">Configura i gesti disponibili per il dispositivo</string>
-  <string name="double_tap_sleep_lockscreen">Doppio tocco sulla schermata di blocco</string>
-  <string name="double_tap_sleep_lockscreen_summary">Doppio tocco sulla schermata di blocco per spegnere lo schermo</string>
   <string name="double_tap_sleep_navbar">Doppio tocco sulla barra di navigazione</string>
   <string name="double_tap_sleep_navbar_summary">Doppio tocco sulla barra di navigazione per spegnere lo schermo</string>
-  <string name="double_tap_to_sleep_title">Doppio tocco sulla barra di stato</string>
-  <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
   <string name="pocket_judge_title">Rilevamento in tasca</string>
   <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Pieno &#8594; vuoto: rosso &#8594; verde &#8594; blu &#8594; rosso</string>
   <string name="volte_icon_title">Icona voLTE</string>
   <string name="volte_icon_summary">Mostra l\'icona VoLTE quando disponibile</string>
+  <string name="carrier_category">Etichetta operatore</string>
+  <string name="custom_carrier_label_title">Personalizza nome operatore</string>
+  <string name="custom_carrier_label_notset">L\'etichetta personalizzata non è impostata</string>
+  <string name="show_carrier_keyguard">Solo schermata di blocco</string>
+  <string name="show_carrier_statusbar">Solo barra di stato</string>
 </resources>

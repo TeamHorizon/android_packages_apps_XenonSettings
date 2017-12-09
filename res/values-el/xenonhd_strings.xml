@@ -51,12 +51,8 @@
   <string name="dt2s_category">Διπλό πάτημα στην οθόνη για να απενεργοποιηθεί</string>
   <string name="gesture_preferences_title">Έμφυτες χειρονομίες</string>
   <string name="gesture_preferences_summary">Ρύθμιση χειρονομιών που είναι διαθέσιμες για την συσκευή σας</string>
-  <string name="double_tap_sleep_lockscreen">Διπλό πάτημα στην οθόνη κλειδώματος για απενεργοποίηση</string>
-  <string name="double_tap_sleep_lockscreen_summary">Διπλό πάτημα στην οθόνη κλειδώματος για να κλείσει η οθόνη</string>
   <string name="double_tap_sleep_navbar">Διπλό πάτημα στο μενού πλοήγησης για απενεργοποίηση</string>
   <string name="double_tap_sleep_navbar_summary">Πατήστε 2 φορές στην μπάρα πλοήγησης για να κλείσει η οθόνη</string>
-  <string name="double_tap_to_sleep_title">Απενεργοποίηση με το πάτημα στην γραμμή κατάστασης</string>
-  <string name="double_tap_to_sleep_summary">Πατήστε 2 φορές στην γραμμή κατάστασης για να κλείσει η οθόνη</string>
   <string name="pocket_judge_title">Αναγνώριση τσέπης</string>
   <string name="pocket_judge_summary">Απενεργοποίηση αισθητήρων και μπλοκάρισμα εντολών οθόνης όταν ξ συσκευή είναι στην τσέπη σας</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Ολόκληρο &#8594; empty: κόκκινο &#8594; Πράσινο &#8594; Μπλε &#8594; Κομκινο</string>
   <string name="volte_icon_title">Εικονίδιο voLTE</string>
   <string name="volte_icon_summary">Εμφάνιση εικονιδίου VoLTE όταν είναι διαθέσιμο</string>
+  <string name="carrier_category">Ετικέτα παρόχου</string>
+  <string name="custom_carrier_label_title">Προσαρμοσμένο όνομα παρόχου</string>
+  <string name="custom_carrier_label_notset">Προσαρμοσμένο όνομα παρόχου επί του παρόντος δεν έχει οριστεί</string>
+  <string name="show_carrier_keyguard">Μόνο στην οθόνη κλειδώματος</string>
+  <string name="show_carrier_statusbar">Μόνο στην γραμμή κατάστασης</string>
 </resources>

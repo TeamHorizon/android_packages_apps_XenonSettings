@@ -51,12 +51,8 @@
   <string name="dt2s_category">Uspat dvojím poklepáním</string>
   <string name="gesture_preferences_title">Nativní gesta</string>
   <string name="gesture_preferences_summary">Nakonfigurujte gesta dostupná pro vaše zařízení</string>
-  <string name="double_tap_sleep_lockscreen">Dvojí poklepání na uzamčenou obrazovku</string>
-  <string name="double_tap_sleep_lockscreen_summary">Dvojí poklepání na zamykací obrazovce uspe zařízení</string>
   <string name="double_tap_sleep_navbar">Dvojí poklepání na navigační panel</string>
   <string name="double_tap_sleep_navbar_summary">Dvojí poklepání na navigační panel uspe zařízení</string>
-  <string name="double_tap_to_sleep_title">Dvojí poklepání na stavovou lištu</string>
-  <string name="double_tap_to_sleep_summary">Dvojí poklepání na stavovou lištu uspe zařízení</string>
   <string name="pocket_judge_title">Detekce uložení v kapse</string>
   <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Nabito &#8594; Vybito: červená &#8594; zelená &#8594; modrá &#8594; červená</string>
   <string name="volte_icon_title">Ikona VoLTE</string>
   <string name="volte_icon_summary">Zobrazit ikonu VoLTE, když je k dispozici</string>
+  <string name="carrier_category">Název mobilní sítě</string>
+  <string name="custom_carrier_label_title">Vlastní název mobilní sítě</string>
+  <string name="custom_carrier_label_notset">V současné době není nastaven vlastní název operátora</string>
+  <string name="show_carrier_keyguard">Pouze na zamčené obrazovce</string>
+  <string name="show_carrier_statusbar">Pouze stavový řádek</string>
 </resources>

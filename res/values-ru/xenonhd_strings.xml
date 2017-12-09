@@ -51,12 +51,8 @@
   <string name="dt2s_category">Выключение экрана двойным нажатием</string>
   <string name="gesture_preferences_title">Нативные жесты</string>
   <string name="gesture_preferences_summary">Настроить жесты доступные для вашего устройства</string>
-  <string name="double_tap_sleep_lockscreen">Двойное нажатие для сна на экране блокировки</string>
-  <string name="double_tap_sleep_lockscreen_summary">Двойное нажатие на экране блокировки, чтобы перейти в режим сна</string>
   <string name="double_tap_sleep_navbar">Двойное нажатие для сна на панели навигации</string>
   <string name="double_tap_sleep_navbar_summary">Двойное нажатие на панели навигации, чтобы перейти в режим сна</string>
-  <string name="double_tap_to_sleep_title">Двойное нажатие для сна на строке состояния</string>
-  <string name="double_tap_to_sleep_summary">Двойное нажатие на строке состояния, чтобы перейти в режим сна</string>
   <string name="pocket_judge_title">Режим \"В кармане\"</string>
   <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Полный &#8594; низкий: красный &amp;&#8594; зелёный &#8594; синий &#8594; красный</string>
   <string name="volte_icon_title">Иконка VoLTE</string>
   <string name="volte_icon_summary">Показывать иконку VoLTE при доступности</string>
+  <string name="carrier_category">Логотип оператора</string>
+  <string name="custom_carrier_label_title">Пользовательский логотип</string>
+  <string name="custom_carrier_label_notset">Пользовательский логотип не установлен</string>
+  <string name="show_carrier_keyguard">Только на экране блокировки</string>
+  <string name="show_carrier_statusbar">Только строка состояния</string>
 </resources>

@@ -51,12 +51,8 @@
   <string name="dt2s_category">Doble toque para dormir</string>
   <string name="gesture_preferences_title">Gestos nativos</string>
   <string name="gesture_preferences_summary">Configurar los gestos disponibles para su dispositivo</string>
-  <string name="double_tap_sleep_lockscreen">Doble toque para dormir en pantalla de bloqueo</string>
-  <string name="double_tap_sleep_lockscreen_summary">Doble toque en pantalla de bloqueo para dormir</string>
   <string name="double_tap_sleep_navbar">Doble toque para dormir en barra de navegación</string>
   <string name="double_tap_sleep_navbar_summary">Doble toque en barra de navegación para dormir dispositivo</string>
-  <string name="double_tap_to_sleep_title">Doble toque para dormir en barra de estado</string>
-  <string name="double_tap_to_sleep_summary">Doble toque en barra de estado para dormir dispositivo</string>
   <string name="pocket_judge_title">Detección de bolsillo</string>
   <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en el bolsillo</string>
   <!-- Lockscreen -->
@@ -97,4 +93,9 @@
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Centrada-reflejada</string>
   <string name="battery_bar_style_reversed">Invertida</string>
+  <string name="carrier_category">Etiqueta de Operador</string>
+  <string name="custom_carrier_label_title">Nombre personalizado del operador</string>
+  <string name="custom_carrier_label_notset">Nombre personalizado actualmente no establecido</string>
+  <string name="show_carrier_keyguard">Sólo en la pantalla de bloqueo</string>
+  <string name="show_carrier_statusbar">Sólo en la barra de estado</string>
 </resources>

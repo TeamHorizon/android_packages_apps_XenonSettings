@@ -57,4 +57,9 @@
   <string name="battery_bar_style_regular">العادية</string>
   <string name="battery_bar_style_center_mirrored">مركزي عاكس</string>
   <string name="battery_bar_style_reversed">معكوس</string>
+  <string name="carrier_category">علامة مشغّل الشبكة</string>
+  <string name="custom_carrier_label_title">عرض اسم مخصص بدل اسم الشبكه</string>
+  <string name="custom_carrier_label_notset">لم يتم ضبط علامة مُعينة</string>
+  <string name="show_carrier_keyguard">شاشة القفل فقط</string>
+  <string name="show_carrier_statusbar">شريط الحالة فقط</string>
 </resources>

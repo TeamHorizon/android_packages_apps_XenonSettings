@@ -61,4 +61,9 @@
   <string name="battery_bar_style_regular">Kurallı</string>
   <string name="battery_bar_style_center_mirrored">Merkez Ayna Yansıması</string>
   <string name="battery_bar_style_reversed">Zıt</string>
+  <string name="carrier_category">Operatör etiketi</string>
+  <string name="custom_carrier_label_title">Özel Operatör Etiketi</string>
+  <string name="custom_carrier_label_notset">Şu anda özel etiket etkin değil</string>
+  <string name="show_carrier_keyguard">Sadece kilit ekranı</string>
+  <string name="show_carrier_statusbar">Yalnızca durum çubuğu</string>
 </resources>

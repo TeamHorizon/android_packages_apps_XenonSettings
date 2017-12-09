@@ -47,12 +47,8 @@
   <!-- Gestures -->
   <string name="gestures_title">Cử chỉ</string>
   <string name="dt2s_category">Chạm hai lần để tắt màn hình</string>
-  <string name="double_tap_sleep_lockscreen">Nhấn hai lần trên màn hình khoá</string>
-  <string name="double_tap_sleep_lockscreen_summary">Nhấn hai lần trên màn hình khoá để tắt ngủ thiết bị</string>
   <string name="double_tap_sleep_navbar">Nhấn hai lần trên thanh điều hướng</string>
   <string name="double_tap_sleep_navbar_summary">Bấm 2 lần vào Navbar để tắt màn hình</string>
-  <string name="double_tap_to_sleep_title">Bấm 2 lần trên thanh trạng thái</string>
-  <string name="double_tap_to_sleep_summary">Nhấn hai lần trên màn hình khoá để tắt ngủ thiết bị</string>
   <string name="pocket_judge_title">Phát hiện trong túi</string>
   <string name="pocket_judge_summary">Chặn màn hình và nút đầu vào khi thiết bị ở trong túi</string>
   <!-- Lockscreen -->

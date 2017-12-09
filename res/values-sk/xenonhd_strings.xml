@@ -51,12 +51,8 @@
   <string name="dt2s_category">Uspať dvojklikom</string>
   <string name="gesture_preferences_title">Pôvodné gestá</string>
   <string name="gesture_preferences_summary">Nakonfigurujte gestá dostupné pre vaše zariadenie</string>
-  <string name="double_tap_sleep_lockscreen">Dvojklik na obrazovku uzamknutia</string>
-  <string name="double_tap_sleep_lockscreen_summary">Dvojklik na obrazovke uzamknutia uspí zariadenie</string>
   <string name="double_tap_sleep_navbar">Dvojklik na navigačný panel</string>
   <string name="double_tap_sleep_navbar_summary">Dvojklik na navigačný panel uspí zariadenie</string>
-  <string name="double_tap_to_sleep_title">Dvojklik na stavový riadok</string>
-  <string name="double_tap_to_sleep_summary">Dvojklik na stavový riadok uspí zariadenie</string>
   <string name="pocket_judge_title">Detekcia režimu Vo vrecku</string>
   <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
   <!-- Lockscreen -->
@@ -196,4 +192,9 @@
   <string name="battery_bar_blend_color_reverse_summary_on">Nabitá → vybit: červená → zelená → modrá → červená</string>
   <string name="volte_icon_title">Ikona VoLTE</string>
   <string name="volte_icon_summary">Zobraziť ikonu VoLTE ak je k dispozícii</string>
+  <string name="carrier_category">Názov operátora</string>
+  <string name="custom_carrier_label_title">Vlastný názov operátora</string>
+  <string name="custom_carrier_label_notset">Vlastný názov momentálne nie je nastavený</string>
+  <string name="show_carrier_keyguard">Iba na obrazovke uzamknutia</string>
+  <string name="show_carrier_statusbar">Iba stavový riadok</string>
 </resources>
