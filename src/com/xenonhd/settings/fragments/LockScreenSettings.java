@@ -41,11 +41,6 @@ import com.android.settings.SettingsPreferenceFragment;
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
-
-    private FingerprintManager mFingerprintManager;
-    private SwitchPreference mFpKeystore;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -55,26 +50,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
-        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
-        mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
-        if (!mFingerprintManager.isHardwareDetected()){
-            prefScreen.removePreference(mFpKeystore);
-        } else {
-            mFpKeystore.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
-            mFpKeystore.setOnPreferenceChangeListener(this);
-        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 
-        if (preference == mFpKeystore) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                Settings.System.FP_UNLOCK_KEYSTORE, value ? 1 : 0);
-            return true;
-        }
         return false;
     }
 
