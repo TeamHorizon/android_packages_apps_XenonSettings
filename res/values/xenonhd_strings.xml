@@ -28,6 +28,13 @@
     <string name="recents_title">Recents apps</string>
     <string name="statusbar_title">Statusbar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
+    <string name="xenonsettings_title">XenonHD Settings</string>
+
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Changelog</string>
+    <string name="changelog_xenonhd_error">Unable to load changelog</string>
+    <string name="changelog_xenonhd_summary">View changes in curent release</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -44,4 +51,9 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Check for XenonHD updates</string>
+
 </resources>
