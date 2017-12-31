@@ -18,6 +18,37 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/xenonhd_settings_title" >
 
+    <PreferenceCategory
+        android:key="xenonhd_category"
+        android:title="@string/xenonhd_title">
+
+    <!-- XenonOTA -->
+    <Preference
+        android:key="xenonota"
+        android:title="@string/xenonota_title"
+        android:summary="@string/xenonota_summary"
+        android:icon="@drawable/ic_system_update"
+        android:order="-10">
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.xenonota"
+                android:targetClass="com.xenonota.MainActivity" />
+    </Preference>
+
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog_xenonhd"
+        android:title="@string/changelog_xenonhd_title"
+        android:summary="@string/changelog_xenonhd_summary"
+        android:icon="@drawable/ic_changelog"
+        android:order="-9"
+        android:fragment="com.android.settings.xenonhd.Changelog" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="xenonsettings_category"
+        android:title="@string/xenonsettings_title">
+
         <!-- Status Bar
         <Preference
             android:key="statusbar_category"
@@ -87,5 +118,5 @@
             android:title="@string/misc_title"
             android:fragment="com.xenonhd.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/> -->
-
+    </PreferenceCategory>
 </PreferenceScreen>

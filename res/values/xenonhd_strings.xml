@@ -28,6 +28,13 @@
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
+    <string name="xenonsettings_title">XenonHD Settings</string>
+
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Changelog</string>
+    <string name="changelog_xenonhd_error">Unable to load changelog</string>
+    <string name="changelog_xenonhd_summary">View changes in curent release</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -50,4 +57,9 @@
     <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
     <string name="seekbar_default_value_already_set">Default value is already set</string>
     <string name="seekbar_default_string">Default</string>
+
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Check for XenonHD updates</string>
+
 </resources>
