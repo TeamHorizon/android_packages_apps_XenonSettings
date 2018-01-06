@@ -1,7 +1,5 @@
 package com.xenonhd.settings.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
-
 import android.os.Bundle;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -17,27 +15,27 @@ import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.android.internal.logging.nano.MetricsProto;
+
 import java.util.List;
+import java.util.Locale;
 import java.util.ArrayList;
 
-public class QuickSettings extends SettingsPreferenceFragment implements
+public class QSSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
-
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_quicksettings);
+        addPreferencesFromResource(R.xml.xenonhd_qs);
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
-
-        }
+    }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -49,5 +47,4 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.XENONHD;
     }
-
 }

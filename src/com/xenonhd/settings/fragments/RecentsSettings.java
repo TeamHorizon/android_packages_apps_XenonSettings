@@ -28,17 +28,14 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_recents);
+        addPreferencesFromResource(R.xml.xenonhd_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
-
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-
-    return false;
-
+        return false;
     }
 
     @Override

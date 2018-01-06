@@ -18,4 +18,11 @@
     <declare-styleable name="ColorPreference">
         <attr name="defaultColorValue" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="SeekBarPreference">
+        <attr name="unitsLeft" format="string|reference" />
+        <attr name="unitsRight" format="string|reference" />
+        <attr name="interval" format="integer" />
+        <attr name="thumb_default_value_color" format="color" />
+    </declare-styleable>
 </resources>

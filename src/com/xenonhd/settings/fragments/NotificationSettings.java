@@ -1,11 +1,11 @@
 package com.xenonhd.settings.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
-
 import android.os.Bundle;
-import com.android.settings.R;
 
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+
+import com.android.internal.logging.nano.MetricsProto;
 
 public class NotificationSettings extends SettingsPreferenceFragment {
 
@@ -13,7 +13,7 @@ public class NotificationSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_notifications);
+        addPreferencesFromResource(R.xml.xenonhd_notifications);
     }
 
     @Override

@@ -1,7 +1,5 @@
 package com.xenonhd.settings.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -26,6 +24,8 @@ import java.util.HashSet;
 
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.internal.logging.nano.MetricsProto;
+
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
@@ -33,8 +33,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.xenonhd_settings_misc);
-
+        addPreferencesFromResource(R.xml.xenonhd_misc);
     }
 
     @Override

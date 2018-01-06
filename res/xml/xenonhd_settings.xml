@@ -53,14 +53,14 @@
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:fragment="com.xenonhd.settings.fragments.StatusBarSettings" 
+            android:fragment="com.xenonhd.settings.fragments.StatusbarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/> -->
 
         <!-- Quick Settings panel
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:fragment="com.xenonhd.settings.fragments.QuickSettings"
+            android:fragment="com.xenonhd.settings.fragments.QSSettings"
             android:icon="@drawable/ic_settings_quicksettings"/> -->
 
         <!-- Buttons
@@ -74,7 +74,7 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
-            android:fragment="com.xenonhd.settings.fragments.NavbarSettings"
+            android:fragment="com.xenonhd.settings.fragments.NavigationSettings"
             android:icon="@drawable/ic_settings_navbar"/> -->
 
         <!-- Gestures
@@ -88,14 +88,14 @@
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
-            android:fragment="com.xenonhd.settings.fragments.LockScreenSettings"
+            android:fragment="com.xenonhd.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/> -->
 
         <!-- Power Menu
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
-            android:fragment="com.xenonhd.settings.fragments.PowerMenuSettings"
+            android:fragment="com.xenonhd.settings.fragments.PowerSettings"
             android:icon="@drawable/ic_settings_powermenu"/> -->
 
         <!-- Recents
