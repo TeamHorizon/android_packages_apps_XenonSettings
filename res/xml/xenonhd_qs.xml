@@ -18,9 +18,15 @@
     android:title="@string/qs_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-  <Preference
-            android:key="qs_rows_columns"
-            android:fragment="com.xenonhd.settings.QsRowsColumns"
-            android:title="@string/qs_rows_columns_title"/>
+    <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/qs_category">
 
+    <Preference
+        android:key="qs_rows_columns"
+        android:fragment="com.xenonhd.settings.fragments.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"
+        android:summary="@string/qs_rows_columns_summary" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

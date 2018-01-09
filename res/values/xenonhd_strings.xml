@@ -83,9 +83,11 @@
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">QS rows and columns</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_category">QS Tiles</string>
+    <string name="qs_columns_landscape_title">Columns - landscape</string>
+    <string name="qs_columns_portrait_title">Columns - portrait</string>
+    <string name="qs_rows_columns_title">Rows and columns</string>
+    <string name="qs_rows_columns_summary">Adjust number of QS rows and columns</string>
+    <string name="qs_rows_landscape_title">Rows - landscape</string>
+    <string name="qs_rows_portrait_title">Rows - portrait</string>
 </resources>
