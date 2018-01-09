@@ -24,6 +24,9 @@ import com.android.settings.SettingsPreferenceFragment;
 public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private FingerprintManager mFingerprintManager;
+    private SwitchPreference mFingerprintVib;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -32,6 +35,13 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+
+        // Fingerprint vibration
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SwitchPreference) prefScreen.findPreference("fingerprint_success_vib");
+        if (!mFingerprintManager.isHardwareDetected()){
+            prefScreen.removePreference(mFingerprintVib);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {

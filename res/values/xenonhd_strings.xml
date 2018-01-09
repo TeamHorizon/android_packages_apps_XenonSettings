@@ -202,4 +202,9 @@
     <string name="carbon_gesture_media_previous">Previous media</string>
     <string name="carbon_gesture_customapp">Launch application</string>
     <string name="carbon_gesture_launch">Launch</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary_on">Vibrate on successful fingerprint authentication enabled</string>
+    <string name="fprint_sucess_vib_summary_off">Vibrate on successful fingerprint authentication disabled</string>
 </resources>
