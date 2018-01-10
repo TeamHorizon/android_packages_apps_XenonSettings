@@ -54,69 +54,69 @@
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.xenonhd.settings.fragments.StatusbarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/> -->
+            android:icon="@drawable/ic_statusbar"/> -->
 
-        <!-- Quick Settings panel
+        <!-- Quick Settings panel -->
         <Preference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
+            android:key="qs_category"
+            android:title="@string/qs_title"
             android:fragment="com.xenonhd.settings.fragments.QSSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/> -->
+            android:icon="@drawable/ic_qs"/>
 
-        <!-- Buttons
+        <!-- Buttons -->
         <Preference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
+            android:key="buttons_category"
+            android:title="@string/buttons_title"
             android:fragment="com.xenonhd.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/> -->
+            android:icon="@drawable/ic_buttons"/>
 
         <!-- Navigation Bar
         <Preference
-            android:key="navigationbar_category"
-            android:title="@string/navbar_title"
+            android:key="navigation_category"
+            android:title="@string/navigation_title"
             android:fragment="com.xenonhd.settings.fragments.NavigationSettings"
-            android:icon="@drawable/ic_settings_navbar"/> -->
+            android:icon="@drawable/ic_navigation"/> -->
 
         <!-- Gestures
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.xenonhd.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/> -->
+            android:icon="@drawable/ic_gestures"/> -->
 
         <!-- Lock Screen
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.xenonhd.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_settings_lockscreen"/> -->
+            android:icon="@drawable/ic_lockscreen"/> -->
 
-        <!-- Power Menu
+        <!-- Power Menu -->
         <Preference
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title"
+            android:key="power_category"
+            android:title="@string/power_title"
             android:fragment="com.xenonhd.settings.fragments.PowerSettings"
-            android:icon="@drawable/ic_settings_powermenu"/> -->
+            android:icon="@drawable/ic_power"/>
 
         <!-- Recents
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.xenonhd.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/> -->
+            android:icon="@drawable/ic_recents"/> -->
 
         <!-- Notifications
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.xenonhd.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/> -->
+            android:icon="@drawable/ic_notifications"/> -->
 
-        <!-- Misc
+        <!-- Misc -->
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title"
             android:fragment="com.xenonhd.settings.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_misc"/> -->
+            android:icon="@drawable/ic_misc"/>
     </PreferenceCategory>
 </PreferenceScreen>

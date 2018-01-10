@@ -17,7 +17,7 @@
     <string name="xenonhd_settings_title">XenonHD Settings</string>
 
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
+    <string name="buttons_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="misc_title">Miscellaneous</string>
