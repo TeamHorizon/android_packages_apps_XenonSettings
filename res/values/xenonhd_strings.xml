@@ -91,4 +91,8 @@
     <string name="qs_rows_columns_summary">Adjust number of QS rows and columns</string>
     <string name="qs_rows_landscape_title">Rows - landscape</string>
     <string name="qs_rows_portrait_title">Rows - portrait</string>
+
+    <!-- Status bar - Battery saver color -->
+    <string name="status_bar_battery_saver_color_title">Battery saver color</string>
+    <string name="status_bar_battery_saver_color_summary">Note: If battery saver already enabled, for new color to be effective, toggle battery saver!</string>
 </resources>
