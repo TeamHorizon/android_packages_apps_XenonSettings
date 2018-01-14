@@ -38,6 +38,13 @@
         settings:unitsRight=""
         android:persistent="false" />
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_quickbar_scroll_enabled"
+        android:icon="@drawable/ic_gesture_swipe_left"
+        android:title="@string/qqs_scroll_title"
+        android:summary="@string/qqs_scroll_summary"
+        android:defaultValue="false"/>
+
     <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/show_brightness_title"
