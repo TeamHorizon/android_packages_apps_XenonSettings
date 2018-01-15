@@ -39,7 +39,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         // Fingerprint vibration
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) prefScreen.findPreference("fingerprint_success_vib");
-        if (!mFingerprintManager.isHardwareDetected()){
+        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
             prefScreen.removePreference(mFingerprintVib);
         }
     }
