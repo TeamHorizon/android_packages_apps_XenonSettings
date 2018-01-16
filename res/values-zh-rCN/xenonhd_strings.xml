@@ -30,6 +30,7 @@
   <!-- Lockscreen -->
   <string name="lockscreen_title">锁屏</string>
   <!-- Misc -->
+  <string name="misc_title">其他</string>
   <string name="summary_dashboard_suggestions_enabled">已启用</string>
   <string name="summary_dashboard_suggestions_disabled">已禁用</string>
   <string name="summary_dashboard_conditions_disabled">已禁用</string>
@@ -52,9 +53,13 @@
   <string name="seekbar_default_string">默认</string>
   <!-- Statusbar -->
   <string name="network_traffic_state_title">网速</string>
+  <string name="statusbar_items_title">状态栏图标</string>
   <string name="battery_bar_title">电量条</string>
   <string name="battery_bar_animate_title">充电动画</string>
   <string name="battery_bar_style_regular">标准</string>
   <string name="battery_bar_style_center_mirrored">中心镜像</string>
   <string name="battery_bar_style_reversed">反转</string>
+  <string name="carrier_category">运营商标签</string>
+  <string name="show_carrier_keyguard">仅在锁屏界面显示</string>
+  <string name="show_carrier_statusbar">只显示状态栏</string>
 </resources>

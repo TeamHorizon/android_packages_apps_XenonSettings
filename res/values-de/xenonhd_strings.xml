@@ -16,7 +16,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHD-Einstellungen</string>
+  <string name="xenonhd_settings_summary">Zusätzliche Optionen</string>
   <!-- Buttons -->
+  <string name="button_title">Tasten</string>
+  <string name="volume_title">Lautstärketasten</string>
+  <string name="swap_volume_buttons">Lautstärketasten vertauschen</string>
+  <string name="swap_volume_buttons_summary">Lautstärketasten abhängig von der Drehung des Geräts wechseln</string>
+  <string name="volbtn_down_zen_title">Lautstärke Leiser für Nicht-Stören-Modus</string>
+  <string name="volbtn_down_zen_summary">Nicht-Stören-Modus mit Lautstärke Leiser einschalten</string>
+  <string name="volbtn_up_zen_title">Lautstärke Lauter im Nicht-Stören-Modus</string>
+  <string name="volbtn_up_zen_summary">Nicht-Stören-Modus mit Lautstärke Lauter ausschalten</string>
+  <string name="volume_keys_control_media_stream_title">Medienlautstärke verändern</string>
+  <string name="volume_keys_control_media_stream_summary">Lautstärke-Panel zeigt standardmäßig den Lautstärkeregler für Medien</string>
+  <string name="volume_rocker_music_controls_title">Wiedergabesteuerung</string>
+  <string name="volume_rocker_music_controls_summary">Lautstärketasten steuern Musiktitel bei gesperrtem Gerät</string>
+  <string name="volume_rocker_wake_title">Aufwecken durch Lautstärketasten</string>
+  <string name="volume_rocker_wake_summary">Wecke das Gerät mit den Lautstärketasten auf</string>
   <!-- Color Picker -->
   <string name="color_default">Standard</string>
   <string name="dialog_color_picker">Farbauswahl</string>
@@ -24,25 +40,111 @@
   <string name="press_color_to_apply">Berühren Sie eine der unten angezeigten Farben, um diese anzuwenden</string>
   <string name="set">Übernehmen</string>
   <!-- General strings -->
+  <string name="cancel">Abbrechen</string>
+  <string name="ok">OK</string>
   <string name="reset">Zurücksetzen</string>
   <string name="save">Speichern</string>
+  <string name="systemui_restart_title">Neustart der SystemUI erforderlich</string>
+  <string name="systemui_restart_message">Um alle Änderungen anzuwenden ist ein Neustart der SystemUI notwendig. SystemUI jetzt neustarten?</string>
   <!-- Gestures -->
+  <string name="gestures_title">Gesten</string>
+  <string name="dt2s_category">Doppelt tippen zum Ausschalten des Bildschirms</string>
+  <string name="gesture_preferences_title">Native Gesten</string>
+  <string name="gesture_preferences_summary">Konfigurieren Sie die Gesten, die für Ihr Gerät verfügbar sind</string>
+  <string name="double_tap_sleep_navbar">DT2S auf der Navigationsleiste</string>
+  <string name="double_tap_sleep_navbar_summary">Doppelt auf die Navigationsleiste tippen, um Bildschirm auszuschalten</string>
+  <string name="pocket_judge_title">Hosentaschen-Erkennung</string>
+  <string name="pocket_judge_summary">Sperre Bildschirm- und Tasteneingaben, wenn das Gerät in der Tasche ist</string>
+  <string name="three_finger_gesture">Drei-Finger-Geste</string>
+  <string name="three_finger_gesture_summary">Mit drei Fingern wischen, um Screenshot zu erstellen</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Bildschirm sperren</string>
+  <string name="lockscreen_tuner_title">Sperrbildschirm-Verknüpfungen</string>
+  <string name="lockscreen_tuner_summary">Setze Verknüpfungen am unteren Rand des Sperrbildschirms</string>
+  <string name="media_art_title">Albumcover</string>
+  <string name="media_art_summary">Albumcover auf dem Sperrbildschirm anzeigen</string>
+  <string name="lockscreen_qs_disabled_title">Keine Schnelleinstellungen bei gesperrtem Gerät</string>
+  <string name="lockscreen_qs_disabled_summary">Deaktiviert den Zugriff auf die Schnelleinstellungen bei gesperrtem Sperrbildschirm</string>
+  <string name="lockscreen_rotation_title">Sperrbildschirm-Drehung</string>
+  <string name="lockscreen_rotation_summary_on">Sperrbildschirm-Drehung ist aktiviert</string>
+  <string name="lockscreen_rotation_summary_off">Sperrbildschirm-Drehung ist deaktiviert</string>
   <!-- Misc -->
   <string name="misc_title">Verschiedenes</string>
+  <string name="dashboard_category">Dashboard</string>
+  <string name="dashboard_conditions_title">Dashboard-Optionen</string>
+  <string name="dashboard_suggestions_title">Dashboard-Vorschläge</string>
   <string name="summary_dashboard_suggestions_enabled">Aktiviert</string>
   <string name="summary_dashboard_suggestions_disabled">Deaktiviert</string>
   <string name="summary_dashboard_conditions_disabled">Deaktiviert</string>
   <string name="summary_dashboard_conditions_enabled">Aktiviert</string>
+  <string name="toast_icon_title">Toast-Symbol</string>
+  <string name="toast_icon_summary">Zeige das zur App zugehörige Toast-Symbol an</string>
+  <string name="sensor_block_title">Sensorblockierung je nach Anwendung</string>
+  <string name="sensor_block_summary">Den Zugriff auf bestimmte Sensoren für ausgewählte Apps blockieren, um Akku zu sparen</string>
   <!-- Navbar -->
+  <string name="navbar_title">Navigationsleiste</string>
+  <string name="navbar_tuner_title">Tasten der Navigationsleiste</string>
+  <string name="navbar_tuner_summary">Navigationsleiste anpassen</string>
   <!-- Notifications -->
+  <string name="notifications_title">Benachrichtigungen</string>
+  <string name="ime_switcher_notify">Eingabemethoden-Benachrichtigung</string>
+  <string name="ime_switcher_notify_summary">Zeige die Auswahl der Eingabemethoden an</string>
   <string name="screenshot_sound_title">Bildschirmfoto-Ton</string>
+  <string name="screenshot_sound_summary">Ton abspielen, wenn Screenshot aufgenommen wird</string>
   <!-- Power -->
+  <string name="powermenu_title">Power-Menü</string>
+  <string name="powermenu_category">Power-Menü-Optionen</string>
+  <string name="power_look">Power-Menü-Aussehen</string>
+  <string name="powermenu_airplane">Flugmodus</string>
+  <string name="powermenu_lockdown">Jetzt sperren</string>
+  <string name="powermenu_power">Ausschalten</string>
+  <string name="powermenu_restart">Neustarten</string>
+  <string name="powermenu_restart_recovery">Erweiterter Neustart</string>
   <string name="powermenu_screenshot">Bildschirmfoto</string>
+  <string name="powermenu_settings">Einstellungen</string>
+  <string name="powermenu_soundpanel">Ton-Einstellungen</string>
+  <string name="powermenu_users">Benutzer</string>
+  <string name="power">Power-Menü-Tweaks</string>
+  <string name="power_menu_transparency">Power-Menü-Transparenz</string>
+  <string name="power_menu_dialog_dim">Dimmung des Dialog-Hintergrunds</string>
   <!-- QS -->
+  <string name="quicksettings_title">Schnelleinstellungen</string>
+  <string name="qs_category">Schnelleinstellungs-Kacheln</string>
+  <string name="pulldown_category">Nach unten ziehen</string>
+  <string name="brightness_category">Helligkeit</string>
+  <string name="qqs_scroll_title">Kleine Schnelleinstellungs-Kacheln scrollen</string>
+  <string name="qqs_scroll_summary">Scrollen durch kleine Schnelleinstellungskacheln gestatten</string>
+  <string name="qs_columns_landscape_title">Spalten (Querformat)</string>
+  <string name="qs_columns_portrait_title">Spalten (Hochformat)</string>
+  <string name="qs_music_tile_track_optional_title">Titel in der Musik-Kachel</string>
+  <string name="qs_music_tile_track_optional_summary">Zeigt den Titelnamen in der Kachelbezeichnung</string>
+  <string name="qs_rows_columns_title">Zeilen und Spalten</string>
+  <string name="qs_rows_columns_summary">Anzahl der Zeilen und Spalten anpassen</string>
+  <string name="qs_rows_landscape_title">Zeilen (Querformat)</string>
+  <string name="qs_rows_portrait_title">Zeilen (Hochformat)</string>
+  <string name="smart_pulldown_title">Intelligentes Aufklappen</string>
+  <string name="smart_pulldown_dismissable">keine entfernbaren Benachrichtigungen</string>
+  <string name="smart_pulldown_none">keine Benachrichtigungen</string>
+  <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
+  <string name="smart_pulldown_off">Deaktiviert</string>
+  <string name="smart_pulldown_ongoing">keine laufenden Ereignisse</string>
+  <string name="smart_pulldown_summary">Schnelleinstellungen öffnen, wenn %1$s Benachrichtigungen vorhanden sind</string>
+  <string name="status_bar_quick_qs_pulldown">Schnelles Herunterziehen</string>
+  <string name="status_bar_quick_qs_pulldown_summary">Auf der rechten Seite herunterziehen, um Schnelleinstellungen zu erweitern</string>
+  <string name="qs_footer_warnings_title">Warnungen in der Fußzeile</string>
+  <string name="qs_footer_warnings_summary">Zeige eine Warnung in der Fußzeile der Schnelleinstellungen, wenn das Netzwerk von einer externen App oder VPN überwacht wird</string>
+  <string name="qs_tile_title_visibility_title">Kachelbeschriftung anzeigen</string>
+  <string name="qs_tile_title_visibility_summary">Titel unter den Kacheln anzeigen</string>
   <string name="brightness_slider_switch">Helligkeitsregler</string>
+  <string name="brightness_slider_summary">Zeige den Helligkeitsregler in den Schnelleinstellungen an</string>
+  <string name="brightness_icon_title">Helligkeitssymbol</string>
+  <string name="brightness_icon_summary">Zeigt ein Symbol für die Helligkeit neben dem Helligkeitsregler, um zu Auto-Helligkeit zu wechseln</string>
+  <string name="brightness_icon_position_title">Position des Helligkeitssymbols</string>
+  <string name="brightness_icon_position_on_summary">Rechts</string>
+  <string name="brightness_icon_position_off_summary">Links</string>
+  <string name="qs_style_dark_title">Dunkler Stil</string>
   <!-- Recents -->
+  <string name="recents_title">Kürzlich verwendete Anwendungen</string>
   <string name="recents_clear_all_location_title">Position der Alle-Schließen Taste</string>
   <string name="recents_clear_all_location_bottom_center">Unten in der Mitte</string>
   <string name="recents_clear_all_location_bottom_left">Unten links</string>
@@ -50,20 +152,54 @@
   <string name="recents_clear_all_location_top_center">Oben in der Mitte</string>
   <string name="recents_clear_all_location_top_left">Oben links</string>
   <string name="recents_clear_all_location_top_right">Oben rechts</string>
+  <string name="show_clear_all_recents_button_title">Alle Löschen-Button</string>
+  <string name="show_clear_all_recents_button_summary">Zeige Alle Löschen-Button</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Kein Standardwert festgelegt</string>
+  <string name="seekbar_default_value_set">Wert auf den Standard von <xliff:g id="number">%d</xliff:g> gesetzt</string>
+  <string name="seekbar_default_value_already_set">Standardwert ist bereits festgelegt</string>
   <string name="seekbar_default_string">Standard</string>
   <!-- Statusbar -->
+  <string name="statusbar_title">Benachrichtigungsleiste</string>
+  <string name="battery_saver_color_title">Farbe der Akkuleiste bei Energiesparmodus</string>
+  <string name="battery_saver_color_summary">Aktiviere orangene Status-/Navigationsleiste bei aktiviertem Energiesparmodus</string>
+  <string name="bluetooth_battery_title">Bluetooth-Akkustandsanzeige</string>
+  <string name="bluetooth_battery_summary">Zeige den Akkustatus für das derzeit verbundene Bluetooth-Gerät, falls vorhanden</string>
+  <string name="network_traffic_autohide_threshold_title">Schwellenwert für Anzeige in der Statusleiste</string>
   <string name="network_traffic_state_title">Netzwerkanzeige</string>
+  <string name="network_traffic_state_summary">Zeige Datendurchsatz in der Statusleiste</string>
   <string name="statusbar_items_title">Statusleisten Symbole</string>
+  <string name="statusbar_items_summary">Darstellung der Statusleiste festlegen</string>
   <string name="battery_bar_title">Akkuleiste</string>
+  <string name="battery_bar_summary">Konfiguration der Akkuleiste</string>
   <string name="battery_bar_position_title">Standort</string>
+  <string name="battery_bar_position_hidden">Ausgeblendet</string>
+  <string name="battery_bar_position_statusbar">Statusleiste</string>
+  <string name="battery_bar_color_title">Farbe</string>
+  <string name="battery_bar_charging_color_title">Farbe beim Ladevorgang</string>
+  <string name="battery_bar_battery_low_color_title">Farbe bei niedrigem Akku-Stand</string>
+  <string name="battery_bar_style_title">Ausrichtung</string>
+  <string name="battery_bar_thickness_title">Dicke</string>
   <string name="battery_bar_animate_title">Ladeanimation</string>
   <string name="battery_bar_style_regular">Normal</string>
   <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
   <string name="battery_bar_style_reversed">Umgekehrt</string>
+  <string name="battery_bar_use_charging_color_title">Benutzerdefinierte Farbe beim Laden</string>
+  <string name="battery_bar_blend_color_title">Farben mischen</string>
+  <string name="battery_bar_blend_color_summary">Passe die Farben für voll/leer abhängig zum Akkustand an</string>
+  <string name="battery_bar_blend_color_reverse_title">Farben umkehren</string>
+  <string name="battery_bar_blend_color_reverse_summary_off">Voll &#8594; leer: Rot &#8592; Grün &#8592; Blau &#8592; Rot</string>
+  <string name="battery_bar_blend_color_reverse_summary_on">Voll &#8594; leer: Rot &#8594; Grün &#8594; Blau &#8594; Rot</string>
+  <string name="volte_icon_title">VoLTE-Symbol</string>
+  <string name="volte_icon_summary">VoLTE-Symbol anzeigen, wenn verfügbar</string>
   <string name="carrier_category">Provider-Bezeichnung</string>
+  <string name="carrier_options">Anzeigeorte wählen</string>
   <string name="custom_carrier_label_title">Benutzerdefinierte Provider-Bezeichnung</string>
+  <string name="custom_carrier_label_explain">Bitte eine benutzerdefinierte Provider-Bezeichnung eingeben. Leer lassen, um zum Stock-Label zurückzukehren</string>
   <string name="custom_carrier_label_notset">Keine benutzerdefinierte Bezeichnung festgelegt</string>
+  <string name="show_carrier_title">Anzeigeorte</string>
+  <string name="show_carrier_disabled">Keine</string>
   <string name="show_carrier_keyguard">Nur Sperrbildschirm</string>
   <string name="show_carrier_statusbar">Nur Statusleiste</string>
+  <string name="show_carrier_enabled">Sperrbildschirm &amp; Statusleiste</string>
 </resources>

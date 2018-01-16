@@ -65,8 +65,6 @@
   <string name="media_art_summary">Wyświetlaj okładkę odtwarzanego albumu na ekranie blokady</string>
   <string name="lockscreen_qs_disabled_title">Szybkie ustawienia na ekranie blokady</string>
   <string name="lockscreen_qs_disabled_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
-  <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
-  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nNote: na własne ryzyko!</string>
   <string name="lockscreen_rotation_title">Obracanie</string>
   <string name="lockscreen_rotation_summary_on">Obrót ekranu blokady włączony</string>
   <string name="lockscreen_rotation_summary_off">Obrót ekranu blokady wyłączony</string>

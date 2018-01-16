@@ -55,6 +55,8 @@
   <string name="double_tap_sleep_navbar_summary">Πατήστε 2 φορές στην μπάρα πλοήγησης για να κλείσει η οθόνη</string>
   <string name="pocket_judge_title">Αναγνώριση τσέπης</string>
   <string name="pocket_judge_summary">Απενεργοποίηση αισθητήρων και μπλοκάρισμα εντολών οθόνης όταν ξ συσκευή είναι στην τσέπη σας</string>
+  <string name="three_finger_gesture">Χειρονομία με τρία δάχτυλα</string>
+  <string name="three_finger_gesture_summary">Σύρετε τρία δάχτυλα για στιγμιότυπο οθόνης</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Οθόνη κλειδώματος</string>
   <string name="lockscreen_tuner_title">Συντομεύσεις κλειδώματος οθόνης</string>
@@ -63,8 +65,6 @@
   <string name="media_art_summary">Ενεργοποίηση εξωφύλλου κομματιών στην οθόνη κλειδώματος</string>
   <string name="lockscreen_qs_disabled_title">Απενεργοποίηση μενού γρήγορων ρυθμίσεων αν δεν έχει πραγματοποιηθεί ξεκλείδωμα</string>
   <string name="lockscreen_qs_disabled_summary">Απενεργοποίηση γρήγορων ρυθμίσεων στην οθόνη κλειδώματος</string>
-  <string name="fp_unlock_keystore_title">Ξεκλείδωμα ΔΑ</string>
-  <string name="fp_unlock_keystore_summary">Ξεκλειδώσετε τη συσκευή με το δακτυλικό αποτύπωμα μετά την επανεκκίνηση χωρίς PIN/Κωδικό πρόσβασης/Μοτίβο\nΣημείωση: με δική σας ευθύνη!</string>
   <string name="lockscreen_rotation_title">Περιστροφή</string>
   <string name="lockscreen_rotation_summary_on">Η περιστροφή οθόνης κλειδώματος είναι ενεργοποιημένη</string>
   <string name="lockscreen_rotation_summary_off">Η περιστροφή οθόνης κλειδώματος είναι απενεργοποιημένη</string>
@@ -193,8 +193,13 @@
   <string name="volte_icon_title">Εικονίδιο voLTE</string>
   <string name="volte_icon_summary">Εμφάνιση εικονιδίου VoLTE όταν είναι διαθέσιμο</string>
   <string name="carrier_category">Ετικέτα παρόχου</string>
+  <string name="carrier_options">Επιλέξτε Εμφάνιση τοποθεσιών</string>
   <string name="custom_carrier_label_title">Προσαρμοσμένο όνομα παρόχου</string>
+  <string name="custom_carrier_label_explain">Παρακαλώ εισάγετε ένα όνομα. Αφήστε κενό για να επανέλθει το αρχικό όνομα του πάροχου</string>
   <string name="custom_carrier_label_notset">Προσαρμοσμένο όνομα παρόχου επί του παρόντος δεν έχει οριστεί</string>
+  <string name="show_carrier_title">Προβολή ονόματος ενεργή</string>
+  <string name="show_carrier_disabled">Πουθενά</string>
   <string name="show_carrier_keyguard">Μόνο στην οθόνη κλειδώματος</string>
   <string name="show_carrier_statusbar">Μόνο στην γραμμή κατάστασης</string>
+  <string name="show_carrier_enabled">Κλείδωμα οθόνης &amp; γραμμή κατάστασης</string>
 </resources>

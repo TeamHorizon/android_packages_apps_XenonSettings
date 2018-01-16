@@ -55,6 +55,8 @@
   <string name="double_tap_sleep_navbar_summary">Двойное нажатие на панели навигации, чтобы перейти в режим сна</string>
   <string name="pocket_judge_title">Режим \"В кармане\"</string>
   <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
+  <string name="three_finger_gesture">Жест тремя пальцами</string>
+  <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Экран блокировки</string>
   <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
@@ -63,8 +65,6 @@
   <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
   <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
   <string name="lockscreen_qs_disabled_summary">Отключить быстрые настройки на экране блокировки</string>
-  <string name="fp_unlock_keystore_title">Разблокировать по отпечатку пальца</string>
-  <string name="fp_unlock_keystore_summary">Разблокировка устройства после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
   <string name="lockscreen_rotation_title">Поворот экрана</string>
   <string name="lockscreen_rotation_summary_on">Поворот экрана блокировки включён</string>
   <string name="lockscreen_rotation_summary_off">Поворот экрана блокировки выключен</string>
@@ -193,8 +193,13 @@
   <string name="volte_icon_title">Иконка VoLTE</string>
   <string name="volte_icon_summary">Показывать иконку VoLTE при доступности</string>
   <string name="carrier_category">Логотип оператора</string>
+  <string name="carrier_options">Выбрать место отображения</string>
   <string name="custom_carrier_label_title">Пользовательский логотип</string>
+  <string name="custom_carrier_label_explain">Введите новое имя или оставьте пустым для возврата к имени по умолчанию.</string>
   <string name="custom_carrier_label_notset">Пользовательский логотип не установлен</string>
+  <string name="show_carrier_title">Отображать</string>
+  <string name="show_carrier_disabled">Нигде</string>
   <string name="show_carrier_keyguard">Только на экране блокировки</string>
   <string name="show_carrier_statusbar">Только строка состояния</string>
+  <string name="show_carrier_enabled">На экране блокировки и в строке состояния</string>
 </resources>

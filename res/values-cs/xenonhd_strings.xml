@@ -55,6 +55,8 @@
   <string name="double_tap_sleep_navbar_summary">Dvojí poklepání na navigační panel uspe zařízení</string>
   <string name="pocket_judge_title">Detekce uložení v kapse</string>
   <string name="pocket_judge_summary">Blokovat obrazovku a hardwarová tlačítka, když je zařízení v kapse</string>
+  <string name="three_finger_gesture">Gesto třemi prsty</string>
+  <string name="three_finger_gesture_summary">Snímek obrazovky přejetím tří prstů</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Zamykací obrazovka</string>
   <string name="lockscreen_tuner_title">Zkratky na zamykací obrazovce</string>
@@ -63,8 +65,6 @@
   <string name="media_art_summary">Povolit obaly alba na zamykací obrazovce</string>
   <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
   <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
-  <string name="fp_unlock_keystore_title">Odemknout pomocí otisku prstu</string>
-  <string name="fp_unlock_keystore_summary">Odemknutí zařízení pomocí otisku prstu po restartu bez zadání PINu/hesla/Vzoru\nUpozornění: na vlastní nebezpečí!</string>
   <string name="lockscreen_rotation_title">Otáčení</string>
   <string name="lockscreen_rotation_summary_on">Otáčení zamykací obrazovky je povoleno</string>
   <string name="lockscreen_rotation_summary_off">Otáčení zamykací obrazovky je zakázáno</string>
@@ -193,8 +193,13 @@
   <string name="volte_icon_title">Ikona VoLTE</string>
   <string name="volte_icon_summary">Zobrazit ikonu VoLTE, když je k dispozici</string>
   <string name="carrier_category">Název mobilní sítě</string>
+  <string name="carrier_options">Vyberte umístění zobrazení</string>
   <string name="custom_carrier_label_title">Vlastní název mobilní sítě</string>
+  <string name="custom_carrier_label_explain">Zadejte, prosím, nový název. Nechte prázdné pro navrácení k původnímu</string>
   <string name="custom_carrier_label_notset">V současné době není nastaven vlastní název operátora</string>
+  <string name="show_carrier_title">Zobrazit</string>
+  <string name="show_carrier_disabled">Nikde</string>
   <string name="show_carrier_keyguard">Pouze na zamčené obrazovce</string>
   <string name="show_carrier_statusbar">Pouze stavový řádek</string>
+  <string name="show_carrier_enabled">Zamykací obrazovka &amp; stavová lišta</string>
 </resources>

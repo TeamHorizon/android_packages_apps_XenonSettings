@@ -55,6 +55,8 @@
   <string name="double_tap_sleep_navbar_summary">Dvojklik na navigačný panel uspí zariadenie</string>
   <string name="pocket_judge_title">Detekcia režimu Vo vrecku</string>
   <string name="pocket_judge_summary">Blokovať obrazovku a hardvérové tlačidlá, keď je zariadenie vo vrecku</string>
+  <string name="three_finger_gesture">Gesto pomocou troch prstov</string>
+  <string name="three_finger_gesture_summary">Potiahnite tromi prstami po obrazovke pre jej odfotenie</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Obrazovka uzamknutia</string>
   <string name="lockscreen_tuner_title">Odkazy na obrazovke uzamknutia</string>
@@ -63,8 +65,6 @@
   <string name="media_art_summary">Povoliť zobrazenie obalu albumu na obrazovke uzamknutia</string>
   <string name="lockscreen_qs_disabled_title">Nezobrazovat dlaždice rýchlych nastavení pri uzamknutí</string>
   <string name="lockscreen_qs_disabled_summary">Vypnúť dlaždice rýchlych nastavení na obrazovke uzamknutia</string>
-  <string name="fp_unlock_keystore_title">Odomknutie pomocou odtlačku prsta</string>
-  <string name="fp_unlock_keystore_summary">Odomknúť zariadenie pomocou snímača odtlačkov prstov po reštarte bez PIN/hesla/Vzoru\nUpozornenie: na vlastné riziko!</string>
   <string name="lockscreen_rotation_title">Otáčanie</string>
   <string name="lockscreen_rotation_summary_on">Otáčanie obrazovky uzamknutia je povolené</string>
   <string name="lockscreen_rotation_summary_off">Otáčanie obrazovky uzamknutia je zakázané</string>
@@ -193,8 +193,13 @@
   <string name="volte_icon_title">Ikona VoLTE</string>
   <string name="volte_icon_summary">Zobraziť ikonu VoLTE ak je k dispozícii</string>
   <string name="carrier_category">Názov operátora</string>
+  <string name="carrier_options">Vyberte umiestnenie zobrazenia</string>
   <string name="custom_carrier_label_title">Vlastný názov operátora</string>
+  <string name="custom_carrier_label_explain">Prosím zadajte nový názov. Nechajte prázdne pre obnovenie na pôvodného názvu</string>
   <string name="custom_carrier_label_notset">Vlastný názov momentálne nie je nastavený</string>
+  <string name="show_carrier_title">Zobraziť</string>
+  <string name="show_carrier_disabled">Nikde</string>
   <string name="show_carrier_keyguard">Iba na obrazovke uzamknutia</string>
   <string name="show_carrier_statusbar">Iba stavový riadok</string>
+  <string name="show_carrier_enabled">Obrazovka uzamknutia &amp; stavový riadok</string>
 </resources>

@@ -55,6 +55,8 @@
   <string name="double_tap_sleep_navbar_summary">Doppio tocco sulla barra di navigazione per spegnere lo schermo</string>
   <string name="pocket_judge_title">Rilevamento in tasca</string>
   <string name="pocket_judge_summary">Blocca lo schermo e i tasti quando il dispositivo è in tasca</string>
+  <string name="three_finger_gesture">Gesto tre dita</string>
+  <string name="three_finger_gesture_summary">Striscia tre dita per uno screenshot</string>
   <!-- Lockscreen -->
   <string name="lockscreen_title">Schermata di blocco</string>
   <string name="lockscreen_tuner_title">Scorciatoie schermata di sblocco</string>
@@ -63,8 +65,6 @@
   <string name="media_art_summary">Abilita la visualizzazione della copertina dei file multimediali nella schermata di blocco</string>
   <string name="lockscreen_qs_disabled_title">Nessuna impostazione rapida con schermata protetta</string>
   <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla schermata di blocco protetta</string>
-  <string name="fp_unlock_keystore_title">Sblocco FP</string>
-  <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con l\'impronta digitale dopo il riavvio senza PIN/Password/Sequenza\nNota: a proprio rischio!</string>
   <string name="lockscreen_rotation_title">Rotazione</string>
   <string name="lockscreen_rotation_summary_on">Rotazione schermata di blocco è abilitata</string>
   <string name="lockscreen_rotation_summary_off">Rotazione schermata di blocco è disabilitata</string>
@@ -193,8 +193,13 @@
   <string name="volte_icon_title">Icona voLTE</string>
   <string name="volte_icon_summary">Mostra l\'icona VoLTE quando disponibile</string>
   <string name="carrier_category">Etichetta operatore</string>
+  <string name="carrier_options">Seleziona le posizioni di visualizzazione</string>
   <string name="custom_carrier_label_title">Personalizza nome operatore</string>
+  <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare a quello predefinito</string>
   <string name="custom_carrier_label_notset">L\'etichetta personalizzata non è impostata</string>
+  <string name="show_carrier_title">Schermo attivo</string>
+  <string name="show_carrier_disabled">Da nessuna parte</string>
   <string name="show_carrier_keyguard">Solo schermata di blocco</string>
   <string name="show_carrier_statusbar">Solo barra di stato</string>
+  <string name="show_carrier_enabled">Schermata di blocco e barra di stato</string>
 </resources>
