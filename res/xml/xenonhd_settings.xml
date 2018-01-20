@@ -63,12 +63,12 @@
             android:fragment="com.xenonhd.settings.fragments.QSSettings"
             android:icon="@drawable/ic_qs"/>
 
-        <!-- Buttons -->
+        <!-- Buttons 
         <Preference
             android:key="buttons_category"
             android:title="@string/buttons_title"
             android:fragment="com.xenonhd.settings.fragments.ButtonSettings"
-            android:icon="@drawable/ic_buttons"/>
+            android:icon="@drawable/ic_buttons"/> -->
 
         <!-- Navigation Bar
         <Preference
