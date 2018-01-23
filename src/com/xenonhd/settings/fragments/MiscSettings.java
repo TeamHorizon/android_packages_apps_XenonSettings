@@ -30,6 +30,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
+    private static final String KEY_SMART_PIXELS = "smart_pixels";
 
     private ListPreference mLaunchPlayerHeadsetConnection;
 
@@ -46,6 +47,14 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference SmartPixels = findPreference(KEY_SMART_PIXELS);
+
+        if (!enableSmartPixels){
+            SmartPixels.getParent().removePreference(SmartPixels);
+        }
     }
 
     @Override
