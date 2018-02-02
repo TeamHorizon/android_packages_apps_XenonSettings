@@ -49,12 +49,12 @@
         android:key="xenonsettings_category"
         android:title="@string/xenonsettings_title">
 
-        <!-- Status Bar
+        <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.xenonhd.settings.fragments.StatusbarSettings" 
-            android:icon="@drawable/ic_statusbar"/> -->
+            android:icon="@drawable/ic_statusbar"/>
 
         <!-- Quick Settings panel -->
         <Preference
