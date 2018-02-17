@@ -18,10 +18,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/xenonhd_settings_title" >
 
-    <PreferenceCategory
-        android:key="xenonhd_category"
-        android:title="@string/xenonhd_title">
-
     <!-- XenonOTA -->
     <Preference
         android:key="xenonota"
@@ -42,8 +38,6 @@
         android:icon="@drawable/ic_changelog"
         android:order="-9"
         android:fragment="com.android.settings.xenonhd.Changelog" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="xenonsettings_category"
