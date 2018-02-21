@@ -78,12 +78,12 @@
             android:fragment="com.xenonhd.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_gestures"/> -->
 
-        <!-- Lock Screen
+        <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
             android:fragment="com.xenonhd.settings.fragments.LockscreenSettings"
-            android:icon="@drawable/ic_lockscreen"/> -->
+            android:icon="@drawable/ic_lockscreen"/>
 
         <!-- Power Menu -->
         <Preference
