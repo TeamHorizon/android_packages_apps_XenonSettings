@@ -119,4 +119,8 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Enable memory bar</string>
+    <string name="systemui_recents_mem_display_summary">Show memory usage bar in recents</string>
 </resources>

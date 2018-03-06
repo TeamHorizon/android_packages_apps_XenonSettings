@@ -92,12 +92,12 @@
             android:fragment="com.xenonhd.settings.fragments.PowerSettings"
             android:icon="@drawable/ic_power"/>
 
-        <!-- Recents
+        <!-- Recents -->
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.xenonhd.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_recents"/> -->
+            android:icon="@drawable/ic_recents"/>
 
         <!-- Notifications
         <Preference
