@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
- 
+
 package com.xenonhd.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
@@ -40,8 +40,14 @@ import android.view.View;
 import java.util.List;
 import java.util.ArrayList;
 
+import com.xenonhd.settings.preferences.CustomSeekBarPreference;
+
 public class QSSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
+
+    private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
+
+    private CustomSeekBarPreference mQsPanelAlpha;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -52,10 +58,22 @@ public class QSSettings extends SettingsPreferenceFragment implements
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
+        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(OMNI_QS_PANEL_BG_ALPHA);
+        int qsPanelAlpha = Settings.System.getIntForUser(resolver,
+                Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
+        mQsPanelAlpha.setValue(qsPanelAlpha);
+        mQsPanelAlpha.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mQsPanelAlpha) {
+            int bgAlpha = (Integer) newValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
+                    UserHandle.USER_CURRENT);
+            return true;
+        }
 
         return false;
     }

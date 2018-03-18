@@ -84,4 +84,7 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB notification</string>
     <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opacity</string>
 </resources>
