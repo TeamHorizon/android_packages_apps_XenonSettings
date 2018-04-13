@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 CarbonROM
+     Copyright (C) 2018 XenonHD
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,12 +26,6 @@
         android:summary="@string/smart_pixels_enable_summary"
         android:defaultValue="false" />
 
-    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
-        android:key="smart_pixels_on_power_save"
-        android:title="@string/smart_pixels_on_power_save_title"
-        android:summary="@string/smart_pixels_on_power_save_summary"
-        android:defaultValue="false" />
-
     <com.xenonhd.settings.preferences.SystemSettingListPreference
         android:key="smart_pixels_pattern"
         android:entries="@array/smart_pixels_percent_strings"
@@ -40,12 +34,19 @@
         android:title="@string/smart_pixels_percent"
         android:dialogTitle="@string/smart_pixels_percent" />
 
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="smart_pixels_on_power_save"
+        android:title="@string/smart_pixels_on_power_save_title"
+        android:summary="@string/smart_pixels_on_power_save_summary"
+        android:defaultValue="false" />
+
     <com.xenonhd.settings.preferences.SystemSettingListPreference
         android:key="smart_pixels_shift_timeout"
         android:entries="@array/smart_pixels_shift_times"
         android:entryValues="@array/smart_pixels_shift_values"
         android:defaultValue="5"
-        android:title="@string/smart_pixels_shift"
-        android:dialogTitle="@string/smart_pixels_shift" />
+        android:title="@string/smart_pixels_shift_title"
+        android:summary="@string/smart_pixels_shift_summary"
+        android:dialogTitle="@string/smart_pixels_shift_title" />
 
 </PreferenceScreen>
