@@ -16,14 +16,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHD beállítások</string>
   <!-- Categories -->
+  <string name="buttons_title">Gombok</string>
+  <string name="gestures_title">Gesztusok</string>
   <string name="lockscreen_title">Zárképernyő</string>
   <string name="misc_title">Vegyes</string>
+  <string name="navigation_title">Navigációs sáv</string>
+  <string name="power_title">Kikapcsoló menü</string>
+  <string name="qs_title">Gyorsbeállítások</string>
+  <string name="recents_title">Alkalmazáselőzmények</string>
+  <string name="statusbar_title">Állapotsor</string>
+  <string name="notifications_title">Értesítések</string>
+  <string name="xenonhd_title">XenonHD központ</string>
+  <string name="xenonsettings_title">XenonHD beállítások</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Változásnapló</string>
   <string name="changelog_xenonhd_error">Nem lehet betölteni a változások listáját</string>
+  <string name="changelog_xenonhd_summary">A jelenlegi verzió változásainak megtekintése</string>
   <!-- General strings -->
+  <string name="ok">OK</string>
   <string name="reset">Visszaállitás</string>
+  <string name="cancel">Mégse</string>
   <string name="save">Mentés</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Színválasztó</string>
@@ -32,24 +46,74 @@
   <string name="set">Beállít</string>
   <string name="color_default">Alapértelmezett</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Nincs alapértelmezett érték</string>
+  <string name="seekbar_default_value_set"><xliff:g id="number">%d</xliff:g> érték beállítása alapértelmezettre</string>
+  <string name="seekbar_default_value_already_set">Alapértelmezett érték már be van állítva</string>
   <string name="seekbar_default_string">Alapértelmezett</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">XenonHD frissítések keresése</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Zenelejátszó indítása fülhallgató csatlakoztatásakor</string>
   <string name="headset_connect_player_disabled">Kikapcsolva</string>
+  <string name="headset_connect_player_wired">Vezetékes fejhallgató csatlakoztatva</string>
+  <string name="headset_connect_player_bt_no_carkit">Bluetooth fejhallgató (nem kihangosító) csatlakoztatva</string>
+  <string name="headset_connect_player_bt">Bluetooth fejhallgató csatlakoztatva</string>
+  <string name="headset_connect_player_both_no_carkit">Bármilyen fejhallgató (nem kihangosító) csatlakoztatva</string>
+  <string name="headset_connect_player_both">Bármilyen fejhallgató csatlakoztatva</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
+  <string name="lockscreen_power_menu_disabled_title">Kikapcsoló menü elrejtése zárolt képernyőnél</string>
+  <string name="lockscreen_power_menu_disabled_summary">Kikapcsoló menü elrejtése, ha az eszköz zárolva van</string>
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Akkumulátorkímélő mód színe</string>
+  <string name="qs_category">Gyorsbeállítások-csempék</string>
+  <string name="qs_columns_landscape_title">Oszlopok (fekvő)</string>
+  <string name="qs_columns_portrait_title">Oszlopok (álló)</string>
+  <string name="qs_rows_columns_title">Sorok és oszlopok</string>
+  <string name="qs_rows_columns_summary">Sorok és oszlopok számának beállítása</string>
+  <string name="qs_rows_landscape_title">Sorok (fekvő)</string>
+  <string name="qs_rows_portrait_title">Sorok (álló)</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_title">Óra elhelyezkedése</string>
+  <string name="status_bar_show_clock_title">Óra és dátum mutatása</string>
+  <string name="clock_title_enable">Igazítás</string>
+  <string name="right_clock">Jobb oldalon</string>
+  <string name="center_clock">Középen</string>
+  <string name="status_bar_clock_seconds_title">Óra másodpercei</string>
+  <string name="status_bar_clock_seconds_summary">Másodpercek kijelzése az óra mellett az állapotsoron</string>
+  <string name="status_bar_am_pm_title">DE/DU</string>
+  <string name="status_bar_am_pm_info">24-órás óra engedélyezve van</string>
+  <string name="am_pm_clock_normal">Normál betűméret</string>
+  <string name="am_pm_clock_small">Kicsi betűméret</string>
+  <string name="am_pm_clock_none">Ne mutassa</string>
   <string name="clock_date_display">Dátum</string>
+  <string name="clock_date_display_summary">Egyéni dátum megjelenítése az óra előtt</string>
   <string name="clock_date_style">Dátum stílusa</string>
   <string name="clock_date_format">Dátumformátum</string>
   <string name="clock_date_string_edittext_title">Dátumformátumban kell lennie. Pl: MM/dd/yy</string>
   <string name="clock_date_string_edittext_summary">Adja meg a karakterláncot</string>
+  <string name="clock_date_display_none">Ne mutassa</string>
+  <string name="clock_date_display_small">Kicsi betűméret</string>
+  <string name="clock_date_display_normal">Normál betűméret</string>
   <string name="clock_date_style_normal">Normál</string>
   <string name="clock_date_style_lowercase">Kisbetűs</string>
   <string name="clock_date_style_uppercase">Nagybetűs</string>
   <string name="clock_date_format_custom">Egyéni formátum</string>
+  <string name="menu_cancel">Mégse</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Összes törlése gomb helye</string>
+  <string name="recents_clear_all_location_top_right">Jobb fent</string>
+  <string name="recents_clear_all_location_top_left">Bal fent</string>
+  <string name="recents_clear_all_location_top_center">Fent középen</string>
+  <string name="recents_clear_all_location_bottom_right">Jobb alul</string>
+  <string name="recents_clear_all_location_bottom_left">Bal alul</string>
+  <string name="recents_clear_all_location_bottom_center">Alul középen</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Ne mutassa</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Fényerő csúszka</string>
 </resources>

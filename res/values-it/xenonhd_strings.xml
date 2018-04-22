@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Nessun menù di spegnimento con schermo bloccato</string>
   <string name="lockscreen_power_menu_disabled_summary">Disattiva il menù di spegnimento nella schermata di blocco</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando colleghi o scolleghi il dispositivo all\'alimentazione</string>
   <!-- QS rows and columns -->
   <string name="qs_category">Tile Impostazioni rapide</string>
   <string name="qs_columns_landscape_title">Colonne (orizzontale)</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">Scegli il numero di righe e colonne delle impostazioni rapide</string>
   <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
   <string name="qs_rows_portrait_title">Righe (verticale)</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Colore risparmio batteria</string>
-  <string name="status_bar_battery_saver_color_summary">Nota: Se il risparmio batteria è già attivo, per rendere effettivo il nuovo colore, attiva o disattiva il risparmio batteria!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Opzioni orologio</string>
   <string name="status_bar_show_clock_title">Visualizza orologio e data</string>
@@ -105,4 +99,21 @@
   <string name="clock_date_style_uppercase">Maiuscolo</string>
   <string name="clock_date_format_custom">Formato java personalizzato</string>
   <string name="menu_cancel">Annulla</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
+  <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Posizione del pulsante cancella tutto</string>
+  <string name="recents_clear_all_location_top_right">In alto a destra</string>
+  <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+  <string name="recents_clear_all_location_top_center">In alto al centro</string>
+  <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+  <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+  <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Non mostrare</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Cursore luminosità</string>
 </resources>

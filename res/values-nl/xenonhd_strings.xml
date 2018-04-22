@@ -33,9 +33,7 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">Uitgeschakeld</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
   <!-- Statusbar Clock options -->
   <string name="clock_date_display">Datum</string>
   <string name="clock_date_style">Datumformaat</string>
@@ -46,4 +44,11 @@
   <string name="clock_date_style_lowercase">Kleine letters</string>
   <string name="clock_date_style_uppercase">Hoofdletters</string>
   <string name="clock_date_format_custom">Aangepast java formaat</string>
+  <!-- Quick unlock -->
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Helderheid schuifregelaar</string>
 </resources>

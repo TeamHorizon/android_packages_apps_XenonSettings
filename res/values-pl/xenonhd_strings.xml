@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Menu zasilania gdy zablokowany</string>
   <string name="lockscreen_power_menu_disabled_summary">Zablokuj menu zasilania, gdy ekran jest zablokowany</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Wybudź przy podłączaniu</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Włącz ekran podczas podłączania i odłączania źródła zasilania</string>
   <!-- QS rows and columns -->
   <string name="qs_category">Kafelki szybkich skrótów</string>
   <string name="qs_columns_landscape_title">Kolumny - poziomo</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">Dostosuj ilość kolumn i wierszy QS</string>
   <string name="qs_rows_landscape_title">Rzędy - poziomo</string>
   <string name="qs_rows_portrait_title">Wiersze - pionowo</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Kolor paska w trybie oszczędzania baterii</string>
-  <string name="status_bar_battery_saver_color_summary">Uwaga: kolor zostanie zastosowany przy następnym włączeniu trybu oszczędzania baterii!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Opcje zegara</string>
   <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
@@ -105,4 +99,42 @@
   <string name="clock_date_style_uppercase">Duża czcionka</string>
   <string name="clock_date_format_custom">Własny format (java)</string>
   <string name="menu_cancel">Anuluj</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
+  <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
+  <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Pokaż pasek pamięci</string>
+  <string name="systemui_recents_mem_display_summary">Pokaż użycie pamięci w menu ostatnio używanych aplikacji</string>
+  <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Niestandardowy przycisk \"Wyczyść wszystko\"</string>
+  <string name="show_clear_all_recents_button_summary">Użyj niestandardowego \"Wyczyść wszystkie\"</string>
+  <string name="recents_clear_all_location_title">Pozycja przycisku</string>
+  <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
+  <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
+  <string name="recents_clear_all_location_top_center">Wyśrodkowany na górze</string>
+  <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
+  <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
+  <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Styl wskaźnika baterii</string>
+  <string name="battery_style_title">Wygląd ikony baterii</string>
+  <string name="battery_style_port">Pionowa</string>
+  <string name="battery_style_land">Pozioma</string>
+  <string name="battery_style_circle">Okrąg</string>
+  <string name="battery_style_dotted_circle">Przerywany okrąg</string>
+  <string name="battery_style_big_circle">Duży okrąg</string>
+  <string name="battery_style_big_dotted_circle">Duży przerywany okrąg</string>
+  <string name="battery_style_square">Kwadrat</string>
+  <string name="battery_style_text">Tekst</string>
+  <string name="battery_style_hidden">Ukryta</string>
+  <string name="show_battery_percent_title">Pokaż procent baterii</string>
+  <string name="battery_percent_none">Nie pokazuj</string>
+  <string name="battery_percent_outside">Pokaż obok ikony</string>
+  <string name="battery_percent_inside">Pokaż wewnątrz ikony</string>
+  <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Ikona Automatyczna jasność</string>
+  <string name="brightness_icon_summary">Pokaż ikonę auto-jasności po prawej stronie suwaka jasności żeby dostosować automatyczną jasność</string>
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Pasek jasności</string>
+  <string name="show_brightness_summary">Pokaż suwak jasności</string>
 </resources>

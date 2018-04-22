@@ -18,39 +18,102 @@
   <!-- App Title -->
   <string name="xenonhd_settings_title">Configurações XenonHD</string>
   <!-- Categories -->
+  <string name="buttons_title">Botões</string>
+  <string name="gestures_title">Gestos</string>
   <string name="lockscreen_title">Tela de bloqueio</string>
   <string name="misc_title">Outros</string>
+  <string name="navigation_title">Barra de navegação</string>
+  <string name="power_title">Menu liga/desliga</string>
+  <string name="qs_title">Configurações rápidas</string>
+  <string name="recents_title">Aplicativos recentes</string>
+  <string name="statusbar_title">Barra de status</string>
+  <string name="notifications_title">Notificações</string>
+  <string name="xenonhd_title">XenonHD Cubo</string>
   <string name="xenonsettings_title">Configurações XenonHD</string>
   <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Registro de Alterações</string>
-  <string name="changelog_xenonhd_error">Não foi possível carregar o registro de alterações</string>
+  <string name="changelog_xenonhd_title">Registro de mudanças</string>
+  <string name="changelog_xenonhd_error">Não foi possível carregar o registro de mudanças</string>
+  <string name="changelog_xenonhd_summary">Exibir alterações na versão atual</string>
   <!-- General strings -->
+  <string name="ok">OK</string>
   <string name="reset">Redefinir</string>
+  <string name="cancel">Cancelar</string>
   <string name="save">Salvar</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Selecionador de cores</string>
+  <string name="dialog_color_picker">Seletor de cores</string>
   <string name="press_color_to_apply">Pressione a cor abaixo para aplicar</string>
   <string name="hex">Hex:</string>
   <string name="set">Aplicar</string>
   <string name="color_default">Padrão</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Nenhum valor padrão definido</string>
+  <string name="seekbar_default_value_set">Valor definido como padrão de <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">Valor padrão já está definido</string>
   <string name="seekbar_default_string">Padrão</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">Verifique as atualizações do XenonHD</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Iniciar aplicativo de música quando conectar o fone de ouvido</string>
   <string name="headset_connect_player_disabled">Desativado</string>
+  <string name="headset_connect_player_wired">Quando o fone de ouvido com fio estiver conectado</string>
+  <string name="headset_connect_player_bt_no_carkit">Quando o fone de ouvido Bluetooth (sem carkit) estiver conectado</string>
+  <string name="headset_connect_player_bt">Quando o fone de ouvido Bluetooth estiver conectado</string>
+  <string name="headset_connect_player_both_no_carkit">Qualquer fone de ouvido (não carkit) estiver conectado</string>
+  <string name="headset_connect_player_both">Qualquer fone conectado</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
+  <string name="lockscreen_power_menu_disabled_title">Nenhum menu liga/desliga está bloqueado</string>
+  <string name="lockscreen_power_menu_disabled_summary">Desativar o menu liga/desliga na tela de bloqueio segura</string>
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
+  <string name="qs_category">Blocos de configurações rápidas</string>
+  <string name="qs_columns_landscape_title">Colunas (paisagem)</string>
+  <string name="qs_columns_portrait_title">Colunas (retrato)</string>
+  <string name="qs_rows_columns_title">Linhas e colunas</string>
+  <string name="qs_rows_columns_summary">Ajuste o número de linhas das configurações rápidas e colunas</string>
+  <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
+  <string name="qs_rows_portrait_title">Linhas (retrato)</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_title">Opções do relógio</string>
+  <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
+  <string name="clock_title_enable">Alinhamento</string>
+  <string name="right_clock">Relógio à direita</string>
+  <string name="center_clock">Relógio ao centro</string>
+  <string name="status_bar_clock_seconds_title">Segundos do relógio</string>
+  <string name="status_bar_clock_seconds_summary">Exibir segundos ao lado do relógio na barra de status</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de relógio 24 horas está ativado</string>
+  <string name="am_pm_clock_normal">Tamanho de fonte normal</string>
+  <string name="am_pm_clock_small">Tamanho de fonte pequeno</string>
+  <string name="am_pm_clock_none">Não mostrar</string>
   <string name="clock_date_display">Data</string>
+  <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
   <string name="clock_date_style">Estilo da data</string>
   <string name="clock_date_format">Formato da data</string>
   <string name="clock_date_string_edittext_title">Deve estar em formato de data, por exemplo: MM/dd/yy</string>
   <string name="clock_date_string_edittext_summary">Digite o texto</string>
+  <string name="clock_date_display_none">Não mostrar</string>
+  <string name="clock_date_display_small">Tamanho de fonte pequeno</string>
+  <string name="clock_date_display_normal">Tamanho de fonte normal</string>
   <string name="clock_date_style_normal">Normal</string>
   <string name="clock_date_style_lowercase">Minúsculas</string>
   <string name="clock_date_style_uppercase">Maiúsculas</string>
   <string name="clock_date_format_custom">Formato java personalizado</string>
+  <string name="menu_cancel">Cancelar</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha correto for inserido</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Posição do botão Limpar Tudo</string>
+  <string name="recents_clear_all_location_top_right">Superior Direito</string>
+  <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
+  <string name="recents_clear_all_location_top_center">Centro superior</string>
+  <string name="recents_clear_all_location_bottom_right">Inferior direito</string>
+  <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
+  <string name="recents_clear_all_location_bottom_center">Centro inferior</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Não mostrar</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Controle de brilho</string>
 </resources>

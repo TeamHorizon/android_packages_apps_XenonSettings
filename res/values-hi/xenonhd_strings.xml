@@ -25,8 +25,12 @@
   <!-- XenonOTA -->
   <!-- Launch music player when headset is connected -->
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
   <!-- Statusbar Clock options -->
+  <!-- Quick unlock -->
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
 </resources>

@@ -23,6 +23,7 @@
   <string name="misc_title">Рознае</string>
   <string name="statusbar_title">Радок стану</string>
   <string name="notifications_title">Апавяшчэнні</string>
+  <string name="xenonhd_title">XenonHD Hub</string>
   <string name="xenonsettings_title">Параметры XenonHD</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Спіс змен</string>
@@ -48,7 +49,6 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">Адключана</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
   <string name="qs_category">Пліткі хуткіх налад</string>
   <string name="qs_columns_landscape_title">Калонкі (ландшафт)</string>
@@ -57,8 +57,6 @@
   <string name="qs_rows_columns_summary">Выберыце колькасць радкоў і слупкоў</string>
   <string name="qs_rows_landscape_title">Радкі (ландшафт)</string>
   <string name="qs_rows_portrait_title">Радкі (партрэт)</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Каляровая паласа ў рэжыме эканоміі батарэі</string>
   <!-- Statusbar Clock options -->
   <string name="clock_date_display">Дата</string>
   <string name="clock_date_style">Стыль даты</string>
@@ -70,4 +68,20 @@
   <string name="clock_date_style_uppercase">Прапісныя</string>
   <string name="clock_date_format_custom">Карыстацкі java фармат</string>
   <string name="menu_cancel">Скасаваць</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Хуткая разблакоўка</string>
+  <string name="unlock_quick_unlock_control_summary">Аўтаматычная разблакоўка пры ўводзе правільнага пароля або PIN-кода</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Размяшчэнне кнопкі \"Ачысціць усё\"</string>
+  <string name="recents_clear_all_location_top_right">Зверху справа</string>
+  <string name="recents_clear_all_location_top_left">Зверху злева</string>
+  <string name="recents_clear_all_location_top_center">Зверху па цэнтры</string>
+  <string name="recents_clear_all_location_bottom_right">Знізу справа</string>
+  <string name="recents_clear_all_location_bottom_left">Знізу злева</string>
+  <string name="recents_clear_all_location_bottom_center">Унізе па цэнтры</string>
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Рэгулятар яркасці</string>
 </resources>

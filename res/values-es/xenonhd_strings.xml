@@ -43,10 +43,7 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">Deshabilitado</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Color del ahorrador de batería</string>
   <!-- Statusbar Clock options -->
   <string name="clock_date_display">Fecha</string>
   <string name="clock_date_style">Estilo de la fecha</string>
@@ -58,4 +55,20 @@
   <string name="clock_date_style_uppercase">Mayúscula</string>
   <string name="clock_date_format_custom">Formato de java personalizado</string>
   <string name="menu_cancel">Cancelar</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueo rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automáticamente al introducir correctamente el PIN o la contraseña</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Ubicación del botón borrar todo</string>
+  <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
+  <string name="recents_clear_all_location_top_left">Arriba a la izquierda</string>
+  <string name="recents_clear_all_location_top_center">Arriba centrado</string>
+  <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
+  <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
+  <string name="recents_clear_all_location_bottom_center">Abajo centrado</string>
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Barra de brillo</string>
 </resources>

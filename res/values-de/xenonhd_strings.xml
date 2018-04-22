@@ -18,9 +18,13 @@
   <!-- App Title -->
   <string name="xenonhd_settings_title">XenonHD-Einstellungen</string>
   <!-- Categories -->
+  <string name="buttons_title">Tasten</string>
   <string name="gestures_title">Gesten</string>
   <string name="lockscreen_title">Bildschirm sperren</string>
   <string name="misc_title">Verschiedenes</string>
+  <string name="navigation_title">Navigationsleiste</string>
+  <string name="qs_title">Schnelleinstellungen</string>
+  <string name="recents_title">Kürzlich verwendete Anwendungen</string>
   <string name="statusbar_title">Benachrichtigungsleiste</string>
   <string name="notifications_title">Benachrichtigungen</string>
   <string name="xenonhd_title">XenonHD Hub</string>
@@ -28,6 +32,7 @@
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Änderungsprotokoll</string>
   <string name="changelog_xenonhd_error">Änderungsprotokoll konnte nicht geladen werden</string>
+  <string name="changelog_xenonhd_summary">Zeige Änderungen der aktuellen Version</string>
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">Zurücksetzen</string>
@@ -46,10 +51,16 @@
   <string name="seekbar_default_string">Standard</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">Nach XenonHD-Updates suchen</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Musik-App beim Anschließen eines Kopfhörers starten</string>
   <string name="headset_connect_player_disabled">Deaktiviert</string>
+  <string name="headset_connect_player_wired">Kabelgebundene Köpfhörer verbunden</string>
+  <string name="headset_connect_player_bt_no_carkit">Bluetooth-Kopfhörer (keine Freisprecheinrichtung) verbunden</string>
+  <string name="headset_connect_player_bt">Bluetooth-Kopfhörer verbunden</string>
+  <string name="headset_connect_player_both_no_carkit">Kopfhörer (keine Freisprecheinrichtung) verbunden</string>
+  <string name="headset_connect_player_both">Kopfhörer verbunden</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
   <string name="qs_category">Schnelleinstellungs-Kacheln</string>
   <string name="qs_columns_landscape_title">Spalten (Querformat)</string>
@@ -58,17 +69,47 @@
   <string name="qs_rows_columns_summary">Anzahl der Zeilen und Spalten anpassen</string>
   <string name="qs_rows_landscape_title">Zeilen (Querformat)</string>
   <string name="qs_rows_portrait_title">Zeilen (Hochformat)</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Farbe der Akkuleiste</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_show_clock_title">Uhr &amp; Datum anzeigen</string>
+  <string name="clock_title_enable">Ausrichtung</string>
+  <string name="right_clock">Uhr rechts</string>
+  <string name="center_clock">Uhr zentriert</string>
+  <string name="status_bar_clock_seconds_title">Sekundenanzeige</string>
+  <string name="status_bar_clock_seconds_summary">Sekunden neben der Uhr in der Statusleiste anzeigen</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
+  <string name="am_pm_clock_normal">Normale Schriftgröße</string>
+  <string name="am_pm_clock_small">Kleine Schriftgröße</string>
+  <string name="am_pm_clock_none">Nicht anzeigen</string>
   <string name="clock_date_display">Datum</string>
+  <string name="clock_date_display_summary">Benutzerdefiniertes Datum vor der Uhrzeit anzeigen</string>
   <string name="clock_date_style">Datumsstil</string>
   <string name="clock_date_format">Datumsformat</string>
   <string name="clock_date_string_edittext_title">Muss ein Datumsformat sein z.B. MM/TT/JJ</string>
   <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
+  <string name="clock_date_display_none">Nicht anzeigen</string>
+  <string name="clock_date_display_small">Kleine Schriftgröße</string>
+  <string name="clock_date_display_normal">Normale Schriftgröße</string>
   <string name="clock_date_style_normal">Normal</string>
   <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
   <string name="clock_date_style_uppercase">Großbuchstaben</string>
   <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
   <string name="menu_cancel">Abbrechen</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Schnelles entsperren</string>
+  <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wird</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Position der Alle-Schließen Taste</string>
+  <string name="recents_clear_all_location_top_right">Oben rechts</string>
+  <string name="recents_clear_all_location_top_left">Oben links</string>
+  <string name="recents_clear_all_location_top_center">Oben in der Mitte</string>
+  <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
+  <string name="recents_clear_all_location_bottom_left">Unten links</string>
+  <string name="recents_clear_all_location_bottom_center">Unten in der Mitte</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Nicht anzeigen</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Helligkeitsregler</string>
 </resources>

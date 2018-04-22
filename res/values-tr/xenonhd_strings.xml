@@ -21,8 +21,8 @@
   <string name="buttons_title">Tuşlar</string>
   <string name="gestures_title">Hareketler</string>
   <string name="lockscreen_title">Kilit ekranı</string>
-  <string name="misc_title">Çeşitler</string>
-  <string name="navigation_title">Gezinti çubuğu</string>
+  <string name="misc_title">Çeşitli</string>
+  <string name="navigation_title">Gezinme çubuğu</string>
   <string name="power_title">Güç menüsü</string>
   <string name="qs_title">Hızlı ayarlar</string>
   <string name="recents_title">Son uygulamalar</string>
@@ -40,8 +40,8 @@
   <string name="cancel">İptal</string>
   <string name="save">Kaydet</string>
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Renk Seçici</string>
-  <string name="press_color_to_apply">Uygulamak İstediğiniz Yere Basın</string>
+  <string name="dialog_color_picker">Renk seçici</string>
+  <string name="press_color_to_apply">Uygulamak İstediğiniz renge dokunun</string>
   <string name="hex">Hex:</string>
   <string name="set">Ayarla</string>
   <string name="color_default">Varsayılan</string>
@@ -54,45 +54,39 @@
   <string name="xenonota_title">Xenon Güncellemeleri</string>
   <string name="xenonota_summary">XenonHD Güncelleştirmelerini denetle</string>
   <!-- Launch music player when headset is connected -->
-  <string name="headset_connect_player_title">Kulaklık bağlandığında müzik uygulamasını başlat</string>
-  <string name="headset_connect_player_disabled">Devre Dışı</string>
+  <string name="headset_connect_player_title">Müzik uygulamasını başlat</string>
+  <string name="headset_connect_player_disabled">Devre dışı</string>
   <string name="headset_connect_player_wired">Kablolu kulaklık takıldığında</string>
   <string name="headset_connect_player_bt_no_carkit">BT kulaklık takıldığında (araç kiti değil)</string>
   <string name="headset_connect_player_bt">Bluetooth kulaklık takıldığında</string>
   <string name="headset_connect_player_both_no_carkit">Herhangi bir kulaklık takıldığında (araç kiti değil)</string>
   <string name="headset_connect_player_both">Herhangi bir kulaklık takıldığında</string>
   <!-- Power menu on secure lockscreen -->
-  <string name="lockscreen_power_menu_disabled_title">Kilit ekranında güç menüsü kapalı</string>
+  <string name="lockscreen_power_menu_disabled_title">Güç menüsü</string>
   <string name="lockscreen_power_menu_disabled_summary">Güvenli kilit ekranında güç menüsünü devre dışı bırak</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Takıp çıkarmada uyan</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Şarj aleti takıldığında ya da çıkarıldığında ekranı aç</string>
   <!-- QS rows and columns -->
-  <string name="qs_category">Hızlı Ayar Kareleri</string>
+  <string name="qs_category">Hızlı ayarlar kareleri</string>
   <string name="qs_columns_landscape_title">Sütunlar - yatay</string>
   <string name="qs_columns_portrait_title">Sütunlar - dikey</string>
-  <string name="qs_rows_columns_title">Hızlı ayarlar satır ve sütunlar</string>
+  <string name="qs_rows_columns_title">Satırlar ve sütunlar</string>
   <string name="qs_rows_columns_summary">Satır ve sütun sayısını seç</string>
   <string name="qs_rows_landscape_title">Satırlar - yatay</string>
   <string name="qs_rows_portrait_title">Satırlar - dikey</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Pil tasarrufu rengi</string>
-  <string name="status_bar_battery_saver_color_summary">Not: Pil tasarrufu zaten etkin ise, yeni renk efektinin aktif olması için, pil tasarrufunu kapatıp tekrar açın!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Saat seçenekleri</string>
   <string name="status_bar_show_clock_title">Saati &amp; tarihi göster</string>
   <string name="clock_title_enable">Konum</string>
-  <string name="right_clock">Sağ</string>
-  <string name="center_clock">Merkez</string>
+  <string name="right_clock">Saat sağda</string>
+  <string name="center_clock">Saat ortada</string>
   <string name="status_bar_clock_seconds_title">Saniye göster</string>
   <string name="status_bar_clock_seconds_summary">Durum çubuğundaki saatin yanında bir saniye gösterir</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24 saat biçimi etkinleştirildi</string>
+  <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
+  <string name="status_bar_am_pm_info">24 saat biçimi etkin</string>
   <string name="am_pm_clock_normal">Normal yazı boyutu</string>
   <string name="am_pm_clock_small">Küçük yazı boyutu</string>
   <string name="am_pm_clock_none">Gösterme</string>
   <string name="clock_date_display">Tarih</string>
-  <string name="clock_date_display_summary">Düzenlenmiş günü saatten önce göster</string>
+  <string name="clock_date_display_summary">Saatten önce özel tarihi göster</string>
   <string name="clock_date_style">Tarih stili</string>
   <string name="clock_date_format">Tarih biçimi</string>
   <string name="clock_date_string_edittext_title">Tarih formatı AA/gg/yy vb. olmalı</string>
@@ -103,6 +97,23 @@
   <string name="clock_date_style_normal">Normal</string>
   <string name="clock_date_style_lowercase">Küçük harf</string>
   <string name="clock_date_style_uppercase">Büyük harf</string>
-  <string name="clock_date_format_custom">Özel java formatı</string>
+  <string name="clock_date_format_custom">Özel java biçimi</string>
   <string name="menu_cancel">İptal</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Hızlı kilit aç</string>
+  <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Tuş konumu</string>
+  <string name="recents_clear_all_location_top_right">Sağ üst</string>
+  <string name="recents_clear_all_location_top_left">Sol üst</string>
+  <string name="recents_clear_all_location_top_center">Üst orta</string>
+  <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+  <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+  <string name="recents_clear_all_location_bottom_center">Alt orta</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Gösterme</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Parlaklık kaydırıcı</string>
 </resources>

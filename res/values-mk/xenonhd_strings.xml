@@ -17,15 +17,30 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
   <!-- Categories -->
+  <string name="lockscreen_title">Заклучен екран</string>
+  <string name="misc_title">Разно</string>
   <!-- Changelog -->
   <!-- General strings -->
+  <string name="reset">Ресетирај</string>
   <!-- Color Picker -->
+  <string name="dialog_color_picker">Бирач на боја</string>
+  <string name="press_color_to_apply">Притиснете на бојата подолу за да ја поставите</string>
+  <string name="hex">Hex:</string>
+  <string name="set">Постави</string>
+  <string name="color_default">Стандардно</string>
   <!-- Seekbar -->
+  <string name="seekbar_default_string">Стандардно</string>
   <!-- XenonOTA -->
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_disabled">Оневозможено</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
   <!-- Statusbar Clock options -->
+  <!-- Quick unlock -->
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Лизгач за осветленост</string>
 </resources>

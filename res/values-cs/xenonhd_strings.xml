@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Žádné menu napájení na zabezpečené zamykací obrazovce</string>
   <string name="lockscreen_power_menu_disabled_summary">Zakázat menu napájení na zabezpečené zamykací obrazovce</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení nabíječky</string>
   <!-- QS rows and columns -->
   <string name="qs_category">QS dlaždice</string>
   <string name="qs_columns_landscape_title">Sloupce - na šířku</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">Upravit počet QS řad a sloupců</string>
   <string name="qs_rows_landscape_title">Řady - na šířku</string>
   <string name="qs_rows_portrait_title">Řady - na výšku</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Barva spořiče baterie</string>
-  <string name="status_bar_battery_saver_color_summary">Poznámka: Nová barva bude použita při dalším spuštění spořiče baterie!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Možnosti hodin</string>
   <string name="status_bar_show_clock_title">Zobrazit hodiny &amp; datum</string>
@@ -105,4 +99,21 @@
   <string name="clock_date_style_uppercase">Velká písmena</string>
   <string name="clock_date_format_custom">Vlastní formát java</string>
   <string name="menu_cancel">Zrušit</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
+  <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
+  <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+  <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
+  <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+  <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
+  <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Nezobrazovat</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Posuvník jasu</string>
 </resources>

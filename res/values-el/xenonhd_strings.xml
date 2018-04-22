@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Χωρίς μενού ενέργειας όταν είναι κλειδωμένο</string>
   <string name="lockscreen_power_menu_disabled_summary">Απενεργοποίηση μενού ενέργειας σε ασφαλή οθόνη κλειδώματος</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Αφύπνιση κατά τη σύνδεση</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Ενεργοποίηση της οθόνης κατά την σύνδεση ή αποσύνδεση μιας πηγής ισχύος</string>
   <!-- QS rows and columns -->
   <string name="qs_category">Πλακίδια γρήγορων ρυθμίσεων</string>
   <string name="qs_columns_landscape_title">Στήλες- λειτουργία τοπίου</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">Διαμόρφωση αριθμού στηλών και σειρών στις γρήγορες ρυθμίσεις</string>
   <string name="qs_rows_landscape_title">Σειρες- λειτουργία τοπίου</string>
   <string name="qs_rows_portrait_title">Σειρές- λειτουργία πορτρέτου</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Χρώμα εικονιδίου Εξοικονόμηση μπαταρίας</string>
-  <string name="status_bar_battery_saver_color_summary">Σημείωση: Αν είναι ήδη ενεργοποιημένη η οικονομία μπαταρίας, για να εφαρμοστεί το νέο χρώμα, ανοιγοκλείστε το διακόπτη εξοικονόμησης μπαταρίας!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Επιλογές ρολογιού</string>
   <string name="status_bar_show_clock_title">Εμφάνιση ημερομηνίας και ώρας</string>
@@ -105,4 +99,21 @@
   <string name="clock_date_style_uppercase">Κεφαλαία</string>
   <string name="clock_date_format_custom">Προσαρμοσμένη μορφή java</string>
   <string name="menu_cancel">Ακύρωση</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
+  <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν εισάγεται το σωστό PIN ή ο σωστός κωδικός</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Θέση κουμπιού για τερματισμό όλων των εφαρμογών</string>
+  <string name="recents_clear_all_location_top_right">Πάνω δεξιά</string>
+  <string name="recents_clear_all_location_top_left">Πάνω αριστερά</string>
+  <string name="recents_clear_all_location_top_center">Κέντρο και πάνω</string>
+  <string name="recents_clear_all_location_bottom_right">Κάτω Δεξιά</string>
+  <string name="recents_clear_all_location_bottom_left">Κάτω Αριστερά</string>
+  <string name="recents_clear_all_location_bottom_center">Κάτω στο κέντρο</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Να μην εμφανίζεται</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Ρυθμιστής φωτεινότητας</string>
 </resources>

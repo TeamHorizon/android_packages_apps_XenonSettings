@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">當電源選單已鎖定</string>
   <string name="lockscreen_power_menu_disabled_summary">停用安全鎖定畫面上顯示電源選單</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">接上或移除電源時喚醒</string>
-  <string name="wake_when_plugged_or_unplugged_summary">接上或拔除電源時喚醒螢幕</string>
   <!-- QS rows and columns -->
   <string name="qs_category">快速設定圖塊</string>
   <string name="qs_columns_landscape_title">列 - 橫</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">調整快速設定的行和列的數目</string>
   <string name="qs_rows_landscape_title">行 - 橫</string>
   <string name="qs_rows_portrait_title">行 - 縱</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">省電模式顏色</string>
-  <string name="status_bar_battery_saver_color_summary">注意：如果已經啟用了省電模式，為了使新顏色有效，請切換至省電模式！</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">時鐘選項</string>
   <string name="status_bar_show_clock_title">顯示時鐘與日期</string>
@@ -105,4 +99,21 @@
   <string name="clock_date_style_uppercase">大寫</string>
   <string name="clock_date_format_custom">自訂 java 格式</string>
   <string name="menu_cancel">取消</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+  <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">全部清除按鈕位置</string>
+  <string name="recents_clear_all_location_top_right">右上</string>
+  <string name="recents_clear_all_location_top_left">左上</string>
+  <string name="recents_clear_all_location_top_center">頂部置中</string>
+  <string name="recents_clear_all_location_bottom_right">右下</string>
+  <string name="recents_clear_all_location_bottom_left">左下</string>
+  <string name="recents_clear_all_location_bottom_center">底部置中</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">不顯示</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">亮度滑桿</string>
 </resources>

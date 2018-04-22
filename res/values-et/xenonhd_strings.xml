@@ -16,14 +16,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHD seaded</string>
   <!-- Categories -->
+  <string name="buttons_title">Nupud</string>
+  <string name="gestures_title">Žestid</string>
   <string name="lockscreen_title">Lukustuskuva</string>
   <string name="misc_title">Varia</string>
+  <string name="navigation_title">Navigeerimisriba</string>
+  <string name="power_title">Toite menüü</string>
+  <string name="qs_title">Kiirsätted</string>
+  <string name="recents_title">Hiljutised rakendused</string>
+  <string name="statusbar_title">Olekuriba</string>
+  <string name="notifications_title">Teavitused</string>
+  <string name="xenonhd_title">XenonHD keskus</string>
+  <string name="xenonsettings_title">XenonHD seaded</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Muudatuste logi</string>
   <string name="changelog_xenonhd_error">Muudatuste logi ei saanud laadida</string>
+  <string name="changelog_xenonhd_summary">Vaata hetkeversiooni muudatusi</string>
   <!-- General strings -->
+  <string name="ok">OK</string>
   <string name="reset">Lähtesta</string>
+  <string name="cancel">Tühista</string>
   <string name="save">Salvesta</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Värvi valija</string>
@@ -32,23 +46,74 @@
   <string name="set">Määra</string>
   <string name="color_default">Vaikimisi</string>
   <!-- Seekbar -->
+  <string name="seekbar_no_default_value">Vaikeväärtust pole määratud</string>
+  <string name="seekbar_default_value_set">Vaikimisi seatud väärtus <xliff:g id="number">%d</xliff:g></string>
+  <string name="seekbar_default_value_already_set">Vaikeväärtus on juba määratud</string>
   <string name="seekbar_default_string">Vaikimisi</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">XenonHD värskenduste otsimine</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Peakomplekti ühendamisel käivitada muusikarakendus</string>
   <string name="headset_connect_player_disabled">Keelatud</string>
+  <string name="headset_connect_player_wired">Juhtmega peakomplekt ühendatud</string>
+  <string name="headset_connect_player_bt_no_carkit">Bluetooth peakomplekt (mitte autoseade) ühendatud</string>
+  <string name="headset_connect_player_bt">Bluetooth peakomplekt ühendatud</string>
+  <string name="headset_connect_player_both_no_carkit">Peakomplekt (mitte autoseade) ühendatud</string>
+  <string name="headset_connect_player_both">Peakomplekt ühendatud</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
+  <string name="lockscreen_power_menu_disabled_title">Toitemenüü pole saadaval, kui seade on lukus</string>
+  <string name="lockscreen_power_menu_disabled_summary">Keela toitemenüü turvalisel lukustuskuval</string>
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
+  <string name="qs_category">Kiirseadete plaadid</string>
+  <string name="qs_columns_landscape_title">Veerud - horisontaalpaigutus</string>
+  <string name="qs_columns_portrait_title">Veerud - vertikaalpaigutus</string>
+  <string name="qs_rows_columns_title">Read ja veerud</string>
+  <string name="qs_rows_columns_summary">Seadista kiirsätete plaatide ridade ja veergude arv</string>
+  <string name="qs_rows_landscape_title">Veerud - horisontaalpaigutus</string>
+  <string name="qs_rows_portrait_title">Veerud - vertikaalpaigutus</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_title">Kella valikud</string>
+  <string name="status_bar_show_clock_title">Näita kella &amp; kuupäev</string>
+  <string name="clock_title_enable">Joondus</string>
+  <string name="right_clock">Parem kell</string>
+  <string name="center_clock">Kell keskel</string>
+  <string name="status_bar_clock_seconds_title">Kella sekundid</string>
+  <string name="status_bar_clock_seconds_summary">Kuva sekundid olekuribal kella kõrval</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-tunnine kell on valitud</string>
+  <string name="am_pm_clock_normal">Tavaline fondi suurus</string>
+  <string name="am_pm_clock_small">Väike fondi suurus</string>
+  <string name="am_pm_clock_none">Ära näita</string>
   <string name="clock_date_display">Kuupäev</string>
+  <string name="clock_date_display_summary">Näita kohandatud kuupäeva kella ees</string>
   <string name="clock_date_style">Kuupäeva stiil</string>
   <string name="clock_date_format">Kuupäeva formaat</string>
   <string name="clock_date_string_edittext_title">Peab olema KuupäevFormaat nt. KK/pp/aa</string>
   <string name="clock_date_string_edittext_summary">Sisestage string</string>
+  <string name="clock_date_display_none">Ära näita</string>
+  <string name="clock_date_display_small">Väike fondi suurus</string>
+  <string name="clock_date_display_normal">Tavaline fondi suurus</string>
   <string name="clock_date_style_normal">Tavaline</string>
   <string name="clock_date_style_lowercase">Väiketähed</string>
   <string name="clock_date_style_uppercase">Suurtähed</string>
   <string name="clock_date_format_custom">Kohandatud java formaat</string>
+  <string name="menu_cancel">Tühista</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Kiiravamine</string>
+  <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Tühjenda kõik nupu asukoht</string>
+  <string name="recents_clear_all_location_top_right">Paremal ülanurgas</string>
+  <string name="recents_clear_all_location_top_left">Vasakul ülanurgas</string>
+  <string name="recents_clear_all_location_top_center">Ülal keskel</string>
+  <string name="recents_clear_all_location_bottom_right">Paremal allnurgas</string>
+  <string name="recents_clear_all_location_bottom_left">Vasakul allnurgas</string>
+  <string name="recents_clear_all_location_bottom_center">All keskel</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Ära näita</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Ereduse liugur</string>
 </resources>

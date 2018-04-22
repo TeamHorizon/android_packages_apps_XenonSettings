@@ -26,8 +26,13 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">Deaktiveret</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
   <!-- Statusbar Clock options -->
+  <!-- Quick unlock -->
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Lysstyrkeniveau</string>
 </resources>

@@ -36,9 +36,7 @@
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_disabled">無効</string>
   <!-- Power menu on secure lockscreen -->
-  <!-- Wake on Plug -->
   <!-- QS rows and columns -->
-  <!-- Status bar - Battery saver color -->
   <!-- Statusbar Clock options -->
   <string name="clock_date_display">日付</string>
   <string name="clock_date_style">日付のスタイル</string>
@@ -49,4 +47,19 @@
   <string name="clock_date_style_lowercase">小文字</string>
   <string name="clock_date_style_uppercase">大文字</string>
   <string name="clock_date_format_custom">カスタムjava形式</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
+  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_top_right">右上</string>
+  <string name="recents_clear_all_location_top_left">左上</string>
+  <string name="recents_clear_all_location_top_center">中央上</string>
+  <string name="recents_clear_all_location_bottom_right">右下</string>
+  <string name="recents_clear_all_location_bottom_left">左下</string>
+  <string name="recents_clear_all_location_bottom_center">中央下</string>
+  <!-- Battery Styles -->
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">明るさスライダー</string>
 </resources>

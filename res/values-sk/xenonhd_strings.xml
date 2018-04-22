@@ -64,9 +64,6 @@
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Žiadne menu tlačidla Napájanie pri uzamknutí</string>
   <string name="lockscreen_power_menu_disabled_summary">Zakázať menu tlačidla Napájanie na obrazovke uzamknutia</string>
-  <!-- Wake on Plug -->
-  <string name="wake_when_plugged_or_unplugged_title">Prebudiť po pripojení</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Zapnúť obrazovku pri pripojení alebo odpojení zdroja nabíjania</string>
   <!-- QS rows and columns -->
   <string name="qs_category">Dlaždice rýchlych nastavení</string>
   <string name="qs_columns_landscape_title">Stĺpce (na šírku)</string>
@@ -75,9 +72,6 @@
   <string name="qs_rows_columns_summary">Nastaviť počet riadkov a stĺpoch dlaždíc rýchlych nastavení</string>
   <string name="qs_rows_landscape_title">Riadky (na šírku)</string>
   <string name="qs_rows_portrait_title">Riadky (na výšku)</string>
-  <!-- Status bar - Battery saver color -->
-  <string name="status_bar_battery_saver_color_title">Farba pruhu batérie</string>
-  <string name="status_bar_battery_saver_color_summary">Poznámka: Nová farba bude použitá pri nasledujúcom spustení šetriča batérie!</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Možnosti hodín</string>
   <string name="status_bar_show_clock_title">Zobraziť hodiny a dátum</string>
@@ -100,9 +94,26 @@
   <string name="clock_date_display_none">Nezobrazovať</string>
   <string name="clock_date_display_small">Malá veľkosť písma</string>
   <string name="clock_date_display_normal">Normálna veľkosť písma</string>
-  <string name="clock_date_style_normal">Normalny</string>
+  <string name="clock_date_style_normal">Normálny</string>
   <string name="clock_date_style_lowercase">Malé písmená</string>
   <string name="clock_date_style_uppercase">Veľké písmená</string>
   <string name="clock_date_format_custom">Vlastný java formát</string>
   <string name="menu_cancel">Zrušiť</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Rýchle odomknutie</string>
+  <string name="unlock_quick_unlock_control_summary">Odomknúť automaticky po zadaní správneho PIN kódu alebo hesla</string>
+  <!-- Recents Membar -->
+  <!-- Clear all recents -->
+  <string name="recents_clear_all_location_title">Umiestnenie tlačítka \"Vyčistiť všetko\"</string>
+  <string name="recents_clear_all_location_top_right">Vpravo hore</string>
+  <string name="recents_clear_all_location_top_left">Vľavo hore</string>
+  <string name="recents_clear_all_location_top_center">Hore v strede</string>
+  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+  <string name="recents_clear_all_location_bottom_left">Vľavo dole</string>
+  <string name="recents_clear_all_location_bottom_center">Dole v strede</string>
+  <!-- Battery Styles -->
+  <string name="battery_percent_none">Nezobrazovať</string>
+  <!-- Quick Settings brightness icon -->
+  <!-- Option to show brightness bar in quick settings -->
+  <string name="show_brightness_title">Posuvník jasu</string>
 </resources>
