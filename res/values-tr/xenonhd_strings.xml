@@ -41,18 +41,21 @@
   <string name="save">Kaydet</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Renk seçici</string>
-  <string name="press_color_to_apply">Uygulamak İstediğiniz renge dokunun</string>
+  <string name="press_color_to_apply">Uygulamak istediğiniz renge dokunun</string>
+  <string name="arrow_right">→</string>
+  <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
+  <string name="hex_hint">#ff000000</string>
   <string name="set">Ayarla</string>
   <string name="color_default">Varsayılan</string>
   <!-- Seekbar -->
-  <string name="seekbar_no_default_value">Varsayılan değer yok</string>
+  <string name="seekbar_no_default_value">Varsayılan değer ayarlanmadı</string>
   <string name="seekbar_default_value_set">Değer <xliff:g id="number">%d</xliff:g>\'in varsayılanına eşitlendi</string>
   <string name="seekbar_default_value_already_set">Varsayılan değer zaten var</string>
   <string name="seekbar_default_string">Varsayılan</string>
   <!-- XenonOTA -->
-  <string name="xenonota_title">Xenon Güncellemeleri</string>
-  <string name="xenonota_summary">XenonHD Güncelleştirmelerini denetle</string>
+  <string name="xenonota_title">Güncellemeler</string>
+  <string name="xenonota_summary">XenonHD güncellemelerini kontrol edin</string>
   <!-- Launch music player when headset is connected -->
   <string name="headset_connect_player_title">Müzik uygulamasını başlat</string>
   <string name="headset_connect_player_disabled">Devre dışı</string>
@@ -69,19 +72,19 @@
   <string name="qs_columns_landscape_title">Sütunlar - yatay</string>
   <string name="qs_columns_portrait_title">Sütunlar - dikey</string>
   <string name="qs_rows_columns_title">Satırlar ve sütunlar</string>
-  <string name="qs_rows_columns_summary">Satır ve sütun sayısını seç</string>
+  <string name="qs_rows_columns_summary">Satır ve sütun sayısı seçin</string>
   <string name="qs_rows_landscape_title">Satırlar - yatay</string>
   <string name="qs_rows_portrait_title">Satırlar - dikey</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Saat seçenekleri</string>
-  <string name="status_bar_show_clock_title">Saati &amp; tarihi göster</string>
+  <string name="status_bar_show_clock_title">Saat ve tarihi göster</string>
   <string name="clock_title_enable">Konum</string>
   <string name="right_clock">Saat sağda</string>
   <string name="center_clock">Saat ortada</string>
   <string name="status_bar_clock_seconds_title">Saniye göster</string>
-  <string name="status_bar_clock_seconds_summary">Durum çubuğundaki saatin yanında bir saniye gösterir</string>
+  <string name="status_bar_clock_seconds_summary">Durum çubuğunda saatin yanında bir saniye gösterir</string>
   <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
-  <string name="status_bar_am_pm_info">24 saat biçimi etkin</string>
+  <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
   <string name="am_pm_clock_normal">Normal yazı boyutu</string>
   <string name="am_pm_clock_small">Küçük yazı boyutu</string>
   <string name="am_pm_clock_none">Gösterme</string>
@@ -89,8 +92,8 @@
   <string name="clock_date_display_summary">Saatten önce özel tarihi göster</string>
   <string name="clock_date_style">Tarih stili</string>
   <string name="clock_date_format">Tarih biçimi</string>
-  <string name="clock_date_string_edittext_title">Tarih formatı AA/gg/yy vb. olmalı</string>
-  <string name="clock_date_string_edittext_summary">Değer girin</string>
+  <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
+  <string name="clock_date_string_edittext_summary">Dize girin</string>
   <string name="clock_date_display_none">Gösterme</string>
   <string name="clock_date_display_small">Küçük yazı boyutu</string>
   <string name="clock_date_display_normal">Normal yazı boyutu</string>
@@ -100,10 +103,14 @@
   <string name="clock_date_format_custom">Özel java biçimi</string>
   <string name="menu_cancel">İptal</string>
   <!-- Quick unlock -->
-  <string name="unlock_quick_unlock_control_title">Hızlı kilit aç</string>
+  <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
   <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Bellek çubuğunu etkinleştir</string>
+  <string name="systemui_recents_mem_display_summary">Son uygulamlar ekranında bellek kullanım çubuğunu göster</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+  <string name="show_clear_all_recents_button_summary">Son uygulamalar ekranında tümünü temizleme tuşunu göster</string>
   <string name="recents_clear_all_location_title">Tuş konumu</string>
   <string name="recents_clear_all_location_top_right">Sağ üst</string>
   <string name="recents_clear_all_location_top_left">Sol üst</string>
@@ -112,8 +119,25 @@
   <string name="recents_clear_all_location_bottom_left">Sol alt</string>
   <string name="recents_clear_all_location_bottom_center">Alt orta</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Durum çubuğu pil stili</string>
+  <string name="battery_style_title">Pil simge stili</string>
+  <string name="battery_style_port">Dikey</string>
+  <string name="battery_style_land">Yatay</string>
+  <string name="battery_style_circle">Daire</string>
+  <string name="battery_style_dotted_circle">Noktalı daire</string>
+  <string name="battery_style_big_circle">Büyük daire</string>
+  <string name="battery_style_big_dotted_circle">Büyük noktalı daire</string>
+  <string name="battery_style_square">Kare</string>
+  <string name="battery_style_text">Metin</string>
+  <string name="battery_style_hidden">Gizle</string>
+  <string name="show_battery_percent_title">Pil yüzdesini göster</string>
   <string name="battery_percent_none">Gösterme</string>
+  <string name="battery_percent_outside">Simge yanında göster</string>
+  <string name="battery_percent_inside">Simge içinde göster</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
+  <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Parlaklık kaydırıcı</string>
+  <string name="show_brightness_summary">Parlaklık kaydırıcısını göster</string>
 </resources>

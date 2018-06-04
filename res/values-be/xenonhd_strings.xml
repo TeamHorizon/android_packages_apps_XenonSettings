@@ -18,9 +18,14 @@
   <!-- App Title -->
   <string name="xenonhd_settings_title">Параметры XenonHD</string>
   <!-- Categories -->
+  <string name="buttons_title">Кнопкі</string>
   <string name="gestures_title">Жэсты</string>
   <string name="lockscreen_title">Экран блакавання</string>
   <string name="misc_title">Рознае</string>
+  <string name="navigation_title">Панэль навігацыі</string>
+  <string name="power_title">Меню кнопкі сілкавання</string>
+  <string name="qs_title">Хуткія налады</string>
+  <string name="recents_title">Меню нядаўніх праграм</string>
   <string name="statusbar_title">Радок стану</string>
   <string name="notifications_title">Апавяшчэнні</string>
   <string name="xenonhd_title">XenonHD Hub</string>
@@ -28,6 +33,7 @@
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Спіс змен</string>
   <string name="changelog_xenonhd_error">Немагчыма загрузіць спіс змен</string>
+  <string name="changelog_xenonhd_summary">Паглядзець змены ў бягучым рэлізе</string>
   <!-- General strings -->
   <string name="ok">ОК</string>
   <string name="reset">Скінуць</string>
@@ -46,9 +52,18 @@
   <string name="seekbar_default_string">Па змаўчанні</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">Праверыць абнаўленні XenonHD</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">Запуск музычнага прайгравальніка пры падключэнні гарнітуры</string>
   <string name="headset_connect_player_disabled">Адключана</string>
+  <string name="headset_connect_player_wired">Калі правадныя навушнікі падлучаны</string>
+  <string name="headset_connect_player_bt_no_carkit">Калі BT навушнікі (не Carkit) падлучаны</string>
+  <string name="headset_connect_player_bt">Калі BT навушнікі падлучаны</string>
+  <string name="headset_connect_player_both_no_carkit">Падлучаны любыя навушнікі</string>
+  <string name="headset_connect_player_both">Калі правадныя навушнікі падлучаныя</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">Меню сілкавання на заблакаваным экране</string>
+  <string name="lockscreen_power_menu_disabled_summary">Не паказваць меню сілкавання на экране блакавання</string>
   <!-- QS rows and columns -->
   <string name="qs_category">Пліткі хуткіх налад</string>
   <string name="qs_columns_landscape_title">Калонкі (ландшафт)</string>
@@ -58,11 +73,27 @@
   <string name="qs_rows_landscape_title">Радкі (ландшафт)</string>
   <string name="qs_rows_portrait_title">Радкі (партрэт)</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_title">Параметры гадзінніка</string>
+  <string name="status_bar_show_clock_title">Паказваць гадзіннік і дату</string>
+  <string name="clock_title_enable">Становішча</string>
+  <string name="right_clock">Гадзіннік справа</string>
+  <string name="center_clock">Гадзіннік па цэнтры</string>
+  <string name="status_bar_clock_seconds_title">Паказваць секунды</string>
+  <string name="status_bar_clock_seconds_summary">Адлюстраванне секунд побач з гадзіннікам у радку стану</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">24-гадзінны фармат часу</string>
+  <string name="am_pm_clock_normal">Стандартны памер шрыфта</string>
+  <string name="am_pm_clock_small">Маленькі памер шрыфта</string>
+  <string name="am_pm_clock_none">Не паказваць</string>
   <string name="clock_date_display">Дата</string>
+  <string name="clock_date_display_summary">Адлюстроўваць карыстацкі фармат даты перад гадзіннікам</string>
   <string name="clock_date_style">Стыль даты</string>
   <string name="clock_date_format">Фармат даты</string>
   <string name="clock_date_string_edittext_title">Выбранае Вамі значэнне павінна адпавядаць фармату даты, напрыклад: ММ/dd/yy</string>
   <string name="clock_date_string_edittext_summary">Увесці значэнне</string>
+  <string name="clock_date_display_none">Не паказваць</string>
+  <string name="clock_date_display_small">Маленькі памер шрыфта</string>
+  <string name="clock_date_display_normal">Стандартны памер шрыфта</string>
   <string name="clock_date_style_normal">Звычайная</string>
   <string name="clock_date_style_lowercase">Ніжні рэгістр</string>
   <string name="clock_date_style_uppercase">Прапісныя</string>
@@ -72,7 +103,11 @@
   <string name="unlock_quick_unlock_control_title">Хуткая разблакоўка</string>
   <string name="unlock_quick_unlock_control_summary">Аўтаматычная разблакоўка пры ўводзе правільнага пароля або PIN-кода</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Уключыць панэль памяці</string>
+  <string name="systemui_recents_mem_display_summary">Паказаць панэль выкарыстання памяці ў спісе нядаўніх</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Карыстацкая кнопка «Ачысціць ўсё»</string>
+  <string name="show_clear_all_recents_button_summary">Выкарыстоўваць карыстацкую кнопку «Ачысціць ўсё»</string>
   <string name="recents_clear_all_location_title">Размяшчэнне кнопкі \"Ачысціць усё\"</string>
   <string name="recents_clear_all_location_top_right">Зверху справа</string>
   <string name="recents_clear_all_location_top_left">Зверху злева</string>
@@ -81,7 +116,25 @@
   <string name="recents_clear_all_location_bottom_left">Знізу злева</string>
   <string name="recents_clear_all_location_bottom_center">Унізе па цэнтры</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Стыль батарэі ў радку стану</string>
+  <string name="battery_style_title">Стыль значка батарэі</string>
+  <string name="battery_style_port">Партрэтная</string>
+  <string name="battery_style_land">Альбомная</string>
+  <string name="battery_style_circle">Круг</string>
+  <string name="battery_style_dotted_circle">Пункцірны круг</string>
+  <string name="battery_style_big_circle">Вялікі круг</string>
+  <string name="battery_style_big_dotted_circle">Вялікі пункцірны круг</string>
+  <string name="battery_style_square">Квадрат</string>
+  <string name="battery_style_text">Тэкст</string>
+  <string name="battery_style_hidden">Схавана</string>
+  <string name="show_battery_percent_title">Паказваць працэнт зарада батарэі</string>
+  <string name="battery_percent_none">Не паказваць</string>
+  <string name="battery_percent_outside">Паказаць значок побач</string>
+  <string name="battery_percent_inside">Паказаць значок унутры</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Значок аўтаматычнай яркасці</string>
+  <string name="brightness_icon_summary">Паказаць значок аўтаматычнай яркасці справа ад паўзунка яркасці для пераключэння аўтаматычнай яркасці</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Рэгулятар яркасці</string>
+  <string name="show_brightness_summary">Паказаць паўзунок яркасці</string>
 </resources>

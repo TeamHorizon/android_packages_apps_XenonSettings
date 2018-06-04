@@ -78,6 +78,7 @@
   <string name="clock_title_enable">Pozycja</string>
   <string name="right_clock">Po prawej</string>
   <string name="center_clock">Na środku</string>
+  <string name="left_clock">Po lewej</string>
   <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
   <string name="status_bar_clock_seconds_summary">Wyświetlaj sekundy obok zegara na pasku stanu</string>
   <string name="status_bar_am_pm_title">AM/PM</string>

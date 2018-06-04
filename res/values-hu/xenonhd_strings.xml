@@ -103,7 +103,11 @@
   <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
   <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Memóriasáv engedélyezése</string>
+  <string name="systemui_recents_mem_display_summary">Memóriahasználat kijelzése az alkalmazáselőzményekben</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Egyéni összes törlése gomb</string>
+  <string name="show_clear_all_recents_button_summary">Összes törlése gomb testreszabása</string>
   <string name="recents_clear_all_location_title">Összes törlése gomb helye</string>
   <string name="recents_clear_all_location_top_right">Jobb fent</string>
   <string name="recents_clear_all_location_top_left">Bal fent</string>
@@ -112,8 +116,25 @@
   <string name="recents_clear_all_location_bottom_left">Bal alul</string>
   <string name="recents_clear_all_location_bottom_center">Alul középen</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Állapotsori akkumulátorkijelzés stílusa</string>
+  <string name="battery_style_title">Akkumulátorikon stílusa</string>
+  <string name="battery_style_port">Álló</string>
+  <string name="battery_style_land">Fekvő</string>
+  <string name="battery_style_circle">Kör</string>
+  <string name="battery_style_dotted_circle">Pontozott kör</string>
+  <string name="battery_style_big_circle">Nagy kör</string>
+  <string name="battery_style_big_dotted_circle">Nagy pontozott kör</string>
+  <string name="battery_style_square">Négyzet</string>
+  <string name="battery_style_text">Szöveg</string>
+  <string name="battery_style_hidden">Rejtett</string>
+  <string name="show_battery_percent_title">Töltöttség százalékos kijelzése</string>
   <string name="battery_percent_none">Ne mutassa</string>
+  <string name="battery_percent_outside">Ikon mellett</string>
+  <string name="battery_percent_inside">Ikonon belül</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Automatikus fényerő ikonja</string>
+  <string name="brightness_icon_summary">Fényerő ikon megjelenítése a fényerőcsúszka bal oldalán az automatikus fényerő kapcsolásához</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Fényerő csúszka</string>
+  <string name="show_brightness_summary">Fényerőszabályzó-csúszka megjelenítése</string>
 </resources>

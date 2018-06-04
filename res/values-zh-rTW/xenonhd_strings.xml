@@ -103,7 +103,11 @@
   <string name="unlock_quick_unlock_control_title">快速解鎖</string>
   <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">啟用記憶體列</string>
+  <string name="systemui_recents_mem_display_summary">在總覽中顯示記憶體使用率列</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">自訂清除所有按鈕</string>
+  <string name="show_clear_all_recents_button_summary">使用自訂清除全部按鈕</string>
   <string name="recents_clear_all_location_title">全部清除按鈕位置</string>
   <string name="recents_clear_all_location_top_right">右上</string>
   <string name="recents_clear_all_location_top_left">左上</string>
@@ -112,8 +116,25 @@
   <string name="recents_clear_all_location_bottom_left">左下</string>
   <string name="recents_clear_all_location_bottom_center">底部置中</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">狀態列電池樣式</string>
+  <string name="battery_style_title">電池圖示樣式</string>
+  <string name="battery_style_port">縱向</string>
+  <string name="battery_style_land">橫向</string>
+  <string name="battery_style_circle">圓圈</string>
+  <string name="battery_style_dotted_circle">點陣環形</string>
+  <string name="battery_style_big_circle">大圓</string>
+  <string name="battery_style_big_dotted_circle">大點陣環形</string>
+  <string name="battery_style_square">正方形</string>
+  <string name="battery_style_text">文字</string>
+  <string name="battery_style_hidden">隱藏</string>
+  <string name="show_battery_percent_title">顯示電量百分比</string>
   <string name="battery_percent_none">不顯示</string>
+  <string name="battery_percent_outside">在圖示旁顯示</string>
+  <string name="battery_percent_inside">在圖示內顯示</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">自動亮度圖示</string>
+  <string name="brightness_icon_summary">顯示亮度滑動條右側的自動亮度圖示以切換自動亮度</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">亮度滑桿</string>
+  <string name="show_brightness_summary">顯示亮度滑動條</string>
 </resources>

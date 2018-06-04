@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
   <!-- Categories -->
+  <string name="lockscreen_title">잠금 화면</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">체인지 로그</string>
   <!-- General strings -->

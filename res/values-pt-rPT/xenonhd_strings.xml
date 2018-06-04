@@ -18,15 +18,25 @@
   <!-- App Title -->
   <string name="xenonhd_settings_title">Configurações XenonHD</string>
   <!-- Categories -->
+  <string name="buttons_title">Botões</string>
+  <string name="gestures_title">Gestos</string>
   <string name="lockscreen_title">Ecrã de bloqueio</string>
   <string name="misc_title">Diversos</string>
+  <string name="navigation_title">Barra de navegação</string>
+  <string name="power_title">Menu de energia</string>
+  <string name="qs_title">Configurações Rápidas</string>
+  <string name="recents_title">Aplicações recentes</string>
+  <string name="statusbar_title">Barra de estado</string>
+  <string name="notifications_title">Notificações</string>
   <string name="xenonhd_title">Hub XenonHD</string>
   <string name="xenonsettings_title">Configurações XenonHD</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">Registo de alterações</string>
   <string name="changelog_xenonhd_error">Não foi possível carregar a lista de alterações</string>
   <!-- General strings -->
+  <string name="ok">OK</string>
   <string name="reset">Repor</string>
+  <string name="cancel">Cancelar</string>
   <string name="save">Guardar</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Paleta de cores</string>
@@ -42,19 +52,45 @@
   <string name="headset_connect_player_disabled">Desactivado</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
+  <string name="qs_columns_landscape_title">Colunas - paisagem</string>
+  <string name="qs_columns_portrait_title">Colunas - retrato</string>
+  <string name="qs_rows_columns_title">Linhas e colunas</string>
+  <string name="qs_rows_landscape_title">Linhas - paisagem</string>
+  <string name="qs_rows_portrait_title">Linhas - retrato</string>
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_title">Opções do relógio</string>
+  <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
+  <string name="clock_title_enable">Alinhamento</string>
+  <string name="status_bar_clock_seconds_title">Segundos do relógio</string>
+  <string name="status_bar_clock_seconds_summary">Exibir segundos ao lado do relógio na barra de estado</string>
+  <string name="status_bar_am_pm_title">AM/PM</string>
+  <string name="status_bar_am_pm_info">O formato de 24 horas está ativo</string>
+  <string name="am_pm_clock_normal">Tamanho do tipo de letra normal</string>
+  <string name="am_pm_clock_small">Tamanho do tipo de letra pequeno</string>
+  <string name="am_pm_clock_none">Não mostrar</string>
   <string name="clock_date_display">Data</string>
+  <string name="clock_date_display_summary">Mostrar data personalizada antes do relógio</string>
   <string name="clock_date_style">Estilo de data</string>
   <string name="clock_date_format">Formato de data</string>
   <string name="clock_date_string_edittext_title">Deve estar num formato de data, por exemplo: DD/MM/AA</string>
   <string name="clock_date_string_edittext_summary">Introduza o texto</string>
+  <string name="clock_date_display_none">Não mostrar</string>
+  <string name="clock_date_display_small">Tamanho do tipo de letra pequeno</string>
+  <string name="clock_date_display_normal">Tamanho do tipo de letra normal</string>
   <string name="clock_date_style_normal">Normal</string>
   <string name="clock_date_style_lowercase">Minúsculas</string>
   <string name="clock_date_style_uppercase">Maiúsculas</string>
   <string name="clock_date_format_custom">Formato java personalizado</string>
+  <string name="menu_cancel">Cancelar</string>
   <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+  <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/palavra-passe corretos forem introduzidos</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Ativar a barra de memória</string>
+  <string name="systemui_recents_mem_display_summary">Mostrar barra de utilização de memória nos recentes</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Botão de limpar todas personalizado</string>
+  <string name="show_clear_all_recents_button_summary">Botão de limpar todas personalizado</string>
   <string name="recents_clear_all_location_title">Posição do botão de \"Limpar Tudo\"</string>
   <string name="recents_clear_all_location_top_right">Superior direito</string>
   <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
@@ -63,7 +99,24 @@
   <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
   <string name="recents_clear_all_location_bottom_center">Inferior ao Centro</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Estilo da bateria na barra de estado</string>
+  <string name="battery_style_title">Estilo do indicador da bateria</string>
+  <string name="battery_style_port">Retrato</string>
+  <string name="battery_style_land">Paisagem</string>
+  <string name="battery_style_circle">Círculo</string>
+  <string name="battery_style_dotted_circle">Círculo pontilhado</string>
+  <string name="battery_style_big_circle">Círculo grande</string>
+  <string name="battery_style_big_dotted_circle">Círculo pontilhado grande</string>
+  <string name="battery_style_square">Quadrado</string>
+  <string name="battery_style_text">Texto</string>
+  <string name="battery_style_hidden">Oculto</string>
+  <string name="show_battery_percent_title">Mostrar a percentagem da bateria</string>
+  <string name="battery_percent_none">Não mostrar</string>
+  <string name="battery_percent_outside">Mostrar junto ao ícone</string>
+  <string name="battery_percent_inside">Mostrar dentro do ícone</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Ícone de luminosidade adaptável</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Controlo do brilho</string>
+  <string name="show_brightness_summary">Mostrar o controlo deslizante de brilho</string>
 </resources>
