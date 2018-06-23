@@ -56,4 +56,8 @@
     <string name="xenonota_title">XenonOTA</string>
     <string name="xenonota_summary">Check for XenonHD updates</string>
 
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Advanced restart</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+
 </resources>
