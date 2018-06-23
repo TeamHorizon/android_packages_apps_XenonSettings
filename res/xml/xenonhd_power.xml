@@ -23,4 +23,9 @@
     android:title="@string/lockscreen_power_menu_disabled_title"
     android:summary="@string/lockscreen_power_menu_disabled_summary"
     android:defaultValue="true" />
+
+    <lineageos.preference.LineageSecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/advanced_reboot_title"
+            android:summary="@string/advanced_reboot_summary" />
 </PreferenceScreen>
