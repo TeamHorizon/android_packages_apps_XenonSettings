@@ -112,4 +112,6 @@
   <!-- Quick Settings brightness icon -->
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Helligkeitsregler</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>

@@ -78,6 +78,7 @@
   <string name="clock_title_enable">Στοίχιση</string>
   <string name="right_clock">Ρολόι δεξιά</string>
   <string name="center_clock">Ρολόι στο κέντρο</string>
+  <string name="left_clock">Το ρολόι στα αριστερά</string>
   <string name="status_bar_clock_seconds_title">Ρολόι δευτερόλεπτα</string>
   <string name="status_bar_clock_seconds_summary">Εμφάνισε τα δευτερόλεπτα δίπλα στο ρολόι στη γραμμή κατάστασης</string>
   <string name="status_bar_am_pm_title">ΠΜ/ΜΜ</string>
@@ -133,7 +134,10 @@
   <string name="battery_percent_inside">Εμφάνιση μέσα στο εικονίδιο</string>
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">Εικονίδιο αυτόματης φωτεινότητας</string>
+  <string name="brightness_icon_summary">Εμφάνιση ενός εικονιδίου φωτεινότητας στα δεξιά της μπάρας φωτεινότητας για προσαρμογή της αυτόματης φωτεινότητας</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Ρυθμιστής φωτεινότητας</string>
   <string name="show_brightness_summary">Εμφάνιση ρυθμιστικού φωτεινότητας</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>

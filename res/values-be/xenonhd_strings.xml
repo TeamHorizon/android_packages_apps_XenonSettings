@@ -137,4 +137,6 @@
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Рэгулятар яркасці</string>
   <string name="show_brightness_summary">Паказаць паўзунок яркасці</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>

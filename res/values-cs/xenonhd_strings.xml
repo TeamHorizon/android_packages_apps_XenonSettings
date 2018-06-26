@@ -78,6 +78,7 @@
   <string name="clock_title_enable">Zarovnání</string>
   <string name="right_clock">Hodiny vpravo</string>
   <string name="center_clock">Hodiny uprostřed</string>
+  <string name="left_clock">Hodiny vlevo</string>
   <string name="status_bar_clock_seconds_title">Sekundy hodin</string>
   <string name="status_bar_clock_seconds_summary">Zobrazit sekundy vedle hodin ve stavové liště</string>
   <string name="status_bar_am_pm_title">DOP/ODP</string>
@@ -137,4 +138,6 @@
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Posuvník jasu</string>
   <string name="show_brightness_summary">Zobrazit posuvník jasu</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>

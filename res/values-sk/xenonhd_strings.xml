@@ -78,6 +78,7 @@
   <string name="clock_title_enable">Zarovnanie</string>
   <string name="right_clock">Hodiny vpravo</string>
   <string name="center_clock">Hodiny v strede</string>
+  <string name="left_clock">Hodiny vľavo</string>
   <string name="status_bar_clock_seconds_title">Sekundy hodín</string>
   <string name="status_bar_clock_seconds_summary">Zobrazenie sekúnd na hodinách v stavovom riadku</string>
   <string name="status_bar_am_pm_title">Štýl AM/PM</string>
@@ -137,4 +138,6 @@
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Posuvník jasu</string>
   <string name="show_brightness_summary">Zobraziť posuvník jasu</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>

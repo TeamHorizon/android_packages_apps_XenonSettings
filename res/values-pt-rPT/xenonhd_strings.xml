@@ -119,4 +119,6 @@
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Controlo do brilho</string>
   <string name="show_brightness_summary">Mostrar o controlo deslizante de brilho</string>
+  <!-- Advanced restart options -->
+  <!-- Show 4G instead of LTE -->
 </resources>
