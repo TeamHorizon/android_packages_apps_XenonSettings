@@ -29,4 +29,12 @@
         android:fragment="com.xenonhd.settings.fragments.StatusbarBatteryStyle"
         android:icon="@drawable/ic_battery_settings"
         android:title="@string/status_bar_battery_style_title" />
+
+    <!-- Data icon - show 4G instead of LTE -->
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_lte_fourgee"
+        android:title="@string/show_4g_title"
+        android:summary="@string/show_4g_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
