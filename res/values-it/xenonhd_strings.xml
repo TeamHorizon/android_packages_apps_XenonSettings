@@ -25,7 +25,7 @@
   <string name="navigation_title">Barra di navigazione</string>
   <string name="power_title">Menù di spegnimento</string>
   <string name="qs_title">Impostazioni rapide</string>
-  <string name="recents_title">Recenti</string>
+  <string name="recents_title">App Recenti</string>
   <string name="statusbar_title">Barra di stato</string>
   <string name="notifications_title">Notifiche</string>
   <string name="xenonhd_title">Hub XenonHD</string>
@@ -139,5 +139,10 @@
   <string name="show_brightness_title">Cursore luminosità</string>
   <string name="show_brightness_summary">Mostra la barra livello luminosità</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Riavvio avanzato</string>
+  <string name="advanced_reboot_summary">Quando selezionato, include nel menù di spegnimento le opzioni per riavviare in modalitá recovery o bootloader</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Mostra 4G</string>
+  <string name="show_4g_summary">Mostra l\'icona 4G al posto dell\'icona LTE</string>
+  <!-- Smart Pixels -->
 </resources>

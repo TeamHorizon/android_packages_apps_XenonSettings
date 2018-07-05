@@ -139,5 +139,10 @@
   <string name="show_brightness_title">亮度滑桿</string>
   <string name="show_brightness_summary">顯示亮度滑動條</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">進階重新啟動</string>
+  <string name="advanced_reboot_summary">解鎖後，在電源選單加入重新啟動進入 recovery 或 bootloader 的選項</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">顯示 4 G</string>
+  <string name="show_4g_summary">在訊號圖示中顯示 4G 而不是 LTE</string>
+  <!-- Smart Pixels -->
 </resources>

@@ -142,5 +142,10 @@
   <string name="show_brightness_title">Parlaklık kaydırıcı</string>
   <string name="show_brightness_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
+  <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya ön yükleyici modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">4G simgesi</string>
+  <string name="show_4g_summary">LTE yerine 4G simgesini göster</string>
+  <!-- Smart Pixels -->
 </resources>

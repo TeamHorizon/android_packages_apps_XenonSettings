@@ -144,4 +144,14 @@
   <!-- Show 4G instead of LTE -->
   <string name="show_4g_title">Pokaż 4G</string>
   <string name="show_4g_summary">Pokaż ikonę 4G zamiast LTE</string>
+  <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Inteligentne piksele</string>
+  <string name="smart_pixels_summary">Oszczędzaj baterię poprzez wyłączanie części pikseli</string>
+  <string name="smart_pixels_enable_title">Włącz inteligentne piksele</string>
+  <string name="smart_pixels_enable_summary">Wyłącz piksele w celu redukcji zużycia energii</string>
+  <string name="smart_pixels_on_power_save_title">Automatyczne włączanie podczas oszczędzania baterii</string>
+  <string name="smart_pixels_on_power_save_summary">Włącz inteligentne piksele, gdy oszczędzanie baterii jest włączone</string>
+  <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
+  <string name="smart_pixels_shift_title">Ochrona przed wypaleniem ekranu</string>
+  <string name="smart_pixels_shift_summary">Zapobiega wypalaniu na urządzeniach OLED przez częstsze przesuwanie pikseli</string>
 </resources>

@@ -140,4 +140,5 @@
   <string name="show_brightness_summary">Mostrar o controle deslizante de brilho</string>
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
+  <!-- Smart Pixels -->
 </resources>

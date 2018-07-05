@@ -139,5 +139,10 @@
   <string name="show_brightness_title">Posuvník jasu</string>
   <string name="show_brightness_summary">Zobrazit posuvník jasu</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Rozšířený restart</string>
+  <string name="advanced_reboot_summary">Pokud je povoleno, v nabídce vypnutí jsou také možnosti restartovat zařízení do recovery nebo bootloaderu</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Zobrazit 4G</string>
+  <string name="show_4g_summary">Zobrazit 4G místo LTE</string>
+  <!-- Smart Pixels -->
 </resources>
