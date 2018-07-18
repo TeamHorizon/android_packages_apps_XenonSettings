@@ -71,12 +71,12 @@
             android:fragment="com.xenonhd.settings.fragments.NavigationSettings"
             android:icon="@drawable/ic_navigation"/> -->
 
-        <!-- Gestures
+        <!-- Gestures -->
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.xenonhd.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_gestures"/> -->
+            android:icon="@drawable/ic_gestures"/>
 
         <!-- Lock Screen -->
         <Preference

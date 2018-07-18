@@ -18,4 +18,19 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+      <!-- Gestures -->
+      <PreferenceCategory
+          android:key="gestures"
+          android:title="@string/gestures_preference_title">
+
+          <!-- Carbon Gestures -->
+          <PreferenceScreen
+              android:key="carbon_gestures"
+              android:fragment="com.xenonhd.settings.fragments.CarbonGesturesSettings"
+              android:title="@string/carbon_gesture_preference_title"
+              android:summary="@string/carbon_gestures_summary"
+              android:persistent="false" />
+
+      </PreferenceCategory>
+
 </PreferenceScreen>
