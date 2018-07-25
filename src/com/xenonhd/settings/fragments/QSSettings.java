@@ -13,10 +13,13 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.provider.Settings.Secure;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import android.text.TextUtils;
 import android.view.View;
+
+import com.xenonhd.settings.preferences.SeekBarPreferenceCham;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -27,6 +30,8 @@ import java.util.ArrayList;
 public class QSSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private SeekBarPreferenceCham mSysuiQqsCount;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -35,11 +40,23 @@ public class QSSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        int value = Settings.Secure.getInt(resolver, Settings.Secure.QQS_COUNT, 6);
+        mSysuiQqsCount = (SeekBarPreferenceCham) findPreference("sysui_qqs_count");
+        mSysuiQqsCount.setValue(value);
+        mSysuiQqsCount.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+         ContentResolver resolver = getActivity().getContentResolver();
 
+        if (preference == mSysuiQqsCount) {
+            int val = (Integer) newValue;
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.QQS_COUNT, val, UserHandle.USER_CURRENT);
+            return true;
+        }
         return false;
     }
 

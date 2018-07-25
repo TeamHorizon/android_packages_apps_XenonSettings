@@ -28,6 +28,16 @@
         android:title="@string/qs_rows_columns_title"
         android:summary="@string/qs_rows_columns_summary" />
 
+    <com.xenonhd.settings.preferences.SeekBarPreferenceCham
+        android:key="sysui_qqs_count"
+        android:title="@string/sysui_qqs_count_title"
+        android:max="8"
+        android:min="3"
+        android:defaultValue="6"
+        settings:unitsLeft=""
+        settings:unitsRight=""
+        android:persistent="false" />
+
     <com.xenonhd.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/show_brightness_title"

@@ -83,6 +83,7 @@
     <string name="qs_rows_columns_summary">Adjust number of QS rows and columns</string>
     <string name="qs_rows_landscape_title">Rows - landscape</string>
     <string name="qs_rows_portrait_title">Rows - portrait</string>
+    <string name="sysui_qqs_count_title">Small tiles</string>	
 
     <!-- Statusbar Clock options -->
     <string name="status_bar_clock_title">Clock options</string>
