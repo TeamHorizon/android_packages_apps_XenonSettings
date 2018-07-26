@@ -46,16 +46,13 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             //ignore
         }
 
-        // Fingerprint vibration
+        // Fingerprint vibration & keystore unlock
         mFingerprintVib = (SwitchPreference) prefScreen.findPreference(FP_SUCCESS_VIBRATION);
+        mFpKeystore = (SwitchPreference) prefScreen.findPreference(FP_UNLOCK_KEYSTORE);
+
         if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
             mFingerprintVib.getParent().removePreference(mFingerprintVib);
-        }
-
-        // Fingerprint unlock keystore
-        mFpKeystore = (SwitchPreference) prefSet.findPreference(FP_UNLOCK_KEYSTORE);
-        if (!mFingerprintManager.isHardwareDetected()){
-            prefSet.removePreference(mFpKeystore);
+            mFpKeystore.getParent().removePreference(mFpKeystore);
         }
     }
 
