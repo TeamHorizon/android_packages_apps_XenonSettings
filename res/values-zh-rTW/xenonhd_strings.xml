@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">調整快速設定的行和列的數目</string>
   <string name="qs_rows_landscape_title">行 - 橫</string>
   <string name="qs_rows_portrait_title">行 - 縱</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">時鐘選項</string>
-  <string name="status_bar_show_clock_title">顯示時鐘與日期</string>
-  <string name="clock_title_enable">對齊方式</string>
-  <string name="right_clock">右側時鐘</string>
-  <string name="center_clock">置中時鐘</string>
-  <string name="left_clock">左側時鐘</string>
-  <string name="status_bar_clock_seconds_title">時鐘秒數</string>
-  <string name="status_bar_clock_seconds_summary">顯示狀態列中時鐘旁邊的秒數</string>
-  <string name="status_bar_am_pm_title">上午/下午</string>
-  <string name="status_bar_am_pm_info">24 小時時鐘已啟用</string>
-  <string name="am_pm_clock_normal">正常字體大小</string>
-  <string name="am_pm_clock_small">小型字體</string>
-  <string name="am_pm_clock_none">不顯示</string>
-  <string name="clock_date_display">日期</string>
-  <string name="clock_date_display_summary">在時鐘前顯示自訂日期</string>
-  <string name="clock_date_style">日期樣式</string>
-  <string name="clock_date_format">日期格式</string>
-  <string name="clock_date_string_edittext_title">日期格式必須是此形式 例如：MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">輸入字串</string>
-  <string name="clock_date_display_none">不顯示</string>
-  <string name="clock_date_display_small">小型字體</string>
-  <string name="clock_date_display_normal">正常字體大小</string>
-  <string name="clock_date_style_normal">一般</string>
-  <string name="clock_date_style_lowercase">小寫</string>
-  <string name="clock_date_style_uppercase">大寫</string>
-  <string name="clock_date_format_custom">自訂 java 格式</string>
-  <string name="menu_cancel">取消</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">快速解鎖</string>
   <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
@@ -145,4 +117,22 @@
   <string name="show_4g_title">顯示 4 G</string>
   <string name="show_4g_summary">在訊號圖示中顯示 4G 而不是 LTE</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">智慧 Pixels</string>
+  <string name="smart_pixels_summary">透過關閉多餘的 pixels 來節省電池電量</string>
+  <string name="smart_pixels_enable_title">自動啟用智慧 Pixels</string>
+  <string name="smart_pixels_enable_summary">關閉 pixels 以降低功耗</string>
+  <string name="smart_pixels_on_power_save_title">自動啟用省電模式</string>
+  <string name="smart_pixels_on_power_save_summary">啟用省電模式時啟用智慧 Pixels</string>
+  <string name="smart_pixels_percent">要停用的 pixels 的百分比</string>
+  <string name="smart_pixels_shift_title">螢幕烙印保護</string>
+  <string name="smart_pixels_shift_summary">透過經常移動像素塊來防止使用 OLED 螢幕的裝置烙印</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">手勢</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">已停用</string>
+  <string name="carbon_gesture_screenshot">螢幕截圖</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">指紋認證震動</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

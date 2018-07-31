@@ -72,37 +72,9 @@
   <string name="qs_rows_columns_summary">Sorok és oszlopok számának beállítása</string>
   <string name="qs_rows_landscape_title">Sorok (fekvő)</string>
   <string name="qs_rows_portrait_title">Sorok (álló)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Óra elhelyezkedése</string>
-  <string name="status_bar_show_clock_title">Óra és dátum mutatása</string>
-  <string name="clock_title_enable">Igazítás</string>
-  <string name="right_clock">Jobb oldalon</string>
-  <string name="center_clock">Középen</string>
-  <string name="left_clock">Bal oldali óra</string>
-  <string name="status_bar_clock_seconds_title">Óra másodpercei</string>
-  <string name="status_bar_clock_seconds_summary">Másodpercek kijelzése az óra mellett az állapotsoron</string>
-  <string name="status_bar_am_pm_title">DE/DU</string>
-  <string name="status_bar_am_pm_info">24-órás óra engedélyezve van</string>
-  <string name="am_pm_clock_normal">Normál betűméret</string>
-  <string name="am_pm_clock_small">Kicsi betűméret</string>
-  <string name="am_pm_clock_none">Ne mutassa</string>
-  <string name="clock_date_display">Dátum</string>
-  <string name="clock_date_display_summary">Egyéni dátum megjelenítése az óra előtt</string>
-  <string name="clock_date_style">Dátum stílusa</string>
-  <string name="clock_date_format">Dátumformátum</string>
-  <string name="clock_date_string_edittext_title">Dátumformátumban kell lennie. Pl: MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Adja meg a karakterláncot</string>
-  <string name="clock_date_display_none">Ne mutassa</string>
-  <string name="clock_date_display_small">Kicsi betűméret</string>
-  <string name="clock_date_display_normal">Normál betűméret</string>
-  <string name="clock_date_style_normal">Normál</string>
-  <string name="clock_date_style_lowercase">Kisbetűs</string>
-  <string name="clock_date_style_uppercase">Nagybetűs</string>
-  <string name="clock_date_format_custom">Egyéni formátum</string>
-  <string name="menu_cancel">Mégse</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
-  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN kód megadásakor</string>
+  <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN-kód megadásakor</string>
   <!-- Recents Membar -->
   <string name="systemui_recents_mem_display_title">Memóriasáv engedélyezése</string>
   <string name="systemui_recents_mem_display_summary">Memóriahasználat kijelzése az alkalmazáselőzményekben</string>
@@ -134,11 +106,33 @@
   <string name="battery_percent_inside">Ikonon belül</string>
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">Automatikus fényerő ikonja</string>
-  <string name="brightness_icon_summary">Fényerő ikon megjelenítése a fényerőcsúszka bal oldalán az automatikus fényerő kapcsolásához</string>
+  <string name="brightness_icon_summary">Fényerőikon megjelenítése a fényerőcsúszka bal oldalán az automatikus fényerő kapcsolásához</string>
   <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness_title">Fényerő csúszka</string>
-  <string name="show_brightness_summary">Fényerőszabályzó-csúszka megjelenítése</string>
+  <string name="show_brightness_title">Fényerőcsúszka</string>
+  <string name="show_brightness_summary">Fényerőcsúszka megjelenítése</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Haladó újraindítás</string>
+  <string name="advanced_reboot_summary">Feloldott kijelzőnél a Recovery és a Bootloader újraindítási mód megjelenítése a kikapcsoló menüben</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">4G kijelzése</string>
+  <string name="show_4g_summary">4G megjelenítése LTE helyett</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Intelligens pixelek</string>
+  <string name="smart_pixels_summary">Akkumulátorkímélés extra képpontok kikapcsolásával</string>
+  <string name="smart_pixels_enable_title">Intelligens pixelek engedélyezése</string>
+  <string name="smart_pixels_enable_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+  <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
+  <string name="smart_pixels_on_power_save_summary">Engedélyezze az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
+  <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+  <string name="smart_pixels_shift_title">Beégés elleni védelem</string>
+  <string name="smart_pixels_shift_summary">Beégés elleni védelmet nyújt OLED kijelzőkön képpontok gyakori áthelyezésével</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gesztusok</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Kikapcsolva</string>
+  <string name="carbon_gesture_screenshot">Képernyőkép</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Ujjlenyomat hitelesítési rezgés</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

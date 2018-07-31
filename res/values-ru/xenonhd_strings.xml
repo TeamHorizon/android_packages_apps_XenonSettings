@@ -72,37 +72,12 @@
   <string name="qs_rows_columns_summary">Выберите количество строк и столбцов</string>
   <string name="qs_rows_landscape_title">Строки (ландшафтный режим)</string>
   <string name="qs_rows_portrait_title">Строки (портретный режим)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Параметры часов</string>
-  <string name="status_bar_show_clock_title">Показывать часы и дату</string>
-  <string name="clock_title_enable">Выравнивание</string>
-  <string name="right_clock">Часы справа</string>
-  <string name="center_clock">Часы по центру</string>
-  <string name="status_bar_clock_seconds_title">Секунды</string>
-  <string name="status_bar_clock_seconds_summary">Отображение секунд рядом с часами в строке состояния</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-часовой формат времени</string>
-  <string name="am_pm_clock_normal">Нормальный размер шрифта</string>
-  <string name="am_pm_clock_small">Маленький размер шрифта</string>
-  <string name="am_pm_clock_none">Не отображать</string>
-  <string name="clock_date_display">Дата</string>
-  <string name="clock_date_display_summary">Отображать дату перед часами</string>
-  <string name="clock_date_style">Стиль даты</string>
-  <string name="clock_date_format">Формат даты</string>
-  <string name="clock_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например: ММ/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Ввести значение</string>
-  <string name="clock_date_display_none">Не отображать</string>
-  <string name="clock_date_display_small">Маленький размер шрифта</string>
-  <string name="clock_date_display_normal">Нормальный размер шрифта</string>
-  <string name="clock_date_style_normal">Обычная</string>
-  <string name="clock_date_style_lowercase">Строчными</string>
-  <string name="clock_date_style_uppercase">Прописными</string>
-  <string name="clock_date_format_custom">Пользовательский java формат</string>
-  <string name="menu_cancel">Отмена</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
   <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Включение строки поиска</string>
+  <string name="systemui_recents_mem_display_summary">Показать использование оперативной памяти</string>
   <!-- Clear all recents -->
   <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
   <string name="recents_clear_all_location_top_right">Вверху справа</string>
@@ -112,6 +87,18 @@
   <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
   <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Стиль значка батареи в строке состояния</string>
+  <string name="battery_style_title">Стиль значка батареи</string>
+  <string name="battery_style_port">Портретная</string>
+  <string name="battery_style_land">Альбомная</string>
+  <string name="battery_style_circle">Круг</string>
+  <string name="battery_style_dotted_circle">Пунктирный круг</string>
+  <string name="battery_style_big_circle">Большой круг</string>
+  <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
+  <string name="battery_style_square">Квадрат</string>
+  <string name="battery_style_text">Текст</string>
+  <string name="battery_style_hidden">Скрыто</string>
+  <string name="show_battery_percent_title">Показывать процент заряда</string>
   <string name="battery_percent_none">Не отображать</string>
   <!-- Quick Settings brightness icon -->
   <!-- Option to show brightness bar in quick settings -->
@@ -119,4 +106,13 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Жесты</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Отключено</string>
+  <string name="carbon_gesture_screenshot">Скриншот</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальца</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

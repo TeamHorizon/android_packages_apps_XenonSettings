@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">Διαμόρφωση αριθμού στηλών και σειρών στις γρήγορες ρυθμίσεις</string>
   <string name="qs_rows_landscape_title">Σειρες- λειτουργία τοπίου</string>
   <string name="qs_rows_portrait_title">Σειρές- λειτουργία πορτρέτου</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Επιλογές ρολογιού</string>
-  <string name="status_bar_show_clock_title">Εμφάνιση ημερομηνίας και ώρας</string>
-  <string name="clock_title_enable">Στοίχιση</string>
-  <string name="right_clock">Ρολόι δεξιά</string>
-  <string name="center_clock">Ρολόι στο κέντρο</string>
-  <string name="left_clock">Το ρολόι στα αριστερά</string>
-  <string name="status_bar_clock_seconds_title">Ρολόι δευτερόλεπτα</string>
-  <string name="status_bar_clock_seconds_summary">Εμφάνισε τα δευτερόλεπτα δίπλα στο ρολόι στη γραμμή κατάστασης</string>
-  <string name="status_bar_am_pm_title">ΠΜ/ΜΜ</string>
-  <string name="status_bar_am_pm_info">Είναι ενεργοποιημένη η 24-ωρη μορφή ώρας</string>
-  <string name="am_pm_clock_normal">Κανονικό μέγεθος γραμματοσειράς</string>
-  <string name="am_pm_clock_small">Μικρό μέγεθος γραμματοσειράς</string>
-  <string name="am_pm_clock_none">Να μην εμφανίζεται</string>
-  <string name="clock_date_display">Ημερομηνία</string>
-  <string name="clock_date_display_summary">Εμφάνιση προσαρμοσμένης ημερομηνίας πριν το ρολόι</string>
-  <string name="clock_date_style">Στυλ ημερομηνίας</string>
-  <string name="clock_date_format">Μορφή ημερομηνίας</string>
-  <string name="clock_date_string_edittext_title">Πρέπει να είναι σε μορφή ημερομηνίας. πχ: ΜΜ/ΗΗ/ΕΕ</string>
-  <string name="clock_date_string_edittext_summary">Εισάγετε συμβολοσειρά</string>
-  <string name="clock_date_display_none">Να μην εμφανίζεται</string>
-  <string name="clock_date_display_small">Μικρό μέγεθος γραμματοσειράς</string>
-  <string name="clock_date_display_normal">Κανονικό μέγεθος γραμματοσειράς</string>
-  <string name="clock_date_style_normal">Κανονική</string>
-  <string name="clock_date_style_lowercase">Πεζά</string>
-  <string name="clock_date_style_uppercase">Κεφαλαία</string>
-  <string name="clock_date_format_custom">Προσαρμοσμένη μορφή java</string>
-  <string name="menu_cancel">Ακύρωση</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
   <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα όταν εισάγεται το σωστό PIN ή ο σωστός κωδικός</string>
@@ -141,4 +113,13 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Χειρονομίες</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Απενεργοποιημένο</string>
+  <string name="carbon_gesture_screenshot">Στιγμιότυπο οθόνης</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Δόνηση ελέγχου ταυτότητας δακτυλικών αποτυπωμάτων</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

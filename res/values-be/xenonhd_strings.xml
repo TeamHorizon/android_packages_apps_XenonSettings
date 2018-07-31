@@ -72,33 +72,6 @@
   <string name="qs_rows_columns_summary">Выберыце колькасць радкоў і слупкоў</string>
   <string name="qs_rows_landscape_title">Радкі (ландшафт)</string>
   <string name="qs_rows_portrait_title">Радкі (партрэт)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Параметры гадзінніка</string>
-  <string name="status_bar_show_clock_title">Паказваць гадзіннік і дату</string>
-  <string name="clock_title_enable">Становішча</string>
-  <string name="right_clock">Гадзіннік справа</string>
-  <string name="center_clock">Гадзіннік па цэнтры</string>
-  <string name="status_bar_clock_seconds_title">Паказваць секунды</string>
-  <string name="status_bar_clock_seconds_summary">Адлюстраванне секунд побач з гадзіннікам у радку стану</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-гадзінны фармат часу</string>
-  <string name="am_pm_clock_normal">Стандартны памер шрыфта</string>
-  <string name="am_pm_clock_small">Маленькі памер шрыфта</string>
-  <string name="am_pm_clock_none">Не паказваць</string>
-  <string name="clock_date_display">Дата</string>
-  <string name="clock_date_display_summary">Адлюстроўваць карыстацкі фармат даты перад гадзіннікам</string>
-  <string name="clock_date_style">Стыль даты</string>
-  <string name="clock_date_format">Фармат даты</string>
-  <string name="clock_date_string_edittext_title">Выбранае Вамі значэнне павінна адпавядаць фармату даты, напрыклад: ММ/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Увесці значэнне</string>
-  <string name="clock_date_display_none">Не паказваць</string>
-  <string name="clock_date_display_small">Маленькі памер шрыфта</string>
-  <string name="clock_date_display_normal">Стандартны памер шрыфта</string>
-  <string name="clock_date_style_normal">Звычайная</string>
-  <string name="clock_date_style_lowercase">Ніжні рэгістр</string>
-  <string name="clock_date_style_uppercase">Прапісныя</string>
-  <string name="clock_date_format_custom">Карыстацкі java фармат</string>
-  <string name="menu_cancel">Скасаваць</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Хуткая разблакоўка</string>
   <string name="unlock_quick_unlock_control_summary">Аўтаматычная разблакоўка пры ўводзе правільнага пароля або PIN-кода</string>
@@ -138,6 +111,28 @@
   <string name="show_brightness_title">Рэгулятар яркасці</string>
   <string name="show_brightness_summary">Паказаць паўзунок яркасці</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Варыянты перазагрузкі</string>
+  <string name="advanced_reboot_summary">Калі прылада разблакавана, у меню сілкавання даступны опцыі перазагрузкі ў рэжым аднаўлення і ў загрузнік</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Паказваць 4G</string>
+  <string name="show_4g_summary">Паказваць 4G замест LTE у значках сеткі</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Разумныя пікселі</string>
+  <string name="smart_pixels_summary">Эканомце зарад батарэі, адключаючы дадатковыя пікселі</string>
+  <string name="smart_pixels_enable_title">Уключыць разумныя пікселі</string>
+  <string name="smart_pixels_enable_summary">Для таго, каб паменшыць спажыванне энергіі, перакрыць пікселі</string>
+  <string name="smart_pixels_on_power_save_title">Аўтаматычнае ўключэнне пры энэргазахаванні</string>
+  <string name="smart_pixels_on_power_save_summary">Актываваць разумныя пікселі пры ўключэнні энэргазахавання</string>
+  <string name="smart_pixels_percent">Адсотак пікселяў, для адключэння</string>
+  <string name="smart_pixels_shift_title">Абарона ад выгарання</string>
+  <string name="smart_pixels_shift_summary">Пазбягайце выгаранне экрана OLED, перамяшчаючы час ад часу пікселі</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Жэсты</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Адключана</string>
+  <string name="carbon_gesture_screenshot">Скрыншот</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Вібрацыя пры распазнаванне адбітка пальца</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

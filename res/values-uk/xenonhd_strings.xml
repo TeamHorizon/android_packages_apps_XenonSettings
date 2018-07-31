@@ -41,16 +41,6 @@
   <string name="headset_connect_player_disabled">Вимкнено</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">Дата</string>
-  <string name="clock_date_style">Стиль дати</string>
-  <string name="clock_date_format">Формат дати</string>
-  <string name="clock_date_string_edittext_title">Має бути в форматі ММ/ДД/РР</string>
-  <string name="clock_date_string_edittext_summary">Введіть значення</string>
-  <string name="clock_date_style_normal">Звичайний</string>
-  <string name="clock_date_style_lowercase">Нижній регістр</string>
-  <string name="clock_date_style_uppercase">Верхній регістр</string>
-  <string name="clock_date_format_custom">Користувацький java формат</string>
   <!-- Quick unlock -->
   <!-- Recents Membar -->
   <!-- Clear all recents -->
@@ -61,4 +51,11 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Вимкнено</string>
+  <string name="carbon_gesture_screenshot">Знімок екрану</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

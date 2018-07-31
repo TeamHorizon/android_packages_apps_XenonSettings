@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">اضبط عدد صفوف المربعات وأعمدتها</string>
   <string name="qs_rows_landscape_title">الصفوف - أفقي</string>
   <string name="qs_rows_portrait_title">الصفوف - عمودي</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">خيارات الساعة</string>
-  <string name="status_bar_show_clock_title">إظهار الساعة &amp; والتاريخ</string>
-  <string name="clock_title_enable">المحاذاة</string>
-  <string name="right_clock">الساعة على اليمين</string>
-  <string name="center_clock">الساعة بالوسط</string>
-  <string name="left_clock">الساعة على اليسار</string>
-  <string name="status_bar_clock_seconds_title">ثواني الساعة</string>
-  <string name="status_bar_clock_seconds_summary">عرض الثواني بجانب الساعة في شريط الحالة</string>
-  <string name="status_bar_am_pm_title">ص / م</string>
-  <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
-  <string name="am_pm_clock_normal">حجم الخط الطبيعي</string>
-  <string name="am_pm_clock_small">حجم خط صغير</string>
-  <string name="am_pm_clock_none">عدم الإظهار</string>
-  <string name="clock_date_display">التاريخ</string>
-  <string name="clock_date_display_summary">عرض التاريخ المخصص قبل الساعة</string>
-  <string name="clock_date_style">نمط التاريخ</string>
-  <string name="clock_date_format">صيغة التاريخ</string>
-  <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
-  <string name="clock_date_string_edittext_summary">ادخل سلسلة</string>
-  <string name="clock_date_display_none">عدم الإظهار</string>
-  <string name="clock_date_display_small">حجم خط صغير</string>
-  <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
-  <string name="clock_date_style_normal">عادي</string>
-  <string name="clock_date_style_lowercase">احرف صغيرة</string>
-  <string name="clock_date_style_uppercase">احرف كبيرة</string>
-  <string name="clock_date_format_custom">نسق جاڤا مخصص</string>
-  <string name="menu_cancel">إلغاء</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">إلغاء قفل سريع</string>
   <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
@@ -139,6 +111,28 @@
   <string name="show_brightness_title">مزلاق السطوع</string>
   <string name="show_brightness_summary">إظهار شريط التحكم في السطوع</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">إعادة تشغيل متقدمة</string>
+  <string name="advanced_reboot_summary">عند إلغاء القفل، ستتضمن خيارات قائمة إعادة التشغيل الذهاب الى وضع الريكوفري او وضع البوت لودر</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">إظهار 4G</string>
+  <string name="show_4g_summary">إظهار 4g بدلا من LTE في أيقونات الإشارة</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">الدقة الذكية</string>
+  <string name="smart_pixels_summary">توفير الطاقة بإيقاف الدقة العالية</string>
+  <string name="smart_pixels_enable_title">تمكين الدقة الذكية</string>
+  <string name="smart_pixels_enable_summary">إيقاف الدقة لتقليل أستهلاك الطاقة</string>
+  <string name="smart_pixels_on_power_save_title">تشغيل تلقائي لتوفير الطاقة</string>
+  <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية عندما يكون وضع توفير الطاقة قيد التشغيل</string>
+  <string name="smart_pixels_percent">نسبة الدقة لإيقافها</string>
+  <string name="smart_pixels_shift_title">حماية الاحتراق</string>
+  <string name="smart_pixels_shift_summary">منع الاحتراق في اجهزة OLED عن طريق نقل وحدات البكسل في كل مرة</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">الإيماءات</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">غير مفعل</string>
+  <string name="carbon_gesture_screenshot">لقطة للشاشة</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">إهتزاز تصريح البصمة</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>
