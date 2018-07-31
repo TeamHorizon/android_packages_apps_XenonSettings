@@ -34,16 +34,6 @@
   <string name="headset_connect_player_disabled">Uitgeschakeld</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">Datum</string>
-  <string name="clock_date_style">Datumformaat</string>
-  <string name="clock_date_format">Datum formaat</string>
-  <string name="clock_date_string_edittext_title">Moet in DateFormat bijv. MM/dd/jj</string>
-  <string name="clock_date_string_edittext_summary">Voer tekenreeks in</string>
-  <string name="clock_date_style_normal">Standaard</string>
-  <string name="clock_date_style_lowercase">Kleine letters</string>
-  <string name="clock_date_style_uppercase">Hoofdletters</string>
-  <string name="clock_date_format_custom">Aangepast java formaat</string>
   <!-- Quick unlock -->
   <!-- Recents Membar -->
   <!-- Clear all recents -->
@@ -54,4 +44,11 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Uitgeschakeld</string>
+  <string name="carbon_gesture_screenshot">Schermafdruk</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

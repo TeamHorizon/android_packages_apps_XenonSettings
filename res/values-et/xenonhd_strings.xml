@@ -72,38 +72,15 @@
   <string name="qs_rows_columns_summary">Seadista kiirsätete plaatide ridade ja veergude arv</string>
   <string name="qs_rows_landscape_title">Veerud - horisontaalpaigutus</string>
   <string name="qs_rows_portrait_title">Veerud - vertikaalpaigutus</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Kella valikud</string>
-  <string name="status_bar_show_clock_title">Näita kella &amp; kuupäev</string>
-  <string name="clock_title_enable">Joondus</string>
-  <string name="right_clock">Parem kell</string>
-  <string name="center_clock">Kell keskel</string>
-  <string name="status_bar_clock_seconds_title">Kella sekundid</string>
-  <string name="status_bar_clock_seconds_summary">Kuva sekundid olekuribal kella kõrval</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-tunnine kell on valitud</string>
-  <string name="am_pm_clock_normal">Tavaline fondi suurus</string>
-  <string name="am_pm_clock_small">Väike fondi suurus</string>
-  <string name="am_pm_clock_none">Ära näita</string>
-  <string name="clock_date_display">Kuupäev</string>
-  <string name="clock_date_display_summary">Näita kohandatud kuupäeva kella ees</string>
-  <string name="clock_date_style">Kuupäeva stiil</string>
-  <string name="clock_date_format">Kuupäeva formaat</string>
-  <string name="clock_date_string_edittext_title">Peab olema KuupäevFormaat nt. KK/pp/aa</string>
-  <string name="clock_date_string_edittext_summary">Sisestage string</string>
-  <string name="clock_date_display_none">Ära näita</string>
-  <string name="clock_date_display_small">Väike fondi suurus</string>
-  <string name="clock_date_display_normal">Tavaline fondi suurus</string>
-  <string name="clock_date_style_normal">Tavaline</string>
-  <string name="clock_date_style_lowercase">Väiketähed</string>
-  <string name="clock_date_style_uppercase">Suurtähed</string>
-  <string name="clock_date_format_custom">Kohandatud java formaat</string>
-  <string name="menu_cancel">Tühista</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Kiiravamine</string>
   <string name="unlock_quick_unlock_control_summary">Ava automaatselt kui õige PIN/parool on sisestatud</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">Luba mäluriba</string>
+  <string name="systemui_recents_mem_display_summary">Näita hiljuti kasutatute hulgas mälukasutuse riba</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Kohandatud kõige tühjendamise nupp</string>
+  <string name="show_clear_all_recents_button_summary">Kasuta kohandatud kõige tühjendamise nuppu</string>
   <string name="recents_clear_all_location_title">Tühjenda kõik nupu asukoht</string>
   <string name="recents_clear_all_location_top_right">Paremal ülanurgas</string>
   <string name="recents_clear_all_location_top_left">Vasakul ülanurgas</string>
@@ -112,11 +89,45 @@
   <string name="recents_clear_all_location_bottom_left">Vasakul allnurgas</string>
   <string name="recents_clear_all_location_bottom_center">All keskel</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">Aku stiil olekuribal</string>
+  <string name="battery_style_title">Aku ikooni stiil</string>
+  <string name="battery_style_port">Vertikaalne</string>
+  <string name="battery_style_land">Horisontaalne</string>
+  <string name="battery_style_circle">Ring</string>
+  <string name="battery_style_dotted_circle">Täppidest ring</string>
+  <string name="battery_style_big_circle">Suur ring</string>
+  <string name="battery_style_big_dotted_circle">Suur täppidest ring</string>
+  <string name="battery_style_square">Ruut</string>
+  <string name="battery_style_text">Tekst</string>
+  <string name="battery_style_hidden">Peidetud</string>
+  <string name="show_battery_percent_title">Näita aku protsenti</string>
   <string name="battery_percent_none">Ära näita</string>
+  <string name="battery_percent_outside">Näita ikooni kõrval</string>
+  <string name="battery_percent_inside">Näita ikooni sees</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Automaatse heleduse ikoon</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Ereduse liugur</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Täiustatud alglaadimine</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Näita 4G</string>
+  <string name="show_4g_summary">LTE signaali ikooni asemel näita 4G ikooni</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Targad pikslid</string>
+  <string name="smart_pixels_summary">Aku säästmiseks lülita täiendavad pikslid välja</string>
+  <string name="smart_pixels_enable_title">Luba targad pikslid</string>
+  <string name="smart_pixels_enable_summary">Voolutarbe vähendamiseks lülita pikslid välja</string>
+  <string name="smart_pixels_on_power_save_summary">Lülita targad pikslid sisse kui akusäästja on sisse lülitatud</string>
+  <string name="smart_pixels_percent">Keelatavate pikslite protsent</string>
+  <string name="smart_pixels_shift_title">Sissepõlemise kaitse</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Žestid</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Keelatud</string>
+  <string name="carbon_gesture_screenshot">Kuvatõmmis</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibratsioon sõrmejälje autentimisel</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

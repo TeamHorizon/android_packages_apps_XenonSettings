@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">Upravit počet QS řad a sloupců</string>
   <string name="qs_rows_landscape_title">Řady - na šířku</string>
   <string name="qs_rows_portrait_title">Řady - na výšku</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Možnosti hodin</string>
-  <string name="status_bar_show_clock_title">Zobrazit hodiny &amp; datum</string>
-  <string name="clock_title_enable">Zarovnání</string>
-  <string name="right_clock">Hodiny vpravo</string>
-  <string name="center_clock">Hodiny uprostřed</string>
-  <string name="left_clock">Hodiny vlevo</string>
-  <string name="status_bar_clock_seconds_title">Sekundy hodin</string>
-  <string name="status_bar_clock_seconds_summary">Zobrazit sekundy vedle hodin ve stavové liště</string>
-  <string name="status_bar_am_pm_title">DOP/ODP</string>
-  <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
-  <string name="am_pm_clock_normal">Normální velikost písma</string>
-  <string name="am_pm_clock_small">Malá velikost písma</string>
-  <string name="am_pm_clock_none">Nezobrazovat</string>
-  <string name="clock_date_display">Datum</string>
-  <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
-  <string name="clock_date_style">Styl data</string>
-  <string name="clock_date_format">Formát data</string>
-  <string name="clock_date_string_edittext_title">Musí být ve formátu například MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
-  <string name="clock_date_display_none">Nezobrazovat</string>
-  <string name="clock_date_display_small">Malá velikost písma</string>
-  <string name="clock_date_display_normal">Normální velikost písma</string>
-  <string name="clock_date_style_normal">Normální</string>
-  <string name="clock_date_style_lowercase">Malá písmena</string>
-  <string name="clock_date_style_uppercase">Velká písmena</string>
-  <string name="clock_date_format_custom">Vlastní formát java</string>
-  <string name="menu_cancel">Zrušit</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
   <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
@@ -145,4 +117,22 @@
   <string name="show_4g_title">Zobrazit 4G</string>
   <string name="show_4g_summary">Zobrazit 4G místo LTE</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart Pixels</string>
+  <string name="smart_pixels_summary">Ušetření baterie vypnutím pixelů</string>
+  <string name="smart_pixels_enable_title">Povolit Smart Pixels</string>
+  <string name="smart_pixels_enable_summary">Chcete-li snížit spotřebu energie, vypněte pixely</string>
+  <string name="smart_pixels_on_power_save_title">Automatické zapnutí při spořiči baterie</string>
+  <string name="smart_pixels_on_power_save_summary">Povolit Smart Pixels, pokud je aktivován spořič baterie</string>
+  <string name="smart_pixels_percent">Procenta pixelů k vypnutí</string>
+  <string name="smart_pixels_shift_title">Ochrana před vypálením obrazovky</string>
+  <string name="smart_pixels_shift_summary">Zabraňuje vypalování zařízení OLED častým přepínáním pixelů</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gesta</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Vypnuto</string>
+  <string name="carbon_gesture_screenshot">Snímek obrazovky</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

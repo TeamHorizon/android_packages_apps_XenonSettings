@@ -69,32 +69,6 @@
   <string name="qs_rows_columns_summary">Anzahl der Zeilen und Spalten anpassen</string>
   <string name="qs_rows_landscape_title">Zeilen (Querformat)</string>
   <string name="qs_rows_portrait_title">Zeilen (Hochformat)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_show_clock_title">Uhr &amp; Datum anzeigen</string>
-  <string name="clock_title_enable">Ausrichtung</string>
-  <string name="right_clock">Uhr rechts</string>
-  <string name="center_clock">Uhr zentriert</string>
-  <string name="status_bar_clock_seconds_title">Sekundenanzeige</string>
-  <string name="status_bar_clock_seconds_summary">Sekunden neben der Uhr in der Statusleiste anzeigen</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
-  <string name="am_pm_clock_normal">Normale Schriftgröße</string>
-  <string name="am_pm_clock_small">Kleine Schriftgröße</string>
-  <string name="am_pm_clock_none">Nicht anzeigen</string>
-  <string name="clock_date_display">Datum</string>
-  <string name="clock_date_display_summary">Benutzerdefiniertes Datum vor der Uhrzeit anzeigen</string>
-  <string name="clock_date_style">Datumsstil</string>
-  <string name="clock_date_format">Datumsformat</string>
-  <string name="clock_date_string_edittext_title">Muss ein Datumsformat sein z.B. MM/TT/JJ</string>
-  <string name="clock_date_string_edittext_summary">Zeichenfolge eingeben</string>
-  <string name="clock_date_display_none">Nicht anzeigen</string>
-  <string name="clock_date_display_small">Kleine Schriftgröße</string>
-  <string name="clock_date_display_normal">Normale Schriftgröße</string>
-  <string name="clock_date_style_normal">Normal</string>
-  <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
-  <string name="clock_date_style_uppercase">Großbuchstaben</string>
-  <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
-  <string name="menu_cancel">Abbrechen</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Schnelles entsperren</string>
   <string name="unlock_quick_unlock_control_summary">Automatisch entsperren, wenn PIN/Passwort korrekt eingegeben wird</string>
@@ -115,4 +89,13 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gesten</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Deaktiviert</string>
+  <string name="carbon_gesture_screenshot">Bildschirmfoto</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibrieren bei Fingerabdruck-Authentifizierung</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

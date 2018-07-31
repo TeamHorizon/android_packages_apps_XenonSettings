@@ -31,7 +31,6 @@
   <!-- Launch music player when headset is connected -->
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
   <!-- Quick unlock -->
   <!-- Recents Membar -->
   <!-- Clear all recents -->
@@ -41,4 +40,10 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_screenshot">Snimka zaslona</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

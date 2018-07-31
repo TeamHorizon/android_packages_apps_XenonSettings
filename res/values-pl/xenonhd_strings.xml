@@ -72,34 +72,7 @@
   <string name="qs_rows_columns_summary">Dostosuj ilość kolumn i wierszy QS</string>
   <string name="qs_rows_landscape_title">Rzędy - poziomo</string>
   <string name="qs_rows_portrait_title">Wiersze - pionowo</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Opcje zegara</string>
-  <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
-  <string name="clock_title_enable">Pozycja</string>
-  <string name="right_clock">Po prawej</string>
-  <string name="center_clock">Na środku</string>
-  <string name="left_clock">Po lewej</string>
-  <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
-  <string name="status_bar_clock_seconds_summary">Wyświetlaj sekundy obok zegara na pasku stanu</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">24-godzinny zegar jest włączony</string>
-  <string name="am_pm_clock_normal">Normalna czcionka</string>
-  <string name="am_pm_clock_small">Mała czcionka</string>
-  <string name="am_pm_clock_none">Nie pokazuj</string>
-  <string name="clock_date_display">Data</string>
-  <string name="clock_date_display_summary">Wyświetl własną datę przed czasem</string>
-  <string name="clock_date_style">Wygląd daty</string>
-  <string name="clock_date_format">Format daty</string>
-  <string name="clock_date_string_edittext_title">Musi być w formacie MM/dd/rr</string>
-  <string name="clock_date_string_edittext_summary">Wprowadź ciąg</string>
-  <string name="clock_date_display_none">Nie pokazuj</string>
-  <string name="clock_date_display_small">Mała czcionka</string>
-  <string name="clock_date_display_normal">Normalna czcionka</string>
-  <string name="clock_date_style_normal">Normalny</string>
-  <string name="clock_date_style_lowercase">Mała czcionka</string>
-  <string name="clock_date_style_uppercase">Duża czcionka</string>
-  <string name="clock_date_format_custom">Własny format (java)</string>
-  <string name="menu_cancel">Anuluj</string>
+  <string name="sysui_qqs_count_title">Małe kafelki Szybkich Ustawień</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Szybkie odblokowywanie</string>
   <string name="unlock_quick_unlock_control_summary">Odblokuj automatycznie, gdy wprowadzony zostanie poprawny PIN/hasło</string>
@@ -154,4 +127,39 @@
   <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
   <string name="smart_pixels_shift_title">Ochrona przed wypaleniem ekranu</string>
   <string name="smart_pixels_shift_summary">Zapobiega wypalaniu na urządzeniach OLED przez częstsze przesuwanie pikseli</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gesty</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">Gesty przeciągania</string>
+  <string name="carbon_gestures_summary">Konfigurowanie globalnych gestów</string>
+  <string name="carbon_gestures_fingers_title">Palce używane do gestów (domyślnie 2)</string>
+  <string name="carbon_gestures_fingers_unit">palce</string>
+  <string name="carbon_gestures_right_title">Gest w prawo</string>
+  <string name="carbon_gestures_left_title">Gest w lewo</string>
+  <string name="carbon_gestures_up_title">Gest w górę</string>
+  <string name="carbon_gestures_down_title">Gest w dół</string>
+  <string name="carbon_gesture_disabled">Wyłączony</string>
+  <string name="carbon_gesture_back">Wstecz</string>
+  <string name="carbon_gesture_home">Strona główna</string>
+  <string name="carbon_gesture_recents">Ostatnie</string>
+  <string name="carbon_gesture_power">Zasilanie</string>
+  <string name="carbon_gesture_volume_down">Zmniejsz głośność</string>
+  <string name="carbon_gesture_volume_up">Zwiększ głośność</string>
+  <string name="carbon_gesture_volume_mute">Wycisz</string>
+  <string name="carbon_gesture_screenshot">Zrzut ekranu</string>
+  <string name="carbon_gesture_media_play_pause">Odtwórz/Wstrzymaj multimedia</string>
+  <string name="carbon_gesture_media_skip">Następny utwór</string>
+  <string name="carbon_gesture_media_previous">Poprzedni utwór</string>
+  <string name="carbon_gesture_customapp">Uruchom aplikację</string>
+  <string name="carbon_gesture_launch">Uruchom</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Wibracja uwierzytelniania odcisku palca</string>
+  <string name="fprint_sucess_vib_summary_on">Wibracje po udanym uwierzytelnianiu odcisku palca włączone</string>
+  <string name="fprint_sucess_vib_summary_off">Wibracje po udanym uwierzytelnianiu odcisku palca wyłączone</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
+  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nNote: na własne ryzyko!</string>
+  <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">Przewijanie małych kafelków Szybkich Ustawień</string>
+  <string name="qqs_scroll_summary">Zezwól na przewijanie małych kafelków Szybkich Ustawień</string>
 </resources>

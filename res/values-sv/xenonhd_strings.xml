@@ -38,16 +38,6 @@
   <string name="headset_connect_player_disabled">Inaktiverad</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">Datum</string>
-  <string name="clock_date_style">Datumstil</string>
-  <string name="clock_date_format">Datumformat</string>
-  <string name="clock_date_string_edittext_title">Måste vara i datumformat MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Ange sträng</string>
-  <string name="clock_date_style_normal">Normal</string>
-  <string name="clock_date_style_lowercase">Gemener</string>
-  <string name="clock_date_style_uppercase">Versaler</string>
-  <string name="clock_date_format_custom">Anpassat java-format</string>
   <!-- Quick unlock -->
   <!-- Recents Membar -->
   <!-- Clear all recents -->
@@ -58,4 +48,11 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Inaktiverad</string>
+  <string name="carbon_gesture_screenshot">Skärmdump</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

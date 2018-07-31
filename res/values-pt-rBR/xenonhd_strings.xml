@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">Ajuste o número de linhas das configurações rápidas e colunas</string>
   <string name="qs_rows_landscape_title">Linhas (paisagem)</string>
   <string name="qs_rows_portrait_title">Linhas (retrato)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Opções do relógio</string>
-  <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
-  <string name="clock_title_enable">Alinhamento</string>
-  <string name="right_clock">Relógio à direita</string>
-  <string name="center_clock">Relógio ao centro</string>
-  <string name="left_clock">Relógio à esquerda</string>
-  <string name="status_bar_clock_seconds_title">Segundos do relógio</string>
-  <string name="status_bar_clock_seconds_summary">Exibir segundos ao lado do relógio na barra de status</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">O formato de relógio 24 horas está ativado</string>
-  <string name="am_pm_clock_normal">Tamanho de fonte normal</string>
-  <string name="am_pm_clock_small">Tamanho de fonte pequeno</string>
-  <string name="am_pm_clock_none">Não mostrar</string>
-  <string name="clock_date_display">Data</string>
-  <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
-  <string name="clock_date_style">Estilo da data</string>
-  <string name="clock_date_format">Formato da data</string>
-  <string name="clock_date_string_edittext_title">Deve estar em formato de data, por exemplo: MM/dd/yy</string>
-  <string name="clock_date_string_edittext_summary">Digite o texto</string>
-  <string name="clock_date_display_none">Não mostrar</string>
-  <string name="clock_date_display_small">Tamanho de fonte pequeno</string>
-  <string name="clock_date_display_normal">Tamanho de fonte normal</string>
-  <string name="clock_date_style_normal">Normal</string>
-  <string name="clock_date_style_lowercase">Minúsculas</string>
-  <string name="clock_date_style_uppercase">Maiúsculas</string>
-  <string name="clock_date_format_custom">Formato java personalizado</string>
-  <string name="menu_cancel">Cancelar</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
   <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha correto for inserido</string>
@@ -139,6 +111,28 @@
   <string name="show_brightness_title">Controle de brilho</string>
   <string name="show_brightness_summary">Mostrar o controle deslizante de brilho</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Reinicialização avançada</string>
+  <string name="advanced_reboot_summary">Quando desbloqueado, incluir opções no menu liga/desliga para reiniciar o dispositivo em modo de recuperação ou bootloader</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Mostrar 4G</string>
+  <string name="show_4g_summary">Mostrar 4G em vez de LTE nos ícones de sinal</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Pixels Inteligentes</string>
+  <string name="smart_pixels_summary">Poupar bateria ao desligar pixels excedentes</string>
+  <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
+  <string name="smart_pixels_enable_summary">Desliga alguns píxeis para reduzir o consumo de energia</string>
+  <string name="smart_pixels_on_power_save_title">Ativar automaticamente em economia de bateria</string>
+  <string name="smart_pixels_on_power_save_summary">Ativar os Pixels Inteligentes quando a economia de bateria estiver ativa</string>
+  <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
+  <string name="smart_pixels_shift_title">Proteção contra Burn-in</string>
+  <string name="smart_pixels_shift_summary">Impede burn-in em dispositivos OLED, deslocando pixels de vez em quando</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gestos</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Desativado</string>
+  <string name="carbon_gesture_screenshot">Captura de tela</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibração na autenticação da impressão digital</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

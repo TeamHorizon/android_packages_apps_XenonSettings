@@ -35,13 +35,6 @@
   <string name="headset_connect_player_disabled">Išjungta</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">Data</string>
-  <string name="clock_date_style">Datos stilius</string>
-  <string name="clock_date_format">Datos formatas</string>
-  <string name="clock_date_style_normal">Normalus</string>
-  <string name="clock_date_style_lowercase">Mažosios raidės</string>
-  <string name="clock_date_style_uppercase">Didžiosios raidės</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Greitas atrakinimas</string>
   <!-- Recents Membar -->
@@ -58,4 +51,11 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Išjungta</string>
+  <string name="carbon_gesture_screenshot">Ekrano kopija</string>
+  <!-- Fingerprint authentication vibration -->
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

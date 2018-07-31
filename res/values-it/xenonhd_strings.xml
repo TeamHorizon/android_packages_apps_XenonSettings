@@ -72,34 +72,6 @@
   <string name="qs_rows_columns_summary">Scegli il numero di righe e colonne delle impostazioni rapide</string>
   <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
   <string name="qs_rows_portrait_title">Righe (verticale)</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Opzioni orologio</string>
-  <string name="status_bar_show_clock_title">Visualizza orologio e data</string>
-  <string name="clock_title_enable">Allineamento</string>
-  <string name="right_clock">Orologio a destra</string>
-  <string name="center_clock">Orologio centrato</string>
-  <string name="left_clock">Orologio a sinistra</string>
-  <string name="status_bar_clock_seconds_title">Secondi nell\'orologio</string>
-  <string name="status_bar_clock_seconds_summary">Visualizza i secondi accanto all\'orologio nella barra di stato</string>
-  <string name="status_bar_am_pm_title">AM/PM</string>
-  <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
-  <string name="am_pm_clock_normal">Dimensione normale del carattere</string>
-  <string name="am_pm_clock_small">Dimensione piccola del carattere</string>
-  <string name="am_pm_clock_none">Non mostrare</string>
-  <string name="clock_date_display">Data</string>
-  <string name="clock_date_display_summary">Visualizza data personalizzata prima dell\'orologio</string>
-  <string name="clock_date_style">Stile data</string>
-  <string name="clock_date_format">Formato data</string>
-  <string name="clock_date_string_edittext_title">Il formato della data deve essere MM/gg/aa</string>
-  <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
-  <string name="clock_date_display_none">Non mostrare</string>
-  <string name="clock_date_display_small">Dimensione del carattere piccolo</string>
-  <string name="clock_date_display_normal">Dimensione del carattere normale</string>
-  <string name="clock_date_style_normal">Normale</string>
-  <string name="clock_date_style_lowercase">Minuscolo</string>
-  <string name="clock_date_style_uppercase">Maiuscolo</string>
-  <string name="clock_date_format_custom">Formato java personalizzato</string>
-  <string name="menu_cancel">Annulla</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
   <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
@@ -145,4 +117,22 @@
   <string name="show_4g_title">Mostra 4G</string>
   <string name="show_4g_summary">Mostra l\'icona 4G al posto dell\'icona LTE</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart Pixels</string>
+  <string name="smart_pixels_summary">Risparmiare batteria spegnendo pixel aggiuntivi</string>
+  <string name="smart_pixels_enable_title">Attiva Smart Pixel</string>
+  <string name="smart_pixels_enable_summary">Spegni pixel per ridurre il consumo energetico</string>
+  <string name="smart_pixels_on_power_save_title">Attiva automaticamente insieme al risparmio energetico</string>
+  <string name="smart_pixels_on_power_save_summary">Attiva Smart Pixel quando la funzione \"Risparmio energetico\" viene attivata</string>
+  <string name="smart_pixels_percent">Percentuale di pixel da disattivare</string>
+  <string name="smart_pixels_shift_title">Protezione al burn-in</string>
+  <string name="smart_pixels_shift_summary">Previene il burn-in su dispositivi OLED spostando ogni tanto i pixel</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Gesti</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Disabilitato</string>
+  <string name="carbon_gesture_screenshot">Screenshot</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Autenticazione impronta digitale con vibrazione</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

@@ -16,42 +16,73 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
+  <string name="xenonhd_settings_title">XenonHDの設定</string>
   <!-- Categories -->
+  <string name="buttons_title">ボタン</string>
+  <string name="gestures_title">ジェスチャー</string>
+  <string name="lockscreen_title">ロック画面</string>
+  <string name="misc_title">その他</string>
+  <string name="navigation_title">ナビゲーションバー</string>
+  <string name="power_title">電源メニュー</string>
+  <string name="qs_title">クイック設定</string>
+  <string name="recents_title">アプリ履歴</string>
+  <string name="statusbar_title">ステータスバー</string>
+  <string name="notifications_title">通知</string>
+  <string name="xenonhd_title">XenonHDハブ</string>
+  <string name="xenonsettings_title">XenonHDの設定</string>
   <!-- Changelog -->
   <string name="changelog_xenonhd_title">更新履歴</string>
   <string name="changelog_xenonhd_error">更新履歴を読み込めませんでした</string>
+  <string name="changelog_xenonhd_summary">現在のリリースでの変更の表示する</string>
   <!-- General strings -->
+  <string name="ok">OK</string>
   <string name="reset">リセット</string>
+  <string name="cancel">キャンセル</string>
   <string name="save">保存</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">色の選択</string>
   <string name="press_color_to_apply">色を選択して適用</string>
-  <string name="hex">16進数:</string>
+  <string name="hex">16進数：</string>
   <string name="set">設定</string>
-  <string name="color_default">既定 （デフォルト）</string>
+  <string name="color_default">既定</string>
   <!-- Seekbar -->
-  <string name="seekbar_default_string">既定 （デフォルト）</string>
+  <string name="seekbar_no_default_value">既定値が設定されていません</string>
+  <string name="seekbar_default_value_set"><xliff:g id="number">%d</xliff:g>の既定に設定</string>
+  <string name="seekbar_default_value_already_set">既定値は既に設定されています</string>
+  <string name="seekbar_default_string">既定</string>
   <!-- XenonOTA -->
   <string name="xenonota_title">XenonOTA</string>
+  <string name="xenonota_summary">XenonHDの更新を確認する</string>
   <!-- Launch music player when headset is connected -->
+  <string name="headset_connect_player_title">ヘッドセット接続時に音楽アプリを起動する</string>
   <string name="headset_connect_player_disabled">無効</string>
+  <string name="headset_connect_player_wired">有線ヘッドセット接続時</string>
+  <string name="headset_connect_player_bt_no_carkit">Bluetoothヘッドセット（車以外）接続時</string>
+  <string name="headset_connect_player_bt">Bluetoothヘッドセット接続時</string>
+  <string name="headset_connect_player_both_no_carkit">何らかのヘッドセット（車以外）接続時</string>
+  <string name="headset_connect_player_both">何らかのヘッドセット接続時</string>
   <!-- Power menu on secure lockscreen -->
+  <string name="lockscreen_power_menu_disabled_title">ロック時に電源メニューを無効化</string>
+  <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを無効化する</string>
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">日付</string>
-  <string name="clock_date_style">日付のスタイル</string>
-  <string name="clock_date_format">日付の形式</string>
-  <string name="clock_date_string_edittext_title">MM/dd/yyの形式でなければなりません</string>
-  <string name="clock_date_string_edittext_summary">文字列を入力</string>
-  <string name="clock_date_style_normal">普通</string>
-  <string name="clock_date_style_lowercase">小文字</string>
-  <string name="clock_date_style_uppercase">大文字</string>
-  <string name="clock_date_format_custom">カスタムjava形式</string>
+  <string name="qs_category">クイック設定タイル</string>
+  <string name="qs_columns_landscape_title">列数（横向き）</string>
+  <string name="qs_columns_portrait_title">列数（縦向き）</string>
+  <string name="qs_rows_columns_title">行数と列数</string>
+  <string name="qs_rows_columns_summary">行と列の数を調節する</string>
+  <string name="qs_rows_landscape_title">行数（横向き）</string>
+  <string name="qs_rows_portrait_title">行数（縦向き）</string>
+  <string name="sysui_qqs_count_title">小さなタイル</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
   <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
   <!-- Recents Membar -->
+  <string name="systemui_recents_mem_display_title">メモリ使用量バーを有効にする</string>
+  <string name="systemui_recents_mem_display_summary">アプリ履歴にメモリ使用量バーを表示する</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">カスタムの全て終了ボタン</string>
+  <string name="show_clear_all_recents_button_summary">カスタムの全て終了ボタンを使用する</string>
+  <string name="recents_clear_all_location_title">ボタンの位置</string>
   <string name="recents_clear_all_location_top_right">右上</string>
   <string name="recents_clear_all_location_top_left">左上</string>
   <string name="recents_clear_all_location_top_center">中央上</string>
@@ -59,10 +90,76 @@
   <string name="recents_clear_all_location_bottom_left">左下</string>
   <string name="recents_clear_all_location_bottom_center">中央下</string>
   <!-- Battery Styles -->
+  <string name="status_bar_battery_style_title">バッテリーのスタイル</string>
+  <string name="battery_style_title">バッテリーアイコンのスタイル</string>
+  <string name="battery_style_port">縦</string>
+  <string name="battery_style_land">横</string>
+  <string name="battery_style_circle">円</string>
+  <string name="battery_style_dotted_circle">点線の円</string>
+  <string name="battery_style_big_circle">大きな円</string>
+  <string name="battery_style_big_dotted_circle">大きい点線の円</string>
+  <string name="battery_style_square">四角</string>
+  <string name="battery_style_text">テキスト</string>
+  <string name="battery_style_hidden">非表示</string>
+  <string name="show_battery_percent_title">電池残量のパーセント表示</string>
+  <string name="battery_percent_none">表示しない</string>
+  <string name="battery_percent_outside">アイコンのそばに表示</string>
+  <string name="battery_percent_inside">アイコンの内側に表示</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">自動明るさ調整アイコン</string>
+  <string name="brightness_icon_summary">自動明るさ調整アイコンを明るさスライダーの右に表示する</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">明るさスライダー</string>
+  <string name="show_brightness_summary">明るさ調節スライダーを表示</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">高度な再起動</string>
+  <string name="advanced_reboot_summary">ロック解除時にリカバリーやブートローダーで再起動するオプションを電源メニューに含める</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">4G表記</string>
+  <string name="show_4g_summary">LTE表示の代わりに4G表示を使用する</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">スマートピクセル</string>
+  <string name="smart_pixels_summary">余分な画素を停止することでバッテリーを節約する</string>
+  <string name="smart_pixels_enable_title">スマートピクセルを有効にする</string>
+  <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
+  <string name="smart_pixels_on_power_save_title">バッテリーセーバー時に自動的に有効化</string>
+  <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
+  <string name="smart_pixels_percent">無効にする画素の割合</string>
+  <string name="smart_pixels_shift_title">焼き付き保護</string>
+  <string name="smart_pixels_shift_summary">使う画素をたまにずらして有機ELのの焼き付きを避ける</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">ジェスチャー</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">スワイプジェスチャー</string>
+  <string name="carbon_gestures_summary">カスタムグローバルジェスチャーを編集</string>
+  <string name="carbon_gestures_fingers_title">フィンガージェスチャーに使用する指の本数（既定値は2）</string>
+  <string name="carbon_gestures_fingers_unit">指</string>
+  <string name="carbon_gestures_right_title">右のジェスチャー</string>
+  <string name="carbon_gestures_left_title">左のジェスチャー</string>
+  <string name="carbon_gestures_up_title">上のジェスチャー</string>
+  <string name="carbon_gestures_down_title">下のジェスチャー</string>
+  <string name="carbon_gesture_disabled">無効</string>
+  <string name="carbon_gesture_back">戻る</string>
+  <string name="carbon_gesture_home">ホーム</string>
+  <string name="carbon_gesture_recents">アプリ履歴</string>
+  <string name="carbon_gesture_power">電源</string>
+  <string name="carbon_gesture_volume_down">音量を下げる</string>
+  <string name="carbon_gesture_volume_up">音量を上げる</string>
+  <string name="carbon_gesture_volume_mute">ミュート</string>
+  <string name="carbon_gesture_screenshot">スクリーンショット</string>
+  <string name="carbon_gesture_media_play_pause">メディアの再生/一時停止</string>
+  <string name="carbon_gesture_media_skip">メディアのスキップ</string>
+  <string name="carbon_gesture_media_previous">前のメディア</string>
+  <string name="carbon_gesture_customapp">アプリの起動</string>
+  <string name="carbon_gesture_launch">起動</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
+  <string name="fprint_sucess_vib_summary_on">指紋認証が成功したときに振動させる</string>
+  <string name="fprint_sucess_vib_summary_off">指紋認証が成功したときに振動させない</string>
+  <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
+  <string name="fp_unlock_keystore_summary">再起動後も PIN / パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意 : 自己責任で使用してください!</string>
+  <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">小さなクイック設定タイルのスクロール</string>
+  <string name="qqs_scroll_summary">小さなクイック設定タイルのスクロールを許可する</string>
 </resources>

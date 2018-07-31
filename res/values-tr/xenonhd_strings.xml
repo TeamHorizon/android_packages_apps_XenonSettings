@@ -75,34 +75,6 @@
   <string name="qs_rows_columns_summary">Satır ve sütun sayısı seçin</string>
   <string name="qs_rows_landscape_title">Satırlar - yatay</string>
   <string name="qs_rows_portrait_title">Satırlar - dikey</string>
-  <!-- Statusbar Clock options -->
-  <string name="status_bar_clock_title">Saat seçenekleri</string>
-  <string name="status_bar_show_clock_title">Saati ve tarihi göster</string>
-  <string name="clock_title_enable">Saat konumu</string>
-  <string name="right_clock">Saat sağda</string>
-  <string name="center_clock">Saat ortada</string>
-  <string name="left_clock">Saat solda</string>
-  <string name="status_bar_clock_seconds_title">Saniye göster</string>
-  <string name="status_bar_clock_seconds_summary">Durum çubuğunda saatin yanında bir saniye göster</string>
-  <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
-  <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
-  <string name="am_pm_clock_normal">Normal yazı boyutu</string>
-  <string name="am_pm_clock_small">Küçük yazı boyutu</string>
-  <string name="am_pm_clock_none">Gösterme</string>
-  <string name="clock_date_display">Tarih</string>
-  <string name="clock_date_display_summary">Saatten önce özel tarihi göster</string>
-  <string name="clock_date_style">Tarih stili</string>
-  <string name="clock_date_format">Tarih biçimi</string>
-  <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
-  <string name="clock_date_string_edittext_summary">Dize girin</string>
-  <string name="clock_date_display_none">Gösterme</string>
-  <string name="clock_date_display_small">Küçük yazı boyutu</string>
-  <string name="clock_date_display_normal">Normal yazı boyutu</string>
-  <string name="clock_date_style_normal">Normal</string>
-  <string name="clock_date_style_lowercase">Küçük harf</string>
-  <string name="clock_date_style_uppercase">Büyük harf</string>
-  <string name="clock_date_format_custom">Özel java biçimi</string>
-  <string name="menu_cancel">İptal</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
   <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
@@ -139,7 +111,7 @@
   <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
   <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
   <!-- Option to show brightness bar in quick settings -->
-  <string name="show_brightness_title">Parlaklık kaydırıcı</string>
+  <string name="show_brightness_title">Parlaklık kaydırıcısı</string>
   <string name="show_brightness_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
   <!-- Advanced restart options -->
   <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
@@ -148,4 +120,22 @@
   <string name="show_4g_title">4G simgesi</string>
   <string name="show_4g_summary">LTE yerine 4G simgesini göster</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Akıllı pikseller</string>
+  <string name="smart_pixels_summary">Fazladan pikselleri kapatarak pil tasarrufu sağlayın</string>
+  <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+  <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+  <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
+  <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikseli etkinleştir</string>
+  <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
+  <string name="smart_pixels_shift_title">Yanma koruması</string>
+  <string name="smart_pixels_shift_summary">OLED cihazlarda yanmaları önler ve sık sık pikselleri kaydırır</string>
+  <!-- Gestures -->
+  <string name="gestures_preference_title">Hareketler</string>
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Devre dışı</string>
+  <string name="carbon_gesture_screenshot">Ekran görüntüsü</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>

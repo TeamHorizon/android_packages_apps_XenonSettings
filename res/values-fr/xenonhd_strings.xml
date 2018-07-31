@@ -40,16 +40,6 @@
   <string name="headset_connect_player_disabled">Désactivé</string>
   <!-- Power menu on secure lockscreen -->
   <!-- QS rows and columns -->
-  <!-- Statusbar Clock options -->
-  <string name="clock_date_display">Date</string>
-  <string name="clock_date_style">Style de la date</string>
-  <string name="clock_date_format">Format de la date</string>
-  <string name="clock_date_string_edittext_title">Doit être en format JJ/MM/AA</string>
-  <string name="clock_date_string_edittext_summary">Entrer la valeur</string>
-  <string name="clock_date_style_normal">Standard</string>
-  <string name="clock_date_style_lowercase">Minuscule</string>
-  <string name="clock_date_style_uppercase">Majuscule</string>
-  <string name="clock_date_format_custom">Personnalisée (format java)</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
   <string name="unlock_quick_unlock_control_summary">Déverouille automatiquement l\'appareil lorsque le PIN/mot de passe correct est entré</string>
@@ -69,4 +59,12 @@
   <!-- Advanced restart options -->
   <!-- Show 4G instead of LTE -->
   <!-- Smart Pixels -->
+  <!-- Gestures -->
+  <!-- Carbon gestures -->
+  <string name="carbon_gesture_disabled">Désactivé</string>
+  <string name="carbon_gesture_screenshot">Capture d\'écran</string>
+  <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_title">Vibration d\'authentification de l\'empreinte digitale</string>
+  <!-- Fingerprint unlock keystore -->
+  <!-- Quick QS scroller -->
 </resources>
