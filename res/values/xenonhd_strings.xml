@@ -191,4 +191,8 @@
     <!-- Data Disabled Icon --> 
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
+
+    <!-- Gestures -->
+    <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_summary">Must hide navbar. Swipe up from left/right is back. Swipe up center is home. Swipe up and hold is recents</string>
 </resources>
