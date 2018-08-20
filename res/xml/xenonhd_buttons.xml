@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
-    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
         android:title="@string/show_clear_all_recents_button_title"
         android:summary="@string/show_clear_all_recents_button_summary"
