@@ -193,8 +193,8 @@
     <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
 
     <!-- Gestures -->
-    <string name="use_bottom_gesture_title">Use swipe up gestures for navigation</string>
-    <string name="use_bottom_gesture_summary">Must hide navbar. Swipe up from left/right is back. Swipe up center is home. Swipe up and hold is recents</string>
+    <string name="use_bottom_gesture_title">Swipe up gestures</string>
+    <string name="use_bottom_gesture_summary">Disable navbar first.\nSwipe up from left/right to go back. Swipe up in the middle for home. Swipe up and hold to open Recents menu</string>
 
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
