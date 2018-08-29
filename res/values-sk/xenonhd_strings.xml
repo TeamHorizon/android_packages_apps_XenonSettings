@@ -72,6 +72,7 @@
   <string name="qs_rows_columns_summary">Nastaviť počet riadkov a stĺpoch dlaždíc rýchlych nastavení</string>
   <string name="qs_rows_landscape_title">Riadky (na šírku)</string>
   <string name="qs_rows_portrait_title">Riadky (na výšku)</string>
+  <string name="sysui_qqs_count_title">Malé dlaždice</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Rýchle odomknutie</string>
   <string name="unlock_quick_unlock_control_summary">Odomknúť automaticky po zadaní správneho PIN kódu alebo hesla</string>
@@ -129,10 +130,39 @@
   <!-- Gestures -->
   <string name="gestures_preference_title">Gestá</string>
   <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">Gestá posunutím prsta</string>
+  <string name="carbon_gestures_summary">Nastaviť vlastné globálne gestá</string>
+  <string name="carbon_gestures_fingers_title">Prsty používané pre gestá (predvolené 2)</string>
+  <string name="carbon_gestures_fingers_unit">prsty</string>
+  <string name="carbon_gestures_right_title">Gesto vpravo</string>
+  <string name="carbon_gestures_left_title">Gesto vľavo</string>
+  <string name="carbon_gestures_up_title">Gesto nahor</string>
+  <string name="carbon_gestures_down_title">Gesto nadol</string>
   <string name="carbon_gesture_disabled">Vypnuté</string>
+  <string name="carbon_gesture_back">Späť</string>
+  <string name="carbon_gesture_home">Domov</string>
+  <string name="carbon_gesture_recents">Nedávne</string>
+  <string name="carbon_gesture_power">Napájanie</string>
+  <string name="carbon_gesture_volume_down">Zníženie hlasitosti</string>
+  <string name="carbon_gesture_volume_up">Zvýšenie hlasitosti</string>
+  <string name="carbon_gesture_volume_mute">Stlmenie hlasitosti</string>
   <string name="carbon_gesture_screenshot">Snímka obrazovky</string>
+  <string name="carbon_gesture_media_play_pause">Prehrať/Pozastaviť skladbu</string>
+  <string name="carbon_gesture_media_skip">Preskočiť skladbu</string>
+  <string name="carbon_gesture_media_previous">Predchádzajúca skladba</string>
+  <string name="carbon_gesture_customapp">Spustenie aplikácie</string>
+  <string name="carbon_gesture_launch">Spustiť</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vibrovať pri overení odtlačku prsta</string>
+  <string name="fprint_sucess_vib_summary_on">Vibrácie pri úspešnom odtlačku prsta sú povolené</string>
+  <string name="fprint_sucess_vib_summary_off">Vibrácie pri úspešnom odtlačku prsta sú zakázané</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Odomknutie pomocou snímača odtlačkov</string>
+  <string name="fp_unlock_keystore_summary">Odomknúť zariadenie pomocou snímača odtlačkov prstov po reštarte bez PIN/hesla/Vzoru\nUpozornenie: na vlastné riziko!</string>
   <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">Rýchle rolovanie malých dlaždíc Rýchl. nastavení</string>
+  <string name="qqs_scroll_summary">Povoliť rolovanie malých dlaždíc rýchlych nastavení</string>
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

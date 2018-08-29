@@ -162,4 +162,12 @@
   <!-- Quick QS scroller -->
   <string name="qqs_scroll_title">Przewijanie małych kafelków Szybkich Ustawień</string>
   <string name="qqs_scroll_summary">Zezwól na przewijanie małych kafelków Szybkich Ustawień</string>
+  <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
+  <string name="data_disabled_icon_summary">Wyświetl \'x\' obok paska sygnału, gdy dane są wyłączone</string>
+  <!-- Gestures -->
+  <string name="use_bottom_gesture_title">Gesty w górę</string>
+  <string name="use_bottom_gesture_summary">Najpierw ukryj pasek nawigacji.\nPrzesuń w górę z lewej/prawej strony, aby cofnąć. Po środku, do ekranu głównego. Przesuń palcem w górę i przytrzymaj, aby otworzyć menu ostatnich aplikacji</string>
+  <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
 </resources>

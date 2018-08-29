@@ -72,4 +72,7 @@
   <string name="fprint_sucess_vib_title">Vibración de autenticación de huella digital</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Quick QS scroller -->
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

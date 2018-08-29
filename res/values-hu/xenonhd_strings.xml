@@ -72,6 +72,7 @@
   <string name="qs_rows_columns_summary">Sorok és oszlopok számának beállítása</string>
   <string name="qs_rows_landscape_title">Sorok (fekvő)</string>
   <string name="qs_rows_portrait_title">Sorok (álló)</string>
+  <string name="sysui_qqs_count_title">Kis csempék</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
   <string name="unlock_quick_unlock_control_summary">Automatikus feloldás a helyes jelszó/PIN-kód megadásakor</string>
@@ -129,10 +130,39 @@
   <!-- Gestures -->
   <string name="gestures_preference_title">Gesztusok</string>
   <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">Vezérlés csúsztatással</string>
+  <string name="carbon_gestures_summary">Egyéni, globális mozdulatok beállítása</string>
+  <string name="carbon_gestures_fingers_title">A vezérléshez használt ujjak száma (alapértelmezetten 2)</string>
+  <string name="carbon_gestures_fingers_unit">ujj</string>
+  <string name="carbon_gestures_right_title">Jobb kézmozdulat</string>
+  <string name="carbon_gestures_left_title">Bal kézmozdulat</string>
+  <string name="carbon_gestures_up_title">Mozdulat felfelé</string>
+  <string name="carbon_gestures_down_title">Mozdulat lefelé</string>
   <string name="carbon_gesture_disabled">Kikapcsolva</string>
+  <string name="carbon_gesture_back">Vissza</string>
+  <string name="carbon_gesture_home">Kezdőlap</string>
+  <string name="carbon_gesture_recents">Alkalmazáselőzmények</string>
+  <string name="carbon_gesture_power">Kikapcsolás</string>
+  <string name="carbon_gesture_volume_down">Hangerő le</string>
+  <string name="carbon_gesture_volume_up">Hangerő fel</string>
+  <string name="carbon_gesture_volume_mute">Hangerőnémítás</string>
   <string name="carbon_gesture_screenshot">Képernyőkép</string>
+  <string name="carbon_gesture_media_play_pause">Zene lejátszása/megállítása</string>
+  <string name="carbon_gesture_media_skip">Zeneszám átugrása</string>
+  <string name="carbon_gesture_media_previous">Előző zeneszám</string>
+  <string name="carbon_gesture_customapp">Alkalmazás indítása</string>
+  <string name="carbon_gesture_launch">Indítás</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Ujjlenyomat hitelesítési rezgés</string>
+  <string name="fprint_sucess_vib_summary_on">Rezgés sikeres ujjlenyomat-hitelesítéskor engedélyezve</string>
+  <string name="fprint_sucess_vib_summary_off">Rezgés sikeres ujjlenyomat-hitelesítéskor letiltva</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Feloldás ujjlenyomattal</string>
+  <string name="fp_unlock_keystore_summary">Újraindítás után a készülék feloldható az ujjlenyomattal PIN/Jelszó/Minta kihagyásával\nMegjegyzés: csak saját felelősségre!</string>
   <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">Kis gyorsbeállítási csempék görgetése</string>
+  <string name="qqs_scroll_summary">Lehetővé teszi a kis gyorsbeállítási csempék görgetését</string>
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

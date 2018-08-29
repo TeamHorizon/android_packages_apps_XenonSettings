@@ -101,10 +101,10 @@
   <string name="battery_style_square">四角</string>
   <string name="battery_style_text">テキスト</string>
   <string name="battery_style_hidden">非表示</string>
-  <string name="show_battery_percent_title">電池残量のパーセント表示</string>
-  <string name="battery_percent_none">表示しない</string>
-  <string name="battery_percent_outside">アイコンのそばに表示</string>
-  <string name="battery_percent_inside">アイコンの内側に表示</string>
+  <string name="show_battery_percent_title">バッテリー残量の表示</string>
+  <string name="battery_percent_none">非表示</string>
+  <string name="battery_percent_outside">アイコンの外側</string>
+  <string name="battery_percent_inside">アイコンの内側</string>
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">自動明るさ調整アイコン</string>
   <string name="brightness_icon_summary">自動明るさ調整アイコンを明るさスライダーの右に表示する</string>
@@ -158,8 +158,11 @@
   <string name="fprint_sucess_vib_summary_off">指紋認証が成功したときに振動させない</string>
   <!-- Fingerprint unlock keystore -->
   <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
-  <string name="fp_unlock_keystore_summary">再起動後も PIN / パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意 : 自己責任で使用してください!</string>
+  <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意 : 自己責任で使用してください!</string>
   <!-- Quick QS scroller -->
   <string name="qqs_scroll_title">小さなクイック設定タイルのスクロール</string>
   <string name="qqs_scroll_summary">小さなクイック設定タイルのスクロールを許可する</string>
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

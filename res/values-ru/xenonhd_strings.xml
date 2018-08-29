@@ -72,6 +72,7 @@
   <string name="qs_rows_columns_summary">Выберите количество строк и столбцов</string>
   <string name="qs_rows_landscape_title">Строки (ландшафтный режим)</string>
   <string name="qs_rows_portrait_title">Строки (портретный режим)</string>
+  <string name="sysui_qqs_count_title">Маленькие плитки в панели быстрых настроек</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
   <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного пароля или PIN-кода</string>
@@ -79,6 +80,8 @@
   <string name="systemui_recents_mem_display_title">Включение строки поиска</string>
   <string name="systemui_recents_mem_display_summary">Показать использование оперативной памяти</string>
   <!-- Clear all recents -->
+  <string name="show_clear_all_recents_button_title">Настроить кнопку «Очистить всё»</string>
+  <string name="show_clear_all_recents_button_summary">Настроить кнопку «Очистить всё»</string>
   <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
   <string name="recents_clear_all_location_top_right">Вверху справа</string>
   <string name="recents_clear_all_location_top_left">Вверху слева</string>
@@ -100,19 +103,66 @@
   <string name="battery_style_hidden">Скрыто</string>
   <string name="show_battery_percent_title">Показывать процент заряда</string>
   <string name="battery_percent_none">Не отображать</string>
+  <string name="battery_percent_outside">Показать значок рядом</string>
+  <string name="battery_percent_inside">Показывать внутри значка</string>
   <!-- Quick Settings brightness icon -->
+  <string name="brightness_icon_title">Значок авто-яркости</string>
+  <string name="brightness_icon_summary">Показать значок включения авто-яркости справа от слайдера</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">Слайдер яркости</string>
+  <string name="show_brightness_summary">Показать ползунок регулировки яркости в панели быстрых настроек</string>
   <!-- Advanced restart options -->
+  <string name="advanced_reboot_title">Варианты перезагрузки</string>
+  <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и в загрузчик</string>
   <!-- Show 4G instead of LTE -->
+  <string name="show_4g_title">Показывать 4G</string>
+  <string name="show_4g_summary">Показывать 4G вместо LTE в значках сети</string>
   <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart Pixels</string>
+  <string name="smart_pixels_summary">Экономить заряд батареи, выключая дополнительные пиксели</string>
+  <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
+  <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
+  <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
+  <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
+  <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+  <string name="smart_pixels_shift_title">Защита от выгорания</string>
+  <string name="smart_pixels_shift_summary">Предотвращение выгорания на OLED устройствах благодаря перемещению пикселей с такой частотой</string>
   <!-- Gestures -->
   <string name="gestures_preference_title">Жесты</string>
   <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">Жесты</string>
+  <string name="carbon_gestures_summary">Настройка пользовательских глобальных жестов</string>
+  <string name="carbon_gestures_fingers_title">Пальцы, используемые для жестов (по умолчанию 2)</string>
+  <string name="carbon_gestures_fingers_unit">пальцы</string>
+  <string name="carbon_gestures_right_title">Жест вправо</string>
+  <string name="carbon_gestures_left_title">Жест влево</string>
+  <string name="carbon_gestures_up_title">Жест вверх</string>
+  <string name="carbon_gestures_down_title">Жест вниз</string>
   <string name="carbon_gesture_disabled">Отключено</string>
+  <string name="carbon_gesture_back">Назад</string>
+  <string name="carbon_gesture_home">Домой</string>
+  <string name="carbon_gesture_recents">Недавние</string>
+  <string name="carbon_gesture_power">Питание</string>
+  <string name="carbon_gesture_volume_down">Уменьшить громкость</string>
+  <string name="carbon_gesture_volume_up">Увеличить громкость</string>
+  <string name="carbon_gesture_volume_mute">Отключить звук</string>
   <string name="carbon_gesture_screenshot">Скриншот</string>
+  <string name="carbon_gesture_media_play_pause">Воспроизв./пауза</string>
+  <string name="carbon_gesture_media_skip">Пропустить трек</string>
+  <string name="carbon_gesture_media_previous">Предыдущий трек</string>
+  <string name="carbon_gesture_customapp">Запустить приложение</string>
+  <string name="carbon_gesture_launch">Запустить</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальца</string>
+  <string name="fprint_sucess_vib_summary_on">Вибрировать при удачном распознавании отпечатка пальца</string>
+  <string name="fprint_sucess_vib_summary_off">Не вибрировать при удачном распознавании отпечатка пальца</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Разблокировка отпечатком</string>
+  <string name="fp_unlock_keystore_summary">Разблокировка устройства после перезагрузки с помощью отпечатка пальца без использования PIN-кода/Пароля/Графического ключа\nПримечание: используйте на свой страх и риск!</string>
   <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">Прокрутка маленьких плиток</string>
+  <string name="qqs_scroll_summary">Разрешить прокрутку маленьких плиток быстрых настроек</string>
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

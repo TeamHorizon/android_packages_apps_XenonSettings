@@ -98,4 +98,7 @@
   <string name="fprint_sucess_vib_title">Vibrieren bei Fingerabdruck-Authentifizierung</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Quick QS scroller -->
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>

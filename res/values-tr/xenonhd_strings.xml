@@ -75,6 +75,7 @@
   <string name="qs_rows_columns_summary">Satır ve sütun sayısı seçin</string>
   <string name="qs_rows_landscape_title">Satırlar - yatay</string>
   <string name="qs_rows_portrait_title">Satırlar - dikey</string>
+  <string name="sysui_qqs_count_title">Küçük kareler</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Hızlı kilit açma</string>
   <string name="unlock_quick_unlock_control_summary">Doğru PIN/Şifre girildiğinde otomatik olarak kilidi aç</string>
@@ -132,10 +133,39 @@
   <!-- Gestures -->
   <string name="gestures_preference_title">Hareketler</string>
   <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">Kaydırma hareketleri</string>
+  <string name="carbon_gestures_summary">Özel genel hareketleri yapılandır</string>
+  <string name="carbon_gestures_fingers_title">Hareketler için kullanılan parmaklar (varsayılan 2)</string>
+  <string name="carbon_gestures_fingers_unit">parmaklar</string>
+  <string name="carbon_gestures_right_title">Sağ hareket</string>
+  <string name="carbon_gestures_left_title">Sol hareket</string>
+  <string name="carbon_gestures_up_title">Yukarı haraket</string>
+  <string name="carbon_gestures_down_title">Aşağı hareket</string>
   <string name="carbon_gesture_disabled">Devre dışı</string>
+  <string name="carbon_gesture_back">Geri</string>
+  <string name="carbon_gesture_home">Ana ekran</string>
+  <string name="carbon_gesture_recents">Son uygulamalar</string>
+  <string name="carbon_gesture_power">Güç</string>
+  <string name="carbon_gesture_volume_down">Sesi azalt</string>
+  <string name="carbon_gesture_volume_up">Sesi yükselt</string>
+  <string name="carbon_gesture_volume_mute">Sesi kes</string>
   <string name="carbon_gesture_screenshot">Ekran görüntüsü</string>
+  <string name="carbon_gesture_media_play_pause">Medyayı oynat/duraklat</string>
+  <string name="carbon_gesture_media_skip">Medyayı atla</string>
+  <string name="carbon_gesture_media_previous">Önceki medya</string>
+  <string name="carbon_gesture_customapp">Uygulamayı başlat</string>
+  <string name="carbon_gesture_launch">Başlat</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+  <string name="fprint_sucess_vib_summary_on">Başarılı parmak izi kimlik doğrulamasında titreşim etkin</string>
+  <string name="fprint_sucess_vib_summary_off">Başarılı parmak izi kimlik doğrulamasında titreşim devre dışı</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">Parmak iziyle kilit açma</string>
+  <string name="fp_unlock_keystore_summary">Yeniden başlattıktan sonra PIN/Şifre/Desen olmadan parmak iziyle cihazın kilidini açın\nNot: kendi sorumluluğunuzdadır!</string>
   <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">Kareleri kaydır</string>
+  <string name="qqs_scroll_summary">Hızlı ayarlar kısayol karelerini kaydırmaya izin ver</string>
+  <!-- Data Disabled Icon -->
+  <!-- Gestures -->
+  <!-- Toggle navigation bar -->
 </resources>
