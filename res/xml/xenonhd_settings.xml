@@ -17,6 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/xenonhd_settings_title">
 
+    <!-- XenonHD logo -->
+    <Preference 
+        android:key="xenonhd_logo"
+        android:order="-500"
+        android:layout="@layout/xenonhd_logo" />
+
     <PreferenceCategory
         android:key="xenonhd_category"
         android:title="@string/xenonhd_title">
