@@ -44,9 +44,7 @@ public class XenonSettings extends SettingsPreferenceFragment {
             pm.getPackageInfo("com.xenonota", PackageManager.GET_ACTIVITIES);
         }
         catch (PackageManager.NameNotFoundException e) {
-        PreferenceScreen screen = getPreferenceScreen();
-        Preference pref = getPreferenceManager().findPreference("xenonota");
-        screen.removePreference(pref);
+            getPreferenceManager().findPreference("xenonota").setVisible(false);
         }
     }
 
