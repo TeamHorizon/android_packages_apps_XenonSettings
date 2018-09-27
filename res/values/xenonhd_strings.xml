@@ -25,7 +25,7 @@
     <string name="navigation_title">Navigation</string>
     <string name="power_title">Power menu</string>
     <string name="qs_title">Quick Settings</string>
-    <string name="recents_title">Recents apps</string>
+    <string name="recents_title">Recent apps</string>
     <string name="statusbar_title">Statusbar</string>
     <string name="notifications_title">Notifications</string>
     <string name="xenonhd_title">XenonHD Hub</string>
@@ -45,10 +45,10 @@
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
     <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
+    <string name="hex_hint" translatable="false">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
@@ -65,10 +65,10 @@
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
     <!-- Tuners -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Statusbar icons</string>
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
     <string name="navbar_tuner_title">Navbar buttons</string>
-    <string name="gesture_preference">Native Gestures</string>
+    <string name="gesture_preference">Native gestures</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Clear all button</string>
@@ -86,7 +86,7 @@
     <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
 
     <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
+    <string name="qs_panel_alpha_title">Transparency</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Brightness slider</string>
@@ -102,5 +102,5 @@
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or VPN</string>
 </resources>

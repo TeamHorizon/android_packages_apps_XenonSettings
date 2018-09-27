@@ -58,7 +58,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
         mFaceUnlock = (SwitchPreference) findPreference(KEY_FACE_AUTO_UNLOCK);
         if (!Utils.isPackageInstalled(getActivity(), KEY_FACE_UNLOCK_PACKAGE)){
-            prefScreen.removePreference(mFaceUnlock);
+            getPreferenceManager().findPreference(KEY_FACE_AUTO_UNLOCK).setVisible(false);
         } else {
             mFaceUnlock.setChecked((Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.FACE_AUTO_UNLOCK, 0) == 1));

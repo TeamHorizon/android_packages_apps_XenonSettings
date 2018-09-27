@@ -46,9 +46,6 @@ public class XenonSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        final String KEY_DEVICE_PART = "device_part";
-        final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
-
         addPreferencesFromResource(R.xml.xenonhd_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
@@ -63,13 +60,8 @@ public class XenonSettings extends SettingsPreferenceFragment {
             getPreferenceManager().findPreference("xenonota").setVisible(false);
         }
 
-        // DeviceParts
-        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
-        }
-
         if (isNewRecents(context)) {
-            prefSet.removePreference(findPreference(RECENTS_CATEGORY));
+            getPreferenceManager().findPreference(RECENTS_CATEGORY).setVisible(false);
         }
     }
 
