@@ -68,6 +68,7 @@
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
     <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="gesture_preference">Native Gestures</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Clear all button</string>
