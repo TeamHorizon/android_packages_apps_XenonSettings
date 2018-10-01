@@ -21,7 +21,8 @@
     <Preference 
         android:key="xenonhd_logo"
         android:order="-500"
-        android:layout="@layout/xenonhd_logo" />
+        android:layout="@layout/xenonhd_logo" 
+        android:selectable="false"/>
 
     <PreferenceCategory
         android:key="xenonhd_category"
