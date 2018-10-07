@@ -17,4 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title">
 
+    <Preference
+        android:key="los_buttons"
+        android:title="@string/buttons_settings">
+        <intent android:action="org.lineageos.lineageparts.BUTTON_SETTINGS"
+                android:targetPackage="org.lineageos.lineageparts"
+                android:targetClass="org.lineageos.lineageparts.input.ButtonSettings" />
+    </Preference>
+
 </PreferenceScreen>
