@@ -166,6 +166,11 @@
   <string name="qqs_scroll_title">Kareleri kaydır</string>
   <string name="qqs_scroll_summary">Hızlı ayarlar kısayol karelerini kaydırmaya izin ver</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">Devre dışı simgesi</string>
+  <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunda çarpı işareti göster</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">Kaydırma hareketleri</string>
+  <string name="use_bottom_gesture_summary">Önce gezinme çubuğunu devre dışı bırakın.\nGeri dönmek için sola/sağa kaydırın. Ana ekran için ortasından yukarı kaydırın. Hızlıca menüyü açmak için yukarı kaydırın ve basılı tutun</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">Gezinme çubuğunu etkinleştir</string>
 </resources>

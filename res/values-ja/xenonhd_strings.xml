@@ -75,10 +75,10 @@
   <string name="sysui_qqs_count_title">小さなタイル</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたときはロックを自動的に解除する</string>
+  <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力された時はロックを自動的に解除する</string>
   <!-- Recents Membar -->
-  <string name="systemui_recents_mem_display_title">メモリ使用量バーを有効にする</string>
-  <string name="systemui_recents_mem_display_summary">アプリ履歴にメモリ使用量バーを表示する</string>
+  <string name="systemui_recents_mem_display_title">メモリバーを有効にする</string>
+  <string name="systemui_recents_mem_display_summary">アプリ履歴にメモリバーを表示する</string>
   <!-- Clear all recents -->
   <string name="show_clear_all_recents_button_title">カスタムの全て終了ボタン</string>
   <string name="show_clear_all_recents_button_summary">カスタムの全て終了ボタンを使用する</string>
@@ -107,7 +107,7 @@
   <string name="battery_percent_inside">アイコンの内側</string>
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">自動明るさ調整アイコン</string>
-  <string name="brightness_icon_summary">自動明るさ調整アイコンを明るさスライダーの右に表示する</string>
+  <string name="brightness_icon_summary">明るさスライダーの右に自動調節明るさボタンを表示する</string>
   <!-- Option to show brightness bar in quick settings -->
   <string name="show_brightness_title">明るさスライダー</string>
   <string name="show_brightness_summary">明るさ調節スライダーを表示</string>
@@ -126,7 +126,7 @@
   <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
   <string name="smart_pixels_percent">無効にする画素の割合</string>
   <string name="smart_pixels_shift_title">焼き付き保護</string>
-  <string name="smart_pixels_shift_summary">使う画素をたまにずらして有機ELのの焼き付きを避ける</string>
+  <string name="smart_pixels_shift_summary">使う画素を移し替えて画面の焼付きを避ける</string>
   <!-- Gestures -->
   <string name="gestures_preference_title">ジェスチャー</string>
   <!-- Carbon gestures -->
@@ -154,15 +154,20 @@
   <string name="carbon_gesture_launch">起動</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
-  <string name="fprint_sucess_vib_summary_on">指紋認証が成功したときに振動させる</string>
-  <string name="fprint_sucess_vib_summary_off">指紋認証が成功したときに振動させない</string>
+  <string name="fprint_sucess_vib_summary_on">指紋認証が成功した時に振動させる</string>
+  <string name="fprint_sucess_vib_summary_off">指紋認証が成功した時に振動させない</string>
   <!-- Fingerprint unlock keystore -->
   <string name="fp_unlock_keystore_title">指紋認証によるロック解除</string>
-  <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意 : 自己責任で使用してください!</string>
+  <string name="fp_unlock_keystore_summary">再起動後もPIN/パスワード/パターンによる認証なしで指紋認証によるロック解除を可能にします。\n注意 : 自己責任で使用してください！</string>
   <!-- Quick QS scroller -->
   <string name="qqs_scroll_title">小さなクイック設定タイルのスクロール</string>
   <string name="qqs_scroll_summary">小さなクイック設定タイルのスクロールを許可する</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">データ通信無効のアイコンを表示</string>
+  <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
+  <string name="use_bottom_gesture_summary">まずナビゲーションバーを無効にします。\nバックは左右から上にスワイプします。ホームは中央から上にスワイプします。上にスワイプして維持するとアプリ履歴が開きます。</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">ナビゲーションバーを有効化</string>
 </resources>

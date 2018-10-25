@@ -163,6 +163,11 @@
   <string name="qqs_scroll_title">빠른 스크롤에 세부사항을 표시합니다</string>
   <string name="qqs_scroll_summary">작은 빠른설정 타일의 스크롤을 허용합니다</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">데이터 사용 중지 아이콘 표시</string>
+  <string name="data_disabled_icon_summary">데이터가 사용 중지 되었을 때 신호 아이콘 옆에 X를 표시합니다</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">스와이프 제스쳐</string>
+  <string name="use_bottom_gesture_summary">이 기능을 사용 할려면 네비게이션 바를 사용중지합니다.\n 왼쪽 오른쪽으로 스와이프 하여 뒤로 가기 키, 위로 올려서 홈 키, 위로 올리다가 멈추면 멀티태스킹 창입니다.</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">네비게이션 바 사용</string>
 </resources>

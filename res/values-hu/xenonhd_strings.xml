@@ -163,6 +163,11 @@
   <string name="qqs_scroll_title">Kis gyorsbeállítási csempék görgetése</string>
   <string name="qqs_scroll_summary">Lehetővé teszi a kis gyorsbeállítási csempék görgetését</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">Mobiladatok kikapcsolva ikon</string>
+  <string name="data_disabled_icon_summary">A térerő mellett x jel megjelenítése az állapotsoron, ha a mobiladatok le vannak tiltva</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">Vezérlés felfelé csúsztatással</string>
+  <string name="use_bottom_gesture_summary">Először tiltsa le a navigációs sávot.\nCsúsztasson felfelé a sáv szélén a visszalépéshez. Csúsztasson felfelé középen a kezdőképernyőre való visszalépéshez. Csúsztasson felfelé és tartsa meg az alkalmazáselőzmények megnyitásához</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">Navigációs sáv engedélyezése</string>
 </resources>

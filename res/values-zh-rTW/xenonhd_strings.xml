@@ -163,6 +163,11 @@
   <string name="qqs_scroll_title">快速滾動小圖塊</string>
   <string name="qqs_scroll_summary">允許滾動快速設定小圖塊</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">顯示數據停用圖示</string>
+  <string name="data_disabled_icon_summary">當數據停用時，不顯示圖示旁邊的「×」圖示</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">向上滑動手勢</string>
+  <string name="use_bottom_gesture_summary">先停用導覽列。\n 從 左/右 向上滑動即可返回。 在中間向上滑動回到主畫面。 向上滑動並按住以開啟「最近使用的應用程式」的選單</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">啟用導覽列</string>
 </resources>

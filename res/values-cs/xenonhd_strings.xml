@@ -163,6 +163,10 @@
   <string name="qqs_scroll_title">Rychlé rolování malých dlaždic</string>
   <string name="qqs_scroll_summary">Umožňuje rolování malých dlaždic QS</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
+  <string name="data_disabled_icon_summary">Pokud jsou data zakázána, zobrazí se vedle stavové lišty křížek</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">Gesta přejetím nahoru</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">Povolit navigační panel</string>
 </resources>

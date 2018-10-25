@@ -72,6 +72,7 @@
   <string name="qs_rows_columns_summary">اضبط عدد صفوف المربعات وأعمدتها</string>
   <string name="qs_rows_landscape_title">الصفوف - أفقي</string>
   <string name="qs_rows_portrait_title">الصفوف - عمودي</string>
+  <string name="sysui_qqs_count_title">مربعات صغيرة</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">إلغاء قفل سريع</string>
   <string name="unlock_quick_unlock_control_summary">فتح تلقائياً عندما يتم إدخال PIN/كلمة السر صحيحة</string>
@@ -129,13 +130,44 @@
   <!-- Gestures -->
   <string name="gestures_preference_title">الإيماءات</string>
   <!-- Carbon gestures -->
+  <string name="carbon_gesture_preference_title">إيماءات السحب</string>
+  <string name="carbon_gestures_summary">تكوين إيماءات عالمية مخصصة</string>
+  <string name="carbon_gestures_fingers_title">أصابع تستخدم للايماء (الافتراضي 2)</string>
+  <string name="carbon_gestures_fingers_unit">الأصابع</string>
+  <string name="carbon_gestures_right_title">ايماء لليمين</string>
+  <string name="carbon_gestures_left_title">ايماء لليسار</string>
+  <string name="carbon_gestures_up_title">ايماء للأعلى</string>
+  <string name="carbon_gestures_down_title">ايماء للأسفل</string>
   <string name="carbon_gesture_disabled">غير مفعل</string>
+  <string name="carbon_gesture_back">رجوع</string>
+  <string name="carbon_gesture_home">الصفحة الرئيسية</string>
+  <string name="carbon_gesture_recents">الحديثة</string>
+  <string name="carbon_gesture_power">الطاقة</string>
+  <string name="carbon_gesture_volume_down">خفض الصوت</string>
+  <string name="carbon_gesture_volume_up">رفع الصوت</string>
+  <string name="carbon_gesture_volume_mute">كتم الصوت</string>
   <string name="carbon_gesture_screenshot">لقطة للشاشة</string>
+  <string name="carbon_gesture_media_play_pause">تشغيل/إيقاف الوسائط</string>
+  <string name="carbon_gesture_media_skip">تخطي الوسائط</string>
+  <string name="carbon_gesture_media_previous">الوسائط السابقة</string>
+  <string name="carbon_gesture_customapp">تشغيل التطبيق</string>
+  <string name="carbon_gesture_launch">بدء</string>
   <!-- Fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">إهتزاز تصريح البصمة</string>
+  <string name="fprint_sucess_vib_summary_on">الاهتزاز عند نجاح المصادقة على بصمة الاصبع المفعلة</string>
+  <string name="fprint_sucess_vib_summary_off">الاهتزاز عند نجاح المصادقة على بصمة الاصبع معطل</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_title">فك القفل بالبصمة</string>
+  <string name="fp_unlock_keystore_summary">فك قفل الجهاز بالبصمة بعد إعادة التشغيل بدون رمز/كلمة مرور/نقش\nملاحظة: على مسؤوليتك الخاصة!</string>
   <!-- Quick QS scroller -->
+  <string name="qqs_scroll_title">التمرير السريع للمربعات الصغيرة</string>
+  <string name="qqs_scroll_summary">السماح بالتمرير خلال الأزرار الصغيرة للإعدادات السريعة</string>
   <!-- Data Disabled Icon -->
+  <string name="data_disabled_icon_title">إظهار رمز تعطيل بيانات الهاتف</string>
+  <string name="data_disabled_icon_summary">عرض إشارة التقاطع بجانب شريط الحالة عندما تكون البيانات معطّلة</string>
   <!-- Gestures -->
+  <string name="use_bottom_gesture_title">إيماءات السحب للاعلى</string>
+  <string name="use_bottom_gesture_summary">تعطيل شريط التنقل أولاً. \n يمكنك التمرير لأعلى من اليسار / اليمين للرجوع. اسحب لأعلى في الوسط للرئيسية. مرّر سريعاً لأعلى مع الاستمرار لفتح قائمة التطبيقات الحديثة</string>
   <!-- Toggle navigation bar -->
+  <string name="navigation_bar_enabled_title">تمكين شريط التنقل</string>
 </resources>
