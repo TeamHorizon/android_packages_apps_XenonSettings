@@ -124,5 +124,13 @@
             android:title="@string/misc_title"
             android:fragment="com.xenonhd.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_misc"/>
+
+        <!-- Themes -->
+        <PreferenceScreen
+            android:title="@string/theming_title"
+            android:summary="@string/theming_summary"
+            android:icon="@drawable/ic_settings_theming"
+            android:fragment="com.xenonhd.settings.fragments.ThemeSettings" />
+
     </PreferenceCategory>
 </PreferenceScreen>
