@@ -20,11 +20,56 @@ package com.xenonhd.settings.fragments;
 import com.xenonhd.settings.BaseSettingsFragment;
 import com.xenonhd.settings.R;
 
-public class ThemeSettings extends BaseSettingsFragment {
+import android.content.Context;
+import android.os.Bundle;
+import android.os.Handler;
+import android.provider.Settings;
+import android.support.v7.preference.Preference;
+
+import com.xenonhd.settings.BaseSettingsFragment;
+import com.xenonhd.settings.R;
+import com.xenonhd.settings.preferences.Utils;
+
+public class ThemeSettings extends BaseSettingsFragment implements Preference.OnPreferenceChangeListener {
+
+    private Handler mHandler = new Handler();
 
     @Override
     protected int getPreferenceResource() {
         return R.xml.xenonhd_themes;
     }
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        findPreference(Settings.System.THEMING_BASE).setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (Settings.System.THEMING_BASE.equals(preference.getKey())) {
+            // If notifications are themed (both previously or as a result),
+            // we need to restart SystemUI for changes to have effect
+            if (hasDarkNotifications(Integer.parseInt((String) newValue)) ||
+                    hasDarkNotifications(Settings.System.getInt(getActivity().getContentResolver(),
+                            Settings.System.THEMING_BASE, 0))) {
+                // Keep a context even if activity gets closed
+                final Context appContext = getActivity().getApplicationContext();
+                mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            Utils.restartSystemUi(appContext);
+                        }
+                });
+            }
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    private boolean hasDarkNotifications(int baseThemePref) {
+            return baseThemePref >= 3 && baseThemePref <= 6;
+    }
 }
