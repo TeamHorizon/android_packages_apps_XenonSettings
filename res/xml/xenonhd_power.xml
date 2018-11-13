@@ -21,4 +21,11 @@
             android:key="advanced_reboot"
             android:title="@string/advanced_reboot_title"
             android:summary="@string/advanced_reboot_summary" />
+
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+            android:key="global_actions_screenrecord"
+            android:title="@string/global_actions_screenrecord_title"
+            android:summary="@string/global_actions_screenrecord_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
