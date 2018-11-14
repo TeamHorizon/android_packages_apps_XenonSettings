@@ -15,72 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">إعدادات XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">الازرار</string>
-  <string name="gestures_title">الإيماءات</string>
-  <string name="lockscreen_title">شاشة القفل</string>
-  <string name="misc_title">خيارات متنوعة</string>
-  <string name="power_title">قائمة التشغيل</string>
-  <string name="qs_title">الإعدادات السريعة</string>
-  <string name="notifications_title">الإشعارات</string>
-  <string name="xenonhd_title">مركز XenonHD</string>
-  <string name="xenonsettings_title">إعدادات XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">سجل التغيرات</string>
-  <string name="changelog_xenonhd_error">غير قادر على تحميل سجل التغييرات</string>
-  <string name="changelog_xenonhd_summary">عرض التغييرات في الإصدار الحالي</string>
-  <!-- General strings -->
-  <string name="ok">حسناً</string>
-  <string name="reset">إعادة ضبط</string>
-  <string name="cancel">إلغاء</string>
-  <string name="save">حفظ</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">منتقي الألوان</string>
-  <string name="press_color_to_apply">اضغط على اللون أدناه لتطبيق</string>
-  <string name="hex">ست عشري:</string>
-  <string name="set">تعيين</string>
-  <string name="color_default">الوضع الأصلي</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">تحديث الزينون على الهواء</string>
-  <string name="xenonota_summary">تحقق من وجود تحديثات XenonHD</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">إعادة تشغيل متقدمة</string>
-  <string name="advanced_reboot_summary">عند إلغاء القفل، ستتضمن خيارات قائمة إعادة التشغيل الذهاب الى وضع الريكوفري او وضع البوت لودر</string>
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">أعلى اليمين</string>
-  <string name="recents_clear_all_location_top_left">اعلي اليسار</string>
-  <string name="recents_clear_all_location_top_center">أعلى الوسط</string>
-  <string name="recents_clear_all_location_bottom_right">اسفل اليمين</string>
-  <string name="recents_clear_all_location_bottom_left">اسفل اليسار</string>
-  <string name="recents_clear_all_location_bottom_center">اسفل الوسط</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">مزلاق السطوع</string>
-  <!-- Navigation gestures -->
-  <string name="use_bottom_gesture_title">إيماءات السحب للاعلى</string>
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">تمكين شريط التنقل</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">الدقة الذكية</string>
-  <string name="smart_pixels_enable_title">تمكين الدقة الذكية</string>
-  <string name="smart_pixels_enable_summary">إيقاف الدقة لتقليل أستهلاك الطاقة</string>
-  <string name="smart_pixels_on_power_save_title">تشغيل تلقائي لتوفير الطاقة</string>
-  <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية عندما يكون وضع توفير الطاقة قيد التشغيل</string>
-  <string name="smart_pixels_percent">نسبة الدقة لإيقافها</string>
-  <string name="smart_pixels_shift_times_30s">30 ثانية</string>
-  <string name="smart_pixels_shift_times_1min">دقيقة</string>
-  <string name="smart_pixels_shift_times_5min">5 دقائق</string>
-  <string name="smart_pixels_shift_times_10min">10 دقائق</string>
-  <string name="smart_pixels_shift_times_30min">30 دقيقة</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">شروط تطبيق الإعدادات مفعّلة</string>
-  <string name="summary_dashboard_conditions_disabled">شروط تطبيق الإعدادات معطّلة</string>
-  <string name="summary_dashboard_suggestions_enabled">إقتراحات تطبيق الإعدادات مفعّلة</string>
-  <string name="summary_dashboard_suggestions_disabled">إقتراحات تطبيق الإعدادات معطّلة</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">إعدادات XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">الازرار</string>
+    <string name="gestures_title">الإيماءات</string>
+    <string name="lockscreen_title">شاشة القفل</string>
+    <string name="misc_title">خيارات متنوعة</string>
+    <string name="navigation_title">التنقل</string>
+    <string name="power_title">قائمة التشغيل</string>
+    <string name="qs_title">الإعدادات السريعة</string>
+    <string name="recents_title">التطبيقات الأخيرة</string>
+    <string name="statusbar_title">شريط الحالة</string>
+    <string name="notifications_title">الإشعارات</string>
+    <string name="xenonhd_title">مركز XenonHD</string>
+    <string name="xenonsettings_title">إعدادات XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">سجل التغيرات</string>
+    <string name="changelog_xenonhd_error">غير قادر على تحميل سجل التغييرات</string>
+    <string name="changelog_xenonhd_summary">عرض التغييرات في الإصدار الحالي</string>
+    <!-- General strings -->
+    <string name="ok">حسناً</string>
+    <string name="reset">إعادة ضبط</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">منتقي الألوان</string>
+    <string name="press_color_to_apply">اضغط على اللون أدناه لتطبيق</string>
+    <string name="hex">ست عشري:</string>
+    <string name="set">تعيين</string>
+    <string name="color_default">الوضع الأصلي</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">تحديث الزينون على الهواء</string>
+    <string name="xenonota_summary">تحقق من وجود تحديثات XenonHD</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">إعادة تشغيل متقدمة</string>
+    <string name="advanced_reboot_summary">عند إلغاء القفل، ستتضمن خيارات قائمة إعادة التشغيل الذهاب الى وضع الريكوفري او وضع البوت لودر</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">إلغاء قفل الوجه تلقائياً</string>
+    <string name="face_auto_unlock_summary">صرف النظر عن قفل الشاشة بعد إلغاء قفل الوجه</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">أيقونات شريط الحالة</string>
+    <string name="lockscreen_tuner_title">إختصارات شاشة القفل</string>
+    <string name="navbar_tuner_title">ازرار شريـط التنقل</string>
+    <string name="gesture_preference">الإيماءات الأصلية</string>
+    <string name="buttons_settings">إعدادات الأزرار</string>
+    <string name="statusbar_settings">اعدادات شريط الحالة</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">زر \"مسح الكل\"</string>
+    <string name="show_clear_all_recents_button_summary">إظهار زر \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_title">موقع زر \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_top_right">أعلى اليمين</string>
+    <string name="recents_clear_all_location_top_left">اعلي اليسار</string>
+    <string name="recents_clear_all_location_top_center">أعلى الوسط</string>
+    <string name="recents_clear_all_location_bottom_right">اسفل اليمين</string>
+    <string name="recents_clear_all_location_bottom_left">اسفل اليسار</string>
+    <string name="recents_clear_all_location_bottom_center">اسفل الوسط</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">إشعار ADB</string>
+    <string name="adb_notify_summary">عرض إعلام عند تفعيل تصحيح أخطاء Usb</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">الشفافية</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">مزلاق السطوع</string>
+    <string name="qs_show_brightness_summary">إظهار شريط تمرير السطوع في لوحة إعدادات سريعة</string>
+    <string name="qs_brightness_position_bottom_title">شريط تمرير السطوع في الجزء السفلي</string>
+    <string name="qs_brightness_position_bottom_summary">إظهار شريط تمرير السطوع في أسفل إعدادات سريعة</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">إيماءات التنقل</string>
+    <string name="gesture_settings_summary">استخدم إيماءة السحب لأعلى من الأسفل للتنقل</string>
+    <string name="use_bottom_gesture_title">إيماءات السحب للاعلى</string>
+    <string name="gesture_settings_info">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة::\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nالتطبيق الأخير\n- اسحب سريعًا لأعلى مع الاستمرار في المركز</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">تحذيرات اسفل الإعدادات السريعة</string>
+    <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">تمكين شريط التنقل</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">الدقة الذكية</string>
+    <string name="smart_pixels_enable_title">تمكين الدقة الذكية</string>
+    <string name="smart_pixels_enable_summary">إيقاف الدقة لتقليل أستهلاك الطاقة</string>
+    <string name="smart_pixels_on_power_save_title">تشغيل تلقائي لتوفير الطاقة</string>
+    <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية عندما يكون وضع توفير الطاقة قيد التشغيل</string>
+    <string name="smart_pixels_percent">نسبة الدقة لإيقافها</string>
+    <string name="smart_pixels_info">هو يرسم فوق التطبيقات ويمكن أن يسبب بعض المشكلات مع Google Pay وما إلى ذلك. \n\nقم بتعطيله قبل إضافة البطاقات للدفع أو تمكين/تعطيل مسؤولي الجهاز</string>
+    <string name="smart_pixels_shift">تجنب الاحتراق بتحويل كل بكسل</string>
+    <string name="smart_pixels_shift_times_15s">15 ثانية</string>
+    <string name="smart_pixels_shift_times_30s">30 ثانية</string>
+    <string name="smart_pixels_shift_times_1min">دقيقة</string>
+    <string name="smart_pixels_shift_times_2min">2 دقيقة</string>
+    <string name="smart_pixels_shift_times_5min">5 دقائق</string>
+    <string name="smart_pixels_shift_times_10min">10 دقائق</string>
+    <string name="smart_pixels_shift_times_20min">20 دقيقة</string>
+    <string name="smart_pixels_shift_times_30min">30 دقيقة</string>
+    <string name="smart_pixels_shift_times_1h">1 ساعة</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">حالات لوحة التحكم</string>
+    <string name="summary_dashboard_conditions_enabled">شروط تطبيق الإعدادات مفعّلة</string>
+    <string name="summary_dashboard_conditions_disabled">شروط تطبيق الإعدادات معطّلة</string>
+    <string name="dashboard_suggestions_title">أقتراحات لوحة التحكم</string>
+    <string name="summary_dashboard_suggestions_enabled">إقتراحات تطبيق الإعدادات مفعّلة</string>
+    <string name="summary_dashboard_suggestions_disabled">إقتراحات تطبيق الإعدادات معطّلة</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">صوت التقاط صورة للشاشة</string>
+    <string name="screenshot_sound_summary">تشغيل صوت عند التقاط صورة للشاشة</string>
 </resources>

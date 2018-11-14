@@ -15,70 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Nastavenia XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">Tlačidlá</string>
-  <string name="gestures_title">Gestá</string>
-  <string name="lockscreen_title">Obrazovka uzamknutia</string>
-  <string name="misc_title">Rôzne</string>
-  <string name="power_title">Ponuka tlačidla Napájanie</string>
-  <string name="qs_title">Rýchle nastavenia</string>
-  <string name="notifications_title">Upozornenia</string>
-  <string name="xenonhd_title">XenonHD Hub</string>
-  <string name="xenonsettings_title">Nastavenia XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Prehľad zmien</string>
-  <string name="changelog_xenonhd_error">Nie je možné načítať zoznam zmien</string>
-  <string name="changelog_xenonhd_summary">Zobrazenie zmien v aktuálnom vydaní</string>
-  <!-- General strings -->
-  <string name="ok">OK</string>
-  <string name="reset">Resetovať</string>
-  <string name="cancel">Zrušiť</string>
-  <string name="save">Uložiť</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Výber farby</string>
-  <string name="press_color_to_apply">Kliknite na farbu pre jej výber</string>
-  <string name="hex">Hex:</string>
-  <string name="set">Nastaviť</string>
-  <string name="color_default">Predvolené</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <string name="xenonota_summary">Overiť aktualizácie XenonHD</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">Rozšířený reštart</string>
-  <string name="advanced_reboot_summary">Ak je povolené, do ponuky tlačidla Napájanie budú pridané ďalšie voľby pre reštart do Recovery alebo Bootloadera</string>
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Vpravo hore</string>
-  <string name="recents_clear_all_location_top_left">Vľavo hore</string>
-  <string name="recents_clear_all_location_top_center">Hore v strede</string>
-  <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
-  <string name="recents_clear_all_location_bottom_left">Vľavo dole</string>
-  <string name="recents_clear_all_location_bottom_center">Dole v strede</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Posuvník jasu</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">Smart Pixels</string>
-  <string name="smart_pixels_enable_title">Zapnúť Smart Pixels</string>
-  <string name="smart_pixels_enable_summary">Vypnite pixely, aby ste znížili spotrebu energie</string>
-  <string name="smart_pixels_on_power_save_title">Automatické zapnutie pri spustení šetriča batérie</string>
-  <string name="smart_pixels_on_power_save_summary">Zapnúť Smart Pixels ak je aktivovaný šetrič batérie</string>
-  <string name="smart_pixels_percent">Percento pixelov, ktoré chcete vypnúť</string>
-  <string name="smart_pixels_shift_times_30s">30 sekúnd</string>
-  <string name="smart_pixels_shift_times_1min">1 minúta</string>
-  <string name="smart_pixels_shift_times_5min">5 minút</string>
-  <string name="smart_pixels_shift_times_10min">10 minút</string>
-  <string name="smart_pixels_shift_times_30min">30 minút</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">Podmienky hlavného panela sú povolené</string>
-  <string name="summary_dashboard_conditions_disabled">Podmienky hlavného panela sú zakázané</string>
-  <string name="summary_dashboard_suggestions_enabled">Návrhy hlavného panela sú povolené</string>
-  <string name="summary_dashboard_suggestions_disabled">Návrhy hlavného panela sú zakázané</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Nastavenia XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">Tlačidlá</string>
+    <string name="gestures_title">Gestá</string>
+    <string name="lockscreen_title">Obrazovka uzamknutia</string>
+    <string name="misc_title">Rôzne</string>
+    <string name="navigation_title">Navigácia</string>
+    <string name="power_title">Ponuka tlačidla Napájanie</string>
+    <string name="qs_title">Rýchle nastavenia</string>
+    <string name="recents_title">Nedávne aplikácie</string>
+    <string name="statusbar_title">Stavový riadok</string>
+    <string name="notifications_title">Upozornenia</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
+    <string name="xenonsettings_title">Nastavenia XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Prehľad zmien</string>
+    <string name="changelog_xenonhd_error">Nie je možné načítať zoznam zmien</string>
+    <string name="changelog_xenonhd_summary">Zobrazenie zmien v aktuálnom vydaní</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Resetovať</string>
+    <string name="cancel">Zrušiť</string>
+    <string name="save">Uložiť</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Výber farby</string>
+    <string name="press_color_to_apply">Kliknite na farbu pre jej výber</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Nastaviť</string>
+    <string name="color_default">Predvolené</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Overiť aktualizácie XenonHD</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Rozšířený reštart</string>
+    <string name="advanced_reboot_summary">Ak je povolené, do ponuky tlačidla Napájanie budú pridané ďalšie voľby pre reštart do Recovery alebo Bootloadera</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Automatické odomknutie pomocou tváre</string>
+    <string name="face_auto_unlock_summary">Nezobraziť obrazovku uzamknutia po odomknutí pomocou tváre</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">Ikony v stavovom riadku</string>
+    <string name="lockscreen_tuner_title">Odkazy na obrazovke uzamknutia</string>
+    <string name="navbar_tuner_title">Tlačidlá navigačného panela</string>
+    <string name="gesture_preference">Pôvodné gestá</string>
+    <string name="buttons_settings">Nastavenia tlačítok</string>
+    <string name="statusbar_settings">Nastavenia stavového riadku</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tlačidlo \"Vyčistiť všetko\"</string>
+    <string name="show_clear_all_recents_button_summary">Zobraziť tlačidlo \"Vyčistiť všetko\"</string>
+    <string name="recents_clear_all_location_title">Poloha tlačidla Vyčistiť všetko</string>
+    <string name="recents_clear_all_location_top_right">Vpravo hore</string>
+    <string name="recents_clear_all_location_top_left">Vľavo hore</string>
+    <string name="recents_clear_all_location_top_center">Hore v strede</string>
+    <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+    <string name="recents_clear_all_location_bottom_left">Vľavo dole</string>
+    <string name="recents_clear_all_location_bottom_center">Dole v strede</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB upozornenia</string>
+    <string name="adb_notify_summary">Zobraziť upozornenie, ak je povolené ladenie sytému Android</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Priehľadnosť</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Posuvník jasu</string>
+    <string name="qs_show_brightness_summary">Zobraziť posuvník jasu na paneli rýchlych nastavení</string>
+    <string name="qs_brightness_position_bottom_title">Posuvník jasu v spodnej časti</string>
+    <string name="qs_brightness_position_bottom_summary">Zobraziť posuvník jasu v dolnej časti panela rýchlych nastavení</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Navigačné gestá</string>
+    <string name="gesture_settings_summary">Pre navigáciu použiť gesto potiahnutia zospodu nahor</string>
+    <string name="use_bottom_gesture_title">Gestá potiahnutím prsta</string>
+    <string name="gesture_settings_info">Navigačný panel musí byť vypnutý!\n\nDostupné gestá:\n\nSpäť\n- Potiahnite prstom na ľavej alebo pravej strane\n\nDomov\n- Potiahnite prstom nahor\n\nNedávne aplikácie\n- Potiahnite prstom nahor a podržte\n\nPosledná aplikácia\n- Krátko potiahnite prstom nahor a podržte v strede</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Výstrahy v spodnej časti panela rýchlych nastavení</string>
+    <string name="qs_footer_warnings_summary">Zobraziť varovanie v spodnej časti panela rýchlych nastavení, keď je sieť monitorovaná externými aplikáciami alebo VPN</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Povoliť navigačný panel</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_enable_title">Zapnúť Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Vypnite pixely, aby ste znížili spotrebu energie</string>
+    <string name="smart_pixels_on_power_save_title">Automatické zapnutie pri spustení šetriča batérie</string>
+    <string name="smart_pixels_on_power_save_summary">Zapnúť Smart Pixels ak je aktivovaný šetrič batérie</string>
+    <string name="smart_pixels_percent">Percento pixelov, ktoré chcete vypnúť</string>
+    <string name="smart_pixels_info">Vykresľuje nad ďalšie aplikácie a môže spôsobiť problémy so službou Google Pay atď.\n\nDeaktivujte pred pridaním platobných kariet alebo povoľte/zakážte v správcovi zariadení</string>
+    <string name="smart_pixels_shift">Zabraňuje vypaľovaniu častým prepínaním pixelov</string>
+    <string name="smart_pixels_shift_times_15s">15 sekúnd</string>
+    <string name="smart_pixels_shift_times_30s">30 sekúnd</string>
+    <string name="smart_pixels_shift_times_1min">1 minúta</string>
+    <string name="smart_pixels_shift_times_2min">2 minúty</string>
+    <string name="smart_pixels_shift_times_5min">5 minút</string>
+    <string name="smart_pixels_shift_times_10min">10 minút</string>
+    <string name="smart_pixels_shift_times_20min">20 minút</string>
+    <string name="smart_pixels_shift_times_30min">30 minút</string>
+    <string name="smart_pixels_shift_times_1h">1 hodina</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Upozornenia na hlavnom paneli</string>
+    <string name="summary_dashboard_conditions_enabled">Podmienky hlavného panela sú povolené</string>
+    <string name="summary_dashboard_conditions_disabled">Podmienky hlavného panela sú zakázané</string>
+    <string name="dashboard_suggestions_title">Návrhy na hlavnom paneli</string>
+    <string name="summary_dashboard_suggestions_enabled">Návrhy hlavného panela sú povolené</string>
+    <string name="summary_dashboard_suggestions_disabled">Návrhy hlavného panela sú zakázané</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
+    <string name="screenshot_sound_summary">Prehrá zvukový efekt pri snímke obrazovky</string>
 </resources>

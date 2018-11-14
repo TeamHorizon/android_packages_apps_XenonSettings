@@ -15,71 +15,106 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Настройки XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">Кнопки</string>
-  <string name="gestures_title">Жесты</string>
-  <string name="lockscreen_title">Экран блокировки</string>
-  <string name="misc_title">Разное</string>
-  <string name="power_title">Меню выключения</string>
-  <string name="qs_title">Быстрые настройки</string>
-  <string name="notifications_title">Уведомления</string>
-  <string name="xenonhd_title">XenonHD Hub</string>
-  <string name="xenonsettings_title">Настройки XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Список изменений</string>
-  <string name="changelog_xenonhd_error">Невозможно загрузить список изменений</string>
-  <string name="changelog_xenonhd_summary">Посмотреть изменения в текущем релизе</string>
-  <!-- General strings -->
-  <string name="ok">ОК</string>
-  <string name="reset">Сброс</string>
-  <string name="cancel">Отмена</string>
-  <string name="save">Сохранить</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Выбор цвета</string>
-  <string name="press_color_to_apply">Нажмите на цвет снизу, чтобы применить</string>
-  <string name="hex">Hex код:</string>
-  <string name="set">Применить</string>
-  <string name="color_default">По умолчанию</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <string name="xenonota_summary">Проверить обновление XenonHD</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">Варианты перезагрузки</string>
-  <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и в загрузчик</string>
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Вверху справа</string>
-  <string name="recents_clear_all_location_top_left">Вверху слева</string>
-  <string name="recents_clear_all_location_top_center">Вверху по центру</string>
-  <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
-  <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
-  <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Слайдер яркости</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">Включить панель навигации</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">Smart Pixels</string>
-  <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
-  <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
-  <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
-  <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
-  <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
-  <string name="smart_pixels_shift_times_30s">30 секунд</string>
-  <string name="smart_pixels_shift_times_1min">1 минута</string>
-  <string name="smart_pixels_shift_times_5min">5 минут</string>
-  <string name="smart_pixels_shift_times_10min">10 минут</string>
-  <string name="smart_pixels_shift_times_30min">30 минут</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
-  <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
-  <string name="summary_dashboard_suggestions_enabled">Подсказки меню настроек включены</string>
-  <string name="summary_dashboard_suggestions_disabled">Подсказки меню настроек выключены</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Настройки XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">Кнопки</string>
+    <string name="gestures_title">Жесты</string>
+    <string name="lockscreen_title">Экран блокировки</string>
+    <string name="misc_title">Разное</string>
+    <string name="navigation_title">Навигация</string>
+    <string name="power_title">Меню выключения</string>
+    <string name="qs_title">Быстрые настройки</string>
+    <string name="recents_title">Недавние приложения</string>
+    <string name="statusbar_title">Строка состояния</string>
+    <string name="notifications_title">Уведомления</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
+    <string name="xenonsettings_title">Настройки XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Список изменений</string>
+    <string name="changelog_xenonhd_error">Невозможно загрузить список изменений</string>
+    <string name="changelog_xenonhd_summary">Посмотреть изменения в текущем релизе</string>
+    <!-- General strings -->
+    <string name="ok">ОК</string>
+    <string name="reset">Сброс</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Выбор цвета</string>
+    <string name="press_color_to_apply">Нажмите на цвет снизу, чтобы применить</string>
+    <string name="hex">Hex код:</string>
+    <string name="set">Применить</string>
+    <string name="color_default">По умолчанию</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Проверить обновление XenonHD</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Варианты перезагрузки</string>
+    <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и в загрузчик</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Автоматическая разблокировка лицом</string>
+    <string name="face_auto_unlock_summary">Убарть экран блокировки после разблокировки лицом</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">Значки в строке состояния</string>
+    <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
+    <string name="navbar_tuner_title">Кнопки панели навигации</string>
+    <string name="gesture_preference">Нативные жесты</string>
+    <string name="buttons_settings">Настройки кнопок</string>
+    <string name="statusbar_settings">Параметры строки состояния</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё»</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Уведомление о режиме отладки</string>
+    <string name="adb_notify_summary">Уведомления при включенной отладке Android</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Прозрачность</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Слайдер яркости</string>
+    <string name="qs_show_brightness_summary">Показывать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_brightness_position_bottom_title">Регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_brightness_position_bottom_summary">Показывать регулятор яркости в панели быстрых настроек</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Жесты навигации</string>
+    <string name="gesture_settings_summary">Свайп вверх для навигации</string>
+    <string name="use_bottom_gesture_title">Жесты вверх</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
+    <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Включить панель навигации</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
+    <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
+    <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
+    <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
+    <string name="smart_pixels_shift_times_15s">15 секунд</string>
+    <string name="smart_pixels_shift_times_30s">30 секунд</string>
+    <string name="smart_pixels_shift_times_1min">1 минута</string>
+    <string name="smart_pixels_shift_times_2min">2 минуты</string>
+    <string name="smart_pixels_shift_times_5min">5 минут</string>
+    <string name="smart_pixels_shift_times_10min">10 минут</string>
+    <string name="smart_pixels_shift_times_20min">20 минут</string>
+    <string name="smart_pixels_shift_times_30min">30 минут</string>
+    <string name="smart_pixels_shift_times_1h">1 час</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Действия в главном меню</string>
+    <string name="summary_dashboard_conditions_enabled">Уведомления в главном меню включены</string>
+    <string name="summary_dashboard_conditions_disabled">Уведомления в главном меню выключены</string>
+    <string name="dashboard_suggestions_title">Подсказки в главном меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки меню настроек включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки меню настроек выключены</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скриншота</string>
+    <string name="screenshot_sound_summary">Проигрывать звук при скриншоте</string>
 </resources>

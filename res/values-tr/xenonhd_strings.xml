@@ -15,72 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">XenonHD Ayarları</string>
-  <!-- Categories -->
-  <string name="buttons_title">Tuşlar</string>
-  <string name="gestures_title">Hareketler</string>
-  <string name="lockscreen_title">Kilit ekranı</string>
-  <string name="misc_title">Çeşitler</string>
-  <string name="power_title">Güç menüsü</string>
-  <string name="qs_title">Hızlı ayarlar</string>
-  <string name="notifications_title">Bildirimler</string>
-  <string name="xenonhd_title">XenonHD Hub</string>
-  <string name="xenonsettings_title">XenonHD Ayarları</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Değişiklikler</string>
-  <string name="changelog_xenonhd_error">Değişiklik kaydı yüklenemedi</string>
-  <string name="changelog_xenonhd_summary">Geçerli sürümdeki değişiklikleri görüntüle</string>
-  <!-- General strings -->
-  <string name="ok">Tamam</string>
-  <string name="reset">Sıfırla</string>
-  <string name="cancel">İptal</string>
-  <string name="save">Kaydet</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Renk seçici</string>
-  <string name="press_color_to_apply">Uygulamak İstediğiniz renge basın</string>
-  <string name="hex">Hex:</string>
-  <string name="set">Ayarla</string>
-  <string name="color_default">Varsayılan</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">Xenon Güncellemeleri</string>
-  <string name="xenonota_summary">XenonHD güncellemelerini kontrol et</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
-  <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya ön yükleyici modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Sağ üst</string>
-  <string name="recents_clear_all_location_top_left">Sol üst</string>
-  <string name="recents_clear_all_location_top_center">Üst orta</string>
-  <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
-  <string name="recents_clear_all_location_bottom_left">Sol alt</string>
-  <string name="recents_clear_all_location_bottom_center">Alt orta</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Parlaklık kaydırıcı</string>
-  <!-- Navigation gestures -->
-  <string name="use_bottom_gesture_title">Kaydırma hareketleri</string>
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">Gezinme çubuğunu etkinleştir</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">Akıllı pikseller</string>
-  <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
-  <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
-  <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
-  <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikseli etkinleştir</string>
-  <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
-  <string name="smart_pixels_shift_times_30s">30 saniye</string>
-  <string name="smart_pixels_shift_times_1min">1 dakika</string>
-  <string name="smart_pixels_shift_times_5min">5 dakika</string>
-  <string name="smart_pixels_shift_times_10min">10 dakika</string>
-  <string name="smart_pixels_shift_times_30min">30 dakika</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
-  <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
-  <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
-  <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">XenonHD Ayarları</string>
+    <!-- Categories -->
+    <string name="buttons_title">Tuşlar</string>
+    <string name="gestures_title">Hareketler</string>
+    <string name="lockscreen_title">Kilit ekranı</string>
+    <string name="misc_title">Çeşitler</string>
+    <string name="navigation_title">Gezinme</string>
+    <string name="power_title">Güç menüsü</string>
+    <string name="qs_title">Hızlı ayarlar</string>
+    <string name="recents_title">Son uygulamalar</string>
+    <string name="statusbar_title">Durum çubuğu</string>
+    <string name="notifications_title">Bildirimler</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
+    <string name="xenonsettings_title">XenonHD Ayarları</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Değişiklikler</string>
+    <string name="changelog_xenonhd_error">Değişiklik kaydı yüklenemedi</string>
+    <string name="changelog_xenonhd_summary">Geçerli sürümdeki değişiklikleri görüntüle</string>
+    <!-- General strings -->
+    <string name="ok">Tamam</string>
+    <string name="reset">Sıfırla</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Renk seçici</string>
+    <string name="press_color_to_apply">Uygulamak İstediğiniz renge basın</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Ayarla</string>
+    <string name="color_default">Varsayılan</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">Xenon Güncellemeleri</string>
+    <string name="xenonota_summary">XenonHD güncellemelerini kontrol et</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
+    <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya ön yükleyici modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Otomatik kilit açma</string>
+    <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını kapat</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">Durum çubuğu simgeleri</string>
+    <string name="lockscreen_tuner_title">Kilit ekranı kısayolları</string>
+    <string name="navbar_tuner_title">Gezinme çubuğu tuşları</string>
+    <string name="gesture_preference">Yerel hareketler</string>
+    <string name="buttons_settings">Tuş ayarları</string>
+    <string name="statusbar_settings">Durum çubuğu ayarları</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+    <string name="show_clear_all_recents_button_summary">Tümünü temizleme tuşunu göster</string>
+    <string name="recents_clear_all_location_title">Tuş konumu</string>
+    <string name="recents_clear_all_location_top_right">Sağ üst</string>
+    <string name="recents_clear_all_location_top_left">Sol üst</string>
+    <string name="recents_clear_all_location_top_center">Üst orta</string>
+    <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+    <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+    <string name="recents_clear_all_location_bottom_center">Alt orta</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB bildirimi</string>
+    <string name="adb_notify_summary">Android hata ayıklama etkinleştirildiğinde bildirim görüntüle</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Şeffaflık</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Parlaklık kaydırıcı</string>
+    <string name="qs_show_brightness_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar alt panelinde parlaklık kaydırıcısını göster</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gezinme hareketleri</string>
+    <string name="gesture_settings_summary">Gezinme için yukarı kaydırma hareketlerini kullan</string>
+    <string name="use_bottom_gesture_title">Kaydırma hareketleri</string>
+    <string name="gesture_settings_info">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nYeni uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nSon uygulamalar\n- Kısa hızlı yukarı kaydırıp merkezde tutun</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
+    <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN ile izlendiğinde hızlı ayarlar panelinin altına bir uyarı göster</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Gezinme çubuğunu etkinleştir</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Akıllı pikseller</string>
+    <string name="smart_pixels_enable_title">Akıllı pikselleri etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+    <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikseli etkinleştir</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
+    <string name="smart_pixels_info">Uygulamalar üzerinde sorun olabilir ve Google ödeme ve vb. İle bazı sıkıntılara neden olabilir.\n\n Ödemeye kart eklemeden veya cihaz yöneticilerini etkinleştirmeden önce bunu devre dışı bırakın</string>
+    <string name="smart_pixels_shift">Pikselleri değiştirerek yanmayı önle</string>
+    <string name="smart_pixels_shift_times_15s">15 saniye</string>
+    <string name="smart_pixels_shift_times_30s">30 saniye</string>
+    <string name="smart_pixels_shift_times_1min">1 dakika</string>
+    <string name="smart_pixels_shift_times_2min">2 dakika</string>
+    <string name="smart_pixels_shift_times_5min">5 dakika</string>
+    <string name="smart_pixels_shift_times_10min">10 dakika</string>
+    <string name="smart_pixels_shift_times_20min">20 dakika</string>
+    <string name="smart_pixels_shift_times_30min">30 dakika</string>
+    <string name="smart_pixels_shift_times_1h">1 saat</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Ayarlar menüsü durumları</string>
+    <string name="summary_dashboard_conditions_enabled">Ayarlar menüsü durumları etkin</string>
+    <string name="summary_dashboard_conditions_disabled">Ayarlar menüsü durumları devre dışı</string>
+    <string name="dashboard_suggestions_title">Ayarlar menüsü önerileri</string>
+    <string name="summary_dashboard_suggestions_enabled">Ayarlar menüsü önerileri etkin</string>
+    <string name="summary_dashboard_suggestions_disabled">Ayarlar menüsü önerileri devre dışı</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ekran görüntü sesi</string>
+    <string name="screenshot_sound_summary">Ekran görüntüsü alındığında ses efekti çıkar</string>
 </resources>

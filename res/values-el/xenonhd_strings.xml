@@ -15,62 +15,75 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Ρυθμίσεις XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">Πλήκτρα</string>
-  <string name="gestures_title">Χειρονομίες</string>
-  <string name="lockscreen_title">Οθόνη κλειδώματος</string>
-  <string name="misc_title">Διάφορα</string>
-  <string name="power_title">Μενού ενέργειας</string>
-  <string name="qs_title">Γρήγορες Ρυθμίσεις</string>
-  <string name="notifications_title">Ειδοποιήσεις</string>
-  <string name="xenonhd_title">Κόμβος XenonHD</string>
-  <string name="xenonsettings_title">Ρυθμίσεις XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Κατάλογος αλλαγών</string>
-  <string name="changelog_xenonhd_error">Δεν είναι δυνατή η φόρτωση του καταλόγου αλλαγών</string>
-  <string name="changelog_xenonhd_summary">Προβολή αλλαγών στην τρέχουσα έκδοση</string>
-  <!-- General strings -->
-  <string name="ok">ΟΚ</string>
-  <string name="reset">Επαναφορά</string>
-  <string name="cancel">Ακύρωση</string>
-  <string name="save">Αποθ/ση</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Επιλογέας Χρώματος</string>
-  <string name="press_color_to_apply">Πατήστε στο χρώμα παρακάτω για να εφαρμοστεί</string>
-  <string name="hex">Δεκαεξαδικό:</string>
-  <string name="set">Ορισμός</string>
-  <string name="color_default">Προεπιλεγμένο</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <string name="xenonota_summary">Έλεγχος για ενημερωμένες εκδόσεις XenonHD</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Πάνω δεξιά</string>
-  <string name="recents_clear_all_location_top_left">Πάνω αριστερά</string>
-  <string name="recents_clear_all_location_top_center">Κέντρο και πάνω</string>
-  <string name="recents_clear_all_location_bottom_right">Κάτω Δεξιά</string>
-  <string name="recents_clear_all_location_bottom_left">Κάτω Αριστερά</string>
-  <string name="recents_clear_all_location_bottom_center">Κάτω στο κέντρο</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Ρυθμιστής φωτεινότητας</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 δευτερόλεπτα</string>
-  <string name="smart_pixels_shift_times_1min">1 λεπτό</string>
-  <string name="smart_pixels_shift_times_5min">5 λεπτά</string>
-  <string name="smart_pixels_shift_times_10min">10 λεπτά</string>
-  <string name="smart_pixels_shift_times_30min">30 λεπτά</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">Οι συνθήκες του ταμπλό είναι ενεργοποιημένες</string>
-  <string name="summary_dashboard_conditions_disabled">Οι συνθήκες του ταμπλό είναι απενεργοποιημένες</string>
-  <string name="summary_dashboard_suggestions_enabled">Οι προτάσεις του ταμπλό είναι ενεργοποιημένες</string>
-  <string name="summary_dashboard_suggestions_disabled">Οι προτάσεις του ταμπλό είναι απενεργοποιημένες</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Ρυθμίσεις XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">Πλήκτρα</string>
+    <string name="gestures_title">Χειρονομίες</string>
+    <string name="lockscreen_title">Οθόνη κλειδώματος</string>
+    <string name="misc_title">Διάφορα</string>
+    <string name="power_title">Μενού ενέργειας</string>
+    <string name="qs_title">Γρήγορες Ρυθμίσεις</string>
+    <string name="notifications_title">Ειδοποιήσεις</string>
+    <string name="xenonhd_title">Κόμβος XenonHD</string>
+    <string name="xenonsettings_title">Ρυθμίσεις XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Κατάλογος αλλαγών</string>
+    <string name="changelog_xenonhd_error">Δεν είναι δυνατή η φόρτωση του καταλόγου αλλαγών</string>
+    <string name="changelog_xenonhd_summary">Προβολή αλλαγών στην τρέχουσα έκδοση</string>
+    <!-- General strings -->
+    <string name="ok">ΟΚ</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="save">Αποθ/ση</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Επιλογέας Χρώματος</string>
+    <string name="press_color_to_apply">Πατήστε στο χρώμα παρακάτω για να εφαρμοστεί</string>
+    <string name="hex">Δεκαεξαδικό:</string>
+    <string name="set">Ορισμός</string>
+    <string name="color_default">Προεπιλεγμένο</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Έλεγχος για ενημερωμένες εκδόσεις XenonHD</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Προχωρημένες επιλογές επανεκκίνησης</string>
+    <string name="advanced_reboot_summary">Όταν είναι ενεργή, περιλαμβάνονται στο μενού πλήκτρου απενεργοποίησης οι επιλογές επανεκκίνησης σε λειτουργία recovery ή bootloader</string>
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <string name="recents_clear_all_location_top_right">Πάνω δεξιά</string>
+    <string name="recents_clear_all_location_top_left">Πάνω αριστερά</string>
+    <string name="recents_clear_all_location_top_center">Κέντρο και πάνω</string>
+    <string name="recents_clear_all_location_bottom_right">Κάτω Δεξιά</string>
+    <string name="recents_clear_all_location_bottom_left">Κάτω Αριστερά</string>
+    <string name="recents_clear_all_location_bottom_center">Κάτω στο κέντρο</string>
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Ρυθμιστής φωτεινότητας</string>
+    <!-- Navigation gestures -->
+    <string name="use_bottom_gesture_title">Χειρονομίες ολίσθησης προς τα πάνω</string>
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Ενεργοποίηση γραμμή περιήγησης</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Έξυπνα Πίξελ</string>
+    <string name="smart_pixels_enable_title">Ενεργοποίηση Έξυπνων Πίξελ</string>
+    <string name="smart_pixels_enable_summary">Κλείσιμο των πίξελ για μείωση κατανάλωσης ενέργειας</string>
+    <string name="smart_pixels_on_power_save_title">Αυτόματη ενεργοποίηση στην εξοικονόμηση ενέργειας</string>
+    <string name="smart_pixels_on_power_save_summary">Ενεργοποίηση των Έξυπνων Πίξελ όταν η εξοικονόμηση μπαταρίας είναι ενεργοποιημένη</string>
+    <string name="smart_pixels_percent">Ποσοστό των πίξελ για απενεργοποίηση</string>
+    <string name="smart_pixels_shift_times_30s">30 δευτερόλεπτα</string>
+    <string name="smart_pixels_shift_times_1min">1 λεπτό</string>
+    <string name="smart_pixels_shift_times_5min">5 λεπτά</string>
+    <string name="smart_pixels_shift_times_10min">10 λεπτά</string>
+    <string name="smart_pixels_shift_times_30min">30 λεπτά</string>
+    <!-- Dashboard -->
+    <string name="summary_dashboard_conditions_enabled">Οι συνθήκες του ταμπλό είναι ενεργοποιημένες</string>
+    <string name="summary_dashboard_conditions_disabled">Οι συνθήκες του ταμπλό είναι απενεργοποιημένες</string>
+    <string name="summary_dashboard_suggestions_enabled">Οι προτάσεις του ταμπλό είναι ενεργοποιημένες</string>
+    <string name="summary_dashboard_suggestions_disabled">Οι προτάσεις του ταμπλό είναι απενεργοποιημένες</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Ηχος στιγμιότυπου οθόνης</string>
+    <string name="screenshot_sound_summary">Αναπαραγωγή ήχου όταν λαμβάνεται στιγμιότυπο οθόνης</string>
 </resources>

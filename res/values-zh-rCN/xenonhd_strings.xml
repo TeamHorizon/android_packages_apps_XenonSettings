@@ -15,72 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">XenonHD 设置</string>
-  <!-- Categories -->
-  <string name="buttons_title">按键</string>
-  <string name="gestures_title">手势</string>
-  <string name="lockscreen_title">锁屏</string>
-  <string name="misc_title">其他</string>
-  <string name="power_title">电源菜单</string>
-  <string name="qs_title">快速设置</string>
-  <string name="notifications_title">通知</string>
-  <string name="xenonhd_title">XenonHD 中心</string>
-  <string name="xenonsettings_title">XenonHD 设置</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">更新日志</string>
-  <string name="changelog_xenonhd_error">无法加载更新日志</string>
-  <string name="changelog_xenonhd_summary">查看当前版本的更改</string>
-  <!-- General strings -->
-  <string name="ok">确定</string>
-  <string name="reset">重置</string>
-  <string name="cancel">取消</string>
-  <string name="save">保存</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">颜色选择</string>
-  <string name="press_color_to_apply">按选颜色以应用</string>
-  <string name="hex">十六进制：</string>
-  <string name="set">应用</string>
-  <string name="color_default">默认</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">Xenon更新</string>
-  <string name="xenonota_summary">检查 XenonHD 更新</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">高级重启</string>
-  <string name="advanced_reboot_summary">设备已解锁时，在电源菜单的重启选项下加入重启至 Recovery 与 Bootloader 的选项</string>
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">屏幕右上方</string>
-  <string name="recents_clear_all_location_top_left">屏幕左上方</string>
-  <string name="recents_clear_all_location_top_center">顶部居中</string>
-  <string name="recents_clear_all_location_bottom_right">右下角</string>
-  <string name="recents_clear_all_location_bottom_left">左下方</string>
-  <string name="recents_clear_all_location_bottom_center">底部居中</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">亮度滑块</string>
-  <!-- Navigation gestures -->
-  <string name="use_bottom_gesture_title">滑动手势</string>
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">启用导航栏</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">智能像素</string>
-  <string name="smart_pixels_enable_title">自动启用智能像素</string>
-  <string name="smart_pixels_enable_summary">减少像素以降低功耗</string>
-  <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
-  <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
-  <string name="smart_pixels_percent">禁用的像素数量</string>
-  <string name="smart_pixels_shift_times_30s">30秒</string>
-  <string name="smart_pixels_shift_times_1min">1 分钟</string>
-  <string name="smart_pixels_shift_times_5min">5 分钟</string>
-  <string name="smart_pixels_shift_times_10min">10 分钟</string>
-  <string name="smart_pixels_shift_times_30min">30分钟</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">通知面板条件已启用:）</string>
-  <string name="summary_dashboard_conditions_disabled">通知面板的条件已禁用</string>
-  <string name="summary_dashboard_suggestions_enabled">通知面板建议已经启动：）</string>
-  <string name="summary_dashboard_suggestions_disabled">通知建议已禁用</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">XenonHD 设置</string>
+    <!-- Categories -->
+    <string name="buttons_title">按键</string>
+    <string name="gestures_title">手势</string>
+    <string name="lockscreen_title">锁屏</string>
+    <string name="misc_title">其他</string>
+    <string name="navigation_title">导航栏</string>
+    <string name="power_title">电源菜单</string>
+    <string name="qs_title">快速设置</string>
+    <string name="recents_title">最近使用的应用。</string>
+    <string name="statusbar_title">状态栏</string>
+    <string name="notifications_title">通知</string>
+    <string name="xenonhd_title">XenonHD 中心</string>
+    <string name="xenonsettings_title">XenonHD 设置</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">更新日志</string>
+    <string name="changelog_xenonhd_error">无法加载更新日志</string>
+    <string name="changelog_xenonhd_summary">查看当前版本的更改</string>
+    <!-- General strings -->
+    <string name="ok">确定</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择</string>
+    <string name="press_color_to_apply">按选颜色以应用</string>
+    <string name="hex">十六进制：</string>
+    <string name="set">应用</string>
+    <string name="color_default">默认</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">Xenon更新</string>
+    <string name="xenonota_summary">检查 XenonHD 更新</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">高级重启</string>
+    <string name="advanced_reboot_summary">设备已解锁时，在电源菜单的重启选项下加入重启至 Recovery 与 Bootloader 的选项</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">人脸自动解锁</string>
+    <string name="face_auto_unlock_summary">人脸解锁后自动解除锁屏</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">状态栏图标</string>
+    <string name="lockscreen_tuner_title">锁屏界面快捷方式</string>
+    <string name="navbar_tuner_title">导航栏按钮</string>
+    <string name="gesture_preference">导航手势</string>
+    <string name="buttons_settings">按钮设置</string>
+    <string name="statusbar_settings">状态栏设置</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">“一键清除”按钮</string>
+    <string name="show_clear_all_recents_button_summary">显示“一键清除”按钮</string>
+    <string name="recents_clear_all_location_title">“一键清理”按钮位置</string>
+    <string name="recents_clear_all_location_top_right">屏幕右上方</string>
+    <string name="recents_clear_all_location_top_left">屏幕左上方</string>
+    <string name="recents_clear_all_location_top_center">顶部居中</string>
+    <string name="recents_clear_all_location_bottom_right">右下角</string>
+    <string name="recents_clear_all_location_bottom_left">左下方</string>
+    <string name="recents_clear_all_location_bottom_center">底部居中</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB通知</string>
+    <string name="adb_notify_summary">显示USB或网络调试通知</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">透明度</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">亮度滑块</string>
+    <string name="qs_show_brightness_summary">在快速设置面板中显示亮度滑块</string>
+    <string name="qs_brightness_position_bottom_title">底部亮度滑块</string>
+    <string name="qs_brightness_position_bottom_summary">显示快速设置底部的亮度滑块</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">导航手势</string>
+    <string name="gesture_settings_summary">使用向上滑动手势进行导航</string>
+    <string name="use_bottom_gesture_title">滑动手势</string>
+    <string name="gesture_settings_info">必须关闭导航栏！\n\n可用手势\n\n后退\n-向左或向右滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">快速设面板底部警告</string>
+    <string name="qs_footer_warnings_summary">当网络被VPN或者应用程序监测时，在快速设置底部显示警告</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">启用导航栏</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">智能像素</string>
+    <string name="smart_pixels_enable_title">自动启用智能像素</string>
+    <string name="smart_pixels_enable_summary">减少像素以降低功耗</string>
+    <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
+    <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
+    <string name="smart_pixels_percent">禁用的像素数量</string>
+    <string name="smart_pixels_info">它在应用程序上覆盖叠加层可能导致Google Pay等问题。\n\n在将卡添加到Google Pay或启用/禁用设备管理员之前，请先禁用它</string>
+    <string name="smart_pixels_shift">通过移动像素来防止烧屏</string>
+    <string name="smart_pixels_shift_times_15s">15 秒</string>
+    <string name="smart_pixels_shift_times_30s">30秒</string>
+    <string name="smart_pixels_shift_times_1min">1 分钟</string>
+    <string name="smart_pixels_shift_times_2min">2 分钟</string>
+    <string name="smart_pixels_shift_times_5min">5 分钟</string>
+    <string name="smart_pixels_shift_times_10min">10 分钟</string>
+    <string name="smart_pixels_shift_times_20min">20 分钟</string>
+    <string name="smart_pixels_shift_times_30min">30分钟</string>
+    <string name="smart_pixels_shift_times_1h">1 小时</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">面板状态状态</string>
+    <string name="summary_dashboard_conditions_enabled">通知面板条件已启用:）</string>
+    <string name="summary_dashboard_conditions_disabled">通知面板的条件已禁用</string>
+    <string name="dashboard_suggestions_title">仪表盘建议</string>
+    <string name="summary_dashboard_suggestions_enabled">通知面板建议已经启动：）</string>
+    <string name="summary_dashboard_suggestions_disabled">通知建议已禁用</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">截图提示音</string>
+    <string name="screenshot_sound_summary">截图时播放提示音效</string>
 </resources>

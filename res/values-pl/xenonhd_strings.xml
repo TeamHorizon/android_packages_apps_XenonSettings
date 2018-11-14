@@ -15,105 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Ustawienia XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">Przyciski</string>
-  <string name="gestures_title">Gesty</string>
-  <string name="lockscreen_title">Ekran blokady</string>
-  <string name="misc_title">Różne</string>
-  <string name="navigation_title">Nawigacja</string>
-  <string name="power_title">Menu zasilania</string>
-  <string name="qs_title">Szybkie ustawienia</string>
-  <string name="recents_title">Ostatnie aplikacje</string>
-  <string name="statusbar_title">Pasek statusu</string>
-  <string name="notifications_title">Powiadomienia</string>
-  <string name="xenonhd_title">Centrum XenonHD</string>
-  <string name="xenonsettings_title">Ustawienia XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Lista zmian</string>
-  <string name="changelog_xenonhd_error">Nie można wczytać listy zmian</string>
-  <string name="changelog_xenonhd_summary">Sprawdź zmiany w bieżącej kompilacji</string>
-  <!-- General strings -->
-  <string name="ok">OK</string>
-  <string name="reset">Resetuj</string>
-  <string name="cancel">Anuluj</string>
-  <string name="save">Zapisz</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Wybór koloru</string>
-  <string name="press_color_to_apply">Naciśnij na kolor, aby go użyć</string>
-  <string name="hex">Wartość szesnastkowa:</string>
-  <string name="set">Ustaw</string>
-  <string name="color_default">Domyślny</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <string name="xenonota_summary">Sprawdź aktualizacje XenonHD</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">Zaawansowany restart</string>
-  <string name="advanced_reboot_summary">Dodaj opcję ponownego uruchomienia w trybie recovery lub bottloadera do menu zasilania</string>
-  <!-- Face Unlock -->
-  <string name="face_auto_unlock_title">Automatyczne odblokowywanie twarzą</string>
-  <string name="face_auto_unlock_summary">Nie pokazuj ekranu blokady po odblokowaniu twarzą</string>
-  <!-- Tuners -->
-  <string name="statusbar_items_title">Ikony paska stanu</string>
-  <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
-  <string name="navbar_tuner_title">Przyciski paska nawigacji</string>
-  <string name="gesture_preference">Gesty urządzenia</string>
-  <string name="buttons_settings">Ustawienia przycisków</string>
-  <string name="statusbar_settings">Ustawienia Paska stanu</string>
-  <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
-  <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystkie\"</string>
-  <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystkie\"</string>
-  <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
-  <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
-  <string name="recents_clear_all_location_top_center">Wyśrodkowany na górze</string>
-  <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
-  <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
-  <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
-  <!-- ADB debugging notifications -->
-  <string name="adb_notify">Powiadomienie ADB</string>
-  <string name="adb_notify_summary">Wyświetla powiadomienie, gdy debugowanie USB jest aktywne</string>
-  <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Przejrzystość</string>
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Pasek jasności</string>
-  <string name="qs_show_brightness_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
-  <string name="qs_brightness_position_bottom_title">Pokaż suwak jasności na dole</string>
-  <string name="qs_brightness_position_bottom_summary">Pokaż suwak jasności pod ikonami szybkich ustawień</string>
-  <!-- Navigation gestures -->
-  <string name="gesture_settings_title">Gesty nawigacji</string>
-  <string name="gesture_settings_summary">Użyj gestu przeciągnięcia w górę do nawigacji</string>
-  <string name="use_bottom_gesture_title">Gesty w górę</string>
-  <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
-  <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">Ostrzeżenia w stopce Szybkich ustawień</string>
-  <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu Szybkich ustawień, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">Inteligentne piksele</string>
-  <string name="smart_pixels_enable_title">Włącz inteligentne piksele</string>
-  <string name="smart_pixels_enable_summary">Wyłącz piksele w celu redukcji zużycia energii</string>
-  <string name="smart_pixels_on_power_save_title">Automatyczne włączanie podczas oszczędzania baterii</string>
-  <string name="smart_pixels_on_power_save_summary">Włącz inteligentne piksele, gdy oszczędzanie baterii jest włączone</string>
-  <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
-  <string name="smart_pixels_info">Rysuje ponad aplikacjami i może powodować problemy z Google Pay itp.\n\nWyłącz to przed dodawaniem kart do płatności lub administratorów urządzenia</string>
-  <string name="smart_pixels_shift">Zapobiegaj wypalaniu pikseli poprzez ich przesuwanie, co</string>
-  <string name="smart_pixels_shift_times_15s">15 sekund</string>
-  <string name="smart_pixels_shift_times_30s">30 sekund</string>
-  <string name="smart_pixels_shift_times_1min">1 minuta</string>
-  <string name="smart_pixels_shift_times_2min">2 minuty</string>
-  <string name="smart_pixels_shift_times_5min">5 minut</string>
-  <string name="smart_pixels_shift_times_10min">10 minut</string>
-  <string name="smart_pixels_shift_times_20min">20 minut</string>
-  <string name="smart_pixels_shift_times_30min">30 minut</string>
-  <string name="smart_pixels_shift_times_1h">1 godzina</string>
-  <!-- Dashboard -->
-  <string name="dashboard_conditions_title">Warunki w panelu ustawień</string>
-  <string name="summary_dashboard_conditions_enabled">Warunki są włączone</string>
-  <string name="summary_dashboard_conditions_disabled">Warunki są wyłączone</string>
-  <string name="dashboard_suggestions_title">Sugestie w panelu ustawień</string>
-  <string name="summary_dashboard_suggestions_enabled">Sugestie są włączone</string>
-  <string name="summary_dashboard_suggestions_disabled">Sugestie są wyłączone</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Ustawienia XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">Przyciski</string>
+    <string name="gestures_title">Gesty</string>
+    <string name="lockscreen_title">Ekran blokady</string>
+    <string name="misc_title">Różne</string>
+    <string name="navigation_title">Nawigacja</string>
+    <string name="power_title">Menu zasilania</string>
+    <string name="qs_title">Szybkie ustawienia</string>
+    <string name="recents_title">Ostatnie aplikacje</string>
+    <string name="statusbar_title">Pasek statusu</string>
+    <string name="notifications_title">Powiadomienia</string>
+    <string name="xenonhd_title">Centrum XenonHD</string>
+    <string name="xenonsettings_title">Ustawienia XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Lista zmian</string>
+    <string name="changelog_xenonhd_error">Nie można wczytać listy zmian</string>
+    <string name="changelog_xenonhd_summary">Sprawdź zmiany w bieżącej kompilacji</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Resetuj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Wybór koloru</string>
+    <string name="press_color_to_apply">Naciśnij na kolor, aby go użyć</string>
+    <string name="hex">Wartość szesnastkowa:</string>
+    <string name="set">Ustaw</string>
+    <string name="color_default">Domyślny</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Sprawdź aktualizacje XenonHD</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Zaawansowany restart</string>
+    <string name="advanced_reboot_summary">Dodaj opcję ponownego uruchomienia w trybie recovery lub bottloadera do menu zasilania</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Automatyczne odblokowywanie twarzą</string>
+    <string name="face_auto_unlock_summary">Nie pokazuj ekranu blokady po odblokowaniu twarzą</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">Ikony paska stanu</string>
+    <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
+    <string name="navbar_tuner_title">Przyciski paska nawigacji</string>
+    <string name="gesture_preference">Gesty urządzenia</string>
+    <string name="buttons_settings">Ustawienia przycisków</string>
+    <string name="statusbar_settings">Ustawienia Paska stanu</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
+    <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystkie\"</string>
+    <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystkie\"</string>
+    <string name="recents_clear_all_location_top_right">Prawy górny róg</string>
+    <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
+    <string name="recents_clear_all_location_top_center">Wyśrodkowany na górze</string>
+    <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
+    <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
+    <string name="recents_clear_all_location_bottom_center">Wyśrodkowany na dole</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Powiadomienie ADB</string>
+    <string name="adb_notify_summary">Wyświetla powiadomienie, gdy debugowanie USB jest aktywne</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Przejrzystość</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Pasek jasności</string>
+    <string name="qs_show_brightness_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
+    <string name="qs_brightness_position_bottom_title">Pokaż suwak jasności na dole</string>
+    <string name="qs_brightness_position_bottom_summary">Pokaż suwak jasności pod ikonami szybkich ustawień</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gesty nawigacji</string>
+    <string name="gesture_settings_summary">Użyj gestu przeciągnięcia w górę do nawigacji</string>
+    <string name="use_bottom_gesture_title">Gesty w górę</string>
+    <string name="gesture_settings_info">Pasek nawigacji musi być wyłączony!\n\nDostępne gesty:\n\nWstecz\n- Przesuń w górę po lewej lub prawej stronie\n\nEkran domowy\n- Przesuń w górę po środku ekranu\n\nOstatnie aplikacje\n- Przesuń w górę i przytrzymaj\n\nPoprzednia aplikacja\n- Przesuń krótko po środku ekranu i przytrzymaj</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Ostrzeżenia w stopce Szybkich ustawień</string>
+    <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu Szybkich ustawień, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Włącz pasek nawigacji</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Inteligentne piksele</string>
+    <string name="smart_pixels_enable_title">Włącz inteligentne piksele</string>
+    <string name="smart_pixels_enable_summary">Wyłącz piksele w celu redukcji zużycia energii</string>
+    <string name="smart_pixels_on_power_save_title">Automatyczne włączanie podczas oszczędzania baterii</string>
+    <string name="smart_pixels_on_power_save_summary">Włącz inteligentne piksele, gdy oszczędzanie baterii jest włączone</string>
+    <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
+    <string name="smart_pixels_info">Rysuje ponad aplikacjami i może powodować problemy z Google Pay itp.\n\nWyłącz to przed dodawaniem kart do płatności lub administratorów urządzenia</string>
+    <string name="smart_pixels_shift">Zapobiegaj wypalaniu pikseli poprzez ich przesuwanie, co</string>
+    <string name="smart_pixels_shift_times_15s">15 sekund</string>
+    <string name="smart_pixels_shift_times_30s">30 sekund</string>
+    <string name="smart_pixels_shift_times_1min">1 minuta</string>
+    <string name="smart_pixels_shift_times_2min">2 minuty</string>
+    <string name="smart_pixels_shift_times_5min">5 minut</string>
+    <string name="smart_pixels_shift_times_10min">10 minut</string>
+    <string name="smart_pixels_shift_times_20min">20 minut</string>
+    <string name="smart_pixels_shift_times_30min">30 minut</string>
+    <string name="smart_pixels_shift_times_1h">1 godzina</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Warunki w panelu ustawień</string>
+    <string name="summary_dashboard_conditions_enabled">Warunki są włączone</string>
+    <string name="summary_dashboard_conditions_disabled">Warunki są wyłączone</string>
+    <string name="dashboard_suggestions_title">Sugestie w panelu ustawień</string>
+    <string name="summary_dashboard_suggestions_enabled">Sugestie są włączone</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugestie są wyłączone</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
+    <string name="screenshot_sound_summary">Efekt dźwiękowy podczas zrzutu ekranu</string>
 </resources>

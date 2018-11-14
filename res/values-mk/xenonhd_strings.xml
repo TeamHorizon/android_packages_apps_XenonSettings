@@ -15,35 +15,37 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <string name="misc_title">Разно</string>
-  <!-- Changelog -->
-  <!-- General strings -->
-  <string name="reset">Ресетирај</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Бирач на боја</string>
-  <string name="press_color_to_apply">Притиснете на бојата подолу за да ја поставите</string>
-  <string name="hex">Hex:</string>
-  <string name="set">Постави</string>
-  <string name="color_default">Стандардно</string>
-  <!-- XenonOTA -->
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Лизгач за осветленост</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 секунди</string>
-  <string name="smart_pixels_shift_times_1min">1 минута</string>
-  <string name="smart_pixels_shift_times_5min">5 минути</string>
-  <string name="smart_pixels_shift_times_10min">10 минути</string>
-  <string name="smart_pixels_shift_times_30min">30 минути</string>
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <string name="misc_title">Разно</string>
+    <!-- Changelog -->
+    <!-- General strings -->
+    <string name="reset">Ресетирај</string>
+    <string name="save">Зачувај</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Бирач на боја</string>
+    <string name="press_color_to_apply">Притиснете на бојата подолу за да ја поставите</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Постави</string>
+    <string name="color_default">Стандардно</string>
+    <!-- XenonOTA -->
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Лизгач за осветленост</string>
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 секунди</string>
+    <string name="smart_pixels_shift_times_1min">1 минута</string>
+    <string name="smart_pixels_shift_times_5min">5 минути</string>
+    <string name="smart_pixels_shift_times_10min">10 минути</string>
+    <string name="smart_pixels_shift_times_30min">30 минути</string>
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
 </resources>

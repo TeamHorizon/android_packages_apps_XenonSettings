@@ -15,58 +15,61 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Configurações XenonHD</string>
-  <!-- Categories -->
-  <string name="buttons_title">Botões</string>
-  <string name="gestures_title">Gestos</string>
-  <string name="lockscreen_title">Ecrã de bloqueio</string>
-  <string name="misc_title">Diversos</string>
-  <string name="power_title">Menu de energia</string>
-  <string name="qs_title">Configurações Rápidas</string>
-  <string name="notifications_title">Notificações</string>
-  <string name="xenonhd_title">Hub XenonHD</string>
-  <string name="xenonsettings_title">Configurações XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Registo de alterações</string>
-  <string name="changelog_xenonhd_error">Não foi possível carregar a lista de alterações</string>
-  <!-- General strings -->
-  <string name="ok">OK</string>
-  <string name="reset">Repor</string>
-  <string name="cancel">Cancelar</string>
-  <string name="save">Guardar</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Paleta de cores</string>
-  <string name="press_color_to_apply">Prima numa cor para aplicar</string>
-  <string name="hex">Hex:</string>
-  <string name="set">Definir</string>
-  <string name="color_default">Predefinida</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Superior direito</string>
-  <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
-  <string name="recents_clear_all_location_top_center">Superior ao centro</string>
-  <string name="recents_clear_all_location_bottom_right">Inferior direito</string>
-  <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
-  <string name="recents_clear_all_location_bottom_center">Inferior ao Centro</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Controlo do brilho</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 segundos</string>
-  <string name="smart_pixels_shift_times_1min">1 minuto</string>
-  <string name="smart_pixels_shift_times_5min">5 minutos</string>
-  <string name="smart_pixels_shift_times_10min">10 minutos</string>
-  <string name="smart_pixels_shift_times_30min">30 minutos</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_suggestions_enabled">Sugestões do painel activadas</string>
-  <string name="summary_dashboard_suggestions_disabled">Sugestões do painel desactivadas</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Configurações XenonHD</string>
+    <!-- Categories -->
+    <string name="buttons_title">Botões</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="lockscreen_title">Ecrã de bloqueio</string>
+    <string name="misc_title">Diversos</string>
+    <string name="power_title">Menu de energia</string>
+    <string name="qs_title">Configurações Rápidas</string>
+    <string name="notifications_title">Notificações</string>
+    <string name="xenonhd_title">Hub XenonHD</string>
+    <string name="xenonsettings_title">Configurações XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Registo de alterações</string>
+    <string name="changelog_xenonhd_error">Não foi possível carregar a lista de alterações</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Repor</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Paleta de cores</string>
+    <string name="press_color_to_apply">Prima numa cor para aplicar</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Definir</string>
+    <string name="color_default">Predefinida</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <string name="recents_clear_all_location_top_right">Superior direito</string>
+    <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
+    <string name="recents_clear_all_location_top_center">Superior ao centro</string>
+    <string name="recents_clear_all_location_bottom_right">Inferior direito</string>
+    <string name="recents_clear_all_location_bottom_left">Inferior esquerdo</string>
+    <string name="recents_clear_all_location_bottom_center">Inferior ao Centro</string>
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Controlo do brilho</string>
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 segundos</string>
+    <string name="smart_pixels_shift_times_1min">1 minuto</string>
+    <string name="smart_pixels_shift_times_5min">5 minutos</string>
+    <string name="smart_pixels_shift_times_10min">10 minutos</string>
+    <string name="smart_pixels_shift_times_30min">30 minutos</string>
+    <!-- Dashboard -->
+    <string name="summary_dashboard_suggestions_enabled">Sugestões do painel activadas</string>
+    <string name="summary_dashboard_suggestions_disabled">Sugestões do painel desactivadas</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Som da captura de ecrã</string>
+    <string name="screenshot_sound_summary">Reproduz efeito de som quando a captura de ecrã é tirada</string>
 </resources>

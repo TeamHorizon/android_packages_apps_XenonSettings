@@ -15,35 +15,38 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_error">Kan changelog niet laden</string>
-  <!-- General strings -->
-  <string name="save">Opslaan</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Kleur Kiezer</string>
-  <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
-  <string name="set">Instellen</string>
-  <string name="color_default">Standaard</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Helderheid schuifregelaar</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 seconden</string>
-  <string name="smart_pixels_shift_times_1min">1 minuut</string>
-  <string name="smart_pixels_shift_times_5min">5 minuten</string>
-  <string name="smart_pixels_shift_times_10min">10 minuten</string>
-  <string name="smart_pixels_shift_times_30min">0,5 uur</string>
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_error">Kan changelog niet laden</string>
+    <!-- General strings -->
+    <string name="save">Opslaan</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Kleur Kiezer</string>
+    <string name="press_color_to_apply">Druk op kleur hieronder om toe te passen</string>
+    <string name="set">Instellen</string>
+    <string name="color_default">Standaard</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Helderheid schuifregelaar</string>
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 seconden</string>
+    <string name="smart_pixels_shift_times_1min">1 minuut</string>
+    <string name="smart_pixels_shift_times_5min">5 minuten</string>
+    <string name="smart_pixels_shift_times_10min">10 minuten</string>
+    <string name="smart_pixels_shift_times_30min">0,5 uur</string>
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Schermafdruk geluid</string>
+    <string name="screenshot_sound_summary">Geluidseffect wanneer screenshot wordt genomen</string>
 </resources>

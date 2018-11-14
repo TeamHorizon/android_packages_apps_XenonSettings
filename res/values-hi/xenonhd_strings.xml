@@ -15,22 +15,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <!-- Changelog -->
-  <!-- General strings -->
-  <!-- Color Picker -->
-  <!-- XenonOTA -->
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <!-- Changelog -->
+    <!-- General strings -->
+    <!-- Color Picker -->
+    <!-- XenonOTA -->
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
 </resources>

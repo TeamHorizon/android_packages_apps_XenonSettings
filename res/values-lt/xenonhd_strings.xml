@@ -15,41 +15,42 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <string name="lockscreen_title">Ekrano užraktas</string>
-  <!-- Changelog -->
-  <!-- General strings -->
-  <string name="reset">Atstatyti</string>
-  <string name="save">Išsaugoti</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Spalvos parinkimas</string>
-  <string name="press_color_to_apply">Paspauskite žemiau pateiktą spalvą pritaikymui</string>
-  <string name="set">Nustatyti</string>
-  <string name="color_default">Numatyta</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <string name="recents_clear_all_location_top_right">Viršuje dešinėje</string>
-  <string name="recents_clear_all_location_top_left">Viršuje kairėje</string>
-  <string name="recents_clear_all_location_top_center">Viršuje per vidurį</string>
-  <string name="recents_clear_all_location_bottom_right">Apačioje dešinėje</string>
-  <string name="recents_clear_all_location_bottom_left">Apačioje kairėje</string>
-  <string name="recents_clear_all_location_bottom_center">Apačioje per vidurį</string>
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 sekundžių</string>
-  <string name="smart_pixels_shift_times_1min">1 minutę</string>
-  <string name="smart_pixels_shift_times_5min">5 minutes</string>
-  <string name="smart_pixels_shift_times_10min">10 minučių</string>
-  <string name="smart_pixels_shift_times_30min">30 minučių</string>
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <string name="lockscreen_title">Ekrano užraktas</string>
+    <!-- Changelog -->
+    <!-- General strings -->
+    <string name="reset">Atstatyti</string>
+    <string name="save">Išsaugoti</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Spalvos parinkimas</string>
+    <string name="press_color_to_apply">Paspauskite žemiau pateiktą spalvą pritaikymui</string>
+    <string name="set">Nustatyti</string>
+    <string name="color_default">Numatyta</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <string name="recents_clear_all_location_top_right">Viršuje dešinėje</string>
+    <string name="recents_clear_all_location_top_left">Viršuje kairėje</string>
+    <string name="recents_clear_all_location_top_center">Viršuje per vidurį</string>
+    <string name="recents_clear_all_location_bottom_right">Apačioje dešinėje</string>
+    <string name="recents_clear_all_location_bottom_left">Apačioje kairėje</string>
+    <string name="recents_clear_all_location_bottom_center">Apačioje per vidurį</string>
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 sekundžių</string>
+    <string name="smart_pixels_shift_times_1min">1 minutę</string>
+    <string name="smart_pixels_shift_times_5min">5 minutes</string>
+    <string name="smart_pixels_shift_times_10min">10 minučių</string>
+    <string name="smart_pixels_shift_times_30min">30 minučių</string>
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
 </resources>

@@ -15,42 +15,45 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">Параметри XenonHD</string>
-  <!-- Categories -->
-  <string name="lockscreen_title">Екран блокування</string>
-  <string name="misc_title">Різне</string>
-  <string name="xenonsettings_title">Параметри XenonHD</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Список змін</string>
-  <string name="changelog_xenonhd_error">Помилка завантаження списку змін</string>
-  <!-- General strings -->
-  <string name="reset">Скидання</string>
-  <string name="save">Зберегти</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">Палітра кольорів</string>
-  <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
-  <string name="hex">Hex код:</string>
-  <string name="set">Задати</string>
-  <string name="color_default">За замовчуванням</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Повзунок яскравості</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 секунд</string>
-  <string name="smart_pixels_shift_times_1min">1 хвилина</string>
-  <string name="smart_pixels_shift_times_5min">5 хвилин</string>
-  <string name="smart_pixels_shift_times_10min">10 хвилин</string>
-  <string name="smart_pixels_shift_times_30min">30 хвилин</string>
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">Параметри XenonHD</string>
+    <!-- Categories -->
+    <string name="lockscreen_title">Екран блокування</string>
+    <string name="misc_title">Різне</string>
+    <string name="xenonsettings_title">Параметри XenonHD</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Список змін</string>
+    <string name="changelog_xenonhd_error">Помилка завантаження списку змін</string>
+    <!-- General strings -->
+    <string name="reset">Скидання</string>
+    <string name="save">Зберегти</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Палітра кольорів</string>
+    <string name="press_color_to_apply">Натисніть на колір нижче, щоб застосувати</string>
+    <string name="hex">Hex код:</string>
+    <string name="set">Задати</string>
+    <string name="color_default">За замовчуванням</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Повзунок яскравості</string>
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 секунд</string>
+    <string name="smart_pixels_shift_times_1min">1 хвилина</string>
+    <string name="smart_pixels_shift_times_5min">5 хвилин</string>
+    <string name="smart_pixels_shift_times_10min">10 хвилин</string>
+    <string name="smart_pixels_shift_times_30min">30 хвилин</string>
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук скріншота</string>
+    <string name="screenshot_sound_summary">Програвати звук при скріншоті</string>
 </resources>

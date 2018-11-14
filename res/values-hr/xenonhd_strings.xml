@@ -15,33 +15,36 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <string name="lockscreen_title">Zaslon zaključavanja</string>
-  <string name="misc_title">Razno</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Lista promjena</string>
-  <string name="changelog_xenonhd_error">Nije moguće učitati popis promjena</string>
-  <!-- General strings -->
-  <string name="reset">Ponovno pokreni</string>
-  <!-- Color Picker -->
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_shift_times_30s">30 sekundi</string>
-  <string name="smart_pixels_shift_times_1min">1 minuta</string>
-  <string name="smart_pixels_shift_times_5min">5 minuta</string>
-  <string name="smart_pixels_shift_times_10min">10 minuta</string>
-  <string name="smart_pixels_shift_times_30min">30 minuta</string>
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <string name="lockscreen_title">Zaslon zaključavanja</string>
+    <string name="misc_title">Razno</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Lista promjena</string>
+    <string name="changelog_xenonhd_error">Nije moguće učitati popis promjena</string>
+    <!-- General strings -->
+    <string name="reset">Ponovno pokreni</string>
+    <!-- Color Picker -->
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_shift_times_30s">30 sekundi</string>
+    <string name="smart_pixels_shift_times_1min">1 minuta</string>
+    <string name="smart_pixels_shift_times_5min">5 minuta</string>
+    <string name="smart_pixels_shift_times_10min">10 minuta</string>
+    <string name="smart_pixels_shift_times_30min">30 minuta</string>
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Zvuk snimanja zaslona</string>
+    <string name="screenshot_sound_summary">Reprodukcija zvučnog efekta dok snimate zaslon</string>
 </resources>

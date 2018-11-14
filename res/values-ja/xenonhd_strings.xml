@@ -15,89 +15,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="xenonhd_settings_title">XenonHDの設定</string>
-  <!-- Categories -->
-  <string name="buttons_title">ボタン</string>
-  <string name="gestures_title">ジェスチャー</string>
-  <string name="lockscreen_title">ロック画面</string>
-  <string name="misc_title">その他</string>
-  <string name="navigation_title">ナビゲーション</string>
-  <string name="power_title">電源メニュー</string>
-  <string name="qs_title">クイック設定</string>
-  <string name="recents_title">アプリ履歴</string>
-  <string name="statusbar_title">ステータスバー</string>
-  <string name="notifications_title">通知</string>
-  <string name="xenonhd_title">XenonHDハブ</string>
-  <string name="xenonsettings_title">XenonHDの設定</string>
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">更新履歴</string>
-  <string name="changelog_xenonhd_error">更新履歴を読み込めませんでした</string>
-  <string name="changelog_xenonhd_summary">現在のリリースでの変更の表示する</string>
-  <!-- General strings -->
-  <string name="ok">OK</string>
-  <string name="reset">リセット</string>
-  <string name="cancel">キャンセル</string>
-  <string name="save">保存</string>
-  <!-- Color Picker -->
-  <string name="dialog_color_picker">色の選択</string>
-  <string name="press_color_to_apply">色を選択して適用</string>
-  <string name="hex">16進数：</string>
-  <string name="set">設定</string>
-  <string name="color_default">既定</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <string name="xenonota_summary">XenonHDの更新を確認する</string>
-  <!-- Advanced restart options -->
-  <string name="advanced_reboot_title">高度な再起動</string>
-  <string name="advanced_reboot_summary">ロック解除時にリカバリーやブートローダーで再起動するオプションを電源メニューに含める</string>
-  <!-- Face Unlock -->
-  <string name="face_auto_unlock_title">フェイスアンロック</string>
-  <string name="face_auto_unlock_summary">顔認証した時ロック画面をスキップする</string>
-  <!-- Tuners -->
-  <string name="statusbar_items_title">ステータスバーアイコン</string>
-  <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
-  <string name="navbar_tuner_title">ナビゲーションバーボタン</string>
-  <string name="buttons_settings">ボタン設定</string>
-  <string name="statusbar_settings">ステータスバーの設定</string>
-  <!-- Recents panel settings -->
-  <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
-  <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
-  <string name="recents_clear_all_location_title">ボタンの表示位置</string>
-  <string name="recents_clear_all_location_top_right">右上</string>
-  <string name="recents_clear_all_location_top_left">左上</string>
-  <string name="recents_clear_all_location_top_center">中央上</string>
-  <string name="recents_clear_all_location_bottom_right">右下</string>
-  <string name="recents_clear_all_location_bottom_left">左下</string>
-  <string name="recents_clear_all_location_bottom_center">中央下</string>
-  <!-- ADB debugging notifications -->
-  <string name="adb_notify">ADBの通知</string>
-  <string name="adb_notify_summary">Androidデバッグが有効になっている時に通知を表示する</string>
-  <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">透明度</string>
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">明るさスライダー</string>
-  <string name="qs_show_brightness_summary">クイック設定パネルに明るさスライダーを表示する</string>
-  <!-- Navigation gestures -->
-  <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <string name="navigation_bar_enabled_title">ナビゲーションバーを有効化</string>
-  <!-- Smart Pixels -->
-  <string name="smart_pixels_title">スマートピクセル</string>
-  <string name="smart_pixels_enable_title">スマートピクセルを有効にする</string>
-  <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
-  <string name="smart_pixels_on_power_save_title">バッテリーセーバー時に自動的に有効化</string>
-  <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
-  <string name="smart_pixels_percent">無効にする画素の割合</string>
-  <string name="smart_pixels_shift_times_30s">30秒</string>
-  <string name="smart_pixels_shift_times_1min">1分</string>
-  <string name="smart_pixels_shift_times_5min">5分</string>
-  <string name="smart_pixels_shift_times_10min">10分</string>
-  <string name="smart_pixels_shift_times_30min">30分</string>
-  <!-- Dashboard -->
-  <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効です</string>
-  <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効です</string>
-  <string name="summary_dashboard_suggestions_enabled">ダッシュボードの候補の表示が有効です</string>
-  <string name="summary_dashboard_suggestions_disabled">ダッシュボードの候補の表示が無効です</string>
+    <!-- App Title -->
+    <string name="xenonhd_settings_title">XenonHDの設定</string>
+    <!-- Categories -->
+    <string name="buttons_title">ボタン</string>
+    <string name="gestures_title">ジェスチャー</string>
+    <string name="lockscreen_title">ロック画面</string>
+    <string name="misc_title">その他</string>
+    <string name="navigation_title">ナビゲーション</string>
+    <string name="power_title">電源メニュー</string>
+    <string name="qs_title">クイック設定</string>
+    <string name="recents_title">アプリ履歴</string>
+    <string name="statusbar_title">ステータスバー</string>
+    <string name="notifications_title">通知</string>
+    <string name="xenonhd_title">XenonHDハブ</string>
+    <string name="xenonsettings_title">XenonHDの設定</string>
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">更新履歴</string>
+    <string name="changelog_xenonhd_error">更新履歴を読み込めませんでした</string>
+    <string name="changelog_xenonhd_summary">現在のリリースでの変更の表示する</string>
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">リセット</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">色の選択</string>
+    <string name="press_color_to_apply">色を選択して適用</string>
+    <string name="hex">16進数：</string>
+    <string name="set">設定</string>
+    <string name="color_default">既定</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">XenonHDの更新を確認する</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">高度な再起動</string>
+    <string name="advanced_reboot_summary">ロック解除時にリカバリーやブートローダーで再起動するオプションを電源メニューに含める</string>
+    <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">フェイスアンロック</string>
+    <string name="face_auto_unlock_summary">顔認証した時ロック画面をスキップする</string>
+    <!-- Tuners -->
+    <string name="statusbar_items_title">ステータスバーアイコン</string>
+    <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
+    <string name="navbar_tuner_title">ナビゲーションバーボタン</string>
+    <string name="gesture_preference">ネイティブジェスチャー</string>
+    <string name="buttons_settings">ボタン設定</string>
+    <string name="statusbar_settings">ステータスバーの設定</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+    <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
+    <string name="recents_clear_all_location_title">ボタンの表示位置</string>
+    <string name="recents_clear_all_location_top_right">右上</string>
+    <string name="recents_clear_all_location_top_left">左上</string>
+    <string name="recents_clear_all_location_top_center">中央上</string>
+    <string name="recents_clear_all_location_bottom_right">右下</string>
+    <string name="recents_clear_all_location_bottom_left">左下</string>
+    <string name="recents_clear_all_location_bottom_center">中央下</string>
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADBの通知</string>
+    <string name="adb_notify_summary">Androidデバッグが有効になっている時に通知を表示する</string>
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">透明度</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">明るさスライダー</string>
+    <string name="qs_show_brightness_summary">クイック設定パネルに明るさスライダーを表示する</string>
+    <string name="qs_brightness_position_bottom_title">下部の明るさスライダー</string>
+    <string name="qs_brightness_position_bottom_summary">クイック設定下部に明るさスライダーを表示する</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">ナビゲーションジェスチャー</string>
+    <string name="gesture_settings_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
+    <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
+    <string name="gesture_settings_info">ナビゲーションバーを無効にする必要があります！\n\n使用可能なジェスチャー：\n\nバック\n- 左右の端を上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\n最後に使ったアプリ\n-中央を短く上スワイプして維持</string>
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">クイック設定下部の警告</string>
+    <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">ナビゲーションバーを有効化</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">スマートピクセル</string>
+    <string name="smart_pixels_enable_title">スマートピクセルを有効にする</string>
+    <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
+    <string name="smart_pixels_on_power_save_title">バッテリーセーバー時に自動的に有効化</string>
+    <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
+    <string name="smart_pixels_percent">無効にする画素の割合</string>
+    <string name="smart_pixels_info">アプリでオーバーレイを上書きするとGoogle Payなどの問題が発生する可能性があります。\n\nGoogle Payにカードを追加する前に無効にするか、端末管理者を有効/無効にしてください。</string>
+    <string name="smart_pixels_shift">使う画素を移し替えて画面の焼付きを避ける</string>
+    <string name="smart_pixels_shift_times_15s">15秒</string>
+    <string name="smart_pixels_shift_times_30s">30秒</string>
+    <string name="smart_pixels_shift_times_1min">1分</string>
+    <string name="smart_pixels_shift_times_2min">2分</string>
+    <string name="smart_pixels_shift_times_5min">5分</string>
+    <string name="smart_pixels_shift_times_10min">10分</string>
+    <string name="smart_pixels_shift_times_20min">20分</string>
+    <string name="smart_pixels_shift_times_30min">30分</string>
+    <string name="smart_pixels_shift_times_1h">1時間</string>
+    <!-- Dashboard -->
+    <string name="dashboard_conditions_title">ダッシュボードの状態</string>
+    <string name="summary_dashboard_conditions_enabled">ダッシュボードの状態の表示が有効です</string>
+    <string name="summary_dashboard_conditions_disabled">ダッシュボードの状態の表示が無効です</string>
+    <string name="dashboard_suggestions_title">ダッシュボードの候補表示</string>
+    <string name="summary_dashboard_suggestions_enabled">ダッシュボードの候補の表示が有効です</string>
+    <string name="summary_dashboard_suggestions_disabled">ダッシュボードの候補の表示が無効です</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">スクリーンショットの音</string>
+    <string name="screenshot_sound_summary">スクリーンショットを取得した際に効果音を鳴らす</string>
 </resources>

@@ -15,28 +15,29 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <!-- Categories -->
-  <!-- Changelog -->
-  <string name="changelog_xenonhd_title">Istoricul schimbărilor</string>
-  <string name="changelog_xenonhd_error">Nu am putut încărca jurnalul cu schimbări</string>
-  <!-- General strings -->
-  <!-- Color Picker -->
-  <string name="set">Setaţi</string>
-  <string name="color_default">Prestabilit</string>
-  <!-- XenonOTA -->
-  <string name="xenonota_title">XenonOTA</string>
-  <!-- Advanced restart options -->
-  <!-- Face Unlock -->
-  <!-- Tuners -->
-  <!-- Recents panel settings -->
-  <!-- ADB debugging notifications -->
-  <!-- QuickSettings Panel Transparency -->
-  <!-- Quick Settings brightness slider -->
-  <string name="qs_show_brightness_title">Glisorul Luminozitati</string>
-  <!-- Navigation gestures -->
-  <!-- QS footer warnings -->
-  <!-- Toggle navigation bar -->
-  <!-- Smart Pixels -->
-  <!-- Dashboard -->
+    <!-- App Title -->
+    <!-- Categories -->
+    <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Istoricul schimbărilor</string>
+    <string name="changelog_xenonhd_error">Nu am putut încărca jurnalul cu schimbări</string>
+    <!-- General strings -->
+    <!-- Color Picker -->
+    <string name="set">Setaţi</string>
+    <string name="color_default">Prestabilit</string>
+    <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <!-- Advanced restart options -->
+    <!-- Face Unlock -->
+    <!-- Tuners -->
+    <!-- Recents panel settings -->
+    <!-- ADB debugging notifications -->
+    <!-- QuickSettings Panel Transparency -->
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Glisorul Luminozitati</string>
+    <!-- Navigation gestures -->
+    <!-- QS footer warnings -->
+    <!-- Toggle navigation bar -->
+    <!-- Smart Pixels -->
+    <!-- Dashboard -->
+    <!-- Screenshot sound -->
 </resources>
