@@ -49,6 +49,18 @@
         android:order="-9"
         android:fragment="com.android.settings.xenonhd.Changelog" />
 
+
+    <!-- Themes -->
+    <Preference
+        android:key="los_styles"
+        android:title="@string/themes_title"
+        android:summary="@string/themes_summary"
+        android:icon="@drawable/ic_themes">
+        <intent android:action="org.lineageos.lineageparts.STYLE_SETTINGS"
+                android:targetPackage="org.lineageos.lineageparts"
+                android:targetClass="org.lineageos.lineageparts.style.StylePreferences" />
+    </Preference>
+
     </PreferenceCategory>
 
     <PreferenceCategory
