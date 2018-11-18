@@ -14,34 +14,45 @@
  * limitations under the License.
  */
 
-
 package com.xenonhd.settings.fragments;
 
-import com.xenonhd.settings.BaseSettingsFragment;
-import com.xenonhd.settings.R;
+import com.android.internal.logging.nano.MetricsProto;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
+import android.provider.SearchIndexableResource;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v14.preference.SwitchPreference;
 
-import com.xenonhd.settings.BaseSettingsFragment;
+import com.xenonhd.settings.XenonSettings;
 import com.xenonhd.settings.R;
 import com.xenonhd.settings.preferences.Utils;
 
-public class ThemeSettings extends BaseSettingsFragment implements Preference.OnPreferenceChangeListener {
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+import com.android.settings.SettingsPreferenceFragment;
+
+import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
+public class ThemeSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener, Indexable {
 
     private Handler mHandler = new Handler();
 
     @Override
-    protected int getPreferenceResource() {
-        return R.xml.xenonhd_themes;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        addPreferencesFromResource(R.xml.xenonhd_themes);
 
         findPreference(Settings.System.THEMING_BASE).setOnPreferenceChangeListener(this);
     }
@@ -72,4 +83,30 @@ public class ThemeSettings extends BaseSettingsFragment implements Preference.On
     private boolean hasDarkNotifications(int baseThemePref) {
             return baseThemePref >= 3 && baseThemePref <= 6;
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.XENONHD_SETTINGS;
+    }
+
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                 @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+                     final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.xenonhd_themes;
+                    result.add(sir);
+                    return result;
+                }
+                 @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
