@@ -30,6 +30,8 @@
     <string name="notifications_title">Notifications</string>
     <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">XenonHD Settings</string>
+    <string name="themes_title">Themes</string>
+    <string name="themes_summary">Device default design</string>
 
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Changelog</string>
