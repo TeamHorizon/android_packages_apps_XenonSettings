@@ -30,6 +30,8 @@
     <string name="notifications_title">Уведомления</string>
     <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">Настройки XenonHD</string>
+    <string name="themes_title">Темы</string>
+    <string name="themes_summary">Изменить стиль</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Список изменений</string>
     <string name="changelog_xenonhd_error">Невозможно загрузить список изменений</string>
@@ -85,6 +87,7 @@
     <string name="gesture_settings_title">Жесты навигации</string>
     <string name="gesture_settings_summary">Свайп вверх для навигации</string>
     <string name="use_bottom_gesture_title">Жесты вверх</string>
+    <string name="gesture_settings_info">Панель навигации должна быть отключена! Доступны жесты: \"Назад\" - свайп вверх слева или справа. \"Домой\" - свайп вверх от середины. \"Недавние приложения\" - свайп вверх от центра и удержание. \"Последнее приложение\" - короткий свайп вверх и удержание в центре</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>
@@ -97,6 +100,7 @@
     <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
     <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
     <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_info">Это работает поверх приложений и может вызвать проблемы в работе Google Pay и т. п. Отключите перед добавлением карт в Google Pay или включением/отключением администраторов устройства</string>
     <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
     <string name="smart_pixels_shift_times_15s">15 секунд</string>
     <string name="smart_pixels_shift_times_30s">30 секунд</string>
@@ -117,4 +121,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скриншота</string>
     <string name="screenshot_sound_summary">Проигрывать звук при скриншоте</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Запись экрана</string>
+    <string name="global_actions_screenrecord_summary">Добавить Запись экрана в меню выключения</string>
 </resources>

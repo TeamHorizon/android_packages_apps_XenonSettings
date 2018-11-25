@@ -119,4 +119,6 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">螢幕擷取音效</string>
     <string name="screenshot_sound_summary">擷取螢幕畫面時播放音效</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">螢幕錄製</string>
 </resources>

@@ -58,4 +58,6 @@
     <string name="smart_pixels_percent">사용 중지 할 픽셀 비율</string>
     <!-- Dashboard -->
     <!-- Screenshot sound -->
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">화면 녹화</string>
 </resources>

@@ -84,4 +84,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suono screenshot</string>
     <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
+    <!-- Screenrecord -->
 </resources>

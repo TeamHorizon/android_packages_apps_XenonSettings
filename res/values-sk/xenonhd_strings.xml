@@ -119,4 +119,6 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
     <string name="screenshot_sound_summary">Prehrá zvukový efekt pri snímke obrazovky</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Záznam obrazovky</string>
 </resources>

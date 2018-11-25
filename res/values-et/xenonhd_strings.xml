@@ -82,4 +82,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Kuvatõmmise heli</string>
     <string name="screenshot_sound_summary">Esitab heli, kui kuvatõmmis on võetud</string>
+    <!-- Screenrecord -->
 </resources>

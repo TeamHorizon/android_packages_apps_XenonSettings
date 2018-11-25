@@ -84,4 +84,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Гук скрыншота</string>
     <string name="screenshot_sound_summary">Прайграваць гук пры скрыншоце</string>
+    <!-- Screenrecord -->
 </resources>

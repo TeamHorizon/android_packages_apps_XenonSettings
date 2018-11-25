@@ -30,6 +30,8 @@
     <string name="notifications_title">Bildirimler</string>
     <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">XenonHD Ayarları</string>
+    <string name="themes_title">Temalar</string>
+    <string name="themes_summary">Arayüz stilini değiştir</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Değişiklikler</string>
     <string name="changelog_xenonhd_error">Değişiklik kaydı yüklenemedi</string>
@@ -119,4 +121,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntü sesi</string>
     <string name="screenshot_sound_summary">Ekran görüntüsü alındığında ses efekti çıkar</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Ekran kaydı</string>
+    <string name="global_actions_screenrecord_summary">Güç menüsüne ekran kaydı geçişi ekle</string>
 </resources>

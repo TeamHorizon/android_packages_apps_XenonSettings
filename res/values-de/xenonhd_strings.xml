@@ -75,4 +75,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Bildschirmfoto-Ton</string>
     <string name="screenshot_sound_summary">Spielt einen Ton ab, wenn ein Screenshot aufgenommen wird</string>
+    <!-- Screenrecord -->
 </resources>

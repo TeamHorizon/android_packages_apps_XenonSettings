@@ -59,4 +59,5 @@
     <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
     <string name="summary_dashboard_suggestions_disabled">Đề xuất bảng điều khiển được tắt</string>
     <!-- Screenshot sound -->
+    <!-- Screenrecord -->
 </resources>

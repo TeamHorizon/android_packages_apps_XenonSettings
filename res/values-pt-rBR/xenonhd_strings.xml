@@ -30,6 +30,8 @@
     <string name="notifications_title">Notificações</string>
     <string name="xenonhd_title">XenonHD Cubo</string>
     <string name="xenonsettings_title">Configurações XenonHD</string>
+    <string name="themes_title">Temas</string>
+    <string name="themes_summary">Alterar o estilo da UI</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Registro de mudanças</string>
     <string name="changelog_xenonhd_error">Não foi possível carregar o registro de mudanças</string>
@@ -119,4 +121,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Som de captura de tela</string>
     <string name="screenshot_sound_summary">Tocar efeito de som ao capturar tela</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Gravação de tela</string>
+    <string name="global_actions_screenrecord_summary">Incluir opção para gravar a tela no menu liga/desliga</string>
 </resources>

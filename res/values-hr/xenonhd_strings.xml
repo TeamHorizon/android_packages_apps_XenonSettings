@@ -47,4 +47,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk snimanja zaslona</string>
     <string name="screenshot_sound_summary">Reprodukcija zvučnog efekta dok snimate zaslon</string>
+    <!-- Screenrecord -->
 </resources>

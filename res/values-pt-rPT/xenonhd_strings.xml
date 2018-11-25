@@ -72,4 +72,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Som da captura de ecrã</string>
     <string name="screenshot_sound_summary">Reproduz efeito de som quando a captura de ecrã é tirada</string>
+    <!-- Screenrecord -->
 </resources>

@@ -56,4 +56,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скріншота</string>
     <string name="screenshot_sound_summary">Програвати звук при скріншоті</string>
+    <!-- Screenrecord -->
 </resources>

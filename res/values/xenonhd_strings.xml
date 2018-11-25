@@ -141,6 +141,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sound</string>
     <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
+
     <!-- Screenrecord -->
     <string name="global_actions_screenrecord_title">Screenrecord</string>
     <string name="global_actions_screenrecord_summary">Add Screenrecord toggle to Power Menu</string>

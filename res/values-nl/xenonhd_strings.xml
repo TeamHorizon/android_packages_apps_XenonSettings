@@ -49,4 +49,5 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Schermafdruk geluid</string>
     <string name="screenshot_sound_summary">Geluidseffect wanneer screenshot wordt genomen</string>
+    <!-- Screenrecord -->
 </resources>

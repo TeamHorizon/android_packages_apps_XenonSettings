@@ -116,4 +116,6 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Képernyőkép hangja</string>
     <string name="screenshot_sound_summary">Hang lejátszása képernyőkép készítésekor</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Képernyőfelvétel</string>
 </resources>

@@ -30,6 +30,8 @@
     <string name="notifications_title">Powiadomienia</string>
     <string name="xenonhd_title">Centrum XenonHD</string>
     <string name="xenonsettings_title">Ustawienia XenonHD</string>
+    <string name="themes_title">Motywy</string>
+    <string name="themes_summary">Zmiana stylu interfejsu użytkownika</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Lista zmian</string>
     <string name="changelog_xenonhd_error">Nie można wczytać listy zmian</string>
@@ -119,4 +121,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Dźwięk zrzutu ekranu</string>
     <string name="screenshot_sound_summary">Efekt dźwiękowy podczas zrzutu ekranu</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Nagrywanie ekranu</string>
+    <string name="global_actions_screenrecord_summary">Dodaj przełącznik Nagrywania Ekranu do Menu Zasilania</string>
 </resources>

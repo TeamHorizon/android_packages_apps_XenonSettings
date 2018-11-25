@@ -30,6 +30,8 @@
     <string name="notifications_title">Oznámení</string>
     <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">Nastavení XenonHD</string>
+    <string name="themes_title">Motivy</string>
+    <string name="themes_summary">Změna stylu UI</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Protokol změn</string>
     <string name="changelog_xenonhd_error">Chyba při načítání seznamu změn</string>
@@ -119,4 +121,7 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
     <string name="screenshot_sound_summary">Přehraje zvukový efekt při snímku obrazovky</string>
+    <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Záznam obrazovky</string>
+    <string name="global_actions_screenrecord_summary">Přidat přepínač Videozáznam obrazovky do menu napájení</string>
 </resources>
