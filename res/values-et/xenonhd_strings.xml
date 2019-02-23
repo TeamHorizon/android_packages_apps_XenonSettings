@@ -47,6 +47,7 @@
     <string name="xenonota_summary">XenonHD värskenduste otsimine</string>
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Täiustatud alglaadimine</string>
+    <string name="advanced_reboot_summary">Kui lukustamata, lisa toitemenüüsse valikud taaskäivitamiseks recoverisse või bootloaderisse</string>
     <!-- Face Unlock -->
     <!-- Tuners -->
     <!-- Recents panel settings -->
@@ -61,12 +62,15 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Ereduse liugur</string>
     <!-- Navigation gestures -->
+    <string name="use_bottom_gesture_title">Viipa ülesse žestid</string>
     <!-- QS footer warnings -->
     <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Luba navigatsiooni riba</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Targad pikslid</string>
     <string name="smart_pixels_enable_title">Luba targad pikslid</string>
     <string name="smart_pixels_enable_summary">Voolutarbe vähendamiseks lülita pikslid välja</string>
+    <string name="smart_pixels_on_power_save_title">Auto-luba akusäästja</string>
     <string name="smart_pixels_on_power_save_summary">Lülita targad pikslid sisse kui akusäästja on sisse lülitatud</string>
     <string name="smart_pixels_percent">Keelatavate pikslite protsent</string>
     <string name="smart_pixels_shift_times_30s">30 sekundit</string>

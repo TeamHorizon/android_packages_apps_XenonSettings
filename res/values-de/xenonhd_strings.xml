@@ -47,6 +47,7 @@
     <!-- Advanced restart options -->
     <!-- Face Unlock -->
     <!-- Tuners -->
+    <string name="lockscreen_tuner_title">Συντομεύσεις οθόνης κλειδώματος</string>
     <!-- Recents panel settings -->
     <string name="recents_clear_all_location_top_right">Oben rechts</string>
     <string name="recents_clear_all_location_top_left">Oben links</string>

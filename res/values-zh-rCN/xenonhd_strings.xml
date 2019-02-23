@@ -30,6 +30,8 @@
     <string name="notifications_title">通知</string>
     <string name="xenonhd_title">XenonHD 中心</string>
     <string name="xenonsettings_title">XenonHD 设置</string>
+    <string name="themes_title">主题</string>
+    <string name="themes_summary">更改UI样式</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">更新日志</string>
     <string name="changelog_xenonhd_error">无法加载更新日志</string>
@@ -86,6 +88,10 @@
     <string name="gesture_settings_summary">使用向上滑动手势进行导航</string>
     <string name="use_bottom_gesture_title">滑动手势</string>
     <string name="gesture_settings_info">必须关闭导航栏！\n\n可用手势\n\n后退\n-向左或向右滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
+    <string name="gesture_swipe_length_title">滑动触发区高度</string>
+    <string name="gesture_swipe_length_summary">从底部到触发点滑动</string>
+    <string name="gesture_action_timeout_title">滑动触发超时</string>
+    <string name="gesture_action_timeout_summary">触发手势操作所需的时长</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">快速设面板底部警告</string>
     <string name="qs_footer_warnings_summary">当网络被VPN或者应用程序监测时，在快速设置底部显示警告</string>
@@ -121,4 +127,5 @@
     <string name="screenshot_sound_summary">截图时播放提示音效</string>
     <!-- Screenrecord -->
     <string name="global_actions_screenrecord_title">屏幕录像</string>
+    <string name="global_actions_screenrecord_summary">将屏幕录制开关添加至电源菜单</string>
 </resources>

@@ -36,6 +36,7 @@
     <!-- Advanced restart options -->
     <!-- Face Unlock -->
     <!-- Tuners -->
+    <string name="lockscreen_tuner_title">إختصارات شاشة القفل</string>
     <!-- Recents panel settings -->
     <string name="recents_clear_all_location_top_right">Trên cùng bên phải</string>
     <string name="recents_clear_all_location_top_left">Trên cùng bên trái</string>

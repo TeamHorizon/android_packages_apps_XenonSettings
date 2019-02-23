@@ -30,6 +30,7 @@
     <!-- Advanced restart options -->
     <!-- Face Unlock -->
     <!-- Tuners -->
+    <string name="lockscreen_tuner_title">Zkratky na zamykací obrazovce</string>
     <!-- Recents panel settings -->
     <!-- ADB debugging notifications -->
     <!-- QuickSettings Panel Transparency -->
