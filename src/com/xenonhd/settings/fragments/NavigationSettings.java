@@ -43,6 +43,8 @@ import com.android.settings.R;
 import java.util.ArrayList;
 import java.util.List;
 
+import lineageos.hardware.LineageHardwareManager;
+
 public class NavigationSettings extends SettingsPreferenceFragment implements
              OnPreferenceChangeListener, Indexable {
 
@@ -53,6 +55,7 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.xenonhd_navigation);
         ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         mNavbarToggle = (SwitchPreference) findPreference("navigation_bar_enabled");
         boolean enabled = Settings.Secure.getIntForUser(
@@ -62,6 +65,16 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
                 UserHandle.USER_CURRENT) == 1;
         mNavbarToggle.setChecked(enabled);
         mNavbarToggle.setOnPreferenceChangeListener(this);
+
+        boolean supportsKeyDisabler = isKeyDisablerSupported(getActivity());
+        if (supportsKeyDisabler) {
+            prefScreen.removePreference(mNavbarToggle);
+        }
+    }
+
+    private static boolean isKeyDisablerSupported(Context context) {
+        final LineageHardwareManager hardware = LineageHardwareManager.getInstance(context);
+        return hardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE);
     }
 
     @Override
@@ -83,7 +96,7 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.XENONHD_SETTINGS;
     }
 
-	    /**
+    /**
      * For Search.
      */
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
