@@ -88,6 +88,9 @@
     <string name="gesture_settings_summary">استخدم إيماءة السحب لأعلى من الأسفل للتنقل</string>
     <string name="use_bottom_gesture_title">إيماءات السحب للاعلى</string>
     <string name="gesture_settings_info">يجب تعطيل شريط التنقل!\n\nالإيماءات المتاحة::\n\nرجوع\n- مرر لأعلى على الجانب الأيمن أو الأيسر\n\nالصفحة الرئيسية\n- مرر لأعلى من الوسط\n\nالتطبيقات الحديثة\n- مرر لأعلى من الوسط مع الاستمرار\n\nالتطبيق الأخير\n- اسحب سريعًا لأعلى مع الاستمرار في المركز</string>
+    <string name="gesture_swipe_length_title">إرتفاع مشغل التمرير</string>
+    <string name="gesture_action_timeout_title">مهلة مشغل التمرير</string>
+    <string name="gesture_action_timeout_summary">المهلة قبل بدء إجراء الإيماءة</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">تحذيرات اسفل الإعدادات السريعة</string>
     <string name="qs_footer_warnings_summary">عرض تحذير أسفل لوحة الإعدادات السريعة عندما تكون الشبكة مراقبة عن طريق تطبيقات خارجية أو شبكة خاصة</string>

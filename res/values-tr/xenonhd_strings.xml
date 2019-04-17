@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="xenonhd_settings_title">XenonHD Ayarları</string>
+    <string name="xenonhd_settings_title">XenonHD ayarları</string>
     <!-- Categories -->
     <string name="buttons_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
@@ -88,6 +88,9 @@
     <string name="gesture_settings_summary">Gezinme için yukarı kaydırma hareketlerini kullan</string>
     <string name="use_bottom_gesture_title">Kaydırma hareketleri</string>
     <string name="gesture_settings_info">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nYeni uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nSon uygulamalar\n- Kısa hızlı yukarı kaydırıp merkezde tutun</string>
+    <string name="gesture_swipe_length_title">Kaydırma alanı yüksekliği</string>
+    <string name="gesture_action_timeout_title">Kaydırma eylemi zamanı</string>
+    <string name="gesture_action_timeout_summary">Hareket eylemi başlamadan önce zaman aşımı</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Bilgi uyarıları</string>
     <string name="qs_footer_warnings_summary">Ağ harici uygulamalar veya VPN ile izlendiğinde hızlı ayarlar panelinin altına bir uyarı göster</string>

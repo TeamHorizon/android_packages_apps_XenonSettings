@@ -18,14 +18,23 @@
     <!-- App Title -->
     <string name="xenonhd_settings_title">Параметри XenonHD</string>
     <!-- Categories -->
+    <string name="gestures_title">Жести</string>
     <string name="lockscreen_title">Екран блокування</string>
     <string name="misc_title">Різне</string>
+    <string name="qs_title">Швидкі налаштування</string>
+    <string name="statusbar_title">Панель стану</string>
+    <string name="notifications_title">Сповіщення</string>
     <string name="xenonsettings_title">Параметри XenonHD</string>
+    <string name="themes_title">Теми</string>
+    <string name="themes_summary">Змінити стиль інтерфейсу</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Список змін</string>
     <string name="changelog_xenonhd_error">Помилка завантаження списку змін</string>
+    <string name="changelog_xenonhd_summary">Переглянути зміни в цій версії</string>
     <!-- General strings -->
+    <string name="ok">OK</string>
     <string name="reset">Скидання</string>
+    <string name="cancel">Скасувати</string>
     <string name="save">Зберегти</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Палітра кольорів</string>
@@ -36,8 +45,11 @@
     <!-- XenonOTA -->
     <string name="xenonota_title">XenonOTA</string>
     <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Розширене меню перезавантаження</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Автоматичне розблокування обличчям</string>
     <!-- Tuners -->
+    <string name="statusbar_items_title">Іконки панелі стану</string>
     <!-- Recents panel settings -->
     <!-- ADB debugging notifications -->
     <!-- QuickSettings Panel Transparency -->
@@ -57,4 +69,5 @@
     <string name="screenshot_sound_title">Звук скріншота</string>
     <string name="screenshot_sound_summary">Програвати звук при скріншоті</string>
     <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Запис з екрану</string>
 </resources>

@@ -88,6 +88,10 @@
     <string name="gesture_settings_summary">Свайп вверх для навигации</string>
     <string name="use_bottom_gesture_title">Жесты вверх</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена! Доступны жесты: \"Назад\" - свайп вверх слева или справа. \"Домой\" - свайп вверх от середины. \"Недавние приложения\" - свайп вверх от центра и удержание. \"Последнее приложение\" - короткий свайп вверх и удержание в центре</string>
+    <string name="gesture_swipe_length_title">Высота области жестов</string>
+    <string name="gesture_swipe_length_summary">Высота снизу экрана для срабатывания жестов</string>
+    <string name="gesture_action_timeout_title">Время обработки жеста</string>
+    <string name="gesture_action_timeout_summary">Время ожидания до начала выполнения жеста</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней части панели быстрых настроек, когда сеть контролируется сторонними приложениями или VPN</string>

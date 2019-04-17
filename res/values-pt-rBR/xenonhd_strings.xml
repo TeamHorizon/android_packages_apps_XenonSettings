@@ -88,6 +88,7 @@
     <string name="gesture_settings_summary">Utilize os gestos de deslizamento pra cima para navegar</string>
     <string name="use_bottom_gesture_title">Gestos de deslizar para cima</string>
     <string name="gesture_settings_info">A barra de navegação deve estar desativada! \n\nGestos disponíveis:\n\nVoltar\n- Deslize para cima pelos lados direito ou esquerdo\n\nHome\n- Deslize para cima no centro\n\nApps recentes\n- Deslize para cima no centro e segure\n\nÚltimo app\n- Deslize rápido para cima e segure no centro</string>
+    <string name="gesture_swipe_length_title">Altura do gatilho</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avisos de rodapé nas QS</string>
     <string name="qs_footer_warnings_summary">Exibir um aviso na parte inferior do painel QS (configurações rápidas) quando a rede é monitorada por aplicativos externos ou VPN</string>

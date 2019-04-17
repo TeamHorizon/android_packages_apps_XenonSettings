@@ -22,11 +22,16 @@
     <string name="gestures_title">Gesti</string>
     <string name="lockscreen_title">Schermata di blocco</string>
     <string name="misc_title">Varie</string>
+    <string name="navigation_title">Navigazione</string>
     <string name="power_title">Menù di spegnimento</string>
     <string name="qs_title">Impostazioni rapide</string>
+    <string name="recents_title">App recenti</string>
+    <string name="statusbar_title">Barra di stato</string>
     <string name="notifications_title">Notifiche</string>
     <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">Impostazioni XenonHD</string>
+    <string name="themes_title">Temi</string>
+    <string name="themes_summary">Cambia lo stile UI</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Modifiche</string>
     <string name="changelog_xenonhd_error">Impossibile caricare le modifiche</string>
@@ -49,9 +54,19 @@
     <string name="advanced_reboot_title">Riavvio avanzato</string>
     <string name="advanced_reboot_summary">Quando selezionato, include nel menù di spegnimento le opzioni per riavviare in modalitá recovery o bootloader</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
+    <string name="face_auto_unlock_summary">Esci dalla schermata di blocco dopo aver sbloccato col viso</string>
     <!-- Tuners -->
+    <string name="statusbar_items_title">Icone barra di stato</string>
     <string name="lockscreen_tuner_title">Scorciatoie schermata di sblocco</string>
+    <string name="navbar_tuner_title">Pulsanti barra di navigazione</string>
+    <string name="gesture_preference">Gesti nativi</string>
+    <string name="buttons_settings">Impostazioni pulsanti</string>
+    <string name="statusbar_settings">Impostazioni barra di stato</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
     <string name="recents_clear_all_location_top_right">In alto a destra</string>
     <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
     <string name="recents_clear_all_location_top_center">In alto al centro</string>
@@ -59,12 +74,28 @@
     <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
     <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Notifica ADB</string>
+    <string name="adb_notify_summary">Visualizza una notifica quando il debug di Android è abilitato</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Trasparenza</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Cursore luminosità</string>
+    <string name="qs_show_brightness_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
+    <string name="qs_brightness_position_bottom_title">Cursore della luminosità in basso</string>
+    <string name="qs_brightness_position_bottom_summary">Mostra il cursore della luminosità nella parte inferiore del pannello delle impostazioni rapide</string>
     <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gesti di navigazione</string>
+    <string name="gesture_settings_summary">Scorri verso l\'alto dalla parte inferiore dello schermo per navigare</string>
+    <string name="use_bottom_gesture_title">Gesture di scorrimento verso l\'alto</string>
+    <string name="gesture_settings_info">La navbar deve essere disabilitata!\n\nGesture disponibili:\n\nIndietro\nSwipe verso l\'alto nella parte destra o sinistra\n\nHome\nSwipe verso l\'alto al centro\n\nApp recenti\nSwipe verso l\'alto al centro tenendo premuto\n\nUltima app usata\nBreve swipe verso l\'alto tenendo premuto al centro</string>
+    <string name="gesture_swipe_length_title">Altezza dell\'area di swipe</string>
+    <string name="gesture_action_timeout_title">Timeout del trigger di swipe</string>
+    <string name="gesture_action_timeout_summary">Tempo prima che l\'azione dello scorrimento venga avviata</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Avvisi di piè di pagina delle impostazioni rapide</string>
+    <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
     <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Abilita barra di navigazione</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>
     <string name="smart_pixels_enable_title">Attiva Smart Pixel</string>
@@ -72,18 +103,28 @@
     <string name="smart_pixels_on_power_save_title">Attiva automaticamente insieme al risparmio energetico</string>
     <string name="smart_pixels_on_power_save_summary">Attiva Smart Pixel quando la funzione \"Risparmio energetico\" viene attivata</string>
     <string name="smart_pixels_percent">Percentuale di pixel da disattivare</string>
+    <string name="smart_pixels_info">Si scarica sulle app e può causare qualche problema con Google Pay ecc.\n\nDisabilitalo prima di aggiungere carte di pagamento o abilitare/disabilitare gli amministratori del dispositivo</string>
+    <string name="smart_pixels_shift">Previene burn-in spostando i pixel</string>
+    <string name="smart_pixels_shift_times_15s">15 secondi</string>
     <string name="smart_pixels_shift_times_30s">30 secondi</string>
     <string name="smart_pixels_shift_times_1min">1 minuto</string>
+    <string name="smart_pixels_shift_times_2min">2 minuti</string>
     <string name="smart_pixels_shift_times_5min">5 minuti</string>
     <string name="smart_pixels_shift_times_10min">10 minuti</string>
+    <string name="smart_pixels_shift_times_20min">20 minuti</string>
     <string name="smart_pixels_shift_times_30min">30 minuti</string>
+    <string name="smart_pixels_shift_times_1h">1 ora</string>
     <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Condizioni Dashboard</string>
     <string name="summary_dashboard_conditions_enabled">Condizioni pannello impostazioni abilitate</string>
     <string name="summary_dashboard_conditions_disabled">Condizioni pannello impostazioni disabilitate</string>
+    <string name="dashboard_suggestions_title">Suggerimenti Dashboard</string>
     <string name="summary_dashboard_suggestions_enabled">Suggerimenti pannello impostazioni abilitati</string>
     <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello impostazioni disabilitati</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suono screenshot</string>
     <string name="screenshot_sound_summary">Riproduci un suono quando si effettua uno screenshot</string>
     <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Registra schermo</string>
+    <string name="global_actions_screenrecord_summary">Aggiungi registra schermo al menù di accensione</string>
 </resources>

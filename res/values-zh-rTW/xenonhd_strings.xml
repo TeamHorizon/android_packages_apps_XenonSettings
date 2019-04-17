@@ -88,6 +88,9 @@
     <string name="gesture_settings_summary">使用底部向上滑動手勢進行導航</string>
     <string name="use_bottom_gesture_title">向上滑動手勢</string>
     <string name="gesture_settings_info">必須停用導覽列！\n\n可用的手勢：\n\n返回\n - 向左或向右滑動 \n\n主畫面\n - 向上滑動中心\n\n最近使用的應用程式\n - 向上滑動並按住\n\n最後的應用程式\n - 短暫向上滑動並保持在中心位置</string>
+    <string name="gesture_swipe_length_title">滑動觸發高度</string>
+    <string name="gesture_action_timeout_title">滑動觸發延時</string>
+    <string name="gesture_action_timeout_summary">觸發手勢操作所需的時長</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">快速設定頁尾警告</string>
     <string name="qs_footer_warnings_summary">當網路被 VPN 或者應用程式監測時，在快速設定底部顯示一個警告。</string>
