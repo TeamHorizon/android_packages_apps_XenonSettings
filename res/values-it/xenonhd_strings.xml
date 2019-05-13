@@ -89,6 +89,7 @@
     <string name="use_bottom_gesture_title">Gesture di scorrimento verso l\'alto</string>
     <string name="gesture_settings_info">La navbar deve essere disabilitata!\n\nGesture disponibili:\n\nIndietro\nSwipe verso l\'alto nella parte destra o sinistra\n\nHome\nSwipe verso l\'alto al centro\n\nApp recenti\nSwipe verso l\'alto al centro tenendo premuto\n\nUltima app usata\nBreve swipe verso l\'alto tenendo premuto al centro</string>
     <string name="gesture_swipe_length_title">Altezza dell\'area di swipe</string>
+    <string name="gesture_swipe_length_summary">Altezza dal basso per attivare lo scorrimento</string>
     <string name="gesture_action_timeout_title">Timeout del trigger di swipe</string>
     <string name="gesture_action_timeout_summary">Tempo prima che l\'azione dello scorrimento venga avviata</string>
     <!-- QS footer warnings -->

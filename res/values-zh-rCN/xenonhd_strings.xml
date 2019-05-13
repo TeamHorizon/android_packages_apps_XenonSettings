@@ -89,6 +89,7 @@
     <string name="use_bottom_gesture_title">滑动手势</string>
     <string name="gesture_settings_info">必须关闭导航栏！\n\n可用手势\n\n后退\n-向左或向右滑动\n\n主页\n-上滑到中心\n\n最近打开的程序\n-向上滑到中心并按住\n\n上一个应用\n-从中间向上短滑短并按住</string>
     <string name="gesture_swipe_length_title">滑动触发区高度</string>
+    <string name="gesture_swipe_length_summary">触发手势操作所需的滑动高度</string>
     <string name="gesture_action_timeout_title">滑动触发超时</string>
     <string name="gesture_action_timeout_summary">触发手势操作所需的时长</string>
     <!-- QS footer warnings -->

@@ -89,6 +89,7 @@
     <string name="use_bottom_gesture_title">Kaydırma hareketleri</string>
     <string name="gesture_settings_info">Gezinme çubuğu devre dışı bırakılmalıdır!\n\nKullanılabilir hareketler:\n\nGeri\n- Soldan veya sağdan hızlıca kaydırın\n\nAna ekran\n- Kaydırma merkezi\n\nYeni uygulamalar\n- Merkezinizi hızlıca kaydırın ve tutun\n\nSon uygulamalar\n- Kısa hızlı yukarı kaydırıp merkezde tutun</string>
     <string name="gesture_swipe_length_title">Kaydırma alanı yüksekliği</string>
+    <string name="gesture_swipe_length_summary">Kaydırmayı etkinleştirmek için alt yükseklik</string>
     <string name="gesture_action_timeout_title">Kaydırma eylemi zamanı</string>
     <string name="gesture_action_timeout_summary">Hareket eylemi başlamadan önce zaman aşımı</string>
     <!-- QS footer warnings -->
