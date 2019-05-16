@@ -151,4 +151,8 @@
     <!-- Screenrecord -->
     <string name="global_actions_screenrecord_title">Screenrecord</string>
     <string name="global_actions_screenrecord_summary">Add Screenrecord toggle to Power Menu</string>
+
+    <!-- VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE icon</string>
+    <string name="volte_icon_summary">Display VoLTE icon</string>
 </resources>

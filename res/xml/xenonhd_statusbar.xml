@@ -32,4 +32,11 @@
                 android:targetClass="org.lineageos.lineageparts.statusbar.StatusBarSettings" />
     </Preference>
 
+    <!--VoLTE Toggle  -->
+    <com.xenonhd.settings.preferences.SystemSettingSwitchPreference
+         android:key="volte_icon"
+         android:title="@string/volte_icon_title"
+         android:summary="@string/volte_icon_summary"
+         android:defaultValue="false"/>
+
 </PreferenceScreen>
