@@ -22,11 +22,16 @@
     <string name="gestures_title">Žestid</string>
     <string name="lockscreen_title">Lukustusekraan</string>
     <string name="misc_title">Varia</string>
+    <string name="navigation_title">Navigeerimine</string>
     <string name="power_title">Toite menüü</string>
     <string name="qs_title">Kiirsätted</string>
+    <string name="recents_title">Hiljutised rakendused</string>
+    <string name="statusbar_title">Olekuriba</string>
     <string name="notifications_title">Teavitused</string>
     <string name="xenonhd_title">XenonHD keskus</string>
     <string name="xenonsettings_title">XenonHD seaded</string>
+    <string name="themes_title">Teemad</string>
+    <string name="themes_summary">Muuda UI stiili</string>
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">Muudatuste logi</string>
     <string name="changelog_xenonhd_error">Muudatuste logi ei saanud laadida</string>
@@ -49,8 +54,19 @@
     <string name="advanced_reboot_title">Täiustatud alglaadimine</string>
     <string name="advanced_reboot_summary">Kui lukustamata, lisa toitemenüüsse valikud taaskäivitamiseks recoverisse või bootloaderisse</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Automaatne lahtilukustus näo peale</string>
+    <string name="face_auto_unlock_summary">Väldi lukustusekraani peale näotuvastust</string>
     <!-- Tuners -->
+    <string name="statusbar_items_title">Olekuriba ikoonid</string>
+    <string name="lockscreen_tuner_title">Lukustusekraani otseteed</string>
+    <string name="navbar_tuner_title">Navigeerimisnupud</string>
+    <string name="gesture_preference">Natiivsed žestid</string>
+    <string name="buttons_settings">Nuppude seaded</string>
+    <string name="statusbar_settings">Olekuriba seaded</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Kustuta kõik nupud</string>
+    <string name="show_clear_all_recents_button_summary">Näita kõige tühjendamise nuppu</string>
+    <string name="recents_clear_all_location_title">Tühjenda kõik asukohad</string>
     <string name="recents_clear_all_location_top_right">Paremal ülanurgas</string>
     <string name="recents_clear_all_location_top_left">Vasakul ülanurgas</string>
     <string name="recents_clear_all_location_top_center">Ülal keskel</string>
@@ -58,12 +74,27 @@
     <string name="recents_clear_all_location_bottom_left">Vasakul allnurgas</string>
     <string name="recents_clear_all_location_bottom_center">All keskel</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">ADB teavitus</string>
+    <string name="adb_notify_summary">Kuva teavitus, kui android silumine on lubatud</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Läbipaistvus</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Ereduse liugur</string>
+    <string name="qs_show_brightness_summary">Näita heleduse liugurit kiirseadete paneelis</string>
+    <string name="qs_brightness_position_bottom_title">Heleduse liugur alumine</string>
+    <string name="qs_brightness_position_bottom_summary">Näita heleduse liugurit alumise kiirseadistuse juures</string>
     <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Navigeerimise žestid</string>
+    <string name="gesture_settings_summary">Kasutage navigeerimiseks alt üles liikuvaid žeste</string>
     <string name="use_bottom_gesture_title">Viipa ülesse žestid</string>
+    <string name="gesture_settings_info">Navigeerimisriba peab olema keelatud!\n\nSaadaolevad žestid:\n\nTagasi\n- Pühkige üles vasakul või paremal pool\n\nAvaleht\n- Pühkige keskel üles\n\nViimased rakendused\n- Pühkige keskel üles ja hoidge peal\n\nViimane rakendus\n- Keskel lühike pühkimine üles ja hoidke peal</string>
+    <string name="gesture_swipe_length_title">Pühkige käivituskõrgust</string>
+    <string name="gesture_swipe_length_summary">Kõrgus alt pühkimisega käivitamiseks</string>
+    <string name="gesture_action_timeout_title">Pühkige käivitusaja vallandamiseks</string>
+    <string name="gesture_action_timeout_summary">Aegumine enne žesti tegevust on alanud</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS jaluse hoiatused</string>
+    <string name="qs_footer_warnings_summary">Kuvage hoiatus QS-paneeli allosas, kui võrku jälgivad välised rakendused või VPN</string>
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Luba navigatsiooni riba</string>
     <!-- Smart Pixels -->
@@ -73,18 +104,28 @@
     <string name="smart_pixels_on_power_save_title">Auto-luba akusäästja</string>
     <string name="smart_pixels_on_power_save_summary">Lülita targad pikslid sisse kui akusäästja on sisse lülitatud</string>
     <string name="smart_pixels_percent">Keelatavate pikslite protsent</string>
+    <string name="smart_pixels_info">See juhib rakendusi ja võib tekitada mõningaid probleeme Google Payiga jne.\n\nKeela see enne kaardiga maksmist või seadme administraatori õiguste lubamist/keelamist</string>
+    <string name="smart_pixels_shift">Vältige sisse põletamist pikslite igakordse nihutamisega</string>
+    <string name="smart_pixels_shift_times_15s">15 sekundit</string>
     <string name="smart_pixels_shift_times_30s">30 sekundit</string>
     <string name="smart_pixels_shift_times_1min">1 minut</string>
+    <string name="smart_pixels_shift_times_2min">2 minutit</string>
     <string name="smart_pixels_shift_times_5min">5 minutit</string>
     <string name="smart_pixels_shift_times_10min">10 minutit</string>
+    <string name="smart_pixels_shift_times_20min">20 minutit</string>
     <string name="smart_pixels_shift_times_30min">30 minutit</string>
+    <string name="smart_pixels_shift_times_1h">1 tund</string>
     <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Armatuurlaua tingimused</string>
     <string name="summary_dashboard_conditions_enabled">Armatuurlaua tingimused on lubatud</string>
     <string name="summary_dashboard_conditions_disabled">Armatuurlaua tingimused on keelatud</string>
+    <string name="dashboard_suggestions_title">Armatuurlaua soovitused</string>
     <string name="summary_dashboard_suggestions_enabled">Armatuurlaua soovitused on lubatud</string>
     <string name="summary_dashboard_suggestions_disabled">Armatuurlaua soovitused on keelatud</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Kuvatõmmise heli</string>
     <string name="screenshot_sound_summary">Esitab heli, kui kuvatõmmis on võetud</string>
     <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Ekraani salvestus</string>
+    <string name="global_actions_screenrecord_summary">Lisage ekraani salvestamine, toite lüliti menüüsse</string>
 </resources>

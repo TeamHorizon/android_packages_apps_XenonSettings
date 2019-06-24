@@ -102,4 +102,5 @@
     <string name="screenshot_sound_title">Sonido de captura de pantalla</string>
     <string name="screenshot_sound_summary">Reproducir sonido cuando se hace una captura de pantalla</string>
     <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Grabar la pantalla</string>
 </resources>

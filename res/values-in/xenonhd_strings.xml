@@ -18,8 +18,15 @@
     <!-- App Title -->
     <!-- Categories -->
     <!-- Changelog -->
+    <string name="changelog_xenonhd_title">Perubahan</string>
+    <string name="changelog_xenonhd_error">Tidak dapat menampilkan perubahan</string>
     <!-- General strings -->
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Pemilih Warna</string>
+    <string name="press_color_to_apply">Tekan warna dibawah untuk menerapkan</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
     <!-- XenonOTA -->
     <!-- Advanced restart options -->
     <!-- Face Unlock -->
@@ -28,6 +35,7 @@
     <!-- ADB debugging notifications -->
     <!-- QuickSettings Panel Transparency -->
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Pengaturan kecerahan</string>
     <!-- Navigation gestures -->
     <!-- QS footer warnings -->
     <!-- Toggle navigation bar -->

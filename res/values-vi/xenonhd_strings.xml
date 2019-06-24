@@ -28,8 +28,12 @@
     <string name="ok">Đồng ý</string>
     <string name="reset">Reset</string>
     <string name="cancel">Hủy bỏ</string>
+    <string name="save">Lưu</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Bảng chọn màu</string>
+    <string name="press_color_to_apply">Bấm vào màu sắc để áp dụng</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Thiết lập</string>
     <string name="color_default">Mặc định</string>
     <!-- XenonOTA -->
     <string name="xenonota_title">XenonOTA</string>
@@ -47,6 +51,7 @@
     <!-- ADB debugging notifications -->
     <!-- QuickSettings Panel Transparency -->
     <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Thanh trượt độ sáng</string>
     <!-- Navigation gestures -->
     <!-- QS footer warnings -->
     <!-- Toggle navigation bar -->
@@ -57,6 +62,8 @@
     <string name="smart_pixels_shift_times_10min">10 phút</string>
     <string name="smart_pixels_shift_times_30min">30 phút</string>
     <!-- Dashboard -->
+    <string name="summary_dashboard_conditions_enabled">Bảng điều khiển điều kiện được bật</string>
+    <string name="summary_dashboard_conditions_disabled">Đề xuất bảng điều khiển được bật</string>
     <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
     <string name="summary_dashboard_suggestions_disabled">Đề xuất bảng điều khiển được tắt</string>
     <!-- Screenshot sound -->
