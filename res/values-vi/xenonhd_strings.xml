@@ -19,6 +19,8 @@
     <string name="xenonhd_settings_title">Cài đặt XenonHD</string>
     <!-- Categories -->
     <string name="gestures_title">Cử chỉ</string>
+    <string name="lockscreen_title">Màn hình khoá</string>
+    <string name="misc_title">Khác</string>
     <string name="notifications_title">Thông báo</string>
     <string name="xenonsettings_title">Cài đặt XenonHD</string>
     <!-- Changelog -->
@@ -67,5 +69,7 @@
     <string name="summary_dashboard_suggestions_enabled">Đề xuất bảng điều khiển được bật</string>
     <string name="summary_dashboard_suggestions_disabled">Đề xuất bảng điều khiển được tắt</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Âm thanh chụp màn hình</string>
+    <string name="screenshot_sound_summary">Phát âm thanh khi màn hình được chụp</string>
     <!-- Screenrecord -->
 </resources>

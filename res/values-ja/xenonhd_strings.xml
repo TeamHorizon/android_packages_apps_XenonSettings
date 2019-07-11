@@ -87,7 +87,7 @@
     <string name="gesture_settings_title">ナビゲーションジェスチャー</string>
     <string name="gesture_settings_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
     <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
-    <string name="gesture_settings_info">ナビゲーションバーを無効にする必要があります！\n\n使用可能なジェスチャー：\n\nバック\n- 左右の端を上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\n最後に使ったアプリ\n-中央を短く上スワイプして維持</string>
+    <string name="gesture_settings_info">ナビゲーションバーを無効にする必要があります！\n\n使用可能なジェスチャー：\n\n戻る\n- 左右の端を上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\n最後に使ったアプリ\n-中央を短く上スワイプして維持</string>
     <string name="gesture_swipe_length_title">スワイプ起動領域の高さ</string>
     <string name="gesture_swipe_length_summary">スワイプ起動領域の下部からの高さ</string>
     <string name="gesture_action_timeout_title">スワイプ起動の持続時間</string>
