@@ -35,7 +35,7 @@
     <!-- Changelog -->
     <string name="changelog_xenonhd_title">更新履歴</string>
     <string name="changelog_xenonhd_error">更新履歴を読み込めませんでした</string>
-    <string name="changelog_xenonhd_summary">現在のリリースでの変更の表示する</string>
+    <string name="changelog_xenonhd_summary">現在のリリースでの変更を表示する</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">リセット</string>

@@ -37,7 +37,7 @@
     <string name="changelog_xenonhd_error">Nie można wczytać listy zmian</string>
     <string name="changelog_xenonhd_summary">Sprawdź zmiany w bieżącej kompilacji</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
+    <string name="ok">ОК</string>
     <string name="reset">Resetuj</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
