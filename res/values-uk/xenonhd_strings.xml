@@ -18,12 +18,17 @@
     <!-- App Title -->
     <string name="xenonhd_settings_title">Параметри XenonHD</string>
     <!-- Categories -->
+    <string name="buttons_title">Кнопки</string>
     <string name="gestures_title">Жести</string>
     <string name="lockscreen_title">Екран блокування</string>
     <string name="misc_title">Різне</string>
+    <string name="navigation_title">Навігація</string>
+    <string name="power_title">Меню живлення</string>
     <string name="qs_title">Швидкі налаштування</string>
+    <string name="recents_title">Останні програми</string>
     <string name="statusbar_title">Панель стану</string>
     <string name="notifications_title">Сповіщення</string>
+    <string name="xenonhd_title">XenonHD Hub</string>
     <string name="xenonsettings_title">Параметри XenonHD</string>
     <string name="themes_title">Теми</string>
     <string name="themes_summary">Змінити стиль інтерфейсу</string>
@@ -44,30 +49,83 @@
     <string name="color_default">За замовчуванням</string>
     <!-- XenonOTA -->
     <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Перевірте наявність оновлень XenonHD</string>
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Розширене меню перезавантаження</string>
+    <string name="advanced_reboot_summary">Коли пристрій розблоковано, в меню живлення доступні опції перезавантаження в режими відновлювача та завантажувача</string>
     <!-- Face Unlock -->
     <string name="face_auto_unlock_title">Автоматичне розблокування обличчям</string>
+    <string name="face_auto_unlock_summary">Прибрати екран блокування після розблокування обличчям</string>
     <!-- Tuners -->
     <string name="statusbar_items_title">Іконки панелі стану</string>
+    <string name="lockscreen_tuner_title">Ярлики екрану блокування</string>
+    <string name="navbar_tuner_title">Кнопки панелі навігації</string>
+    <string name="gesture_preference">Нативні жести</string>
+    <string name="buttons_settings">Налаштування кнопок</string>
+    <string name="statusbar_settings">Налаштування рядку стану</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистити все»</string>
+    <string name="show_clear_all_recents_button_summary">Показати кнопку \"Очистити все\"</string>
+    <string name="recents_clear_all_location_title">Розташування кнопки</string>
+    <string name="recents_clear_all_location_top_right">Зверху праворуч</string>
+    <string name="recents_clear_all_location_top_left">Зверху ліворуч</string>
+    <string name="recents_clear_all_location_top_center">Зверху у центрі</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу праворуч</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу ліворуч</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу у центрі</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Сповіщення ADB</string>
+    <string name="adb_notify_summary">Відображати сповіщення, коли налагодження увімкнено</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Прозорість</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Повзунок яскравості</string>
+    <string name="qs_show_brightness_summary">Показати повзунок яскравості на панелі швидких налаштувань</string>
+    <string name="qs_brightness_position_bottom_title">Повзунок яскравості внизу </string>
+    <string name="qs_brightness_position_bottom_summary">Показувати повзунок яскравості на панелі швидких налаштувань</string>
     <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Жести навігації</string>
+    <string name="gesture_settings_summary">Свайп вгору для навігації</string>
+    <string name="use_bottom_gesture_title">Свайп-жести</string>
+    <string name="gesture_settings_info">Панель навігації має бути вимкнена!\n\nДоступні жести:\n\nНазад\n- Провести вгору з правої чи лівої сторони\n\nДодому\n- Провести в гору по центру\n\nНещодавні додатки\n- Провести в гору по центру і утримувати\n\nОстанній додаток\n- Коротке проведення вгору і утримання в центрі</string>
+    <string name="gesture_swipe_length_title">Висота спрацювання тригеру свайпу</string>
+    <string name="gesture_swipe_length_summary">Висота від низу до тригеру свайпу</string>
+    <string name="gesture_action_timeout_title">Час очікування тригеру свайпу</string>
+    <string name="gesture_action_timeout_summary">Час очікування до початку дії жесту</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Попередження в нижній частині швидких налаштувань</string>
+    <string name="qs_footer_warnings_summary">Відображати попередження в нижній частині панелі налаштувань, коли мережа контролюється зовнішніми додатками або VPN</string>
     <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Увімкнути панель навігації</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_enable_title">Увімкнути Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Вимкніть пікселі, щоб зменшити споживання енергії</string>
+    <string name="smart_pixels_on_power_save_title">Автоматичне увімкнення в режимі збереження енергії</string>
+    <string name="smart_pixels_on_power_save_summary">Увімкнути Smart Pixels, коли ввімкнено збереження акумулятора</string>
+    <string name="smart_pixels_percent">Відсоток пікселів для відключення</string>
+    <string name="smart_pixels_info">Це працює поверх додатків і може викликати проблеми в роботі Google Pay і ін.\n\nВимкніть перед додаванням карт в Google Pay або включенням/відключенням адміністраторів пристрою</string>
+    <string name="smart_pixels_shift">Запобігання спалаху шляхом переміщення пікселів</string>
+    <string name="smart_pixels_shift_times_15s">15 секунд</string>
     <string name="smart_pixels_shift_times_30s">30 секунд</string>
     <string name="smart_pixels_shift_times_1min">1 хвилина</string>
+    <string name="smart_pixels_shift_times_2min">2 хвилини</string>
     <string name="smart_pixels_shift_times_5min">5 хвилин</string>
     <string name="smart_pixels_shift_times_10min">10 хвилин</string>
+    <string name="smart_pixels_shift_times_20min">20 хвилин</string>
     <string name="smart_pixels_shift_times_30min">30 хвилин</string>
+    <string name="smart_pixels_shift_times_1h">1 година</string>
     <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Сповіщення в головному меню</string>
+    <string name="summary_dashboard_conditions_enabled">Сповіщення в головному меню ввімкнено</string>
+    <string name="summary_dashboard_conditions_disabled">Сповіщення в головному меню вимкнено</string>
+    <string name="dashboard_suggestions_title">Підказки в головному меню</string>
+    <string name="summary_dashboard_suggestions_enabled">Підказки в головному меню ввімкнено</string>
+    <string name="summary_dashboard_suggestions_disabled">Підказки в головному меню вимкнено</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скріншота</string>
     <string name="screenshot_sound_summary">Програвати звук при скріншоті</string>
     <!-- Screenrecord -->
     <string name="global_actions_screenrecord_title">Запис з екрану</string>
+    <string name="global_actions_screenrecord_summary">Додати Запис екрану в меню живлення</string>
 </resources>

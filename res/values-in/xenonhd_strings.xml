@@ -16,31 +16,116 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+    <string name="xenonhd_settings_title">Pengaturan XenonHD</string>
     <!-- Categories -->
+    <string name="buttons_title">Tombol</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="lockscreen_title">Layar kunci</string>
+    <string name="misc_title">Lain-lain</string>
+    <string name="navigation_title">Navigasi</string>
+    <string name="power_title">Menu daya</string>
+    <string name="qs_title">Pengaturan cepat</string>
+    <string name="recents_title">Aplikasi terbaru</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="notifications_title">Notifikasi</string>
+    <string name="xenonhd_title">Hub XenonHD</string>
+    <string name="xenonsettings_title">Pengaturan XenonHD</string>
+    <string name="themes_title">Tema</string>
+    <string name="themes_summary">Ubah gaya UI</string>
     <!-- Changelog -->
-    <string name="changelog_xenonhd_title">Perubahan</string>
-    <string name="changelog_xenonhd_error">Tidak dapat menampilkan perubahan</string>
+    <string name="changelog_xenonhd_title">Changelog</string>
+    <string name="changelog_xenonhd_error">Tidak dapat memuat changelog</string>
+    <string name="changelog_xenonhd_summary">Lihat perubahan dalam rilis saat ini</string>
     <!-- General strings -->
+    <string name="ok">baik</string>
+    <string name="reset">Setel ulang</string>
+    <string name="cancel">Membatalkan</string>
+    <string name="save">Menyimpan</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Pemilih Warna</string>
-    <string name="press_color_to_apply">Tekan warna dibawah untuk menerapkan</string>
+    <string name="dialog_color_picker">Pemilih warna</string>
+    <string name="press_color_to_apply">Tekan pada warna di bawah ini untuk menerapkan</string>
     <string name="hex">Hex:</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
     <!-- XenonOTA -->
+    <string name="xenonota_title">XenonOTA</string>
+    <string name="xenonota_summary">Periksa pembaruan XenonHD</string>
     <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Mulai ulang tingkat lanjut</string>
+    <string name="advanced_reboot_summary">Saat tidak terkunci, sertakan opsi di menu daya untuk memulai kembali ke pemulihan atau bootloader</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Menghadapi buka kunci otomatis</string>
+    <string name="face_auto_unlock_summary">Singkirkan lockscreen setelah wajah terbuka</string>
     <!-- Tuners -->
+    <string name="statusbar_items_title">Ikon Bilah Status</string>
+    <string name="lockscreen_tuner_title">Pintasan layar kunci</string>
+    <string name="navbar_tuner_title">Tombol Navbar</string>
+    <string name="gesture_preference">Gerakan asli</string>
+    <string name="buttons_settings">Pengaturan tombol</string>
+    <string name="statusbar_settings">Pengaturan statusbar</string>
     <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Kosongkan semua tombol</string>
+    <string name="show_clear_all_recents_button_summary">Tampilkan hapus semua tombol</string>
+    <string name="recents_clear_all_location_title">Bersihkan semua lokasi</string>
+    <string name="recents_clear_all_location_top_right">Kanan atas</string>
+    <string name="recents_clear_all_location_top_left">Kiri atas</string>
+    <string name="recents_clear_all_location_top_center">Pusat atas</string>
+    <string name="recents_clear_all_location_bottom_right">Kanan bawah</string>
+    <string name="recents_clear_all_location_bottom_left">Kiri bawah</string>
+    <string name="recents_clear_all_location_bottom_center">Tengah bawah</string>
     <!-- ADB debugging notifications -->
+    <string name="adb_notify">Pemberitahuan ADB</string>
+    <string name="adb_notify_summary">Tampilkan pemberitahuan saat debugging Android diaktifkan</string>
     <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Transparansi</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Pengaturan kecerahan</string>
+    <string name="qs_show_brightness_title">Slider kecerahan</string>
+    <string name="qs_show_brightness_summary">Tampilkan slider kecerahan di panel pengaturan cepat</string>
+    <string name="qs_brightness_position_bottom_title">Slider kecerahan di bagian bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di pengaturan cepat bawah</string>
     <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Gerakan navigasi</string>
+    <string name="gesture_settings_summary">Gunakan gerakan geser ke bawah ke atas untuk navigasi</string>
+    <string name="use_bottom_gesture_title">Geser gerakan ke atas</string>
+    <string name="gesture_settings_info">Bilah navigasi harus dinonaktifkan!\n\nSyarat yang tersedia:\n\nKembali\n- Geser ke atas di sisi kiri atau kanan\n\nRumah\n- Geser ke tengah tengah\n\nAplikasi baru\n- Geser ke atas tengah dan tahan\n\nAplikasi terakhir\n- Geser cepat ke atas dan tahan di tengah</string>
+    <string name="gesture_swipe_length_title">Geser pemicu tinggi</string>
+    <string name="gesture_swipe_length_summary">Tinggi dari bawah untuk memicu gesekan</string>
+    <string name="gesture_action_timeout_title">Geser batas waktu pemicu</string>
+    <string name="gesture_action_timeout_summary">Waktu tunggu sebelum tindakan isyarat dimulai</string>
     <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Peringatan footer QS</string>
+    <string name="qs_footer_warnings_summary">Tampilkan peringatan di bagian bawah panel QS ketika jaringan dipantau oleh aplikasi eksternal atau VPN</string>
     <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Aktifkan bilah navigasi</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Piksel Cerdas</string>
+    <string name="smart_pixels_enable_title">Aktifkan Piksel Cerdas</string>
+    <string name="smart_pixels_enable_summary">Matikan piksel untuk mengurangi konsumsi daya</string>
+    <string name="smart_pixels_on_power_save_title">Aktifkan otomatis penghemat baterai</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan Smart Pixels saat penghemat baterai diaktifkan</string>
+    <string name="smart_pixels_percent">Persen piksel untuk dinonaktifkan</string>
+    <string name="smart_pixels_info">Itu menarik aplikasi dan dapat menyebabkan beberapa masalah dengan Google Pay dan lain-lain.\n\nNonaktifkan sebelum menambahkan kartu ke Bayar atau mengaktifkan/menonaktifkan administrator perangkat</string>
+    <string name="smart_pixels_shift">Cegah burn-in dengan menggeser piksel setiap</string>
+    <string name="smart_pixels_shift_times_15s">15 detik</string>
+    <string name="smart_pixels_shift_times_30s">30 detik</string>
+    <string name="smart_pixels_shift_times_1min">1 menit</string>
+    <string name="smart_pixels_shift_times_2min">2 menit</string>
+    <string name="smart_pixels_shift_times_5min">5 menit</string>
+    <string name="smart_pixels_shift_times_10min">10 menit</string>
+    <string name="smart_pixels_shift_times_20min">20 menit</string>
+    <string name="smart_pixels_shift_times_30min">30 menit</string>
+    <string name="smart_pixels_shift_times_1h">1 jam</string>
     <!-- Dashboard -->
+    <string name="dashboard_conditions_title">Kondisi dasbor</string>
+    <string name="summary_dashboard_conditions_enabled">Kondisi dasbor diaktifkan</string>
+    <string name="summary_dashboard_conditions_disabled">Kondisi dasbor dinonaktifkan</string>
+    <string name="dashboard_suggestions_title">Saran dasbor</string>
+    <string name="summary_dashboard_suggestions_enabled">Saran dasbor diaktifkan</string>
+    <string name="summary_dashboard_suggestions_disabled">Saran dasbor dinonaktifkan</string>
     <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Suara tangkapan layar</string>
+    <string name="screenshot_sound_summary">Memutar efek suara saat tangkapan layar diambil</string>
     <!-- Screenrecord -->
+    <string name="global_actions_screenrecord_title">Perekam layar</string>
+    <string name="global_actions_screenrecord_summary">Tambahkan Screenrecord untuk beralih ke Menu Power</string>
 </resources>
